@@ -16,6 +16,8 @@ DoWork::DoWork(QObject *parent) :QObject(parent)
 
 }
 
+// git push 1
+
 // command line arguments
 // -i C:\Users\Zoli4\wcodemana\testdata\wcodes.txt -o C:\Users\Zoli4\wcodemana\testdata\wcodes_out.txt -u C:\Users\Zoli4\wcodemana\testdata\used_wcodes.csv
 
