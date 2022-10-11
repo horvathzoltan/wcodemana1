@@ -22,7 +22,10 @@ public:
     static QStringList ToCSV(const QMap<QString, Wcode> &wcodes);
     QStringList ToCSV() const;
     QStringList ToCode() const;
+    QStringList ToTranslate() const;
     static QStringList ToCode(const QMap<QString, Wcode> &wcodes);
+
+    static QString PeelString(const QString& tr_hu);
 
     bool isValid(){ return !wcode.isEmpty();}
     static void AssertByUsing(QMap<QString, Wcode>* wcodes, const QStringList& used);

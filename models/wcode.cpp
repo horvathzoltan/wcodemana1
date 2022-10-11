@@ -71,14 +71,38 @@ void Wcode::UpdateMessage(const QString& lang, const QString& msg){
     public static class UnableToSave { }
 */
 
+QString Wcode::PeelString(const QString& s){
+
+    if(!s.endsWith('*')) return s;
+    QString s1 = s.left(s.length()-1);
+    if(!s1.endsWith('*')) return s1;
+    return s1.left(s1.length()-1);
+}
+
 QStringList Wcode::ToCode() const
 {
     QStringList m;
-    m.append("[Translation(\""+tr_hu+"\", Lang.HU)]");
-    m.append("[Translation(\""+tr_en+"\", Lang.EN)]");
-    m.append("[Translation(\""+tr_de+"\", Lang.DE)]");
+    QString trhu = PeelString(tr_hu);
+    QString tren = PeelString(tr_en);
+    QString trde = PeelString(tr_de);
+
+    m.append("[Translation(\""+trhu+"\", Lang.HU)]");
+    m.append("[Translation(\""+tren+"\", Lang.EN)]");
+    m.append("[Translation(\""+trde+"\", Lang.DE)]");
     m.append("public static class "+wcode+" { }");
-    m.append("");
+    return m;
+}
+
+QStringList Wcode::ToTranslate() const
+{
+    QStringList m;
+    QString trhu = PeelString(tr_hu);
+    QString tren = PeelString(tr_en);
+    QString trde = PeelString(tr_de);
+
+    m.append("[Translation(\""+trhu+"\", Lang.HU)]");
+    m.append("[Translation(\""+tren+"\", Lang.EN)]");
+    m.append("[Translation(\""+trde+"\", Lang.DE)]");
     return m;
 }
 

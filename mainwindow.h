@@ -40,8 +40,10 @@ public:
     void set_SaveToCodeStatus(bool isOk);
     void closeEvent(QCloseEvent *event);
     void set_GenerateResult(const MainViewModel::GenerateR& m);
+    void set_TranslateResult(const MainViewModel::GenerateR& m);
     void set_EnToDeResult(const MainViewModel::GenerateR &m);
     void set_HuToEnResult(const MainViewModel::GenerateR &m);
+    void set_EnToHuResult(const MainViewModel::GenerateR &m);
     static bool isWcodeOk(Wcode *m);
 
     MainViewModel::TextModel get_GenerateTr();
@@ -53,8 +55,11 @@ signals:
     void SaveTriggered(IMainView *sender);
     void SaveToCodeTriggered(IMainView *sender);
     void GenerateTriggered(IMainView *sender);
+    void TranslateTriggered(IMainView *sender);
     void EnToDeTriggered(IMainView *sender);
     void HuToEnTriggered(IMainView *sender);
+    void HuToDeTriggered(IMainView *sender);
+    void EnToHuTriggered(IMainView *sender);
     void GenerateTrTriggered(IMainView *sender);
 
 private slots:    
@@ -71,5 +76,8 @@ private slots:
     void on_pushButton_hu_to_en_clicked();
     void on_listWidget_currentItemChanged(QListWidgetItem *current, QListWidgetItem *previous);
     void on_pushButton_GenerateTr_clicked();
+    void on_pushButton_hu_to_de_clicked();
+    void on_pushButton_translate_clicked();
+    void on_pushButton_en_to_hu_clicked();
 };
 #endif // MAINWINDOW_H

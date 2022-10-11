@@ -32,7 +32,10 @@ private slots:
     void SaveAction(IMainView *sender);
     void SaveToCodeAction(IMainView *sender);
     void GenerateAction(IMainView *sender);
+    void TranslateAction(IMainView *sender);
     void EnToDeAction(IMainView *sender);
+    void HuToDeAction(IMainView *sender);
+    void EnToHuAction(IMainView *sender);
     void onResponseOkAction2(QString);
     void HuToEnAction(IMainView *sender);
     void GenerateTrAction(IMainView *sender);

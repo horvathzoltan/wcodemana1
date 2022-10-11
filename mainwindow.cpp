@@ -100,12 +100,12 @@ void MainWindow::set_MessageEditor(const MainViewModel::ListItemChangedModelR& m
     ui->lineEdit_hu->setText(m.wcode.tr_hu);
     QString msg = m.wcode.isUsed?(m.wcode.fileName+" ("+QString::number(m.wcode.lineNumber)+")"):"not used";
     ui->label_using->setText(msg);
+    _clipboard->setText(m.wcode.wcode);
 }
 
 void MainWindow::set_RogzitStatus(MainViewModel::RogzitStatusR m)
 {
     ShowStatusMsg(QStringLiteral("Rögzítés ")+(m.isOk?"ok":"error"));
-    AppendCodeEditor("code");
     auto items = ui->listWidget->findItems(m.wcode.wcode, Qt::MatchFlag::MatchExactly);
     if(items.isEmpty()) return;
     auto item = items.first();
@@ -207,7 +207,12 @@ void MainWindow::on_pushButton_generate_clicked()
 
 void MainWindow::set_GenerateResult(const MainViewModel::GenerateR& m)
 {
-    if(!m.code.isEmpty()) AppendCodeEditor(m.code);
+    if(!m.code.isEmpty())
+    {
+        AppendCodeEditor("");
+        AppendCodeEditor(m.code);
+        _clipboard->setText(m.code);
+    }
 }
 
 void MainWindow::set_EnToDeResult(const MainViewModel::GenerateR& m)
@@ -220,13 +225,20 @@ void MainWindow::set_HuToEnResult(const MainViewModel::GenerateR& m)
     if(!m.code.isEmpty()) ui->lineEdit_en->setText(m.code);
 }
 
+void MainWindow::set_EnToHuResult(const MainViewModel::GenerateR& m)
+{
+    if(!m.code.isEmpty()) ui->lineEdit_hu->setText(m.code);
+}
+
 MainViewModel::TextModel MainWindow::get_GenerateTr()
 {
     return {ui->lineEdit_generateTr->text()};
+
 }
 
 void MainWindow::set_GenerateTr(const MainViewModel::GenerateTrR &m)
 {
+    AppendCodeEditor("");
     AppendCodeEditor(m.msg);
     _clipboard->setText(m.msg);
 }
@@ -270,5 +282,35 @@ void MainWindow::on_listWidget_currentItemChanged(QListWidgetItem *current, QLis
 void MainWindow::on_pushButton_GenerateTr_clicked()
 {
     emit GenerateTrTriggered(this);
+}
+
+
+void MainWindow::on_pushButton_hu_to_de_clicked()
+{
+    qDebug() << "HuToDeClicked";
+    emit HuToDeTriggered(this);
+}
+
+
+void MainWindow::on_pushButton_translate_clicked()
+{
+    qDebug() << "TranslateClicked";
+    emit TranslateTriggered(this);
+}
+
+void MainWindow::set_TranslateResult(const MainViewModel::GenerateR& m)
+{
+    if(!m.code.isEmpty())
+    {
+        AppendCodeEditor("");
+        AppendCodeEditor(m.code);
+        _clipboard->setText(m.code);
+    }
+}
+
+void MainWindow::on_pushButton_en_to_hu_clicked()
+{
+    qDebug() << "EnToHuClicked";
+    emit EnToHuTriggered(this);
 }
 

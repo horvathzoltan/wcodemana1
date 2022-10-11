@@ -24,12 +24,17 @@ public:
     virtual void set_SaveStatus(bool isOk) = 0;
     virtual void set_SaveToCodeStatus(bool isOk) = 0;       
     virtual void set_GenerateResult(const MainViewModel::GenerateR& m) = 0;    
+    virtual void set_TranslateResult(const MainViewModel::GenerateR& m) = 0;
     virtual void set_EnToDeResult(const MainViewModel::GenerateR &m) = 0;
     virtual void set_HuToEnResult(const MainViewModel::GenerateR &m) = 0;
+    virtual void set_EnToHuResult(const MainViewModel::GenerateR &m) = 0;
 
     virtual void GenerateTriggered(IMainView *sender) = 0;
+    virtual void TranslateTriggered(IMainView *sender) = 0;
     virtual void EnToDeTriggered(IMainView *sender) = 0;
     virtual void HuToEnTriggered(IMainView *sender) = 0;
+    virtual void HuToDeTriggered(IMainView *sender) = 0;
+    virtual void EnToHuTriggered(IMainView *sender) = 0;
     virtual MainViewModel::TextModel get_GenerateTr() =0;
     virtual void set_GenerateTr(const MainViewModel::GenerateTrR &m)=0;
 

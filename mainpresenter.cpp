@@ -40,11 +40,20 @@ void MainPresenter::appendView(IMainView *w)
     QObject::connect(view_obj, SIGNAL(GenerateTriggered(IMainView *)),
                      this, SLOT(GenerateAction(IMainView *)));
 
+    QObject::connect(view_obj, SIGNAL(TranslateTriggered(IMainView *)),
+                     this, SLOT(TranslateAction(IMainView *)));
+
     QObject::connect(view_obj, SIGNAL(EnToDeTriggered(IMainView *)),
                      this, SLOT(EnToDeAction(IMainView *)));
 
     QObject::connect(view_obj, SIGNAL(HuToEnTriggered(IMainView *)),
                      this, SLOT(HuToEnAction(IMainView *)));
+
+    QObject::connect(view_obj, SIGNAL(HuToDeTriggered(IMainView *)),
+                     this, SLOT(HuToDeAction(IMainView *)));
+
+    QObject::connect(view_obj, SIGNAL(EnToHuTriggered(IMainView *)),
+                     this, SLOT(EnToHuAction(IMainView *)));
 
     QObject::connect(view_obj, SIGNAL(GenerateTrTriggered(IMainView *)),
                      this, SLOT(GenerateTrAction(IMainView *)));
@@ -128,6 +137,17 @@ void MainPresenter::GenerateAction(IMainView *sender)
     sender->set_GenerateResult(rm);
 }
 
+void MainPresenter::TranslateAction(IMainView *sender)
+{
+    qDebug() << "TranslateAction";
+    auto m = sender->get_SelectedWcode();
+    auto m2 = _w.GetSelected(m);
+    if(!m2.wcode.isValid()) return;
+    auto code = m2.wcode.ToTranslate().join('\n');
+    MainViewModel::GenerateR rm = {code};
+    sender->set_TranslateResult(rm);
+}
+
 //EnToDeAction
 void MainPresenter::EnToDeAction(IMainView *sender)
 {
@@ -148,6 +168,8 @@ void MainPresenter::onResponseOkAction2(QString msg_de)
             _enToDeActionSender->set_EnToDeResult(rm);
         else if(_dest_lang == "en")
             _enToDeActionSender->set_HuToEnResult(rm);
+        else if(_dest_lang == "hu")
+            _enToDeActionSender->set_EnToHuResult(rm);
     }
     _enToDeActionSender = nullptr;
     _dest_lang.clear();
@@ -162,7 +184,7 @@ void MainPresenter::HuToEnAction(IMainView *sender)
     //if(!m2.wcode.isValid()) return;
     _enToDeActionSender = sender;
     _dest_lang = "en";
-    QString msg_de = _w.DeepLTranslate("hu", "en", m.text);
+    QString msg_en = _w.DeepLTranslate("hu", "en", m.text);
 }
 
 
@@ -174,4 +196,26 @@ void MainPresenter::GenerateTrAction(IMainView *sender)
     QString a = _w.ReplaceTr(m.text);
 
     sender->set_GenerateTr({a});
+}
+
+void MainPresenter::HuToDeAction(IMainView *sender)
+{
+    qDebug() << "HuToDeAction";
+    auto m = sender->get_HuText();
+    //auto m2 = _w.GetSelected(m);
+    //if(!m2.wcode.isValid()) return;
+    _enToDeActionSender = sender;
+    _dest_lang = "de";
+    QString msg_de = _w.DeepLTranslate("hu", "de", m.text);
+}
+
+void MainPresenter::EnToHuAction(IMainView *sender)
+{
+    qDebug() << "EnToHuAction";
+    auto m = sender->get_EnText();
+    //auto m2 = _w.GetSelected(m);
+    //if(!m2.wcode.isValid()) return;
+    _enToDeActionSender = sender;
+    _dest_lang = "hu";
+    QString msg_hu = _w.DeepLTranslate("en", "hu", m.text);
 }
