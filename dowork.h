@@ -43,6 +43,10 @@ public:
     QString GetWorkingFolder();
 
     MainViewModel::ListItemChangedModelR GetSelected(MainViewModel::ListItemChangedModel m);
+    QList<Wcode> GetSimilar(const QString& m);
+    QString Search(const MainViewModel::Search&);
+    QString GetTail(const QString& m);
+
     bool SetSelected(const MainViewModel::ListItemChangedModelR& m);
     bool SaveCSV();
     bool SaveToCode();

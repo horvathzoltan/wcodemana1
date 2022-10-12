@@ -14,7 +14,7 @@ class HttpHelper : public QObject
 public:
     explicit HttpHelper(QObject *parent = nullptr);
 
-    void SendPost(const QString& source_lang, const QString& dest_lang, const QString& msg);
+    void SendPost(const QString& source_lang, const QString& dest_lang, const QString& msg);//, QUuid guid);
 
 public slots:
     void onFinish(QNetworkReply *rep);

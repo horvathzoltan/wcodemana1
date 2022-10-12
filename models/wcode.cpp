@@ -77,6 +77,8 @@ QString Wcode::PeelString(const QString& s){
     QString s1 = s.left(s.length()-1);
     if(!s1.endsWith('*')) return s1;
     return s1.left(s1.length()-1);
+    if(!s1.endsWith('*')) return s1;
+    return s1.left(s1.length()-1);
 }
 
 QStringList Wcode::ToCode() const

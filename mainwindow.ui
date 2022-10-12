@@ -161,20 +161,6 @@
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="pushButton_en_to_de">
-              <property name="text">
-               <string>en -&gt; de</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QPushButton" name="pushButton_hu_to_de">
-              <property name="text">
-               <string>hu -&gt; de</string>
-              </property>
-             </widget>
-            </item>
-            <item>
              <widget class="QPushButton" name="pushButton_en_to_hu">
               <property name="text">
                <string>en -&gt; hu</string>
@@ -194,6 +180,20 @@
               </property>
              </spacer>
             </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_en_to_de">
+              <property name="text">
+               <string>en -&gt; de</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_hu_to_de">
+              <property name="text">
+               <string>hu -&gt; de</string>
+              </property>
+             </widget>
+            </item>
            </layout>
           </item>
           <item>
@@ -209,6 +209,23 @@
              <widget class="QLabel" name="label">
               <property name="text">
                <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_search"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_searchPrev">
+              <property name="text">
+               <string>Prev</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_searchNext">
+              <property name="text">
+               <string>Next</string>
               </property>
              </widget>
             </item>

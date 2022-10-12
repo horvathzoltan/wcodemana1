@@ -32,6 +32,7 @@ public:
     MainViewModel::ListItemChangedModel get_SelectedWcode();
     MainViewModel::TextModel get_EnText();
     MainViewModel::TextModel get_HuText();
+    MainViewModel::TextModel get_SearchText();
 
     void set_MessageEditor(const MainViewModel::ListItemChangedModelR &m);
     MainViewModel::ListItemChangedModelR get_MessageEditor();
@@ -48,6 +49,7 @@ public:
 
     MainViewModel::TextModel get_GenerateTr();
     void set_GenerateTr(const MainViewModel::GenerateTrR &m);
+    void set_SearchNext(const MainViewModel::SearchR &m);
 signals:
     void PushButtonActionTriggered(IMainView *sender);
     void ListItemChangedTriggered(IMainView *sender);
@@ -60,6 +62,8 @@ signals:
     void HuToEnTriggered(IMainView *sender);
     void HuToDeTriggered(IMainView *sender);
     void EnToHuTriggered(IMainView *sender);
+    void SearchNextTriggered(IMainView *sender);
+    void SearchPrevTriggered(IMainView *sender);
     void GenerateTrTriggered(IMainView *sender);
 
 private slots:    
@@ -79,5 +83,7 @@ private slots:
     void on_pushButton_hu_to_de_clicked();
     void on_pushButton_translate_clicked();
     void on_pushButton_en_to_hu_clicked();
+    void on_pushButton_searchNext_clicked();
+    void on_pushButton_searchPrev_clicked();
 };
 #endif // MAINWINDOW_H

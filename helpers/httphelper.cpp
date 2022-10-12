@@ -3,6 +3,7 @@
 
 #include <QNetworkReply>
 #include <QUrlQuery>
+#include <QUuid>
 namespace helper
 {
 HttpHelper::HttpHelper(QObject *parent)
@@ -11,7 +12,7 @@ HttpHelper::HttpHelper(QObject *parent)
 
 }
 
-void HttpHelper::SendPost(const QString& source_lang, const QString& dest_lang, const QString& msg)
+void HttpHelper::SendPost(const QString& source_lang, const QString& dest_lang, const QString& msg)//, QUuid guid )
 {
     QString urltxt = R"(https://api-free.deepl.com/v2/translate?auth_key=1bfdbee3-6605-3752-dd94-3b5ae775f090:fx&text={TEXT}&target_lang={LANG})";
     auto urltxt2 = urltxt.replace("{TEXT}", msg).replace("{LANG}",dest_lang);
@@ -22,6 +23,9 @@ void HttpHelper::SendPost(const QString& source_lang, const QString& dest_lang, 
     QNetworkAccessManager * mgr = new QNetworkAccessManager(this);
 
     QNetworkRequest request(url);
+
+
+    //request.setOriginatingObject(guid);
 
     QUrlQuery params;
     params.addQueryItem("POST", R"(/v2/translate?auth_key=1bfdbee3-6605-3752-dd94-3b5ae775f090:fx> HTTP/1.0)");

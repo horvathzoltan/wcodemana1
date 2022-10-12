@@ -160,6 +160,75 @@ auto DoWork::GetSelected(MainViewModel::ListItemChangedModel m) -> MainViewModel
     return {a};
 }
 
+auto DoWork::GetTail(const QString& m) -> QString
+{
+    QString tail = m.toLower();
+    int ix1 = tail.lastIndexOf('_');
+    int ix2 = tail.lastIndexOf('.');
+    if(ix2>ix1) ix1=ix2;
+    if(ix1!=-1) tail = tail.mid(ix1).replace('_','.');
+    return tail;
+}
+
+auto DoWork::GetSimilar(const QString& m) -> QList<Wcode>
+{
+    QList<Wcode> wl;
+    QString tail = GetTail(m);
+    foreach (auto wcode, _wcodes) {
+        QString tail1  = GetTail(wcode.wcode);
+        if(tail == tail1) wl.append(wcode);
+    }
+    return wl;
+}
+
+auto DoWork::Search(const MainViewModel::Search& m) -> QString
+{
+    static QString lastM;
+    static int lastIx = 0;
+    static QList<QString> hits;
+    if(m.text.isEmpty()){
+        hits.clear();
+        lastM="";
+        lastIx = 0;
+        return {};
+    }
+
+    if(lastM != m.text){
+        auto mLower = m.text.toLower();
+        hits.clear();
+        lastM=m.text;
+        foreach(auto wcode, _wcodes){
+            auto tokens = wcode.wcode.toLower().replace('_','.').split('.');
+            //if(!tokens.contains(m.text.toLower())) continue;
+            if(tokens.last()!=mLower) continue;
+            hits.append(wcode.wcode);
+        }
+        if(!hits.empty()){
+            if(m.isNext){
+                lastIx=0;
+            } else {
+                lastIx=hits.count()-1;
+            }
+        } else{
+            lastIx = -1;
+        }
+    } else {
+        if(!hits.empty()){
+            if(m.isNext){
+                lastIx++;
+                if(lastIx>=hits.count()) lastIx=0;
+            } else {
+                lastIx--;
+                if(lastIx<0) lastIx=hits.count()-1;
+            }
+        }
+    }
+
+    if(hits.empty()) return {};
+    if(lastIx==-1) return {};
+    return hits[lastIx];
+}
+
 bool DoWork::SetSelected(const MainViewModel::ListItemChangedModelR &m)
 {
     if(!_wcodes.contains(m.wcode.wcode)) return false;

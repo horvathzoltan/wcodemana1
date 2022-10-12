@@ -39,6 +39,8 @@ private slots:
     void onResponseOkAction2(QString);
     void HuToEnAction(IMainView *sender);
     void GenerateTrAction(IMainView *sender);
+    void SearchNextAction(IMainView *sender);
+    void SearchPrevAction(IMainView *sender);
 
 private:
     DoWork _w;

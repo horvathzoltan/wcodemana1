@@ -17,6 +17,7 @@ public:
     virtual MainViewModel::ListItemChangedModel get_SelectedWcode() = 0;
     virtual MainViewModel::TextModel get_EnText() = 0;
     virtual MainViewModel::TextModel get_HuText() = 0;
+    virtual MainViewModel::TextModel get_SearchText() = 0;
 
     virtual void set_MessageEditor(const MainViewModel::ListItemChangedModelR &m) = 0;
     virtual MainViewModel::ListItemChangedModelR get_MessageEditor() = 0;
@@ -28,13 +29,14 @@ public:
     virtual void set_EnToDeResult(const MainViewModel::GenerateR &m) = 0;
     virtual void set_HuToEnResult(const MainViewModel::GenerateR &m) = 0;
     virtual void set_EnToHuResult(const MainViewModel::GenerateR &m) = 0;
-
+    virtual void set_SearchNext(const MainViewModel::SearchR &m) = 0;
     virtual void GenerateTriggered(IMainView *sender) = 0;
     virtual void TranslateTriggered(IMainView *sender) = 0;
     virtual void EnToDeTriggered(IMainView *sender) = 0;
     virtual void HuToEnTriggered(IMainView *sender) = 0;
     virtual void HuToDeTriggered(IMainView *sender) = 0;
     virtual void EnToHuTriggered(IMainView *sender) = 0;
+    virtual void SearchNextTriggered(IMainView *sender) = 0;
     virtual MainViewModel::TextModel get_GenerateTr() =0;
     virtual void set_GenerateTr(const MainViewModel::GenerateTrR &m)=0;
 

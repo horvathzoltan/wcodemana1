@@ -1600,9 +1600,9 @@ WC_UI_UWP_Pages.Log.WarningDescription	de-DE	Warnungen vor der Anwendung.
 WC_UI_UWP_Pages.Log.WarningToolTip	hu-HU	Megjeleníti program futtatása során keletkező figyelmeztető üzeneteket.
 WC_UI_UWP_Pages.Log.WarningToolTip	en-US	Displays warnings of the application.
 WC_UI_UWP_Pages.Log.WarningToolTip	de-DE	Zeigt Warnungen der Anwendung an.
-WC_UI_UWP_Pages.MarkerDialog	hu-HU	
-WC_UI_UWP_Pages.MarkerDialog	en-US	
-WC_UI_UWP_Pages.MarkerDialog	de-DE	
+WC_UI_UWP_Pages.MarkerDialog	hu-HU	Jelölők
+WC_UI_UWP_Pages.MarkerDialog	en-US	Markers
+WC_UI_UWP_Pages.MarkerDialog	de-DE	Markierungen
 WC_UI_UWP_Pages.MarkerDialog.AvailableCorrectionItems	hu-HU	A kiválasztott korrekcióhoz {0} elem áll rendelkezésre.
 WC_UI_UWP_Pages.MarkerDialog.AvailableCorrectionItems	en-US	There are {0} item(s) available for the selected correction.
 WC_UI_UWP_Pages.MarkerDialog.AvailableCorrectionItems	de-DE	Es sind {0} Artikel für die gewählte Korrektur verfügbar.
@@ -2341,267 +2341,267 @@ WC_UI_Web_Common.SelectChooseCaption.SelectPatientIdType	de-DE	Wählen Sie den T
 WC_UI_Web_Common.SelectChooseCaption.SelectPatientType	hu-HU	Betegtípus kiválasztása
 WC_UI_Web_Common.SelectChooseCaption.SelectPatientType	en-US	Select Patient Type
 WC_UI_Web_Common.SelectChooseCaption.SelectPatientType	de-DE	Patiententyp auswählen
-WC_UI_Web_Common.SelectChooseCaption.SelectRole	hu-HU	Szerep Kiválasztása
+WC_UI_Web_Common.SelectChooseCaption.SelectRole	hu-HU	Szerep kiválasztása
 WC_UI_Web_Common.SelectChooseCaption.SelectRole	en-US	Select a role
-WC_UI_Web_Common.SelectChooseCaption.SelectRole	de-DE	Select a role
-WC_UI_Web_Common.SelectChooseCaption.SelectSavedStates	hu-HU	Select Saved States
-WC_UI_Web_Common.SelectChooseCaption.SelectSavedStates	en-US	Select Saved States
-WC_UI_Web_Common.SelectChooseCaption.SelectSavedStates	de-DE	Select Saved States
-WC_UI_Web_Common.SelectChooseCaption.SelectTimeType	hu-HU	Select Time Type
-WC_UI_Web_Common.SelectChooseCaption.SelectTimeType	en-US	Select Time Type
-WC_UI_Web_Common.SelectChooseCaption.SelectTimeType	de-DE	Select Time Type
-WC_UI_Web_Common.SelectChooseCaption.SelectUser	hu-HU	Felhasználó Kiválasztása
+WC_UI_Web_Common.SelectChooseCaption.SelectRole	de-DE	Auswahl einer Rolle
+WC_UI_Web_Common.SelectChooseCaption.SelectSavedStates	hu-HU	Mentett állapot kiválasztása
+WC_UI_Web_Common.SelectChooseCaption.SelectSavedStates	en-US	Select saved states
+WC_UI_Web_Common.SelectChooseCaption.SelectSavedStates	de-DE	Gespeicherten Zustand auswählen
+WC_UI_Web_Common.SelectChooseCaption.SelectTimeType	hu-HU	Idő típus kiválasztása
+WC_UI_Web_Common.SelectChooseCaption.SelectTimeType	en-US	Select time type
+WC_UI_Web_Common.SelectChooseCaption.SelectTimeType	de-DE	Auswahl der Zeitart
+WC_UI_Web_Common.SelectChooseCaption.SelectUser	hu-HU	Felhasználó kiválasztása
 WC_UI_Web_Common.SelectChooseCaption.SelectUser	en-US	Select a user
-WC_UI_Web_Common.SelectChooseCaption.SelectUser	de-DE	Select a user
-WC_UI_Web_Common.SelectChooseCaption.SelectUserType	hu-HU	Felhasználó Típus Kiválasztása
+WC_UI_Web_Common.SelectChooseCaption.SelectUser	de-DE	Benutzerauswahl
+WC_UI_Web_Common.SelectChooseCaption.SelectUserType	hu-HU	Felhasználó típusának kiválasztása
 WC_UI_Web_Common.SelectChooseCaption.SelectUserType	en-US	Select a user type
-WC_UI_Web_Common.SelectChooseCaption.SelectUserType	de-DE	Select a user type
-WC_UI_Web_Common.SelectChooseCaption.SelectWebMenu	hu-HU	Select Web Menu
-WC_UI_Web_Common.SelectChooseCaption.SelectWebMenu	en-US	Select Web Menu
-WC_UI_Web_Common.SelectChooseCaption.SelectWebMenu	de-DE	Select Web Menu
-WC_UI_Web_Examination	hu-HU	
-WC_UI_Web_Examination	en-US	
-WC_UI_Web_Examination	de-DE	
-WC_UI_Web_Examination.Button	hu-HU	
-WC_UI_Web_Examination.Button	en-US	
-WC_UI_Web_Examination.Button	de-DE	
-WC_UI_Web_Examination.Button.AddNewExamination	hu-HU	Add New Examination
-WC_UI_Web_Examination.Button.AddNewExamination	en-US	Add New Examination
-WC_UI_Web_Examination.Button.AddNewExamination	de-DE	Add New Examination
-WC_UI_Web_Examination.Label	hu-HU	
-WC_UI_Web_Examination.Label	en-US	
-WC_UI_Web_Examination.Label	de-DE	
-WC_UI_Web_Examination.Label.CalibrationDataArray	hu-HU	Calibration Data
+WC_UI_Web_Common.SelectChooseCaption.SelectUserType	de-DE	Benutzertyp auswählen
+WC_UI_Web_Common.SelectChooseCaption.SelectWebMenu	hu-HU	Web menü kiválasztása
+WC_UI_Web_Common.SelectChooseCaption.SelectWebMenu	en-US	Select web menu
+WC_UI_Web_Common.SelectChooseCaption.SelectWebMenu	de-DE	Webmenü auswählen
+WC_UI_Web_Examination	hu-HU	Vizsgálat
+WC_UI_Web_Examination	en-US	Examination
+WC_UI_Web_Examination	de-DE	Prüfung
+WC_UI_Web_Examination.Button	hu-HU	Lap fejléce
+WC_UI_Web_Examination.Button	en-US	Page header
+WC_UI_Web_Examination.Button	de-DE	Kopfzeile der Seite
+WC_UI_Web_Examination.Button.AddNewExamination	hu-HU	Új vizsgálat hozzáadása
+WC_UI_Web_Examination.Button.AddNewExamination	en-US	Add new examination
+WC_UI_Web_Examination.Button.AddNewExamination	de-DE	Einen neuen Test hinzufügen
+WC_UI_Web_Examination.Label	hu-HU	Címke
+WC_UI_Web_Examination.Label	en-US	Label
+WC_UI_Web_Examination.Label	de-DE	Label*
+WC_UI_Web_Examination.Label.CalibrationDataArray	hu-HU	Kalibrációs adatok
 WC_UI_Web_Examination.Label.CalibrationDataArray	en-US	Calibration Data
-WC_UI_Web_Examination.Label.CalibrationDataArray	de-DE	Calibration Data
-WC_UI_Web_Examination.Label.CalibrationId	hu-HU	Calibration
+WC_UI_Web_Examination.Label.CalibrationDataArray	de-DE	Kalibrierungsdaten
+WC_UI_Web_Examination.Label.CalibrationId	hu-HU	Kalibráció
 WC_UI_Web_Examination.Label.CalibrationId	en-US	Calibration
-WC_UI_Web_Examination.Label.CalibrationId	de-DE	Calibration
-WC_UI_Web_Examination.Label.Comments	hu-HU	Comments
+WC_UI_Web_Examination.Label.CalibrationId	de-DE	Kalibrierung
+WC_UI_Web_Examination.Label.Comments	hu-HU	Megjegyzések
 WC_UI_Web_Examination.Label.Comments	en-US	Comments
-WC_UI_Web_Examination.Label.Comments	de-DE	Comments
-WC_UI_Web_Examination.Label.CreateDate	hu-HU	Create Date
-WC_UI_Web_Examination.Label.CreateDate	en-US	Create Date
-WC_UI_Web_Examination.Label.CreateDate	de-DE	Create Date
-WC_UI_Web_Examination.Label.CreateDateFrom	hu-HU	Create Date From
-WC_UI_Web_Examination.Label.CreateDateFrom	en-US	Create Date From
-WC_UI_Web_Examination.Label.CreateDateFrom	de-DE	Create Date From
-WC_UI_Web_Examination.Label.CreateDateTo	hu-HU	Create Date To
-WC_UI_Web_Examination.Label.CreateDateTo	en-US	Create Date To
-WC_UI_Web_Examination.Label.CreateDateTo	de-DE	Create Date To
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultAnkle	hu-HU	Examination Body Part Result Ankle
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultAnkle	en-US	Examination Body Part Result Ankle
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultAnkle	de-DE	Examination Body Part Result Ankle
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultGeneral	hu-HU	Examination Body Part Result General
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultGeneral	en-US	Examination Body Part Result General
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultGeneral	de-DE	Examination Body Part Result General
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultHip	hu-HU	Examination Body Part Result Hip
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultHip	en-US	Examination Body Part Result Hip
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultHip	de-DE	Examination Body Part Result Hip
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultKnee	hu-HU	Examination Body Part Result Knee
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultKnee	en-US	Examination Body Part Result Knee
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultKnee	de-DE	Examination Body Part Result Knee
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultShoulder	hu-HU	Examination Body Part Result Shoulder
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultShoulder	en-US	Examination Body Part Result Shoulder
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultShoulder	de-DE	Examination Body Part Result Shoulder
-WC_UI_Web_Examination.Label.ExaminationDataId	hu-HU	Examination Data
-WC_UI_Web_Examination.Label.ExaminationDataId	en-US	Examination Data
-WC_UI_Web_Examination.Label.ExaminationDataId	de-DE	Examination Data
-WC_UI_Web_Examination.Label.ExaminationDataMediaTypeId	hu-HU	Examination Data Media Type
-WC_UI_Web_Examination.Label.ExaminationDataMediaTypeId	en-US	Examination Data Media Type
-WC_UI_Web_Examination.Label.ExaminationDataMediaTypeId	de-DE	Examination Data Media Type
-WC_UI_Web_Examination.Label.ExaminationEndDate	hu-HU	Examination End Date
-WC_UI_Web_Examination.Label.ExaminationEndDate	en-US	Examination End Date
-WC_UI_Web_Examination.Label.ExaminationEndDate	de-DE	Examination End Date
-WC_UI_Web_Examination.Label.ExaminationEndDateFrom	hu-HU	Examination End Date From
-WC_UI_Web_Examination.Label.ExaminationEndDateFrom	en-US	Examination End Date From
-WC_UI_Web_Examination.Label.ExaminationEndDateFrom	de-DE	Examination End Date From
-WC_UI_Web_Examination.Label.ExaminationEndDateTo	hu-HU	Examination End Date To
-WC_UI_Web_Examination.Label.ExaminationEndDateTo	en-US	Examination End Date To
-WC_UI_Web_Examination.Label.ExaminationEndDateTo	de-DE	Examination End Date To
-WC_UI_Web_Examination.Label.ExaminationLead	hu-HU	Examination Lead
-WC_UI_Web_Examination.Label.ExaminationLead	en-US	Examination Lead
-WC_UI_Web_Examination.Label.ExaminationLead	de-DE	Examination Lead
-WC_UI_Web_Examination.Label.ExaminationName	hu-HU	Examination Name
-WC_UI_Web_Examination.Label.ExaminationName	en-US	Examination Name
-WC_UI_Web_Examination.Label.ExaminationName	de-DE	Examination Name
-WC_UI_Web_Examination.Label.ExaminationResultDataArray	hu-HU	Examination Result Data
-WC_UI_Web_Examination.Label.ExaminationResultDataArray	en-US	Examination Result Data
-WC_UI_Web_Examination.Label.ExaminationResultDataArray	de-DE	Examination Result Data
-WC_UI_Web_Examination.Label.ExaminationResultPdfId	hu-HU	Examination Result Pdf
-WC_UI_Web_Examination.Label.ExaminationResultPdfId	en-US	Examination Result Pdf
-WC_UI_Web_Examination.Label.ExaminationResultPdfId	de-DE	Examination Result Pdf
-WC_UI_Web_Examination.Label.ExaminationStartDate	hu-HU	Examination Start Date
-WC_UI_Web_Examination.Label.ExaminationStartDate	en-US	Examination Start Date
-WC_UI_Web_Examination.Label.ExaminationStartDate	de-DE	Examination Start Date
-WC_UI_Web_Examination.Label.ExaminationStartDateFrom	hu-HU	Examination Start Date From
-WC_UI_Web_Examination.Label.ExaminationStartDateFrom	en-US	Examination Start Date From
-WC_UI_Web_Examination.Label.ExaminationStartDateFrom	de-DE	Examination Start Date From
-WC_UI_Web_Examination.Label.ExaminationStartDateTo	hu-HU	Examination Start Date To
-WC_UI_Web_Examination.Label.ExaminationStartDateTo	en-US	Examination Start Date To
-WC_UI_Web_Examination.Label.ExaminationStartDateTo	de-DE	Examination Start Date To
-WC_UI_Web_Examination.Label.ExaminationTypeId	hu-HU	Examination Type
-WC_UI_Web_Examination.Label.ExaminationTypeId	en-US	Examination Type
-WC_UI_Web_Examination.Label.ExaminationTypeId	de-DE	Examination Type
-WC_UI_Web_Examination.Label.ExaminationTypeInfoArray	hu-HU	Examination Type Info
-WC_UI_Web_Examination.Label.ExaminationTypeInfoArray	en-US	Examination Type Info
-WC_UI_Web_Examination.Label.ExaminationTypeInfoArray	de-DE	Examination Type Info
-WC_UI_Web_Examination.Label.HardwareId	hu-HU	Hardware Id
-WC_UI_Web_Examination.Label.HardwareId	en-US	Hardware Id
-WC_UI_Web_Examination.Label.HardwareId	de-DE	Hardware Id
-WC_UI_Web_Examination.Label.HardwareInfoArray	hu-HU	Hardware Info
-WC_UI_Web_Examination.Label.HardwareInfoArray	en-US	Hardware Info
-WC_UI_Web_Examination.Label.HardwareInfoArray	de-DE	Hardware Info
-WC_UI_Web_Examination.Label.ModificationDate	hu-HU	Modification Date
-WC_UI_Web_Examination.Label.ModificationDate	en-US	Modification Date
-WC_UI_Web_Examination.Label.ModificationDate	de-DE	Modification Date
-WC_UI_Web_Examination.Label.ModificationDateFrom	hu-HU	Modification Date From
-WC_UI_Web_Examination.Label.ModificationDateFrom	en-US	Modification Date From
-WC_UI_Web_Examination.Label.ModificationDateFrom	de-DE	Modification Date From
-WC_UI_Web_Examination.Label.ModificationDateTo	hu-HU	Modification Date To
-WC_UI_Web_Examination.Label.ModificationDateTo	en-US	Modification Date To
-WC_UI_Web_Examination.Label.ModificationDateTo	de-DE	Modification Date To
-WC_UI_Web_Examination.Label.Organization	hu-HU	Organization
+WC_UI_Web_Examination.Label.Comments	de-DE	Kommentare
+WC_UI_Web_Examination.Label.CreateDate	hu-HU	Létrehozás dátuma
+WC_UI_Web_Examination.Label.CreateDate	en-US	Create date
+WC_UI_Web_Examination.Label.CreateDate	de-DE	Datum der Erstellung
+WC_UI_Web_Examination.Label.CreateDateFrom	hu-HU	Kezdő dátum létrehozása
+WC_UI_Web_Examination.Label.CreateDateFrom	en-US	Create date from
+WC_UI_Web_Examination.Label.CreateDateFrom	de-DE	Ein Startdatum erstellen
+WC_UI_Web_Examination.Label.CreateDateTo	hu-HU	Végdátum létrehozása
+WC_UI_Web_Examination.Label.CreateDateTo	en-US	Create date to
+WC_UI_Web_Examination.Label.CreateDateTo	de-DE	Enddatum erstellen
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultAnkle	hu-HU	Testrész vizsgálatának eredménye: boka
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultAnkle	en-US	Body part examination result: ankle
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultAnkle	de-DE	Körperteil Testergebnis: Knöchel
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultGeneral	hu-HU	Testrész vizsgálatának eredménye
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultGeneral	en-US	Body part examination result
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultGeneral	de-DE	Ergebnisse des Körperteil-Tests
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultHip	hu-HU	Testrész vizsgálatának eredménye: csípő
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultHip	en-US	Body part examination result: Hip
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultHip	de-DE	Körperteil Testergebnis: Hüfte
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultKnee	hu-HU	Testrész vizsgálatának eredménye: térd
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultKnee	en-US	Body part examination result: knee
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultKnee	de-DE	Körperteil Testergebnis: Knie
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultShoulder	hu-HU	Testrész vizsgálatának eredménye: váll
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultShoulder	en-US	Body part examination result: shoulder
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultShoulder	de-DE	Körperteil Testergebnis: Schulter
+WC_UI_Web_Examination.Label.ExaminationDataId	hu-HU	Vizsgálat adatai
+WC_UI_Web_Examination.Label.ExaminationDataId	en-US	Examination data
+WC_UI_Web_Examination.Label.ExaminationDataId	de-DE	Daten zur Prüfung
+WC_UI_Web_Examination.Label.ExaminationDataMediaTypeId	hu-HU	Vizsgálat adatainak hordozótípusa
+WC_UI_Web_Examination.Label.ExaminationDataMediaTypeId	en-US	Examination data media type
+WC_UI_Web_Examination.Label.ExaminationDataMediaTypeId	de-DE	Typ des Testdatenträgers
+WC_UI_Web_Examination.Label.ExaminationEndDate	hu-HU	Vizsgálat végdátuma
+WC_UI_Web_Examination.Label.ExaminationEndDate	en-US	Examination end date
+WC_UI_Web_Examination.Label.ExaminationEndDate	de-DE	Datum der Beendigung des Tests
+WC_UI_Web_Examination.Label.ExaminationEndDateFrom	hu-HU	Vizsgálat végének kezdődátuma
+WC_UI_Web_Examination.Label.ExaminationEndDateFrom	en-US	Examination end date from
+WC_UI_Web_Examination.Label.ExaminationEndDateFrom	de-DE	Datum des Abschlusses der Untersuchung
+WC_UI_Web_Examination.Label.ExaminationEndDateTo	hu-HU	Vizsgálat végének végdátuma
+WC_UI_Web_Examination.Label.ExaminationEndDateTo	en-US	Examination end date to
+WC_UI_Web_Examination.Label.ExaminationEndDateTo	de-DE	Enddatum der Untersuchung
+WC_UI_Web_Examination.Label.ExaminationLead	hu-HU	Vizsgálat fejléc
+WC_UI_Web_Examination.Label.ExaminationLead	en-US	Examination lead
+WC_UI_Web_Examination.Label.ExaminationLead	de-DE	Test-Kopfzeile
+WC_UI_Web_Examination.Label.ExaminationName	hu-HU	Vizsgálat neve
+WC_UI_Web_Examination.Label.ExaminationName	en-US	Examination name
+WC_UI_Web_Examination.Label.ExaminationName	de-DE	Name des Tests
+WC_UI_Web_Examination.Label.ExaminationResultDataArray	hu-HU	Vizsgálati eredmények adatai
+WC_UI_Web_Examination.Label.ExaminationResultDataArray	en-US	Examination result data
+WC_UI_Web_Examination.Label.ExaminationResultDataArray	de-DE	Daten zu den Testergebnissen
+WC_UI_Web_Examination.Label.ExaminationResultPdfId	hu-HU	Vizsgálati eredmény Pdf
+WC_UI_Web_Examination.Label.ExaminationResultPdfId	en-US	Examination result Pdf
+WC_UI_Web_Examination.Label.ExaminationResultPdfId	de-DE	Testergebnis Pdf
+WC_UI_Web_Examination.Label.ExaminationStartDate	hu-HU	A vizsgálat kezdete
+WC_UI_Web_Examination.Label.ExaminationStartDate	en-US	Examination start date
+WC_UI_Web_Examination.Label.ExaminationStartDate	de-DE	Beginn der Untersuchung
+WC_UI_Web_Examination.Label.ExaminationStartDateFrom	hu-HU	A vizsgálat kezdetének kezdődátuma
+WC_UI_Web_Examination.Label.ExaminationStartDateFrom	en-US	Examination start date from
+WC_UI_Web_Examination.Label.ExaminationStartDateFrom	de-DE	Datum des Beginns der Studie
+WC_UI_Web_Examination.Label.ExaminationStartDateTo	hu-HU	A vizsgálat kezdetének végdátuma
+WC_UI_Web_Examination.Label.ExaminationStartDateTo	en-US	Examination start date to
+WC_UI_Web_Examination.Label.ExaminationStartDateTo	de-DE	Enddatum für den Beginn der Untersuchung
+WC_UI_Web_Examination.Label.ExaminationTypeId	hu-HU	Vizsgálat típus
+WC_UI_Web_Examination.Label.ExaminationTypeId	en-US	Examination type
+WC_UI_Web_Examination.Label.ExaminationTypeId	de-DE	Art der Prüfung
+WC_UI_Web_Examination.Label.ExaminationTypeInfoArray	hu-HU	Vizsgálat típusára vonatkozó információk
+WC_UI_Web_Examination.Label.ExaminationTypeInfoArray	en-US	Examination type info
+WC_UI_Web_Examination.Label.ExaminationTypeInfoArray	de-DE	Informationen über die Art der Prüfung
+WC_UI_Web_Examination.Label.HardwareId	hu-HU	Eszköz
+WC_UI_Web_Examination.Label.HardwareId	en-US	Hardware
+WC_UI_Web_Examination.Label.HardwareId	de-DE	Werkzeug
+WC_UI_Web_Examination.Label.HardwareInfoArray	hu-HU	Eszköz információk
+WC_UI_Web_Examination.Label.HardwareInfoArray	en-US	Hardware info
+WC_UI_Web_Examination.Label.HardwareInfoArray	de-DE	Informationen zum Gerät
+WC_UI_Web_Examination.Label.ModificationDate	hu-HU	Módosítás dátuma
+WC_UI_Web_Examination.Label.ModificationDate	en-US	Modification date
+WC_UI_Web_Examination.Label.ModificationDate	de-DE	Datum der Änderung
+WC_UI_Web_Examination.Label.ModificationDateFrom	hu-HU	A módosítás kezdődátuma
+WC_UI_Web_Examination.Label.ModificationDateFrom	en-US	Modification date from
+WC_UI_Web_Examination.Label.ModificationDateFrom	de-DE	Datum des Inkrafttretens der Änderung
+WC_UI_Web_Examination.Label.ModificationDateTo	hu-HU	A módosítás végdátuma
+WC_UI_Web_Examination.Label.ModificationDateTo	en-US	Modification date to
+WC_UI_Web_Examination.Label.ModificationDateTo	de-DE	Enddatum der Änderung
+WC_UI_Web_Examination.Label.Organization	hu-HU	Szervezet
 WC_UI_Web_Examination.Label.Organization	en-US	Organization
-WC_UI_Web_Examination.Label.Organization	de-DE	Organization
-WC_UI_Web_Examination.Label.OrganizationLocationId	hu-HU	Organization Location
-WC_UI_Web_Examination.Label.OrganizationLocationId	en-US	Organization Location
-WC_UI_Web_Examination.Label.OrganizationLocationId	de-DE	Organization Location
-WC_UI_Web_Examination.Label.OrganizationUserFullName	hu-HU	Organization User Fullname
-WC_UI_Web_Examination.Label.OrganizationUserFullName	en-US	Organization User Fullname
-WC_UI_Web_Examination.Label.OrganizationUserFullName	de-DE	Organization User Fullname
-WC_UI_Web_Examination.Label.OrganizationUserId	hu-HU	Organization User
-WC_UI_Web_Examination.Label.OrganizationUserId	en-US	Organization User
-WC_UI_Web_Examination.Label.OrganizationUserId	de-DE	Organization User
-WC_UI_Web_Examination.Label.OrganizationUsername	hu-HU	Organization Username
-WC_UI_Web_Examination.Label.OrganizationUsername	en-US	Organization Username
-WC_UI_Web_Examination.Label.OrganizationUsername	de-DE	Organization Username
-WC_UI_Web_Examination.Label.PatientAge	hu-HU	Patient Age
-WC_UI_Web_Examination.Label.PatientAge	en-US	Patient Age
-WC_UI_Web_Examination.Label.PatientAge	de-DE	Patient Age
-WC_UI_Web_Examination.Label.PatientAgeFrom	hu-HU	Patient Age From
-WC_UI_Web_Examination.Label.PatientAgeFrom	en-US	Patient Age From
-WC_UI_Web_Examination.Label.PatientAgeFrom	de-DE	Patient Age From
-WC_UI_Web_Examination.Label.PatientAgeTo	hu-HU	Patient Age To
-WC_UI_Web_Examination.Label.PatientAgeTo	en-US	Patient Age To
-WC_UI_Web_Examination.Label.PatientAgeTo	de-DE	Patient Age To
-WC_UI_Web_Examination.Label.PatientEmail	hu-HU	Patient Email
+WC_UI_Web_Examination.Label.Organization	de-DE	Organisation
+WC_UI_Web_Examination.Label.OrganizationLocationId	hu-HU	Szervezet helye
+WC_UI_Web_Examination.Label.OrganizationLocationId	en-US	Organization location
+WC_UI_Web_Examination.Label.OrganizationLocationId	de-DE	Standort der Organisation
+WC_UI_Web_Examination.Label.OrganizationUserFullName	hu-HU	Szervezet felhasználójának teljes neve
+WC_UI_Web_Examination.Label.OrganizationUserFullName	en-US	Organization user fullname
+WC_UI_Web_Examination.Label.OrganizationUserFullName	de-DE	Vollständiger Name des Nutzers der Organisation
+WC_UI_Web_Examination.Label.OrganizationUserId	hu-HU	Szervezet felhasználója
+WC_UI_Web_Examination.Label.OrganizationUserId	en-US	Organization user
+WC_UI_Web_Examination.Label.OrganizationUserId	de-DE	Nutzer der Organisation
+WC_UI_Web_Examination.Label.OrganizationUsername	hu-HU	Szervezet felhasználóneve
+WC_UI_Web_Examination.Label.OrganizationUsername	en-US	Organization username
+WC_UI_Web_Examination.Label.OrganizationUsername	de-DE	Benutzername der Organisation
+WC_UI_Web_Examination.Label.PatientAge	hu-HU	A beteg életkora
+WC_UI_Web_Examination.Label.PatientAge	en-US	Patient age
+WC_UI_Web_Examination.Label.PatientAge	de-DE	Alter des Patienten
+WC_UI_Web_Examination.Label.PatientAgeFrom	hu-HU	Páciens kora kezdődátum
+WC_UI_Web_Examination.Label.PatientAgeFrom	en-US	Patient age from
+WC_UI_Web_Examination.Label.PatientAgeFrom	de-DE	Alter des Patienten Startdatum
+WC_UI_Web_Examination.Label.PatientAgeTo	hu-HU	Páciens kora végdátum
+WC_UI_Web_Examination.Label.PatientAgeTo	en-US	Patient age to
+WC_UI_Web_Examination.Label.PatientAgeTo	de-DE	Enddatum des Alters des Patienten
+WC_UI_Web_Examination.Label.PatientEmail	hu-HU	Páciens e-mail címe
 WC_UI_Web_Examination.Label.PatientEmail	en-US	Patient Email
-WC_UI_Web_Examination.Label.PatientEmail	de-DE	Patient Email
-WC_UI_Web_Examination.Label.PatientHeight	hu-HU	Patient Height
-WC_UI_Web_Examination.Label.PatientHeight	en-US	Patient Height
-WC_UI_Web_Examination.Label.PatientHeight	de-DE	Patient Height
-WC_UI_Web_Examination.Label.PatientHeightFrom	hu-HU	Patient Height From
-WC_UI_Web_Examination.Label.PatientHeightFrom	en-US	Patient Height From
-WC_UI_Web_Examination.Label.PatientHeightFrom	de-DE	Patient Height From
-WC_UI_Web_Examination.Label.PatientHeightTo	hu-HU	Patient Height To
-WC_UI_Web_Examination.Label.PatientHeightTo	en-US	Patient Height To
-WC_UI_Web_Examination.Label.PatientHeightTo	de-DE	Patient Height To
-WC_UI_Web_Examination.Label.PatientId	hu-HU	Patient Id
+WC_UI_Web_Examination.Label.PatientEmail	de-DE	E-Mail Adresse des Patienten
+WC_UI_Web_Examination.Label.PatientHeight	hu-HU	Páciens magassága
+WC_UI_Web_Examination.Label.PatientHeight	en-US	Patient height
+WC_UI_Web_Examination.Label.PatientHeight	de-DE	Höhe des Patienten
+WC_UI_Web_Examination.Label.PatientHeightFrom	hu-HU	Páciens magassága kezdete
+WC_UI_Web_Examination.Label.PatientHeightFrom	en-US	Patient height from
+WC_UI_Web_Examination.Label.PatientHeightFrom	de-DE	Patientenhöhe Start
+WC_UI_Web_Examination.Label.PatientHeightTo	hu-HU	Beteg magassága vége
+WC_UI_Web_Examination.Label.PatientHeightTo	en-US	Patient height to
+WC_UI_Web_Examination.Label.PatientHeightTo	de-DE	Patientenhöhe Ende
+WC_UI_Web_Examination.Label.PatientId	hu-HU	Betegazonosító
 WC_UI_Web_Examination.Label.PatientId	en-US	Patient Id
-WC_UI_Web_Examination.Label.PatientId	de-DE	Patient Id
-WC_UI_Web_Examination.Label.PatientIdTypeId	hu-HU	Patient Id Type
-WC_UI_Web_Examination.Label.PatientIdTypeId	en-US	Patient Id Type
-WC_UI_Web_Examination.Label.PatientIdTypeId	de-DE	Patient Id Type
-WC_UI_Web_Examination.Label.PatientIdentifier	hu-HU	Patient Identifier
-WC_UI_Web_Examination.Label.PatientIdentifier	en-US	Patient Identifier
-WC_UI_Web_Examination.Label.PatientIdentifier	de-DE	Patient Identifier
-WC_UI_Web_Examination.Label.PatientLeftFootSize	hu-HU	Patient Left Foot Size
-WC_UI_Web_Examination.Label.PatientLeftFootSize	en-US	Patient Left Foot Size
-WC_UI_Web_Examination.Label.PatientLeftFootSize	de-DE	Patient Left Foot Size
-WC_UI_Web_Examination.Label.PatientLeftFootSizeFrom	hu-HU	Patient Left Foot Size From
-WC_UI_Web_Examination.Label.PatientLeftFootSizeFrom	en-US	Patient Left Foot Size From
-WC_UI_Web_Examination.Label.PatientLeftFootSizeFrom	de-DE	Patient Left Foot Size From
-WC_UI_Web_Examination.Label.PatientLeftFootSizeTo	hu-HU	Patient Left Foot Size To
-WC_UI_Web_Examination.Label.PatientLeftFootSizeTo	en-US	Patient Left Foot Size To
-WC_UI_Web_Examination.Label.PatientLeftFootSizeTo	de-DE	Patient Left Foot Size To
-WC_UI_Web_Examination.Label.PatientName	hu-HU	Patient Name
-WC_UI_Web_Examination.Label.PatientName	en-US	Patient Name
-WC_UI_Web_Examination.Label.PatientName	de-DE	Patient Name
-WC_UI_Web_Examination.Label.PatientRightFootSize	hu-HU	Patient Right Foot Size
-WC_UI_Web_Examination.Label.PatientRightFootSize	en-US	Patient Right Foot Size
-WC_UI_Web_Examination.Label.PatientRightFootSize	de-DE	Patient Right Foot Size
-WC_UI_Web_Examination.Label.PatientRightFootSizeFrom	hu-HU	Patient Right Foot Size From
-WC_UI_Web_Examination.Label.PatientRightFootSizeFrom	en-US	Patient Right Foot Size From
-WC_UI_Web_Examination.Label.PatientRightFootSizeFrom	de-DE	Patient Right Foot Size From
-WC_UI_Web_Examination.Label.PatientRightFootSizeTo	hu-HU	Patient Right Foot Size To
-WC_UI_Web_Examination.Label.PatientRightFootSizeTo	en-US	Patient Right Foot Size To
-WC_UI_Web_Examination.Label.PatientRightFootSizeTo	de-DE	Patient Right Foot Size To
-WC_UI_Web_Examination.Label.PatientWeight	hu-HU	Patient Weight
-WC_UI_Web_Examination.Label.PatientWeight	en-US	Patient Weight
-WC_UI_Web_Examination.Label.PatientWeight	de-DE	Patient Weight
-WC_UI_Web_Examination.Label.PatientWeightFrom	hu-HU	Patient Weight From
-WC_UI_Web_Examination.Label.PatientWeightFrom	en-US	Patient Weight From
-WC_UI_Web_Examination.Label.PatientWeightFrom	de-DE	Patient Weight From
-WC_UI_Web_Examination.Label.PatientWeightTo	hu-HU	Patient Weight To
-WC_UI_Web_Examination.Label.PatientWeightTo	en-US	Patient Weight To
-WC_UI_Web_Examination.Label.PatientWeightTo	de-DE	Patient Weight To
-WC_UI_Web_Examination.PageHeader	hu-HU	
-WC_UI_Web_Examination.PageHeader	en-US	
-WC_UI_Web_Examination.PageHeader	de-DE	
-WC_UI_Web_Examination.PageHeader.AddNewExamination	hu-HU	Add New Examination
-WC_UI_Web_Examination.PageHeader.AddNewExamination	en-US	Add New Examination
-WC_UI_Web_Examination.PageHeader.AddNewExamination	de-DE	Add New Examination
-WC_UI_Web_Examination.PageHeader.DeleteExamination	hu-HU	Delete The Examination
-WC_UI_Web_Examination.PageHeader.DeleteExamination	en-US	Delete The Examination
-WC_UI_Web_Examination.PageHeader.DeleteExamination	de-DE	Delete The Examination
-WC_UI_Web_Examination.PageHeader.ExaminationDetails	hu-HU	Examination Details
-WC_UI_Web_Examination.PageHeader.ExaminationDetails	en-US	Examination Details
-WC_UI_Web_Examination.PageHeader.ExaminationDetails	de-DE	Examination Details
-WC_UI_Web_Examination.PageHeader.ListOfExaminations	hu-HU	List Of Examinations
-WC_UI_Web_Examination.PageHeader.ListOfExaminations	en-US	List Of Examinations
-WC_UI_Web_Examination.PageHeader.ListOfExaminations	de-DE	List Of Examinations
-WC_UI_Web_Examination.PageHeader.RightAssignment	hu-HU	Right Assignment
-WC_UI_Web_Examination.PageHeader.RightAssignment	en-US	Right Assignment
-WC_UI_Web_Examination.PageHeader.RightAssignment	de-DE	Right Assignment
-WC_UI_Web_Examination.PageHeader.UpdateExamination	hu-HU	Update The Examination
-WC_UI_Web_Examination.PageHeader.UpdateExamination	en-US	Update The Examination
-WC_UI_Web_Examination.PageHeader.UpdateExamination	de-DE	Update The Examination
-WC_UI_Web_Exception	hu-HU	
-WC_UI_Web_Exception	en-US	
-WC_UI_Web_Exception	de-DE	
-WC_UI_Web_Exception.Button	hu-HU	
-WC_UI_Web_Exception.Button	en-US	
-WC_UI_Web_Exception.Button	de-DE	
+WC_UI_Web_Examination.Label.PatientId	de-DE	Patienten-ID
+WC_UI_Web_Examination.Label.PatientIdTypeId	hu-HU	Betegazonosító típus
+WC_UI_Web_Examination.Label.PatientIdTypeId	en-US	Patient Id type
+WC_UI_Web_Examination.Label.PatientIdTypeId	de-DE	Art der Patientenidentifikation
+WC_UI_Web_Examination.Label.PatientIdentifier	hu-HU	Betegazonosító
+WC_UI_Web_Examination.Label.PatientIdentifier	en-US	Patient identifier
+WC_UI_Web_Examination.Label.PatientIdentifier	de-DE	Patienten-ID
+WC_UI_Web_Examination.Label.PatientLeftFootSize	hu-HU	Páciens bal lábmérete
+WC_UI_Web_Examination.Label.PatientLeftFootSize	en-US	Patient left foot size
+WC_UI_Web_Examination.Label.PatientLeftFootSize	de-DE	Größe des linken Beins des Patienten
+WC_UI_Web_Examination.Label.PatientLeftFootSizeFrom	hu-HU	Páciens bal lábmérete kezdete
+WC_UI_Web_Examination.Label.PatientLeftFootSizeFrom	en-US	Patient left foot size from
+WC_UI_Web_Examination.Label.PatientLeftFootSizeFrom	de-DE	Beginn der Größe des linken Beins des Patienten
+WC_UI_Web_Examination.Label.PatientLeftFootSizeTo	hu-HU	Páciens bal lábmérete vége
+WC_UI_Web_Examination.Label.PatientLeftFootSizeTo	en-US	Patient left foot size to
+WC_UI_Web_Examination.Label.PatientLeftFootSizeTo	de-DE	Patient linkes Bein Größe Ende
+WC_UI_Web_Examination.Label.PatientName	hu-HU	Páciens neve
+WC_UI_Web_Examination.Label.PatientName	en-US	Patient name
+WC_UI_Web_Examination.Label.PatientName	de-DE	Name des Patienten
+WC_UI_Web_Examination.Label.PatientRightFootSize	hu-HU	Páciens jobb lábmérete
+WC_UI_Web_Examination.Label.PatientRightFootSize	en-US	Patient right foot size
+WC_UI_Web_Examination.Label.PatientRightFootSize	de-DE	Größe des rechten Beins des Patienten
+WC_UI_Web_Examination.Label.PatientRightFootSizeFrom	hu-HU	Páciens jobb lábmérete kezdete
+WC_UI_Web_Examination.Label.PatientRightFootSizeFrom	en-US	Patient right foot size from
+WC_UI_Web_Examination.Label.PatientRightFootSizeFrom	de-DE	Beginn der Größe des rechten Beins des Patienten
+WC_UI_Web_Examination.Label.PatientRightFootSizeTo	hu-HU	Páciens jobb lábmérete vége
+WC_UI_Web_Examination.Label.PatientRightFootSizeTo	en-US	Patient right foot size to
+WC_UI_Web_Examination.Label.PatientRightFootSizeTo	de-DE	Patient rechtes Bein Größe Ende
+WC_UI_Web_Examination.Label.PatientWeight	hu-HU	A beteg súlya
+WC_UI_Web_Examination.Label.PatientWeight	en-US	Patient weight
+WC_UI_Web_Examination.Label.PatientWeight	de-DE	Gewicht des Patienten
+WC_UI_Web_Examination.Label.PatientWeightFrom	hu-HU	A beteg súlyának kezdete
+WC_UI_Web_Examination.Label.PatientWeightFrom	en-US	Patient weight from
+WC_UI_Web_Examination.Label.PatientWeightFrom	de-DE	Beginn des Gewichts des Patienten
+WC_UI_Web_Examination.Label.PatientWeightTo	hu-HU	A beteg súlyának vége
+WC_UI_Web_Examination.Label.PatientWeightTo	en-US	Patient weight to
+WC_UI_Web_Examination.Label.PatientWeightTo	de-DE	Ende des Patientengewichts
+WC_UI_Web_Examination.PageHeader	hu-HU	Lap fejléc
+WC_UI_Web_Examination.PageHeader	en-US	Page header
+WC_UI_Web_Examination.PageHeader	de-DE	Kopfzeile der Seite
+WC_UI_Web_Examination.PageHeader.AddNewExamination	hu-HU	Új vizsgálat hozzáadása
+WC_UI_Web_Examination.PageHeader.AddNewExamination	en-US	Add new examination
+WC_UI_Web_Examination.PageHeader.AddNewExamination	de-DE	Einen neuen Test hinzufügen
+WC_UI_Web_Examination.PageHeader.DeleteExamination	hu-HU	A vizsgálat törlése
+WC_UI_Web_Examination.PageHeader.DeleteExamination	en-US	Delete the examination
+WC_UI_Web_Examination.PageHeader.DeleteExamination	de-DE	Annullierung der Prüfung
+WC_UI_Web_Examination.PageHeader.ExaminationDetails	hu-HU	Vizsgálat részletei
+WC_UI_Web_Examination.PageHeader.ExaminationDetails	en-US	Examination details
+WC_UI_Web_Examination.PageHeader.ExaminationDetails	de-DE	Details zum Test
+WC_UI_Web_Examination.PageHeader.ListOfExaminations	hu-HU	A vizsgálatok listája
+WC_UI_Web_Examination.PageHeader.ListOfExaminations	en-US	List of examinationsts
+WC_UI_Web_Examination.PageHeader.ListOfExaminations	de-DE	Liste der Prüfungen
+WC_UI_Web_Examination.PageHeader.RightAssignment	hu-HU	Jogosultság hozzárendelés
+WC_UI_Web_Examination.PageHeader.RightAssignment	en-US	Right assignment
+WC_UI_Web_Examination.PageHeader.RightAssignment	de-DE	Förderfähigkeit Zuweisung
+WC_UI_Web_Examination.PageHeader.UpdateExamination	hu-HU	A vizsgálat módosítása
+WC_UI_Web_Examination.PageHeader.UpdateExamination	en-US	Update the examination
+WC_UI_Web_Examination.PageHeader.UpdateExamination	de-DE	Modifizierung der Studie
+WC_UI_Web_Exception	hu-HU	Kivétel
+WC_UI_Web_Exception	en-US	Exception
+WC_UI_Web_Exception	de-DE	Ausnahme
+WC_UI_Web_Exception.Button	hu-HU	Nyomógomb
+WC_UI_Web_Exception.Button	en-US	Pushbutton
+WC_UI_Web_Exception.Button	de-DE	Druckknopf
 WC_UI_Web_Exception.Button.GoToLoginPage	hu-HU	Lejárt a munkamenet, kattintson ide a bejelentkezéshez!
 WC_UI_Web_Exception.Button.GoToLoginPage	en-US	Your session is expired, click here to login again!
-WC_UI_Web_Exception.Button.GoToLoginPage	de-DE	Your session is expired, click here to login again!
-WC_UI_Web_Exception.PageHeader	hu-HU	
-WC_UI_Web_Exception.PageHeader	en-US	
-WC_UI_Web_Exception.PageHeader	de-DE	
-WC_UI_Web_Exception.PageHeader.SessionException	hu-HU	Lejárt A Munkamenet!
-WC_UI_Web_Exception.PageHeader.SessionException	en-US	Your Session Expired!
-WC_UI_Web_Exception.PageHeader.SessionException	de-DE	Your Session Expired!
-WC_UI_Web_Globalization	hu-HU	
-WC_UI_Web_Globalization	en-US	
-WC_UI_Web_Globalization	de-DE	
-WC_UI_Web_Globalization.Alert	hu-HU	
-WC_UI_Web_Globalization.Alert	en-US	
-WC_UI_Web_Globalization.Alert	de-DE	
+WC_UI_Web_Exception.Button.GoToLoginPage	de-DE	Sitzung geschlossen, klicken Sie hier, um sich einzuloggen!
+WC_UI_Web_Exception.PageHeader	hu-HU	Lap fejléce
+WC_UI_Web_Exception.PageHeader	en-US	Page header
+WC_UI_Web_Exception.PageHeader	de-DE	Kopfzeile der Seite
+WC_UI_Web_Exception.PageHeader.SessionException	hu-HU	Lejárt a munkamenet!
+WC_UI_Web_Exception.PageHeader.SessionException	en-US	Your session has expired!
+WC_UI_Web_Exception.PageHeader.SessionException	de-DE	Die Sitzung ist beendet!
+WC_UI_Web_Globalization	hu-HU	Globalizáció
+WC_UI_Web_Globalization	en-US	Globalization
+WC_UI_Web_Globalization	de-DE	Globalisierung
+WC_UI_Web_Globalization.Alert	hu-HU	Riasztás
+WC_UI_Web_Globalization.Alert	en-US	Alert
+WC_UI_Web_Globalization.Alert	de-DE	Alarmierung
 WC_UI_Web_Globalization.Alert.DatabaseIsUpToDate	hu-HU	Az adatbázis naprakész!
 WC_UI_Web_Globalization.Alert.DatabaseIsUpToDate	en-US	Database is up to date!
-WC_UI_Web_Globalization.Alert.DatabaseIsUpToDate	de-DE	Database is up to date!
-WC_UI_Web_Globalization.Button	hu-HU	
-WC_UI_Web_Globalization.Button	en-US	
-WC_UI_Web_Globalization.Button	de-DE	
+WC_UI_Web_Globalization.Alert.DatabaseIsUpToDate	de-DE	Die Datenbank ist auf dem neuesten Stand!
+WC_UI_Web_Globalization.Button	hu-HU	Nyomógomb
+WC_UI_Web_Globalization.Button	en-US	Pushbutton
+WC_UI_Web_Globalization.Button	de-DE	Druckknopf
 WC_UI_Web_Globalization.Button.UpdateDatabase	hu-HU	Adatbázis frissítése
-WC_UI_Web_Globalization.Button.UpdateDatabase	en-US	Update Database
-WC_UI_Web_Globalization.Button.UpdateDatabase	de-DE	Update Database
-WC_UI_Web_Globalization.PageHeader	hu-HU	
-WC_UI_Web_Globalization.PageHeader	en-US	
-WC_UI_Web_Globalization.PageHeader	de-DE	
+WC_UI_Web_Globalization.Button.UpdateDatabase	en-US	Update database
+WC_UI_Web_Globalization.Button.UpdateDatabase	de-DE	Aktualisierung der Datenbank
+WC_UI_Web_Globalization.PageHeader	hu-HU	Lap fejléce
+WC_UI_Web_Globalization.PageHeader	en-US	Page header
+WC_UI_Web_Globalization.PageHeader	de-DE	Kopfzeile der Seite
 WC_UI_Web_Globalization.PageHeader.GlobalizationList	hu-HU	Globalizációk
-WC_UI_Web_Globalization.PageHeader.GlobalizationList	en-US	Globalization List
-WC_UI_Web_Globalization.PageHeader.GlobalizationList	de-DE	Globalization List
+WC_UI_Web_Globalization.PageHeader.GlobalizationList	en-US	Globalization list
+WC_UI_Web_Globalization.PageHeader.GlobalizationList	de-DE	Globalisierung
 WC_UI_Web_Hardware	hu-HU	Eszköz
 WC_UI_Web_Hardware	en-US	Hardware
-WC_UI_Web_Hardware	de-DE	Hardware
+WC_UI_Web_Hardware	de-DE	Werkzeug
 WC_UI_Web_Hardware.AWB	hu-HU	Automatikus fehéregyensúly
 WC_UI_Web_Hardware.AWB	en-US	Automatic white balance
 WC_UI_Web_Hardware.AWB	de-DE	Automatischer Weißabgleich
 WC_UI_Web_Hardware.AWB.AUTO	hu-HU	Automatikus
 WC_UI_Web_Hardware.AWB.AUTO	en-US	Auto
-WC_UI_Web_Hardware.AWB.AUTO	de-DE	Auto
+WC_UI_Web_Hardware.AWB.AUTO	de-DE	Auto*
 WC_UI_Web_Hardware.AWB.CLOUDY	hu-HU	Felhős
 WC_UI_Web_Hardware.AWB.CLOUDY	en-US	Cloudy
 WC_UI_Web_Hardware.AWB.CLOUDY	de-DE	Bewölkt
@@ -2613,7 +2613,7 @@ WC_UI_Web_Hardware.AWB.FLUORESCENT	en-US	Fluorescent
 WC_UI_Web_Hardware.AWB.FLUORESCENT	de-DE	Leuchtkörper
 WC_UI_Web_Hardware.AWB.HORIZON	hu-HU	Horizont
 WC_UI_Web_Hardware.AWB.HORIZON	en-US	Horizon
-WC_UI_Web_Hardware.AWB.HORIZON	de-DE	Horizont
+WC_UI_Web_Hardware.AWB.HORIZON	de-DE	Horizont*
 WC_UI_Web_Hardware.AWB.INCANDESCENT	hu-HU	Izzó
 WC_UI_Web_Hardware.AWB.INCANDESCENT	en-US	Incandescent
 WC_UI_Web_Hardware.AWB.INCANDESCENT	de-DE	Glühlampe
@@ -2639,8 +2639,8 @@ WC_UI_Web_Hardware.CameraParameters	hu-HU	Kamera paraméterei
 WC_UI_Web_Hardware.CameraParameters	en-US	Camera parameters
 WC_UI_Web_Hardware.CameraParameters	de-DE	Raum-Parameter
 WC_UI_Web_Hardware.CameraParameters.Awb	hu-HU	Awb
-WC_UI_Web_Hardware.CameraParameters.Awb	en-US	Awb
-WC_UI_Web_Hardware.CameraParameters.Awb	de-DE	Awb
+WC_UI_Web_Hardware.CameraParameters.Awb	en-US	Awb*
+WC_UI_Web_Hardware.CameraParameters.Awb	de-DE	Awb**
 WC_UI_Web_Hardware.CameraParameters.Brightness	hu-HU	Fényesség
 WC_UI_Web_Hardware.CameraParameters.Brightness	en-US	Brightness
 WC_UI_Web_Hardware.CameraParameters.Brightness	de-DE	Helligkeit
@@ -2662,87 +2662,87 @@ WC_UI_Web_Hardware.CameraParameters.Saturation	de-DE	Sättigung
 WC_UI_Web_Hardware.CameraParameters.Title	hu-HU	Kamera paraméterek
 WC_UI_Web_Hardware.CameraParameters.Title	en-US	Camera parameters
 WC_UI_Web_Hardware.CameraParameters.Title	de-DE	Kamera parameter
-WC_UI_Web_Hardware.Label	hu-HU	
-WC_UI_Web_Hardware.Label	en-US	
-WC_UI_Web_Hardware.Label	de-DE	
-WC_UI_Web_Hardware.Label.Active	hu-HU	Active
+WC_UI_Web_Hardware.Label	hu-HU	Camke
+WC_UI_Web_Hardware.Label	en-US	Label
+WC_UI_Web_Hardware.Label	de-DE	Label*
+WC_UI_Web_Hardware.Label.Active	hu-HU	Aktív
 WC_UI_Web_Hardware.Label.Active	en-US	Active
-WC_UI_Web_Hardware.Label.Active	de-DE	Active
-WC_UI_Web_Hardware.Label.Descriptor	hu-HU	Descriptor
+WC_UI_Web_Hardware.Label.Active	de-DE	Vermögen
+WC_UI_Web_Hardware.Label.Descriptor	hu-HU	Leíró
 WC_UI_Web_Hardware.Label.Descriptor	en-US	Descriptor
-WC_UI_Web_Hardware.Label.Descriptor	de-DE	Descriptor
-WC_UI_Web_Hardware.Label.HardwareId	hu-HU	Hardware Id
+WC_UI_Web_Hardware.Label.Descriptor	de-DE	Deskriptor
+WC_UI_Web_Hardware.Label.HardwareId	hu-HU	Eszköz azonosító
 WC_UI_Web_Hardware.Label.HardwareId	en-US	Hardware Id
-WC_UI_Web_Hardware.Label.HardwareId	de-DE	Hardware Id
-WC_UI_Web_Hardware.Label.HardwareName	hu-HU	Hardware Name
-WC_UI_Web_Hardware.Label.HardwareName	en-US	Hardware Name
-WC_UI_Web_Hardware.Label.HardwareName	de-DE	Hardware Name
-WC_UI_Web_Hardware.Label.HardwareType	hu-HU	Hardware Type
-WC_UI_Web_Hardware.Label.HardwareType	en-US	Hardware Type
-WC_UI_Web_Hardware.Label.HardwareType	de-DE	Hardware Type
-WC_UI_Web_Hardware.Label.IdentityNumber	hu-HU	Identity Number
-WC_UI_Web_Hardware.Label.IdentityNumber	en-US	Identity Number
-WC_UI_Web_Hardware.Label.IdentityNumber	de-DE	Identity Number
-WC_UI_Web_Hardware.Label.Organization	hu-HU	Organization
+WC_UI_Web_Hardware.Label.HardwareId	de-DE	Kennung des Geräts
+WC_UI_Web_Hardware.Label.HardwareName	hu-HU	Eszköz neve
+WC_UI_Web_Hardware.Label.HardwareName	en-US	Hardware name
+WC_UI_Web_Hardware.Label.HardwareName	de-DE	Name des Geräts
+WC_UI_Web_Hardware.Label.HardwareType	hu-HU	Eszköz típusa
+WC_UI_Web_Hardware.Label.HardwareType	en-US	Hardware type
+WC_UI_Web_Hardware.Label.HardwareType	de-DE	Typ des Geräts
+WC_UI_Web_Hardware.Label.IdentityNumber	hu-HU	Azonosítószám
+WC_UI_Web_Hardware.Label.IdentityNumber	en-US	Identity number
+WC_UI_Web_Hardware.Label.IdentityNumber	de-DE	Identifikationsnummer
+WC_UI_Web_Hardware.Label.Organization	hu-HU	Szervezet
 WC_UI_Web_Hardware.Label.Organization	en-US	Organization
-WC_UI_Web_Hardware.Label.Organization	de-DE	Organization
-WC_UI_Web_Hardware.Label.OrganizationLocation	hu-HU	Organization Location
-WC_UI_Web_Hardware.Label.OrganizationLocation	en-US	Organization Location
-WC_UI_Web_Hardware.Label.OrganizationLocation	de-DE	Organization Location
-WC_UI_Web_Hardware.Label.SerialNumber	hu-HU	Serial Number
-WC_UI_Web_Hardware.Label.SerialNumber	en-US	Serial Number
-WC_UI_Web_Hardware.Label.SerialNumber	de-DE	Serial Number
-WC_UI_Web_Hardware.PageHeader	hu-HU	
-WC_UI_Web_Hardware.PageHeader	en-US	
-WC_UI_Web_Hardware.PageHeader	de-DE	
-WC_UI_Web_Hardware.PageHeader.AddNewHardware	hu-HU	Add New Hardware
-WC_UI_Web_Hardware.PageHeader.AddNewHardware	en-US	Add New Hardware
-WC_UI_Web_Hardware.PageHeader.AddNewHardware	de-DE	Add New Hardware
-WC_UI_Web_Hardware.PageHeader.DeleteHardware	hu-HU	Delete The Hardware
-WC_UI_Web_Hardware.PageHeader.DeleteHardware	en-US	Delete The Hardware
-WC_UI_Web_Hardware.PageHeader.DeleteHardware	de-DE	Delete The Hardware
-WC_UI_Web_Hardware.PageHeader.HardwareDetails	hu-HU	Hardware Details
-WC_UI_Web_Hardware.PageHeader.HardwareDetails	en-US	Hardware Details
-WC_UI_Web_Hardware.PageHeader.HardwareDetails	de-DE	Hardware Details
+WC_UI_Web_Hardware.Label.Organization	de-DE	Organisation
+WC_UI_Web_Hardware.Label.OrganizationLocation	hu-HU	Szervezet helye
+WC_UI_Web_Hardware.Label.OrganizationLocation	en-US	Organization location
+WC_UI_Web_Hardware.Label.OrganizationLocation	de-DE	Standort der Organisation
+WC_UI_Web_Hardware.Label.SerialNumber	hu-HU	Sorozatszám
+WC_UI_Web_Hardware.Label.SerialNumber	en-US	Serial number
+WC_UI_Web_Hardware.Label.SerialNumber	de-DE	Seriennummer
+WC_UI_Web_Hardware.PageHeader	hu-HU	Lap fejléce
+WC_UI_Web_Hardware.PageHeader	en-US	Page header
+WC_UI_Web_Hardware.PageHeader	de-DE	Kopfzeile der Seite
+WC_UI_Web_Hardware.PageHeader.AddNewHardware	hu-HU	Új eszköz hozzáadása
+WC_UI_Web_Hardware.PageHeader.AddNewHardware	en-US	Add new hardware
+WC_UI_Web_Hardware.PageHeader.AddNewHardware	de-DE	Ein neues Gerät hinzufügen
+WC_UI_Web_Hardware.PageHeader.DeleteHardware	hu-HU	Az eszköz törlése
+WC_UI_Web_Hardware.PageHeader.DeleteHardware	en-US	Delete the hardware
+WC_UI_Web_Hardware.PageHeader.DeleteHardware	de-DE	So löschen Sie das Gerät
+WC_UI_Web_Hardware.PageHeader.HardwareDetails	hu-HU	Eszköz részletek
+WC_UI_Web_Hardware.PageHeader.HardwareDetails	en-US	Hardware details
+WC_UI_Web_Hardware.PageHeader.HardwareDetails	de-DE	Details zum Gerät
 WC_UI_Web_Hardware.PageHeader.Iso	hu-HU	ISO
-WC_UI_Web_Hardware.PageHeader.Iso	en-US	ISO
-WC_UI_Web_Hardware.PageHeader.Iso	de-DE	ISO
-WC_UI_Web_Hardware.PageHeader.ListOfHardwares	hu-HU	List Of Hardwares
-WC_UI_Web_Hardware.PageHeader.ListOfHardwares	en-US	List Of Hardwares
-WC_UI_Web_Hardware.PageHeader.ListOfHardwares	de-DE	List Of Hardwares
-WC_UI_Web_Hardware.PageHeader.UpdateHardware	hu-HU	Update The Hardware
-WC_UI_Web_Hardware.PageHeader.UpdateHardware	en-US	Update The Hardware
-WC_UI_Web_Hardware.PageHeader.UpdateHardware	de-DE	Update The Hardware
-WC_UI_Web_HardwareUpdate	hu-HU	
-WC_UI_Web_HardwareUpdate	en-US	
-WC_UI_Web_HardwareUpdate	de-DE	
-WC_UI_Web_HardwareUpdate.Button	hu-HU	
-WC_UI_Web_HardwareUpdate.Button	en-US	
-WC_UI_Web_HardwareUpdate.Button	de-DE	
-WC_UI_Web_HardwareUpdate.Button.AddNewHardwareUpdate	hu-HU	Add New Hardware Update
-WC_UI_Web_HardwareUpdate.Button.AddNewHardwareUpdate	en-US	Add New Hardware Update
-WC_UI_Web_HardwareUpdate.Button.AddNewHardwareUpdate	de-DE	Add New Hardware Update
-WC_UI_Web_HardwareUpdate.Label	hu-HU	
-WC_UI_Web_HardwareUpdate.Label	en-US	
-WC_UI_Web_HardwareUpdate.Label	de-DE	
-WC_UI_Web_HardwareUpdate.Label.Comments	hu-HU	Comments
+WC_UI_Web_Hardware.PageHeader.Iso	en-US	ISO*
+WC_UI_Web_Hardware.PageHeader.Iso	de-DE	ISO**
+WC_UI_Web_Hardware.PageHeader.ListOfHardwares	hu-HU	Az eszközök listája
+WC_UI_Web_Hardware.PageHeader.ListOfHardwares	en-US	List of hardwares
+WC_UI_Web_Hardware.PageHeader.ListOfHardwares	de-DE	Liste der Werkzeuge
+WC_UI_Web_Hardware.PageHeader.UpdateHardware	hu-HU	Az eszköz frissítése
+WC_UI_Web_Hardware.PageHeader.UpdateHardware	en-US	Update the hardware
+WC_UI_Web_Hardware.PageHeader.UpdateHardware	de-DE	Aktualisieren Sie Ihr Gerät
+WC_UI_Web_HardwareUpdate	hu-HU	*
+WC_UI_Web_HardwareUpdate	en-US	**
+WC_UI_Web_HardwareUpdate	de-DE	***
+WC_UI_Web_HardwareUpdate.Button	hu-HU	*
+WC_UI_Web_HardwareUpdate.Button	en-US	**
+WC_UI_Web_HardwareUpdate.Button	de-DE	***
+WC_UI_Web_HardwareUpdate.Button.AddNewHardwareUpdate	hu-HU	Új eszközfrissítés hozzáadása
+WC_UI_Web_HardwareUpdate.Button.AddNewHardwareUpdate	en-US	Add new hardware update
+WC_UI_Web_HardwareUpdate.Button.AddNewHardwareUpdate	de-DE	Ein neues Geräte-Update hinzufügen
+WC_UI_Web_HardwareUpdate.Label	hu-HU	*
+WC_UI_Web_HardwareUpdate.Label	en-US	**
+WC_UI_Web_HardwareUpdate.Label	de-DE	***
+WC_UI_Web_HardwareUpdate.Label.Comments	hu-HU	Megjegyzések
 WC_UI_Web_HardwareUpdate.Label.Comments	en-US	Comments
-WC_UI_Web_HardwareUpdate.Label.Comments	de-DE	Comments
-WC_UI_Web_HardwareUpdate.Label.HardwareUpdateName	hu-HU	Hardware Update Name
-WC_UI_Web_HardwareUpdate.Label.HardwareUpdateName	en-US	Hardware Update Name
-WC_UI_Web_HardwareUpdate.Label.HardwareUpdateName	de-DE	Hardware Update Name
-WC_UI_Web_HardwareUpdate.Label.HardwareUpdateType	hu-HU	Hardware Update Type
-WC_UI_Web_HardwareUpdate.Label.HardwareUpdateType	en-US	Hardware Update Type
-WC_UI_Web_HardwareUpdate.Label.HardwareUpdateType	de-DE	Hardware Update Type
-WC_UI_Web_HardwareUpdate.Label.Path	hu-HU	File Path
-WC_UI_Web_HardwareUpdate.Label.Path	en-US	File Path
-WC_UI_Web_HardwareUpdate.Label.Path	de-DE	File Path
-WC_UI_Web_HardwareUpdate.Label.Version	hu-HU	Version
+WC_UI_Web_HardwareUpdate.Label.Comments	de-DE	Kommentare
+WC_UI_Web_HardwareUpdate.Label.HardwareUpdateName	hu-HU	Eszközrfrissítés neve
+WC_UI_Web_HardwareUpdate.Label.HardwareUpdateName	en-US	Hardware update name
+WC_UI_Web_HardwareUpdate.Label.HardwareUpdateName	de-DE	Name der Geräteaktualisierung
+WC_UI_Web_HardwareUpdate.Label.HardwareUpdateType	hu-HU	Eszközfrissítés típusa
+WC_UI_Web_HardwareUpdate.Label.HardwareUpdateType	en-US	Hardware update type
+WC_UI_Web_HardwareUpdate.Label.HardwareUpdateType	de-DE	Art der Geräteaktualisierung
+WC_UI_Web_HardwareUpdate.Label.Path	hu-HU	Fájl elérési útvonal
+WC_UI_Web_HardwareUpdate.Label.Path	en-US	File path
+WC_UI_Web_HardwareUpdate.Label.Path	de-DE	Dateipfad
+WC_UI_Web_HardwareUpdate.Label.Version	hu-HU	Verzió
 WC_UI_Web_HardwareUpdate.Label.Version	en-US	Version
-WC_UI_Web_HardwareUpdate.Label.Version	de-DE	Version
-WC_UI_Web_HardwareUpdate.PageHeader	hu-HU	
-WC_UI_Web_HardwareUpdate.PageHeader	en-US	
-WC_UI_Web_HardwareUpdate.PageHeader	de-DE	
+WC_UI_Web_HardwareUpdate.Label.Version	de-DE	Version*
+WC_UI_Web_HardwareUpdate.PageHeader	hu-HU	*
+WC_UI_Web_HardwareUpdate.PageHeader	en-US	**
+WC_UI_Web_HardwareUpdate.PageHeader	de-DE	***
 WC_UI_Web_HardwareUpdate.PageHeader.AddNewHardwareUpdate	hu-HU	Add New Hardware Update
 WC_UI_Web_HardwareUpdate.PageHeader.AddNewHardwareUpdate	en-US	Add New Hardware Update
 WC_UI_Web_HardwareUpdate.PageHeader.AddNewHardwareUpdate	de-DE	Add New Hardware Update

@@ -9,6 +9,7 @@
 #include <QSqlError>
 #include <QSqlQuery>
 #include <QDebug>
+#include <QUuid>
 
 MainPresenter::MainPresenter(QObject *parent) :QObject(parent)
 {
@@ -57,6 +58,12 @@ void MainPresenter::appendView(IMainView *w)
 
     QObject::connect(view_obj, SIGNAL(GenerateTrTriggered(IMainView *)),
                      this, SLOT(GenerateTrAction(IMainView *)));
+
+    QObject::connect(view_obj, SIGNAL(SearchNextTriggered(IMainView *)),
+                     this, SLOT(SearchNextAction(IMainView *)));
+
+    QObject::connect(view_obj, SIGNAL(SearchPrevTriggered(IMainView *)),
+                     this, SLOT(SearchPrevAction(IMainView *)));
     //refreshView(w);
 }
 
@@ -98,6 +105,7 @@ void MainPresenter::processListItemChangedAction(IMainView *sender)
     qDebug() << "processListItemChangedAction";
     auto m = sender->get_SelectedWcode();
     auto rm = _w.GetSelected(m);
+    rm.similarWcodes = QList<Wcode>();// _w.GetSimilar(rm.wcode.wcode);
     sender->set_MessageEditor(rm);
 }
 
@@ -217,5 +225,28 @@ void MainPresenter::EnToHuAction(IMainView *sender)
     //if(!m2.wcode.isValid()) return;
     _enToDeActionSender = sender;
     _dest_lang = "hu";
+    QUuid id = QUuid::createUuid();
     QString msg_hu = _w.DeepLTranslate("en", "hu", m.text);
+}
+
+void MainPresenter::SearchNextAction(IMainView *sender)
+{
+    qDebug() << "SearchNextAction";
+    auto textModel = sender->get_SearchText();
+    MainViewModel::Search m { textModel.text, true };
+    QString wcode = _w.Search(m);
+    if(wcode.isEmpty()) return;
+    MainViewModel::SearchR r {wcode};
+    sender->set_SearchNext(r);
+}
+
+void MainPresenter::SearchPrevAction(IMainView *sender)
+{
+    qDebug() << "SearchPrevAction";
+    auto textModel = sender->get_SearchText();
+    MainViewModel::Search m { textModel.text, false };
+    QString wcode = _w.Search(m);
+    if(wcode.isEmpty()) return;
+    MainViewModel::SearchR r {wcode};
+    sender->set_SearchNext(r);
 }

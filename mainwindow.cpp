@@ -85,6 +85,14 @@ auto MainWindow::get_EnText() -> MainViewModel::TextModel
     return {t};
 };
 
+auto MainWindow::get_SearchText() -> MainViewModel::TextModel
+{
+    auto t = ui->lineEdit_search->text();
+    if(t.isEmpty()) return{};
+    return {t};
+};
+
+
 auto MainWindow::get_HuText() -> MainViewModel::TextModel
 {
     auto t = ui->lineEdit_hu->text();
@@ -101,6 +109,23 @@ void MainWindow::set_MessageEditor(const MainViewModel::ListItemChangedModelR& m
     QString msg = m.wcode.isUsed?(m.wcode.fileName+" ("+QString::number(m.wcode.lineNumber)+")"):"not used";
     ui->label_using->setText(msg);
     _clipboard->setText(m.wcode.wcode);
+
+    if(m.similarWcodes.empty()) return;
+//    int wclength = 0;
+//    foreach (auto a,m.similarWcodes){
+//        int alength = a.wcode.length();
+//        if(alength>wclength) wclength = alength;
+//    }
+    foreach (auto a,m.similarWcodes) {
+        QString l1 = a.wcode;//+QString(wclength-a.wcode.length()+1, ' ');
+        QString line1 = "hu_HU "+a.tr_hu;
+        QString line2 = "en_US "+a.tr_en;
+        QString line3 = "de_DE "+a.tr_de;
+        AppendCodeEditor(l1);
+        AppendCodeEditor(line1);
+        AppendCodeEditor(line2);
+        AppendCodeEditor(line3);
+    }
 }
 
 void MainWindow::set_RogzitStatus(MainViewModel::RogzitStatusR m)
@@ -123,6 +148,21 @@ void MainWindow::set_SaveStatus(bool isOk)
 void MainWindow::set_SaveToCodeStatus(bool isOk)
 {
     ShowStatusMsg(QStringLiteral("Kódgenerálás ")+(isOk?"ok":"error"));
+}
+
+void MainWindow::set_SearchNext(const MainViewModel::SearchR& m)
+{
+    auto items = ui->listWidget->findItems(m.msg, Qt::MatchFlag::MatchExactly);
+    if(items.length()==0){
+        AppendCodeEditor("egysem: "+m.msg);
+        return;
+    }
+    if(items.length()>1){
+        AppendCodeEditor("több mint egy: "+m.msg);
+        return;
+    }
+    //ui->listWidget->clearSelection();
+    ui->listWidget->setCurrentItem(items[0]);
 }
 
 MainViewModel::ListItemChangedModelR MainWindow::get_MessageEditor()
@@ -312,5 +352,19 @@ void MainWindow::on_pushButton_en_to_hu_clicked()
 {
     qDebug() << "EnToHuClicked";
     emit EnToHuTriggered(this);
+}
+
+
+void MainWindow::on_pushButton_searchNext_clicked()
+{
+    qDebug() << "searchNextClicked";
+    emit SearchNextTriggered(this);
+}
+
+
+void MainWindow::on_pushButton_searchPrev_clicked()
+{
+    qDebug() << "searchPrevClicked";
+    emit SearchPrevTriggered(this);
 }
 
