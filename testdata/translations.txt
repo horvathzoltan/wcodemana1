@@ -29,11 +29,11 @@ WC_ApplicationSeed.WindowsUniversalPlatformCPU	hu-HU	Windows Universal Platform 
 WC_ApplicationSeed.WindowsUniversalPlatformCPU	en-US	Windows Universal Platform CPU*
 WC_ApplicationSeed.WindowsUniversalPlatformCPU	de-DE	Windows Universal Platform CPU**
 WC_AuthenticationService	hu-HU	Hitelesítői szolgáltatás
-WC_AuthenticationService	en-US	Authentication Service
+WC_AuthenticationService	en-US	Authentication service
 WC_AuthenticationService	de-DE	Authentifizierungsdienst
-WC_AuthenticationService.Error	hu-HU	Hiba
-WC_AuthenticationService.Error	en-US	Error
-WC_AuthenticationService.Error	de-DE	Fehler
+WC_AuthenticationService.Error	hu-HU	*
+WC_AuthenticationService.Error	en-US	**
+WC_AuthenticationService.Error	de-DE	***
 WC_AuthenticationService.Error.Login	hu-HU	Hiba történt bejelentkezés közben!
 WC_AuthenticationService.Error.Login	en-US	An error occurred while logging in!
 WC_AuthenticationService.Error.Login	de-DE	Beim Einloggen ist ein Fehler aufgetreten!
@@ -46,9 +46,9 @@ WC_AuthenticationService.Error.Logout	de-DE	Beim Abmelden ist ein Fehler aufgetr
 WC_AuthenticationService.Error.PasswordIsIncorrect	hu-HU	Rossz jelszó!
 WC_AuthenticationService.Error.PasswordIsIncorrect	en-US	Wrong password!
 WC_AuthenticationService.Error.PasswordIsIncorrect	de-DE	Falsches Passwort!
-WC_AuthenticationService.Log	hu-HU	Napló
-WC_AuthenticationService.Log	en-US	Log
-WC_AuthenticationService.Log	de-DE	Protokoll
+WC_AuthenticationService.Log	hu-HU	*
+WC_AuthenticationService.Log	en-US	**
+WC_AuthenticationService.Log	de-DE	***
 WC_AuthenticationService.Log.FailedLogin	hu-HU	Sikertelen bejelentkezés: {0}, Alkalmazás id: {1}
 WC_AuthenticationService.Log.FailedLogin	en-US	Unsuccessful login: {0}, Application id: {1}
 WC_AuthenticationService.Log.FailedLogin	de-DE	Fehlgeschlagene Anmeldung: {0}, Anwendungs-ID: {1}
@@ -62,14 +62,14 @@ WC_AuthenticationService.Log.LogoutSuccess	hu-HU	Sikeres kijelentkezés: {0}, Al
 WC_AuthenticationService.Log.LogoutSuccess	en-US	Successful logout: {0}, Application id: {1}
 WC_AuthenticationService.Log.LogoutSuccess	de-DE	Erfolgreiche Abmeldung: {0}, Anwendungskennung: {1}
 WC_AuthorizationService	hu-HU	Engedélykezelő szolgáltatás
-WC_AuthorizationService	en-US	Authorization Service
+WC_AuthorizationService	en-US	Authorization service
 WC_AuthorizationService	de-DE	Autorisierungsdienst
-WC_AuthorizationService.Error	hu-HU	Hiba
-WC_AuthorizationService.Error	en-US	Error
-WC_AuthorizationService.Error	de-DE	Fehler
-WC_AuthorizationService.Error.CheckUserRights	hu-HU	Hiba történt a felhasználó jogosultságainak ellenőrzése közben!
-WC_AuthorizationService.Error.CheckUserRights	en-US	An error occurred while checking the user's privileges!
-WC_AuthorizationService.Error.CheckUserRights	de-DE	Bei der Überprüfung der Berechtigungen des Benutzers ist ein Fehler aufgetreten!
+WC_AuthorizationService.Error	hu-HU	*
+WC_AuthorizationService.Error	en-US	**
+WC_AuthorizationService.Error	de-DE	***
+WC_AuthorizationService.Error.CheckUserRights	hu-HU	A felhasználó nem rendelkezik jogosultsággal.
+WC_AuthorizationService.Error.CheckUserRights	en-US	The user is not authorised.
+WC_AuthorizationService.Error.CheckUserRights	de-DE	Der Benutzer ist nicht berechtigt.
 WC_AuthorizationService.Error.HasUserRights	hu-HU	Hiba történt a felhasználó jogosultságainak ellenőrzése közben!
 WC_AuthorizationService.Error.HasUserRights	en-US	An error occurred while checking the user's privileges!
 WC_AuthorizationService.Error.HasUserRights	de-DE	Bei der Überprüfung der Berechtigungen des Benutzers ist ein Fehler aufgetreten!
@@ -94,9 +94,9 @@ WC_BodyPart.Knee	de-DE	Knie
 WC_BodyPart.Shoulder	hu-HU	Váll
 WC_BodyPart.Shoulder	en-US	Shoulder
 WC_BodyPart.Shoulder	de-DE	Schulter
-WC_BodyPoint	hu-HU	Pozíció
-WC_BodyPoint	en-US	Position*
-WC_BodyPoint	de-DE	Position**
+WC_BodyPoint	hu-HU	Testrész
+WC_BodyPoint	en-US	Body point
+WC_BodyPoint	de-DE	Körperstelle
 WC_BodyPoint.LeftAnkle	hu-HU	Bal boka
 WC_BodyPoint.LeftAnkle	en-US	Left ankle
 WC_BodyPoint.LeftAnkle	de-DE	Linker Knöchel
@@ -130,24 +130,24 @@ WC_ClientConfiguration.DefaultLanguageCode	de-DE	Standardsprache
 WC_ClientConfigurationHandler	hu-HU	Beállításkezelő
 WC_ClientConfigurationHandler	en-US	Configuration handler
 WC_ClientConfigurationHandler	de-DE	Konfiguration des Handlers
-WC_ClientConfigurationHandler.CommonLogType	hu-HU	Log típus
-WC_ClientConfigurationHandler.CommonLogType	en-US	Log type
-WC_ClientConfigurationHandler.CommonLogType	de-DE	Log-Typ
+WC_ClientConfigurationHandler.CommonLogType	hu-HU	*
+WC_ClientConfigurationHandler.CommonLogType	en-US	**
+WC_ClientConfigurationHandler.CommonLogType	de-DE	***
 WC_ClientConfigurationHandler.CommonLogType.UpdateClientConfiguration	hu-HU	Kliens konfiguráció módosítása
 WC_ClientConfigurationHandler.CommonLogType.UpdateClientConfiguration	en-US	Change client configuration
 WC_ClientConfigurationHandler.CommonLogType.UpdateClientConfiguration	de-DE	Clientkonfiguration ändern
-WC_ClientConfigurationHandler.Error	hu-HU	Hiba
-WC_ClientConfigurationHandler.Error	en-US	Error
-WC_ClientConfigurationHandler.Error	de-DE	Fehler
+WC_ClientConfigurationHandler.Error	hu-HU	*
+WC_ClientConfigurationHandler.Error	en-US	**
+WC_ClientConfigurationHandler.Error	de-DE	***
 WC_ClientConfigurationHandler.Error.GetAllClientConfigurations	hu-HU	Hiba történt a kliens konfigurációk lekérdezése közben!
 WC_ClientConfigurationHandler.Error.GetAllClientConfigurations	en-US	An error occurred while querying client configurations!
 WC_ClientConfigurationHandler.Error.GetAllClientConfigurations	de-DE	Bei der Abfrage der Client-Konfigurationen ist ein Fehler aufgetreten!
 WC_ClientConfigurationHandler.Error.GetClientConfiguration	hu-HU	Hiba történt a kliens konfiguráció lekérdezése közben!
 WC_ClientConfigurationHandler.Error.GetClientConfiguration	en-US	An error occurred while querying the client configuration!
 WC_ClientConfigurationHandler.Error.GetClientConfiguration	de-DE	Bei der Abfrage der Client-Konfiguration ist ein Fehler aufgetreten!
-WC_ClientConfigurationHandler.LogMessage	hu-HU	Üzenet
-WC_ClientConfigurationHandler.LogMessage	en-US	Message
-WC_ClientConfigurationHandler.LogMessage	de-DE	Nachricht
+WC_ClientConfigurationHandler.LogMessage	hu-HU	*
+WC_ClientConfigurationHandler.LogMessage	en-US	**
+WC_ClientConfigurationHandler.LogMessage	de-DE	***
 WC_ClientConfigurationHandler.LogMessage.ClientConfigurationUpdated	hu-HU	A következő kliens konfiguráció módosítva: {0}. Új érték: {1}
 WC_ClientConfigurationHandler.LogMessage.ClientConfigurationUpdated	en-US	The following client configuration has been modified: {0}. New value: {1}
 WC_ClientConfigurationHandler.LogMessage.ClientConfigurationUpdated	de-DE	Die folgende Client-Konfiguration wurde geändert: {0}. Neuer Wert: {1}
@@ -166,9 +166,9 @@ WC_CommonLogLevel.Information	de-DE	Informationen
 WC_CommonLogLevel.Warning	hu-HU	Figyelmeztetés
 WC_CommonLogLevel.Warning	en-US	Warning
 WC_CommonLogLevel.Warning	de-DE	Warnung
-WC_CommonLogType	hu-HU	Bejegyzés típus
-WC_CommonLogType	en-US	Type of entry
-WC_CommonLogType	de-DE	Art des Eintrags
+WC_CommonLogType	hu-HU	Bejegyzéstípus
+WC_CommonLogType	en-US	Log type
+WC_CommonLogType	de-DE	Beitragstyp
 WC_CommonLogType.Authentication	hu-HU	Hitelesítés
 WC_CommonLogType.Authentication	en-US	Authentication
 WC_CommonLogType.Authentication	de-DE	Authentifizierung
@@ -178,9 +178,9 @@ WC_CommonLogType.Authentication.Login	de-DE	Anmeldung
 WC_CommonLogType.Authentication.Logout	hu-HU	Kijelentkezés
 WC_CommonLogType.Authentication.Logout	en-US	Logout
 WC_CommonLogType.Authentication.Logout	de-DE	Abmeldung
-WC_CommonLogType.EventHandler	hu-HU	Eseménykezelő
-WC_CommonLogType.EventHandler	en-US	Event handler
-WC_CommonLogType.EventHandler	de-DE	Ereignis-Handler
+WC_CommonLogType.EventHandler	hu-HU	*
+WC_CommonLogType.EventHandler	en-US	**
+WC_CommonLogType.EventHandler	de-DE	***
 WC_CommonLogType.EventHandler.EventHandlerError	hu-HU	Eseménykezelő hiba
 WC_CommonLogType.EventHandler.EventHandlerError	en-US	Event handler error
 WC_CommonLogType.EventHandler.EventHandlerError	de-DE	Fehler im Ereignis-Handler
@@ -203,11 +203,11 @@ WC_EmailService	hu-HU	Email szolgáltatás
 WC_EmailService	en-US	Email service
 WC_EmailService	de-DE	E-Mail-Dienst
 WC_EmailService.CommonLogType	hu-HU	Bejegyzéstípus
-WC_EmailService.CommonLogType	en-US	Post type
+WC_EmailService.CommonLogType	en-US	Log type
 WC_EmailService.CommonLogType	de-DE	Beitragstyp
-WC_EmailService.Error	hu-HU	Hiba
-WC_EmailService.Error	en-US	Error
-WC_EmailService.Error	de-DE	Fehler
+WC_EmailService.Error	hu-HU	*
+WC_EmailService.Error	en-US	**
+WC_EmailService.Error	de-DE	***
 WC_EmailService.Error.SendEmail	hu-HU	Hiba történt az email küldése közben!
 WC_EmailService.Error.SendEmail	en-US	An error occurred while sending the email!
 WC_EmailService.Error.SendEmail	de-DE	Beim Senden der E-Mail ist ein Fehler aufgetreten!
@@ -243,7 +243,7 @@ WC_ExaminationObjectType.VerticalLineDisplayText	en-US	{0} - {1} vertical line
 WC_ExaminationObjectType.VerticalLineDisplayText	de-DE	{0} - {1} Vertikale Linie
 WC_ExaminationType	hu-HU	Vizsgálattípus
 WC_ExaminationType	en-US	Examination type
-WC_ExaminationType	de-DE	Art der Prüfung
+WC_ExaminationType	de-DE	Prüfungstyp
 WC_ExaminationType.CalibrationType	hu-HU	Kalibráció
 WC_ExaminationType.CalibrationType	en-US	Calibration
 WC_ExaminationType.CalibrationType	de-DE	Kalibrierung
@@ -251,15 +251,15 @@ WC_ExaminationType.CameraExam	hu-HU	Mozgásanalízis
 WC_ExaminationType.CameraExam	en-US	Gait analysis
 WC_ExaminationType.CameraExam	de-DE	Ganganalyse
 WC_ExaminationType.ExaminationType	hu-HU	Vizsgálattípus
-WC_ExaminationType.ExaminationType	en-US	Analysis type
-WC_ExaminationType.ExaminationType	de-DE	Analysetyp
+WC_ExaminationType.ExaminationType	en-US	Examination type
+WC_ExaminationType.ExaminationType	de-DE	Prüfungstyp
 WC_ExaminationType.FootPressureExam	hu-HU	Talpnyomás vizsgálat
 WC_ExaminationType.FootPressureExam	en-US	Foot analysis
 WC_ExaminationType.FootPressureExam	de-DE	Analyse der Füße
 WC_ExaminationType.OnlineInsoleExam	hu-HU	Talpvizsgálat
 WC_ExaminationType.OnlineInsoleExam	en-US	Sole examination
 WC_ExaminationType.OnlineInsoleExam	de-DE	Prüfung des Bodens
-WC_ExaminationType.WalkingExam	hu-HU	Járásvizsgálat
+WC_ExaminationType.WalkingExam	hu-HU	Komplex járáselemzés
 WC_ExaminationType.WalkingExam	en-US	Complex gait analysis
 WC_ExaminationType.WalkingExam	de-DE	Komplexe Ganganalyse
 WC_Group	hu-HU	Csoport
@@ -284,26 +284,26 @@ WC_Group.Hardware	hu-HU	Eszköz
 WC_Group.Hardware	en-US	Hardware
 WC_Group.Hardware	de-DE	Werkzeug
 WC_Group.HardwareUpdate	hu-HU	Eszközfrissítés
-WC_Group.HardwareUpdate	en-US	Hardware Update
+WC_Group.HardwareUpdate	en-US	Hardware update
 WC_Group.HardwareUpdate	de-DE	Gerät aktualisieren
 WC_Group.Home	hu-HU	Kezdőlap
 WC_Group.Home	en-US	Home page
-WC_Group.Home	de-DE	Hauptseite
+WC_Group.Home	de-DE	Startseite
 WC_Group.License	hu-HU	Licenc
 WC_Group.License	en-US	License
-WC_Group.License	de-DE	Lizenzierung
+WC_Group.License	de-DE	Lizenz
 WC_Group.Login	hu-HU	Bejelentkezés
 WC_Group.Login	en-US	Login
 WC_Group.Login	de-DE	Anmeldung
 WC_Group.Organization	hu-HU	Szervezet
-WC_Group.Organization	en-US	Organization
-WC_Group.Organization	de-DE	Organisation
-WC_Group.Patient	hu-HU	Páciens
+WC_Group.Organization	en-US	Organisation
+WC_Group.Organization	de-DE	Organization
+WC_Group.Patient	hu-HU	Beteg
 WC_Group.Patient	en-US	Patient
 WC_Group.Patient	de-DE	Patient*
-WC_Group.QueryOption	hu-HU	Lekérdezési lehetőségek
-WC_Group.QueryOption	en-US	Query Option
-WC_Group.QueryOption	de-DE	Abfrage-Option
+WC_Group.QueryOption	hu-HU	Lekérdezési lehetőség
+WC_Group.QueryOption	en-US	Query option
+WC_Group.QueryOption	de-DE	Auskunftsmöglichkeit
 WC_Group.Role	hu-HU	Szerepkör
 WC_Group.Role	en-US	Role
 WC_Group.Role	de-DE	Rolle
@@ -315,7 +315,7 @@ WC_Group.Validation	en-US	Validation
 WC_Group.Validation	de-DE	Validierung
 WC_HardwareType	hu-HU	Eszköztípus
 WC_HardwareType	en-US	Hardware type
-WC_HardwareType	de-DE	Hardware-Typ
+WC_HardwareType	de-DE	Gerätetyp
 WC_HardwareType.CPU	hu-HU	Eszközkezelő
 WC_HardwareType.CPU	en-US	Hardware manager
 WC_HardwareType.CPU	de-DE	Hardware-Manager
@@ -330,7 +330,7 @@ WC_HardwareType.Treadmill	en-US	Treadmill
 WC_HardwareType.Treadmill	de-DE	Laufband
 WC_HardwareUpdateType	hu-HU	Eszközfrissítés típusa
 WC_HardwareUpdateType	en-US	Hardware update type
-WC_HardwareUpdateType	de-DE	Art der Hardware-Aktualisierung
+WC_HardwareUpdateType	de-DE	Art der Geräteaktualisierung
 WC_HardwareUpdateType.CPU	hu-HU	Eszközkezelő
 WC_HardwareUpdateType.CPU	en-US	Hardware manager
 WC_HardwareUpdateType.CPU	de-DE	Hardware-Manager
@@ -435,9 +435,9 @@ WC_MenuContent.AccountManagement.Users	en-US	Users
 WC_MenuContent.AccountManagement.Users	de-DE	Benutzer
 WC_MenuContent.Examination	hu-HU	Vizsgálat
 WC_MenuContent.Examination	en-US	Examination
-WC_MenuContent.Examination	de-DE	Untersuchung
-WC_MenuContent.Examination.BodyPartProperty	hu-HU	Testrész tulajdonság
-WC_MenuContent.Examination.BodyPartProperty	en-US	Body Part Property
+WC_MenuContent.Examination	de-DE	Prüfung
+WC_MenuContent.Examination.BodyPartProperty	hu-HU	Testrész tulajdonsága
+WC_MenuContent.Examination.BodyPartProperty	en-US	Body part property
 WC_MenuContent.Examination.BodyPartProperty	de-DE	Körperteil-Eigenschaft
 WC_MenuContent.HardwareUpdates	hu-HU	Eszközfrissítések
 WC_MenuContent.HardwareUpdates	en-US	Hardware Updates
@@ -445,9 +445,9 @@ WC_MenuContent.HardwareUpdates	de-DE	Hardware-Aktualisierungen
 WC_MenuContent.Hardwares	hu-HU	Eszközök
 WC_MenuContent.Hardwares	en-US	Hardwares
 WC_MenuContent.Hardwares	de-DE	Werkzeuge
-WC_MenuContent.Home	hu-HU	Főoldal
-WC_MenuContent.Home	en-US	Dashboard
-WC_MenuContent.Home	de-DE	Dashboard*
+WC_MenuContent.Home	hu-HU	Kezdőlap
+WC_MenuContent.Home	en-US	Home page
+WC_MenuContent.Home	de-DE	Startseite
 WC_MenuContent.License	hu-HU	Licenc
 WC_MenuContent.License	en-US	License
 WC_MenuContent.License	de-DE	Lizenz
@@ -472,9 +472,9 @@ WC_MenuContent.Setting	de-DE	Einstellungen
 WC_MenuContentHandler	hu-HU	Tartalomkezelő
 WC_MenuContentHandler	en-US	Content handler
 WC_MenuContentHandler	de-DE	Inhaltlicher Leiter
-WC_MenuContentHandler.Error	hu-HU	Hiba
-WC_MenuContentHandler.Error	en-US	Error
-WC_MenuContentHandler.Error	de-DE	Fehler
+WC_MenuContentHandler.Error	hu-HU	*
+WC_MenuContentHandler.Error	en-US	**
+WC_MenuContentHandler.Error	de-DE	***
 WC_MenuContentHandler.Error.GetMenuContents	hu-HU	Hiba törtétnt a menü elemek lekérdezése közben.
 WC_MenuContentHandler.Error.GetMenuContents	en-US	An error occurred while querying menu items.
 WC_MenuContentHandler.Error.GetMenuContents	de-DE	Bei der Abfrage von Menüpunkten ist ein Fehler aufgetreten.
@@ -523,9 +523,9 @@ WC_PDF.PatientName	de-DE	Patientenname
 WC_PasswordValidator	hu-HU	Jelszó-érvényesítő
 WC_PasswordValidator	en-US	Password Validator
 WC_PasswordValidator	de-DE	Passwort-Prüfer
-WC_PasswordValidator.Error	hu-HU	Hiba
-WC_PasswordValidator.Error	en-US	Error
-WC_PasswordValidator.Error	de-DE	Fehler
+WC_PasswordValidator.Error	hu-HU	*
+WC_PasswordValidator.Error	en-US	**
+WC_PasswordValidator.Error	de-DE	***
 WC_PasswordValidator.Error.ValidatePassword	hu-HU	Hiba történt a jelszó validálása közben.
 WC_PasswordValidator.Error.ValidatePassword	en-US	An error occurred during password validation.
 WC_PasswordValidator.Error.ValidatePassword	de-DE	Bei der Passwortüberprüfung ist ein Fehler aufgetreten.
@@ -547,18 +547,18 @@ WC_PatientIdType.Passport	de-DE	Reisepass-ID
 WC_QueryOptionHandler	hu-HU	Lekérdezési opció kezelő
 WC_QueryOptionHandler	en-US	Query Option Handler
 WC_QueryOptionHandler	de-DE	Manager für Abfrageoptionen
-WC_QueryOptionHandler.CommonLogType	hu-HU	Bejegyzéstípus
-WC_QueryOptionHandler.CommonLogType	en-US	Logtype
-WC_QueryOptionHandler.CommonLogType	de-DE	Beitragstyp
+WC_QueryOptionHandler.CommonLogType	hu-HU	*
+WC_QueryOptionHandler.CommonLogType	en-US	**
+WC_QueryOptionHandler.CommonLogType	de-DE	***
 WC_QueryOptionHandler.CommonLogType.QueryOptionDeleted	hu-HU	Lekérdezési lehetőség törölve
 WC_QueryOptionHandler.CommonLogType.QueryOptionDeleted	en-US	Query Option Deleted
 WC_QueryOptionHandler.CommonLogType.QueryOptionDeleted	de-DE	Auskunftsmöglichkeit gelöscht
 WC_QueryOptionHandler.CommonLogType.QueryOptionSave	hu-HU	Lekérdezés mentése
 WC_QueryOptionHandler.CommonLogType.QueryOptionSave	en-US	Save query
 WC_QueryOptionHandler.CommonLogType.QueryOptionSave	de-DE	Abfrage speichern
-WC_QueryOptionHandler.Error	hu-HU	Hiba
-WC_QueryOptionHandler.Error	en-US	Error
-WC_QueryOptionHandler.Error	de-DE	Fehler
+WC_QueryOptionHandler.Error	hu-HU	*
+WC_QueryOptionHandler.Error	en-US	**
+WC_QueryOptionHandler.Error	de-DE	***
 WC_QueryOptionHandler.Error.CreateOrUpdateQueryOption	hu-HU	Hiba történt a lekérdezés mentések lekérdezése közben!
 WC_QueryOptionHandler.Error.CreateOrUpdateQueryOption	en-US	There was an error while retrieving the query backups!
 WC_QueryOptionHandler.Error.CreateOrUpdateQueryOption	de-DE	Beim Abrufen der Abfrage-Backups ist ein Fehler aufgetreten!
@@ -568,9 +568,9 @@ WC_QueryOptionHandler.Error.DeleteQueryOption	de-DE	Problem beim Entfernen der A
 WC_QueryOptionHandler.Error.GetQueryOptions	hu-HU	Hiba történt a lekérdezés mentések lekérdezése közben!
 WC_QueryOptionHandler.Error.GetQueryOptions	en-US	An error occurred while retrieving a query backup!
 WC_QueryOptionHandler.Error.GetQueryOptions	de-DE	Beim Abrufen einer Abfragesicherung ist ein Fehler aufgetreten!
-WC_QueryOptionHandler.LogMessage	hu-HU	Naplóbejegyzés
-WC_QueryOptionHandler.LogMessage	en-US	Log message
-WC_QueryOptionHandler.LogMessage	de-DE	Tagebucheintrag
+WC_QueryOptionHandler.LogMessage	hu-HU	*
+WC_QueryOptionHandler.LogMessage	en-US	**
+WC_QueryOptionHandler.LogMessage	de-DE	***
 WC_QueryOptionHandler.LogMessage.QueryOptionDeleted	hu-HU	Lekérdezési opció törölve({0})
 WC_QueryOptionHandler.LogMessage.QueryOptionDeleted	en-US	Query Option Deleted ({0})
 WC_QueryOptionHandler.LogMessage.QueryOptionDeleted	de-DE	Abfrageoption Gelöscht ({0})
@@ -580,8 +580,8 @@ WC_QueryOptionHandler.LogMessage.QueryOptionSaved	de-DE	Abfrage gespeichert! ({0
 WC_Right	hu-HU	Jog
 WC_Right	en-US	Right
 WC_Right	de-DE	Rechte
-WC_Right.BodyPartProperty	hu-HU	Testrész tulajdonság
-WC_Right.BodyPartProperty	en-US	Body Part Property
+WC_Right.BodyPartProperty	hu-HU	Testrész tulajdonsága
+WC_Right.BodyPartProperty	en-US	Body part property
 WC_Right.BodyPartProperty	de-DE	Körperteil-Eigenschaft
 WC_Right.BodyPartProperty.CreateBodyPartProperty	hu-HU	Testrész tulajdonság létrehozása
 WC_Right.BodyPartProperty.CreateBodyPartProperty	en-US	Create a body part property
@@ -597,7 +597,7 @@ WC_Right.BodyPartProperty.UpdateBodyPartProperty	en-US	Change body part property
 WC_Right.BodyPartProperty.UpdateBodyPartProperty	de-DE	Körperteileigenschaft ändern
 WC_Right.Examination	hu-HU	Vizsgálat
 WC_Right.Examination	en-US	Examination
-WC_Right.Examination	de-DE	Untersuchung
+WC_Right.Examination	de-DE	Prüfung
 WC_Right.Examination.CreateExamination	hu-HU	Vizsgálat létrehozása
 WC_Right.Examination.CreateExamination	en-US	Create an investigation
 WC_Right.Examination.CreateExamination	de-DE	Erstellen Sie eine Untersuchung
@@ -631,7 +631,7 @@ WC_Right.Hardware.UpdateHardware	de-DE	Ändern Sie ein Gerät
 WC_Right.Hardware.UpdateHardwareLocation	hu-HU	Eszköz helyének módosítása
 WC_Right.Hardware.UpdateHardwareLocation	en-US	Update Hardware Location
 WC_Right.Hardware.UpdateHardwareLocation	de-DE	Gerätestandort ändern
-WC_Right.HardwareUpdate	hu-HU	Eszköz frissítése
+WC_Right.HardwareUpdate	hu-HU	Eszközfrissítés
 WC_Right.HardwareUpdate	en-US	Hardware update
 WC_Right.HardwareUpdate	de-DE	Aktualisieren Sie Ihr Gerät
 WC_Right.HardwareUpdate.CreateHardwareUpdate	hu-HU	Eszközfrissítés létrehozása
@@ -648,7 +648,7 @@ WC_Right.HardwareUpdate.UpdateHardwareUpdate	en-US	Modify Hardware Update
 WC_Right.HardwareUpdate.UpdateHardwareUpdate	de-DE	Ändern eines Geräteupdates
 WC_Right.License	hu-HU	Licenc
 WC_Right.License	en-US	License
-WC_Right.License	de-DE	Lizenzierung
+WC_Right.License	de-DE	Lizenz
 WC_Right.License.CreateLicense	hu-HU	Licenc létrehozása
 WC_Right.License.CreateLicense	en-US	Create License
 WC_Right.License.CreateLicense	de-DE	Eine Lizenz erstellen
@@ -662,8 +662,8 @@ WC_Right.License.UpdateLicense	hu-HU	Licenc módosítása
 WC_Right.License.UpdateLicense	en-US	Modify License
 WC_Right.License.UpdateLicense	de-DE	Ändern Sie Ihren Führerschein
 WC_Right.Organization	hu-HU	Szervezet
-WC_Right.Organization	en-US	Organization
-WC_Right.Organization	de-DE	Organisation
+WC_Right.Organization	en-US	Organisation
+WC_Right.Organization	de-DE	Organization
 WC_Right.Organization.CreateOrganization	hu-HU	Szervezet létrehozása
 WC_Right.Organization.CreateOrganization	en-US	Create Organization
 WC_Right.Organization.CreateOrganization	de-DE	Schaffung einer Organisation
@@ -698,8 +698,8 @@ WC_Right.Patient.UpdatePatient	hu-HU	Beteg módosítása
 WC_Right.Patient.UpdatePatient	en-US	Modify patient
 WC_Right.Patient.UpdatePatient	de-DE	Patient ändern
 WC_Right.QueryOption	hu-HU	Lekérdezési lehetőség
-WC_Right.QueryOption	en-US	Query Option
-WC_Right.QueryOption	de-DE	Abfrage-Option
+WC_Right.QueryOption	en-US	Query option
+WC_Right.QueryOption	de-DE	Auskunftsmöglichkeit
 WC_Right.QueryOption.CreateQueryOption	hu-HU	Lekérdezési lehetőség létrehozása
 WC_Right.QueryOption.CreateQueryOption	en-US	Create query option
 WC_Right.QueryOption.CreateQueryOption	de-DE	Abfrageoption erstellen
@@ -802,9 +802,9 @@ WC_RightType.Update	de-DE	Ändern Sie die Art des Rechts
 WC_RoleManager	hu-HU	Szerepkör-kezelő
 WC_RoleManager	en-US	Role Manager
 WC_RoleManager	de-DE	Rollenmanager
-WC_RoleManager.CommonLogType	hu-HU	Bejegyzéstípus
-WC_RoleManager.CommonLogType	en-US	Log type
-WC_RoleManager.CommonLogType	de-DE	Beitragstyp
+WC_RoleManager.CommonLogType	hu-HU	*
+WC_RoleManager.CommonLogType	en-US	**
+WC_RoleManager.CommonLogType	de-DE	***
 WC_RoleManager.CommonLogType.CreateRole	hu-HU	Szerepkör létrehozása
 WC_RoleManager.CommonLogType.CreateRole	en-US	Create a role
 WC_RoleManager.CommonLogType.CreateRole	de-DE	Eine Rolle erstellen
@@ -817,9 +817,9 @@ WC_RoleManager.CommonLogType.UpdateRole	de-DE	Ändern einer Rolle
 WC_RoleManager.CommonLogType.UpdateRoleRightList	hu-HU	Szerepkörhöz tartozó jogok módosítása
 WC_RoleManager.CommonLogType.UpdateRoleRightList	en-US	Modify the rights for a role
 WC_RoleManager.CommonLogType.UpdateRoleRightList	de-DE	Änderung des Umfangs der Rechte
-WC_RoleManager.Error	hu-HU	Hiba
-WC_RoleManager.Error	en-US	Error
-WC_RoleManager.Error	de-DE	Fehler
+WC_RoleManager.Error	hu-HU	*
+WC_RoleManager.Error	en-US	**
+WC_RoleManager.Error	de-DE	***
 WC_RoleManager.Error.CreateRole	hu-HU	Hiba történt a szerepkör létrehozása közben.
 WC_RoleManager.Error.CreateRole	en-US	An error occurred while creating the role.
 WC_RoleManager.Error.CreateRole	de-DE	Beim Erstellen der Rolle ist ein Fehler aufgetreten.
@@ -835,9 +835,9 @@ WC_RoleManager.Error.UpdateRole	de-DE	Beim Ändern der Rolle ist ein Fehler aufg
 WC_RoleManager.Error.UpdateRoleRightList	hu-HU	Hiba történt a szerepkörhöz tartozó jogosultságok módosítása közben.
 WC_RoleManager.Error.UpdateRoleRightList	en-US	An error occurred while changing the permissions for a role.
 WC_RoleManager.Error.UpdateRoleRightList	de-DE	Beim Ändern der Berechtigungen für eine Rolle ist ein Fehler aufgetreten.
-WC_RoleManager.LogMessage	hu-HU	Naplóbejegyzés
-WC_RoleManager.LogMessage	en-US	Log message
-WC_RoleManager.LogMessage	de-DE	Tagebucheintrag
+WC_RoleManager.LogMessage	hu-HU	*
+WC_RoleManager.LogMessage	en-US	**
+WC_RoleManager.LogMessage	de-DE	***
 WC_RoleManager.LogMessage.RoleCreated	hu-HU	Új szerepkör létrehozva: {0}
 WC_RoleManager.LogMessage.RoleCreated	en-US	New role created: {0}
 WC_RoleManager.LogMessage.RoleCreated	de-DE	Neue Rolle geschaffen: {0}
@@ -853,9 +853,9 @@ WC_RoleManager.LogMessage.RoleUpdated	de-DE	Rolle geändert: {0}
 WC_SessionService	hu-HU	Munkamenet szolgáltatás
 WC_SessionService	en-US	Session service
 WC_SessionService	de-DE	Sitzungsdienst
-WC_SessionService.Error	hu-HU	Hiba
-WC_SessionService.Error	en-US	Error
-WC_SessionService.Error	de-DE	Fehler
+WC_SessionService.Error	hu-HU	*
+WC_SessionService.Error	en-US	**
+WC_SessionService.Error	de-DE	***
 WC_SessionService.Error.CreateSession	hu-HU	Hiba történt a session létrehozása közben!
 WC_SessionService.Error.CreateSession	en-US	An error occurred while creating a session!
 WC_SessionService.Error.CreateSession	de-DE	Beim Erstellen einer Sitzung ist ein Fehler aufgetreten!
@@ -868,15 +868,15 @@ WC_SessionService.Error.SessionCalled	de-DE	Bei der Erneuerung der Sitzung ist e
 WC_SystemConfigurationHandler	hu-HU	Rendszerkonfigurációs kezelő
 WC_SystemConfigurationHandler	en-US	System Configuration Handler
 WC_SystemConfigurationHandler	de-DE	Systemkonfigurations-Manager
-WC_SystemConfigurationHandler.CommonLogType	hu-HU	Bejegyzéstípus
-WC_SystemConfigurationHandler.CommonLogType	en-US	Log type
-WC_SystemConfigurationHandler.CommonLogType	de-DE	Beitragstyp
+WC_SystemConfigurationHandler.CommonLogType	hu-HU	*
+WC_SystemConfigurationHandler.CommonLogType	en-US	**
+WC_SystemConfigurationHandler.CommonLogType	de-DE	***
 WC_SystemConfigurationHandler.CommonLogType.UpdateSystemConfiguration	hu-HU	Rendszer konfiguráció módosítása
 WC_SystemConfigurationHandler.CommonLogType.UpdateSystemConfiguration	en-US	Modify system configuration
 WC_SystemConfigurationHandler.CommonLogType.UpdateSystemConfiguration	de-DE	Ändern der Systemkonfiguration
-WC_SystemConfigurationHandler.Error	hu-HU	Hiba
-WC_SystemConfigurationHandler.Error	en-US	Error
-WC_SystemConfigurationHandler.Error	de-DE	Fehler
+WC_SystemConfigurationHandler.Error	hu-HU	*
+WC_SystemConfigurationHandler.Error	en-US	**
+WC_SystemConfigurationHandler.Error	de-DE	***
 WC_SystemConfigurationHandler.Error.GetAllSystemConfigurations	hu-HU	Hiba történt a rendszer konfigurációk lekérdezése közben!
 WC_SystemConfigurationHandler.Error.GetAllSystemConfigurations	en-US	An error occurred while querying system configurations!
 WC_SystemConfigurationHandler.Error.GetAllSystemConfigurations	de-DE	Bei der Abfrage der Systemkonfigurationen ist ein Fehler aufgetreten!
@@ -886,24 +886,24 @@ WC_SystemConfigurationHandler.Error.GetSystemConfiguration	de-DE	Bei der Abfrage
 WC_SystemConfigurationHandler.Error.GetSystemConfigurations	hu-HU	Hiba történt a rendszer konfigurációk lekérdezése közben!
 WC_SystemConfigurationHandler.Error.GetSystemConfigurations	en-US	An error occurred while querying system configurations!
 WC_SystemConfigurationHandler.Error.GetSystemConfigurations	de-DE	Bei der Abfrage der Systemkonfigurationen ist ein Fehler aufgetreten!
-WC_SystemConfigurationHandler.LogMessage	hu-HU	Naplóbejegyzés
-WC_SystemConfigurationHandler.LogMessage	en-US	Log message
-WC_SystemConfigurationHandler.LogMessage	de-DE	Tagebucheintrag
+WC_SystemConfigurationHandler.LogMessage	hu-HU	*
+WC_SystemConfigurationHandler.LogMessage	en-US	**
+WC_SystemConfigurationHandler.LogMessage	de-DE	***
 WC_SystemConfigurationHandler.LogMessage.SystemConfigurationUpdated	hu-HU	A következő rendszer konfiguráció módosítva: {0}. Új érték: {1}
 WC_SystemConfigurationHandler.LogMessage.SystemConfigurationUpdated	en-US	The following system configuration has been modified: {0}. New value: {1}
 WC_SystemConfigurationHandler.LogMessage.SystemConfigurationUpdated	de-DE	Die folgende Systemkonfiguration wurde geändert: {0}. Neuer Wert: {1}
 WC_UI_UWP_Common	hu-HU	Közös
 WC_UI_UWP_Common	en-US	Common
 WC_UI_UWP_Common	de-DE	Gemeinsame
-WC_UI_UWP_Common.Error	hu-HU	Hiba
-WC_UI_UWP_Common.Error	en-US	Error
-WC_UI_UWP_Common.Error	de-DE	Fehler
+WC_UI_UWP_Common.Error	hu-HU	*
+WC_UI_UWP_Common.Error	en-US	**
+WC_UI_UWP_Common.Error	de-DE	***
 WC_UI_UWP_Common.Error.InvalidArgument	hu-HU	A(z) {0} paraméter érvénytelen!
 WC_UI_UWP_Common.Error.InvalidArgument	en-US	The parameter '{0}' is invalid!
 WC_UI_UWP_Common.Error.InvalidArgument	de-DE	Der Parameter '{0}' ist ungültig!
-WC_UI_UWP_Common.Label	hu-HU	Címke
-WC_UI_UWP_Common.Label	en-US	Label
-WC_UI_UWP_Common.Label	de-DE	Label*
+WC_UI_UWP_Common.Label	hu-HU	*
+WC_UI_UWP_Common.Label	en-US	**
+WC_UI_UWP_Common.Label	de-DE	***
 WC_UI_UWP_Common.Label.Add	hu-HU	Hozzáad
 WC_UI_UWP_Common.Label.Add	en-US	Add
 WC_UI_UWP_Common.Label.Add	de-DE	Hinzufügen
@@ -928,9 +928,9 @@ WC_UI_UWP_Common.Label.DeleteAll	de-DE	Alles löschen
 WC_UI_UWP_Common.Label.Edit	hu-HU	Szerkeszt
 WC_UI_UWP_Common.Label.Edit	en-US	Edit
 WC_UI_UWP_Common.Label.Edit	de-DE	Bearbeiten
-WC_UI_UWP_Common.Label.Error	hu-HU	Hiba
-WC_UI_UWP_Common.Label.Error	en-US	Error
-WC_UI_UWP_Common.Label.Error	de-DE	Fehler
+WC_UI_UWP_Common.Label.Error	hu-HU	*
+WC_UI_UWP_Common.Label.Error	en-US	**
+WC_UI_UWP_Common.Label.Error	de-DE	***
 WC_UI_UWP_Common.Label.Insert	hu-HU	Beilleszt
 WC_UI_UWP_Common.Label.Insert	en-US	Insert
 WC_UI_UWP_Common.Label.Insert	de-DE	Einfügen
@@ -1015,7 +1015,7 @@ WC_UI_UWP_Common.Markers.White	de-DE	Weiss
 WC_UI_UWP_Common.Markers.Yellow	hu-HU	Sárga
 WC_UI_UWP_Common.Markers.Yellow	en-US	Yellow
 WC_UI_UWP_Common.Markers.Yellow	de-DE	Gelb
-WC_UI_UWP_Login	hu-HU	Belépés
+WC_UI_UWP_Login	hu-HU	Bejelentkezés
 WC_UI_UWP_Login	en-US	Login
 WC_UI_UWP_Login	de-DE	Anmeldung
 WC_UI_UWP_Login.Error	hu-HU	Hiba a belépés során
@@ -1064,14 +1064,14 @@ WC_UI_UWP_Menu.DiagnoseTooltip	hu-HU	Itt állíthatja össze a vizsgálat eredm�
 WC_UI_UWP_Menu.DiagnoseTooltip	en-US	Page for editing the diagnose and share the final result
 WC_UI_UWP_Menu.DiagnoseTooltip	de-DE	Seite zur Bearbeitung der Diagnose und zum Teilen des Endergebnisses
 WC_UI_UWP_Menu.Examination	hu-HU	Vizsgálat
-WC_UI_UWP_Menu.Examination	en-US	Analysis
-WC_UI_UWP_Menu.Examination	de-DE	Analyse
+WC_UI_UWP_Menu.Examination	en-US	Examination
+WC_UI_UWP_Menu.Examination	de-DE	Prüfung
 WC_UI_UWP_Menu.ExaminationTooltip	hu-HU	Itt indíthatja el a vizsgálatot és várhat a feldolgozásra
 WC_UI_UWP_Menu.ExaminationTooltip	en-US	You can start here the analysis and wait while processing
 WC_UI_UWP_Menu.ExaminationTooltip	de-DE	Sie können hier die Analyse starten und mit der Verarbeitung warten
 WC_UI_UWP_Menu.Hardware	hu-HU	Eszközök
-WC_UI_UWP_Menu.Hardware	en-US	Devices
-WC_UI_UWP_Menu.Hardware	de-DE	Geräte
+WC_UI_UWP_Menu.Hardware	en-US	Hardwares
+WC_UI_UWP_Menu.Hardware	de-DE	Werkzeuge
 WC_UI_UWP_Menu.HardwareTooltip	hu-HU	Itt nézheti meg a csatlakoztatott eszközök információit
 WC_UI_UWP_Menu.HardwareTooltip	en-US	Displays the information about connected devices
 WC_UI_UWP_Menu.HardwareTooltip	de-DE	Zeigt die Informationen über angeschlossene Geräte an
@@ -1364,8 +1364,8 @@ WC_UI_UWP_Pages.DiameterDialog.Title	hu-HU	Átmérőparaméterek
 WC_UI_UWP_Pages.DiameterDialog.Title	en-US	Diameter properties
 WC_UI_UWP_Pages.DiameterDialog.Title	de-DE	Eigenschaften des Durchmessers
 WC_UI_UWP_Pages.Examination	hu-HU	Vizsgálat
-WC_UI_UWP_Pages.Examination	en-US	Analysis
-WC_UI_UWP_Pages.Examination	de-DE	Analyse
+WC_UI_UWP_Pages.Examination	en-US	Examination
+WC_UI_UWP_Pages.Examination	de-DE	Prüfung
 WC_UI_UWP_Pages.Examination.CameraCannotRecord	hu-HU	A kamerán nem indítható el a felvétel!
 WC_UI_UWP_Pages.Examination.CameraCannotRecord	en-US	Cannot start recording on camera!
 WC_UI_UWP_Pages.Examination.CameraCannotRecord	de-DE	Die Aufnahme der Kamera kann nicht gestartet werden!
@@ -1420,15 +1420,15 @@ WC_UI_UWP_Pages.Examination.InsolePreparationError	de-DE	Fehler in der Einlegeso
 WC_UI_UWP_Pages.Examination.InsoleRecordError	hu-HU	Hiba történt a talpbetétben a felvétel indítása közben!
 WC_UI_UWP_Pages.Examination.InsoleRecordError	en-US	There was an error on the insole on starting recording
 WC_UI_UWP_Pages.Examination.InsoleRecordError	de-DE	Beim Start der Aufzeichnung trat ein Fehler auf der Einlegesohle auf
-WC_UI_UWP_Pages.Examination.Label	hu-HU	Címke
-WC_UI_UWP_Pages.Examination.Label	en-US	Label
-WC_UI_UWP_Pages.Examination.Label	de-DE	Label*
+WC_UI_UWP_Pages.Examination.Label	hu-HU	*
+WC_UI_UWP_Pages.Examination.Label	en-US	**
+WC_UI_UWP_Pages.Examination.Label	de-DE	***
 WC_UI_UWP_Pages.Examination.Label.Calibration	hu-HU	Kiválasztott kalibráció: 
 WC_UI_UWP_Pages.Examination.Label.Calibration	en-US	Selected calibration: 
 WC_UI_UWP_Pages.Examination.Label.Calibration	de-DE	Ausgewählte Kalibrierung:
-WC_UI_UWP_Pages.Examination.Label.Error	hu-HU	Hibák: 
-WC_UI_UWP_Pages.Examination.Label.Error	en-US	Errors: 
-WC_UI_UWP_Pages.Examination.Label.Error	de-DE	Irrtümer:
+WC_UI_UWP_Pages.Examination.Label.Error	hu-HU	*
+WC_UI_UWP_Pages.Examination.Label.Error	en-US	**
+WC_UI_UWP_Pages.Examination.Label.Error	de-DE	***
 WC_UI_UWP_Pages.Examination.Label.ExaminationType	hu-HU	Kiválasztott vizsgálat típus: 
 WC_UI_UWP_Pages.Examination.Label.ExaminationType	en-US	Selected examination type: 
 WC_UI_UWP_Pages.Examination.Label.ExaminationType	de-DE	Ausgewählter Untersuchungstyp:
@@ -1669,7 +1669,7 @@ WC_UI_UWP_Pages.OnlineExamination.Title	de-DE	Ganganalyse
 WC_UI_UWP_Pages.OnlineExamination.ToolTip	hu-HU	Online járásvizsgálat ...
 WC_UI_UWP_Pages.OnlineExamination.ToolTip	en-US	Real time gait analysis ...
 WC_UI_UWP_Pages.OnlineExamination.ToolTip	de-DE	Echtzeit-Ganganalyse ...
-WC_UI_UWP_Pages.Patient	hu-HU	Páciens
+WC_UI_UWP_Pages.Patient	hu-HU	Beteg
 WC_UI_UWP_Pages.Patient	en-US	Patient
 WC_UI_UWP_Pages.Patient	de-DE	Patient*
 WC_UI_UWP_Pages.Patient.AddPatient	hu-HU	Kérem adja meg az újonnan rögzítendő személy adatait!
@@ -2014,18 +2014,18 @@ WC_UI_UWP_Pages.Welcome.Title	de-DE	Willkommen
 WC_UI_UWP_Pages.Welcome.ToolTip	hu-HU	A bal oldali menü használatával előkészítheti és végrehajthatja a kívánt mozgásanalízist.
 WC_UI_UWP_Pages.Welcome.ToolTip	en-US	Please select the desired function for prepare and run the analysis
 WC_UI_UWP_Pages.Welcome.ToolTip	de-DE	Bitte wählen Sie die gewünschte Funktion zur Vorbereitung und Durchführung der Analyse
-WC_UI_Web_BodyPartProperty	hu-HU	Testrész tulajdonság
-WC_UI_Web_BodyPartProperty	en-US	Body Part Property
+WC_UI_Web_BodyPartProperty	hu-HU	Testrész tulajdonsága
+WC_UI_Web_BodyPartProperty	en-US	Body part property
 WC_UI_Web_BodyPartProperty	de-DE	Körperteil-Eigenschaft
-WC_UI_Web_BodyPartProperty.Button	hu-HU	Címke
-WC_UI_Web_BodyPartProperty.Button	en-US	Label
-WC_UI_Web_BodyPartProperty.Button	de-DE	Label*
+WC_UI_Web_BodyPartProperty.Button	hu-HU	*
+WC_UI_Web_BodyPartProperty.Button	en-US	**
+WC_UI_Web_BodyPartProperty.Button	de-DE	***
 WC_UI_Web_BodyPartProperty.Button.AddNewBodyPartProperty	hu-HU	Új testrész tulajdonság hozzáadása
 WC_UI_Web_BodyPartProperty.Button.AddNewBodyPartProperty	en-US	Add New Body Part Property
 WC_UI_Web_BodyPartProperty.Button.AddNewBodyPartProperty	de-DE	Neue Körperteileigenschaft hinzufügen
-WC_UI_Web_BodyPartProperty.Label	hu-HU	Címke
-WC_UI_Web_BodyPartProperty.Label	en-US	Label
-WC_UI_Web_BodyPartProperty.Label	de-DE	Label*
+WC_UI_Web_BodyPartProperty.Label	hu-HU	*
+WC_UI_Web_BodyPartProperty.Label	en-US	**
+WC_UI_Web_BodyPartProperty.Label	de-DE	***
 WC_UI_Web_BodyPartProperty.Label.BodyPartPropertyName	hu-HU	Testrész tulajdonság megnevezése
 WC_UI_Web_BodyPartProperty.Label.BodyPartPropertyName	en-US	Body Part Property Name
 WC_UI_Web_BodyPartProperty.Label.BodyPartPropertyName	de-DE	Körperteil Eigenschaft Name
@@ -2089,9 +2089,9 @@ WC_UI_Web_Common.Alert.SuccessfulReloadOperation	de-DE	Erfolgreiche Auffüllung
 WC_UI_Web_Common.Alert.SuccessfulUpdateOperation	hu-HU	Sikeres Frissítés
 WC_UI_Web_Common.Alert.SuccessfulUpdateOperation	en-US	Successful Update Operation
 WC_UI_Web_Common.Alert.SuccessfulUpdateOperation	de-DE	Erfolgreiches Upgrade
-WC_UI_Web_Common.Button	hu-HU	Nyomógomb
-WC_UI_Web_Common.Button	en-US	Push button
-WC_UI_Web_Common.Button	de-DE	Druckknopf
+WC_UI_Web_Common.Button	hu-HU	*
+WC_UI_Web_Common.Button	en-US	**
+WC_UI_Web_Common.Button	de-DE	***
 WC_UI_Web_Common.Button.ChangePassword	hu-HU	Jelszó Megváltoztatása
 WC_UI_Web_Common.Button.ChangePassword	en-US	Change Password
 WC_UI_Web_Common.Button.ChangePassword	de-DE	Passwort ändern
@@ -2118,7 +2118,7 @@ WC_UI_Web_Common.Button.LoadState	en-US	Load State
 WC_UI_Web_Common.Button.LoadState	de-DE	Status Laden
 WC_UI_Web_Common.Button.Login	hu-HU	Bejelentkezés
 WC_UI_Web_Common.Button.Login	en-US	Login
-WC_UI_Web_Common.Button.Login	de-DE	Einloggen unter
+WC_UI_Web_Common.Button.Login	de-DE	Anmeldung
 WC_UI_Web_Common.Button.No	hu-HU	Nem
 WC_UI_Web_Common.Button.No	en-US	No
 WC_UI_Web_Common.Button.No	de-DE	Nein
@@ -2197,9 +2197,9 @@ WC_UI_Web_Common.GridActionButtons.Suspend	de-DE	aussetzen.
 WC_UI_Web_Common.GridActionButtons.UpdateRecord	hu-HU	Bejegyzés Frissítése
 WC_UI_Web_Common.GridActionButtons.UpdateRecord	en-US	Update Record
 WC_UI_Web_Common.GridActionButtons.UpdateRecord	de-DE	Diesen Eintrag aktualisieren
-WC_UI_Web_Common.Label	hu-HU	Címke
-WC_UI_Web_Common.Label	en-US	Label
-WC_UI_Web_Common.Label	de-DE	Label*
+WC_UI_Web_Common.Label	hu-HU	*
+WC_UI_Web_Common.Label	en-US	**
+WC_UI_Web_Common.Label	de-DE	***
 WC_UI_Web_Common.Label.ClearFilters	hu-HU	Szűrők Törlése
 WC_UI_Web_Common.Label.ClearFilters	en-US	Clear Filters
 WC_UI_Web_Common.Label.ClearFilters	de-DE	Filter löschen
@@ -2362,15 +2362,15 @@ WC_UI_Web_Common.SelectChooseCaption.SelectWebMenu	de-DE	Webmenü auswählen
 WC_UI_Web_Examination	hu-HU	Vizsgálat
 WC_UI_Web_Examination	en-US	Examination
 WC_UI_Web_Examination	de-DE	Prüfung
-WC_UI_Web_Examination.Button	hu-HU	Lap fejléce
-WC_UI_Web_Examination.Button	en-US	Page header
-WC_UI_Web_Examination.Button	de-DE	Kopfzeile der Seite
+WC_UI_Web_Examination.Button	hu-HU	*
+WC_UI_Web_Examination.Button	en-US	**
+WC_UI_Web_Examination.Button	de-DE	***
 WC_UI_Web_Examination.Button.AddNewExamination	hu-HU	Új vizsgálat hozzáadása
 WC_UI_Web_Examination.Button.AddNewExamination	en-US	Add new examination
 WC_UI_Web_Examination.Button.AddNewExamination	de-DE	Einen neuen Test hinzufügen
-WC_UI_Web_Examination.Label	hu-HU	Címke
-WC_UI_Web_Examination.Label	en-US	Label
-WC_UI_Web_Examination.Label	de-DE	Label*
+WC_UI_Web_Examination.Label	hu-HU	*
+WC_UI_Web_Examination.Label	en-US	**
+WC_UI_Web_Examination.Label	de-DE	***
 WC_UI_Web_Examination.Label.CalibrationDataArray	hu-HU	Kalibrációs adatok
 WC_UI_Web_Examination.Label.CalibrationDataArray	en-US	Calibration Data
 WC_UI_Web_Examination.Label.CalibrationDataArray	de-DE	Kalibrierungsdaten
@@ -2462,8 +2462,8 @@ WC_UI_Web_Examination.Label.ModificationDateTo	hu-HU	A módosítás végdátuma
 WC_UI_Web_Examination.Label.ModificationDateTo	en-US	Modification date to
 WC_UI_Web_Examination.Label.ModificationDateTo	de-DE	Enddatum der Änderung
 WC_UI_Web_Examination.Label.Organization	hu-HU	Szervezet
-WC_UI_Web_Examination.Label.Organization	en-US	Organization
-WC_UI_Web_Examination.Label.Organization	de-DE	Organisation
+WC_UI_Web_Examination.Label.Organization	en-US	Organisation
+WC_UI_Web_Examination.Label.Organization	de-DE	Organization
 WC_UI_Web_Examination.Label.OrganizationLocationId	hu-HU	Szervezet helye
 WC_UI_Web_Examination.Label.OrganizationLocationId	en-US	Organization location
 WC_UI_Web_Examination.Label.OrganizationLocationId	de-DE	Standort der Organisation
@@ -2560,9 +2560,9 @@ WC_UI_Web_Examination.PageHeader.UpdateExamination	de-DE	Modifizierung der Studi
 WC_UI_Web_Exception	hu-HU	Kivétel
 WC_UI_Web_Exception	en-US	Exception
 WC_UI_Web_Exception	de-DE	Ausnahme
-WC_UI_Web_Exception.Button	hu-HU	Nyomógomb
-WC_UI_Web_Exception.Button	en-US	Pushbutton
-WC_UI_Web_Exception.Button	de-DE	Druckknopf
+WC_UI_Web_Exception.Button	hu-HU	*
+WC_UI_Web_Exception.Button	en-US	**
+WC_UI_Web_Exception.Button	de-DE	***
 WC_UI_Web_Exception.Button.GoToLoginPage	hu-HU	Lejárt a munkamenet, kattintson ide a bejelentkezéshez!
 WC_UI_Web_Exception.Button.GoToLoginPage	en-US	Your session is expired, click here to login again!
 WC_UI_Web_Exception.Button.GoToLoginPage	de-DE	Sitzung geschlossen, klicken Sie hier, um sich einzuloggen!
@@ -2581,9 +2581,9 @@ WC_UI_Web_Globalization.Alert	de-DE	Alarmierung
 WC_UI_Web_Globalization.Alert.DatabaseIsUpToDate	hu-HU	Az adatbázis naprakész!
 WC_UI_Web_Globalization.Alert.DatabaseIsUpToDate	en-US	Database is up to date!
 WC_UI_Web_Globalization.Alert.DatabaseIsUpToDate	de-DE	Die Datenbank ist auf dem neuesten Stand!
-WC_UI_Web_Globalization.Button	hu-HU	Nyomógomb
-WC_UI_Web_Globalization.Button	en-US	Pushbutton
-WC_UI_Web_Globalization.Button	de-DE	Druckknopf
+WC_UI_Web_Globalization.Button	hu-HU	*
+WC_UI_Web_Globalization.Button	en-US	**
+WC_UI_Web_Globalization.Button	de-DE	***
 WC_UI_Web_Globalization.Button.UpdateDatabase	hu-HU	Adatbázis frissítése
 WC_UI_Web_Globalization.Button.UpdateDatabase	en-US	Update database
 WC_UI_Web_Globalization.Button.UpdateDatabase	de-DE	Aktualisierung der Datenbank
@@ -2629,9 +2629,9 @@ WC_UI_Web_Hardware.AWB.SUNLIGHT	de-DE	Sonnig
 WC_UI_Web_Hardware.AWB.TUNGSTEN	hu-HU	Halogén
 WC_UI_Web_Hardware.AWB.TUNGSTEN	en-US	Tungsten
 WC_UI_Web_Hardware.AWB.TUNGSTEN	de-DE	Halogenlampe
-WC_UI_Web_Hardware.Button	hu-HU	Nyomógomb
-WC_UI_Web_Hardware.Button	en-US	Button
-WC_UI_Web_Hardware.Button	de-DE	Druckknopf
+WC_UI_Web_Hardware.Button	hu-HU	*
+WC_UI_Web_Hardware.Button	en-US	**
+WC_UI_Web_Hardware.Button	de-DE	***
 WC_UI_Web_Hardware.Button.AddNewHardware	hu-HU	Új eszköz hozzáadása
 WC_UI_Web_Hardware.Button.AddNewHardware	en-US	Add New Hardware
 WC_UI_Web_Hardware.Button.AddNewHardware	de-DE	Neue Hardware hinzufügen
@@ -2662,9 +2662,9 @@ WC_UI_Web_Hardware.CameraParameters.Saturation	de-DE	Sättigung
 WC_UI_Web_Hardware.CameraParameters.Title	hu-HU	Kamera paraméterek
 WC_UI_Web_Hardware.CameraParameters.Title	en-US	Camera parameters
 WC_UI_Web_Hardware.CameraParameters.Title	de-DE	Kamera parameter
-WC_UI_Web_Hardware.Label	hu-HU	Camke
-WC_UI_Web_Hardware.Label	en-US	Label
-WC_UI_Web_Hardware.Label	de-DE	Label*
+WC_UI_Web_Hardware.Label	hu-HU	*
+WC_UI_Web_Hardware.Label	en-US	**
+WC_UI_Web_Hardware.Label	de-DE	***
 WC_UI_Web_Hardware.Label.Active	hu-HU	Aktív
 WC_UI_Web_Hardware.Label.Active	en-US	Active
 WC_UI_Web_Hardware.Label.Active	de-DE	Vermögen
@@ -2677,15 +2677,15 @@ WC_UI_Web_Hardware.Label.HardwareId	de-DE	Kennung des Geräts
 WC_UI_Web_Hardware.Label.HardwareName	hu-HU	Eszköz neve
 WC_UI_Web_Hardware.Label.HardwareName	en-US	Hardware name
 WC_UI_Web_Hardware.Label.HardwareName	de-DE	Name des Geräts
-WC_UI_Web_Hardware.Label.HardwareType	hu-HU	Eszköz típusa
+WC_UI_Web_Hardware.Label.HardwareType	hu-HU	Eszköztípus
 WC_UI_Web_Hardware.Label.HardwareType	en-US	Hardware type
-WC_UI_Web_Hardware.Label.HardwareType	de-DE	Typ des Geräts
+WC_UI_Web_Hardware.Label.HardwareType	de-DE	Gerätetyp
 WC_UI_Web_Hardware.Label.IdentityNumber	hu-HU	Azonosítószám
 WC_UI_Web_Hardware.Label.IdentityNumber	en-US	Identity number
 WC_UI_Web_Hardware.Label.IdentityNumber	de-DE	Identifikationsnummer
 WC_UI_Web_Hardware.Label.Organization	hu-HU	Szervezet
-WC_UI_Web_Hardware.Label.Organization	en-US	Organization
-WC_UI_Web_Hardware.Label.Organization	de-DE	Organisation
+WC_UI_Web_Hardware.Label.Organization	en-US	Organisation
+WC_UI_Web_Hardware.Label.Organization	de-DE	Organization
 WC_UI_Web_Hardware.Label.OrganizationLocation	hu-HU	Szervezet helye
 WC_UI_Web_Hardware.Label.OrganizationLocation	en-US	Organization location
 WC_UI_Web_Hardware.Label.OrganizationLocation	de-DE	Standort der Organisation
@@ -2761,24 +2761,24 @@ WC_UI_Web_HardwareUpdate.PageHeader.UpdateHardwareUpdate	de-DE	Update The Hardwa
 WC_UI_Web_Header	hu-HU	
 WC_UI_Web_Header	en-US	
 WC_UI_Web_Header	de-DE	
-WC_UI_Web_Header.Label	hu-HU	
-WC_UI_Web_Header.Label	en-US	
-WC_UI_Web_Header.Label	de-DE	
+WC_UI_Web_Header.Label	hu-HU	*
+WC_UI_Web_Header.Label	en-US	**
+WC_UI_Web_Header.Label	de-DE	***
 WC_UI_Web_Header.Label.Dashboard	hu-HU	Dashboard
 WC_UI_Web_Header.Label.Dashboard	en-US	Dashboard
 WC_UI_Web_Header.Label.Dashboard	de-DE	Dashboard
-WC_UI_Web_Header.Label.Hardwares	hu-HU	Hardwares
+WC_UI_Web_Header.Label.Hardwares	hu-HU	Eszközök
 WC_UI_Web_Header.Label.Hardwares	en-US	Hardwares
-WC_UI_Web_Header.Label.Hardwares	de-DE	Hardwares
+WC_UI_Web_Header.Label.Hardwares	de-DE	Werkzeuge
 WC_UI_Web_Header.Label.Hello	hu-HU	Hello
 WC_UI_Web_Header.Label.Hello	en-US	Hello
 WC_UI_Web_Header.Label.Hello	de-DE	Hello
 WC_UI_Web_Header.Label.LockAccount	hu-HU	Lock Account
 WC_UI_Web_Header.Label.LockAccount	en-US	Lock Account
 WC_UI_Web_Header.Label.LockAccount	de-DE	Lock Account
-WC_UI_Web_Header.Label.Logout	hu-HU	Logout
+WC_UI_Web_Header.Label.Logout	hu-HU	Kijelentkezés
 WC_UI_Web_Header.Label.Logout	en-US	Logout
-WC_UI_Web_Header.Label.Logout	de-DE	Logout
+WC_UI_Web_Header.Label.Logout	de-DE	Abmeldung
 WC_UI_Web_Header.Label.Organizations	hu-HU	Organizations
 WC_UI_Web_Header.Label.Organizations	en-US	Organizations
 WC_UI_Web_Header.Label.Organizations	de-DE	Organizations
@@ -2797,21 +2797,21 @@ WC_UI_Web_Header.Label.Settings	de-DE	Settings
 WC_UI_Web_Header.Label.Users	hu-HU	Users
 WC_UI_Web_Header.Label.Users	en-US	Users
 WC_UI_Web_Header.Label.Users	de-DE	Users
-WC_UI_Web_Home	hu-HU	
-WC_UI_Web_Home	en-US	
-WC_UI_Web_Home	de-DE	
-WC_UI_Web_Home.Button	hu-HU	
-WC_UI_Web_Home.Button	en-US	
-WC_UI_Web_Home.Button	de-DE	
+WC_UI_Web_Home	hu-HU	*
+WC_UI_Web_Home	en-US	**
+WC_UI_Web_Home	de-DE	***
+WC_UI_Web_Home.Button	hu-HU	*
+WC_UI_Web_Home.Button	en-US	**
+WC_UI_Web_Home.Button	de-DE	***
 WC_UI_Web_Home.Button.CreateRow	hu-HU	Create Row
 WC_UI_Web_Home.Button.CreateRow	en-US	Create Row
 WC_UI_Web_Home.Button.CreateRow	de-DE	Create Row
 WC_UI_Web_Home.Button.Save	hu-HU	Save
 WC_UI_Web_Home.Button.Save	en-US	Save
 WC_UI_Web_Home.Button.Save	de-DE	Save
-WC_UI_Web_Home.Label	hu-HU	
-WC_UI_Web_Home.Label	en-US	
-WC_UI_Web_Home.Label	de-DE	
+WC_UI_Web_Home.Label	hu-HU	*
+WC_UI_Web_Home.Label	en-US	**
+WC_UI_Web_Home.Label	de-DE	***
 WC_UI_Web_Home.Label.AnalysisInThisMonth	hu-HU	Analysis In This Month
 WC_UI_Web_Home.Label.AnalysisInThisMonth	en-US	Analysis In This Month
 WC_UI_Web_Home.Label.AnalysisInThisMonth	de-DE	Analysis In This Month
@@ -2836,15 +2836,15 @@ WC_UI_Web_Home.Label.ExaminationDate	de-DE	Examination Date
 WC_UI_Web_Home.Label.ExaminationDetails	hu-HU	Examination Details
 WC_UI_Web_Home.Label.ExaminationDetails	en-US	Examination Details
 WC_UI_Web_Home.Label.ExaminationDetails	de-DE	Examination Details
-WC_UI_Web_Home.Label.ExaminationType	hu-HU	Examination Type
-WC_UI_Web_Home.Label.ExaminationType	en-US	Examination Type
-WC_UI_Web_Home.Label.ExaminationType	de-DE	Examination Type
-WC_UI_Web_Home.Label.FootPressureExam	hu-HU	Foot Pressure Exam
-WC_UI_Web_Home.Label.FootPressureExam	en-US	Foot Pressure Exam
-WC_UI_Web_Home.Label.FootPressureExam	de-DE	Foot Pressure Exam
-WC_UI_Web_Home.Label.Hardwares	hu-HU	Hardwares
+WC_UI_Web_Home.Label.ExaminationType	hu-HU	Vizsgálattípus
+WC_UI_Web_Home.Label.ExaminationType	en-US	Examination type
+WC_UI_Web_Home.Label.ExaminationType	de-DE	Prüfungstyp
+WC_UI_Web_Home.Label.FootPressureExam	hu-HU	Talpnyomás vizsgálat
+WC_UI_Web_Home.Label.FootPressureExam	en-US	Foot pressure exam
+WC_UI_Web_Home.Label.FootPressureExam	de-DE	Fußdrucktest
+WC_UI_Web_Home.Label.Hardwares	hu-HU	Eszközök
 WC_UI_Web_Home.Label.Hardwares	en-US	Hardwares
-WC_UI_Web_Home.Label.Hardwares	de-DE	Hardwares
+WC_UI_Web_Home.Label.Hardwares	de-DE	Werkzeuge
 WC_UI_Web_Home.Label.LastAnalysis	hu-HU	Last Analysis
 WC_UI_Web_Home.Label.LastAnalysis	en-US	Last Analysis
 WC_UI_Web_Home.Label.LastAnalysis	de-DE	Last Analysis
@@ -2869,32 +2869,32 @@ WC_UI_Web_Home.Label.Patients	de-DE	Patients
 WC_UI_Web_Home.Label.Users	hu-HU	Users
 WC_UI_Web_Home.Label.Users	en-US	Users
 WC_UI_Web_Home.Label.Users	de-DE	Users
-WC_UI_Web_Home.Label.WalkingExam	hu-HU	Walking Exam
-WC_UI_Web_Home.Label.WalkingExam	en-US	Walking Exam
-WC_UI_Web_Home.Label.WalkingExam	de-DE	Walking Exam
+WC_UI_Web_Home.Label.WalkingExam	hu-HU	Komplex járáselemzés
+WC_UI_Web_Home.Label.WalkingExam	en-US	Complex gait analysis
+WC_UI_Web_Home.Label.WalkingExam	de-DE	Komplexe Ganganalyse
 WC_UI_Web_Home.PageHeader	hu-HU	
 WC_UI_Web_Home.PageHeader	en-US	
 WC_UI_Web_Home.PageHeader	de-DE	
 WC_UI_Web_Home.PageHeader.HomePage	hu-HU	Home Page
 WC_UI_Web_Home.PageHeader.HomePage	en-US	Home Page
 WC_UI_Web_Home.PageHeader.HomePage	de-DE	Home Page
-WC_UI_Web_License	hu-HU	
-WC_UI_Web_License	en-US	
-WC_UI_Web_License	de-DE	
-WC_UI_Web_License.Button	hu-HU	
-WC_UI_Web_License.Button	en-US	
-WC_UI_Web_License.Button	de-DE	
+WC_UI_Web_License	hu-HU	*
+WC_UI_Web_License	en-US	**
+WC_UI_Web_License	de-DE	***
+WC_UI_Web_License.Button	hu-HU	*
+WC_UI_Web_License.Button	en-US	**
+WC_UI_Web_License.Button	de-DE	***
 WC_UI_Web_License.Button.AddNewLicense	hu-HU	Add New License
 WC_UI_Web_License.Button.AddNewLicense	en-US	Add New License
 WC_UI_Web_License.Button.AddNewLicense	de-DE	Add New License
-WC_UI_Web_License.Label	hu-HU	
-WC_UI_Web_License.Label	en-US	
-WC_UI_Web_License.Label	de-DE	
+WC_UI_Web_License.Label	hu-HU	*
+WC_UI_Web_License.Label	en-US	**
+WC_UI_Web_License.Label	de-DE	***
 WC_UI_Web_License.Label.MaxNumberOfUsers	hu-HU	Max Number Of Users
 WC_UI_Web_License.Label.MaxNumberOfUsers	en-US	Max Number Of Users
 WC_UI_Web_License.Label.MaxNumberOfUsers	de-DE	Max Number Of Users
-WC_UI_Web_License.Label.Organization	hu-HU	Organization
-WC_UI_Web_License.Label.Organization	en-US	Organization
+WC_UI_Web_License.Label.Organization	hu-HU	Szervezet
+WC_UI_Web_License.Label.Organization	en-US	Organisation
 WC_UI_Web_License.Label.Organization	de-DE	Organization
 WC_UI_Web_License.PageHeader	hu-HU	
 WC_UI_Web_License.PageHeader	en-US	
@@ -2914,9 +2914,9 @@ WC_UI_Web_License.PageHeader.ListOfLicenses	de-DE	List Of Licenses
 WC_UI_Web_License.PageHeader.UpdateLicense	hu-HU	Update The License
 WC_UI_Web_License.PageHeader.UpdateLicense	en-US	Update The License
 WC_UI_Web_License.PageHeader.UpdateLicense	de-DE	Update The License
-WC_UI_Web_Login	hu-HU	
-WC_UI_Web_Login	en-US	
-WC_UI_Web_Login	de-DE	
+WC_UI_Web_Login	hu-HU	Bejelentkezés
+WC_UI_Web_Login	en-US	Login
+WC_UI_Web_Login	de-DE	Anmeldung
 WC_UI_Web_Login.Labels	hu-HU	
 WC_UI_Web_Login.Labels	en-US	
 WC_UI_Web_Login.Labels	de-DE	
@@ -2926,9 +2926,9 @@ WC_UI_Web_Login.Labels.Password	de-DE	Password
 WC_UI_Web_Login.Labels.Username	hu-HU	Felhasználónév
 WC_UI_Web_Login.Labels.Username	en-US	Username
 WC_UI_Web_Login.Labels.Username	de-DE	Username
-WC_UI_Web_Login.Message	hu-HU	
-WC_UI_Web_Login.Message	en-US	
-WC_UI_Web_Login.Message	de-DE	
+WC_UI_Web_Login.Message	hu-HU	*
+WC_UI_Web_Login.Message	en-US	**
+WC_UI_Web_Login.Message	de-DE	***
 WC_UI_Web_Login.Message.Redirecting	hu-HU	Átiránytás, Kérem Várjon ...
 WC_UI_Web_Login.Message.Redirecting	en-US	Redirecting, Please wait ...
 WC_UI_Web_Login.Message.Redirecting	de-DE	Redirecting, Please wait ...
@@ -2938,12 +2938,12 @@ WC_UI_Web_Login.PageHeader	de-DE
 WC_UI_Web_Login.PageHeader.Hello	hu-HU	Hello!
 WC_UI_Web_Login.PageHeader.Hello	en-US	Hello!
 WC_UI_Web_Login.PageHeader.Hello	de-DE	Hello!
-WC_UI_Web_Organization	hu-HU	
-WC_UI_Web_Organization	en-US	
-WC_UI_Web_Organization	de-DE	
-WC_UI_Web_Organization.Button	hu-HU	
-WC_UI_Web_Organization.Button	en-US	
-WC_UI_Web_Organization.Button	de-DE	
+WC_UI_Web_Organization	hu-HU	Szervezet
+WC_UI_Web_Organization	en-US	Organisation
+WC_UI_Web_Organization	de-DE	Organization
+WC_UI_Web_Organization.Button	hu-HU	*
+WC_UI_Web_Organization.Button	en-US	**
+WC_UI_Web_Organization.Button	de-DE	***
 WC_UI_Web_Organization.Button.AddNewOrganization	hu-HU	Új Szerep
 WC_UI_Web_Organization.Button.AddNewOrganization	en-US	Add New Organization
 WC_UI_Web_Organization.Button.AddNewOrganization	de-DE	Add New Organization
@@ -2953,15 +2953,15 @@ WC_UI_Web_Organization.FieldSet	de-DE
 WC_UI_Web_Organization.FieldSet.AdminUser	hu-HU	Admin User
 WC_UI_Web_Organization.FieldSet.AdminUser	en-US	Admin User
 WC_UI_Web_Organization.FieldSet.AdminUser	de-DE	Admin User
-WC_UI_Web_Organization.FieldSet.License	hu-HU	License
+WC_UI_Web_Organization.FieldSet.License	hu-HU	Licenc
 WC_UI_Web_Organization.FieldSet.License	en-US	License
-WC_UI_Web_Organization.FieldSet.License	de-DE	License
-WC_UI_Web_Organization.FieldSet.Organization	hu-HU	Szerep
-WC_UI_Web_Organization.FieldSet.Organization	en-US	Organization
+WC_UI_Web_Organization.FieldSet.License	de-DE	Lizenz
+WC_UI_Web_Organization.FieldSet.Organization	hu-HU	Szervezet
+WC_UI_Web_Organization.FieldSet.Organization	en-US	Organisation
 WC_UI_Web_Organization.FieldSet.Organization	de-DE	Organization
-WC_UI_Web_Organization.Label	hu-HU	
-WC_UI_Web_Organization.Label	en-US	
-WC_UI_Web_Organization.Label	de-DE	
+WC_UI_Web_Organization.Label	hu-HU	*
+WC_UI_Web_Organization.Label	en-US	**
+WC_UI_Web_Organization.Label	de-DE	***
 WC_UI_Web_Organization.Label.Comments	hu-HU	Leírás
 WC_UI_Web_Organization.Label.Comments	en-US	Comments
 WC_UI_Web_Organization.Label.Comments	de-DE	Comments
@@ -3010,18 +3010,18 @@ WC_UI_Web_Organization.PageHeader.UpdateOrganization	de-DE	Update The Organizati
 WC_UI_Web_Organization.PageHeader.UpdateUser	hu-HU	Update User
 WC_UI_Web_Organization.PageHeader.UpdateUser	en-US	Update User
 WC_UI_Web_Organization.PageHeader.UpdateUser	de-DE	Update User
-WC_UI_Web_Patient	hu-HU	
-WC_UI_Web_Patient	en-US	
-WC_UI_Web_Patient	de-DE	
-WC_UI_Web_Patient.Button	hu-HU	
-WC_UI_Web_Patient.Button	en-US	
-WC_UI_Web_Patient.Button	de-DE	
+WC_UI_Web_Patient	hu-HU	Beteg
+WC_UI_Web_Patient	en-US	Patient
+WC_UI_Web_Patient	de-DE	Patient*
+WC_UI_Web_Patient.Button	hu-HU	*
+WC_UI_Web_Patient.Button	en-US	**
+WC_UI_Web_Patient.Button	de-DE	***
 WC_UI_Web_Patient.Button.AddNewPatient	hu-HU	Add New Patient
 WC_UI_Web_Patient.Button.AddNewPatient	en-US	Add New Patient
 WC_UI_Web_Patient.Button.AddNewPatient	de-DE	Add New Patient
-WC_UI_Web_Patient.Label	hu-HU	
-WC_UI_Web_Patient.Label	en-US	
-WC_UI_Web_Patient.Label	de-DE	
+WC_UI_Web_Patient.Label	hu-HU	*
+WC_UI_Web_Patient.Label	en-US	**
+WC_UI_Web_Patient.Label	de-DE	***
 WC_UI_Web_Patient.Label.Address	hu-HU	Address
 WC_UI_Web_Patient.Label.Address	en-US	Address
 WC_UI_Web_Patient.Label.Address	de-DE	Address
@@ -3085,39 +3085,39 @@ WC_UI_Web_Patient.PageHeader.PatientDetails	de-DE	Patient Details
 WC_UI_Web_Patient.PageHeader.UpdatePatient	hu-HU	Update The Patient
 WC_UI_Web_Patient.PageHeader.UpdatePatient	en-US	Update The Patient
 WC_UI_Web_Patient.PageHeader.UpdatePatient	de-DE	Update The Patient
-WC_UI_Web_QueryOption	hu-HU	
-WC_UI_Web_QueryOption	en-US	
-WC_UI_Web_QueryOption	de-DE	
-WC_UI_Web_QueryOption.Button	hu-HU	
-WC_UI_Web_QueryOption.Button	en-US	
-WC_UI_Web_QueryOption.Button	de-DE	
+WC_UI_Web_QueryOption	hu-HU	Lekérdezési lehetőség
+WC_UI_Web_QueryOption	en-US	Query option
+WC_UI_Web_QueryOption	de-DE	Auskunftsmöglichkeit
+WC_UI_Web_QueryOption.Button	hu-HU	*
+WC_UI_Web_QueryOption.Button	en-US	**
+WC_UI_Web_QueryOption.Button	de-DE	***
 WC_UI_Web_QueryOption.Button.AddNewQueryOption	hu-HU	Add New Query Option
 WC_UI_Web_QueryOption.Button.AddNewQueryOption	en-US	Add New Query Option
 WC_UI_Web_QueryOption.Button.AddNewQueryOption	de-DE	Add New Query Option
 WC_UI_Web_QueryOption.Button.LoadState	hu-HU	Load State
 WC_UI_Web_QueryOption.Button.LoadState	en-US	Load State
 WC_UI_Web_QueryOption.Button.LoadState	de-DE	Load State
-WC_UI_Web_QueryOption.Label	hu-HU	
-WC_UI_Web_QueryOption.Label	en-US	
-WC_UI_Web_QueryOption.Label	de-DE	
+WC_UI_Web_QueryOption.Label	hu-HU	*
+WC_UI_Web_QueryOption.Label	en-US	**
+WC_UI_Web_QueryOption.Label	de-DE	***
 WC_UI_Web_QueryOption.Label.Calendar	hu-HU	Calendar
 WC_UI_Web_QueryOption.Label.Calendar	en-US	Calendar
 WC_UI_Web_QueryOption.Label.Calendar	de-DE	Calendar
 WC_UI_Web_QueryOption.Label.Comments	hu-HU	Comments
 WC_UI_Web_QueryOption.Label.Comments	en-US	Comments
 WC_UI_Web_QueryOption.Label.Comments	de-DE	Comments
-WC_UI_Web_QueryOption.Label.Examination	hu-HU	Examination
+WC_UI_Web_QueryOption.Label.Examination	hu-HU	Vizsgálat
 WC_UI_Web_QueryOption.Label.Examination	en-US	Examination
-WC_UI_Web_QueryOption.Label.Examination	de-DE	Examination
-WC_UI_Web_QueryOption.Label.Hardware	hu-HU	Hardware
+WC_UI_Web_QueryOption.Label.Examination	de-DE	Prüfung
+WC_UI_Web_QueryOption.Label.Hardware	hu-HU	Eszköz
 WC_UI_Web_QueryOption.Label.Hardware	en-US	Hardware
-WC_UI_Web_QueryOption.Label.Hardware	de-DE	Hardware
-WC_UI_Web_QueryOption.Label.Organization	hu-HU	Organization
-WC_UI_Web_QueryOption.Label.Organization	en-US	Organization
+WC_UI_Web_QueryOption.Label.Hardware	de-DE	Werkzeug
+WC_UI_Web_QueryOption.Label.Organization	hu-HU	Szervezet
+WC_UI_Web_QueryOption.Label.Organization	en-US	Organisation
 WC_UI_Web_QueryOption.Label.Organization	de-DE	Organization
-WC_UI_Web_QueryOption.Label.Patient	hu-HU	Patient
+WC_UI_Web_QueryOption.Label.Patient	hu-HU	Beteg
 WC_UI_Web_QueryOption.Label.Patient	en-US	Patient
-WC_UI_Web_QueryOption.Label.Patient	de-DE	Patient
+WC_UI_Web_QueryOption.Label.Patient	de-DE	Patient*
 WC_UI_Web_QueryOption.Label.QueryOptionName	hu-HU	Query Option Name
 WC_UI_Web_QueryOption.Label.QueryOptionName	en-US	Query Option Name
 WC_UI_Web_QueryOption.Label.QueryOptionName	de-DE	Query Option Name
@@ -3151,18 +3151,18 @@ WC_UI_Web_QueryOption.PageHeader.UpdateQueryOption	de-DE	Update The Query Option
 WC_UI_Web_QueryOption.PageHeader.UpdateTheCurrentState	hu-HU	Update the current state
 WC_UI_Web_QueryOption.PageHeader.UpdateTheCurrentState	en-US	Update the current state
 WC_UI_Web_QueryOption.PageHeader.UpdateTheCurrentState	de-DE	Update the current state
-WC_UI_Web_Role	hu-HU	
-WC_UI_Web_Role	en-US	
-WC_UI_Web_Role	de-DE	
-WC_UI_Web_Role.Button	hu-HU	
-WC_UI_Web_Role.Button	en-US	
-WC_UI_Web_Role.Button	de-DE	
+WC_UI_Web_Role	hu-HU	Szerepkör
+WC_UI_Web_Role	en-US	Role
+WC_UI_Web_Role	de-DE	Rolle
+WC_UI_Web_Role.Button	hu-HU	*
+WC_UI_Web_Role.Button	en-US	**
+WC_UI_Web_Role.Button	de-DE	***
 WC_UI_Web_Role.Button.AddNewRole	hu-HU	Új Szerep
 WC_UI_Web_Role.Button.AddNewRole	en-US	Add New Role
 WC_UI_Web_Role.Button.AddNewRole	de-DE	Add New Role
-WC_UI_Web_Role.Label	hu-HU	
-WC_UI_Web_Role.Label	en-US	
-WC_UI_Web_Role.Label	de-DE	
+WC_UI_Web_Role.Label	hu-HU	*
+WC_UI_Web_Role.Label	en-US	**
+WC_UI_Web_Role.Label	de-DE	***
 WC_UI_Web_Role.Label.Description	hu-HU	Leírás
 WC_UI_Web_Role.Label.Description	en-US	Description
 WC_UI_Web_Role.Label.Description	de-DE	Description
@@ -3196,18 +3196,18 @@ WC_UI_Web_Role.PageHeader.RoleDetails	de-DE	Role Details
 WC_UI_Web_Role.PageHeader.UpdateRole	hu-HU	Szerep Frissítése
 WC_UI_Web_Role.PageHeader.UpdateRole	en-US	Update The Role
 WC_UI_Web_Role.PageHeader.UpdateRole	de-DE	Update The Role
-WC_UI_Web_User	hu-HU	
-WC_UI_Web_User	en-US	
-WC_UI_Web_User	de-DE	
-WC_UI_Web_User.Button	hu-HU	
-WC_UI_Web_User.Button	en-US	
-WC_UI_Web_User.Button	de-DE	
+WC_UI_Web_User	hu-HU	Felhasználó
+WC_UI_Web_User	en-US	User
+WC_UI_Web_User	de-DE	Benutzer
+WC_UI_Web_User.Button	hu-HU	*
+WC_UI_Web_User.Button	en-US	**
+WC_UI_Web_User.Button	de-DE	***
 WC_UI_Web_User.Button.AddNewUser	hu-HU	Új Felhasználó
 WC_UI_Web_User.Button.AddNewUser	en-US	Add New User
 WC_UI_Web_User.Button.AddNewUser	de-DE	Add New User
-WC_UI_Web_User.Label	hu-HU	
-WC_UI_Web_User.Label	en-US	
-WC_UI_Web_User.Label	de-DE	
+WC_UI_Web_User.Label	hu-HU	*
+WC_UI_Web_User.Label	en-US	**
+WC_UI_Web_User.Label	de-DE	***
 WC_UI_Web_User.Label.Active	hu-HU	Aktív
 WC_UI_Web_User.Label.Active	en-US	Active
 WC_UI_Web_User.Label.Active	de-DE	Active
@@ -3298,9 +3298,9 @@ WC_UI_Web_Validation.RequiredErrorMessage	de-DE	This field is required
 WC_UserManager	hu-HU	
 WC_UserManager	en-US	
 WC_UserManager	de-DE	
-WC_UserManager.CommonLogType	hu-HU	
-WC_UserManager.CommonLogType	en-US	
-WC_UserManager.CommonLogType	de-DE	
+WC_UserManager.CommonLogType	hu-HU	*
+WC_UserManager.CommonLogType	en-US	**
+WC_UserManager.CommonLogType	de-DE	***
 WC_UserManager.CommonLogType.ChangeUserPassword	hu-HU	Felhasználó jelszavának módosítása
 WC_UserManager.CommonLogType.ChangeUserPassword	en-US	
 WC_UserManager.CommonLogType.ChangeUserPassword	de-DE	
@@ -3316,9 +3316,9 @@ WC_UserManager.CommonLogType.UpdateUser	de-DE
 WC_UserManager.CommonLogType.UpdateUserRoleList	hu-HU	Felhasználóhoz tartozó szerepkörök módosítása
 WC_UserManager.CommonLogType.UpdateUserRoleList	en-US	
 WC_UserManager.CommonLogType.UpdateUserRoleList	de-DE	
-WC_UserManager.Error	hu-HU	
-WC_UserManager.Error	en-US	
-WC_UserManager.Error	de-DE	
+WC_UserManager.Error	hu-HU	*
+WC_UserManager.Error	en-US	**
+WC_UserManager.Error	de-DE	***
 WC_UserManager.Error.ChangeUserPassword	hu-HU	Hiba történt a felhasználó jelszavának módosítása közben.
 WC_UserManager.Error.ChangeUserPassword	en-US	
 WC_UserManager.Error.ChangeUserPassword	de-DE	
@@ -3334,9 +3334,9 @@ WC_UserManager.Error.UpdateUser	de-DE
 WC_UserManager.Error.UpdateUserRoleList	hu-HU	Hiba történt a felhasználóhoz tartozó szerepkörök módosítása közben.
 WC_UserManager.Error.UpdateUserRoleList	en-US	
 WC_UserManager.Error.UpdateUserRoleList	de-DE	
-WC_UserManager.LogMessage	hu-HU	
-WC_UserManager.LogMessage	en-US	
-WC_UserManager.LogMessage	de-DE	
+WC_UserManager.LogMessage	hu-HU	*
+WC_UserManager.LogMessage	en-US	**
+WC_UserManager.LogMessage	de-DE	***
 WC_UserManager.LogMessage.LockedoutRemoved	hu-HU	A kizárást feloldották a következő felhasználónál: {0}
 WC_UserManager.LogMessage.LockedoutRemoved	en-US	
 WC_UserManager.LogMessage.LockedoutRemoved	de-DE	
@@ -3355,9 +3355,9 @@ WC_UserManager.LogMessage.UserUpdated	de-DE
 WC_Validation	hu-HU	
 WC_Validation	en-US	
 WC_Validation	de-DE	
-WC_Validation.Error	hu-HU	
-WC_Validation.Error	en-US	
-WC_Validation.Error	de-DE	
+WC_Validation.Error	hu-HU	*
+WC_Validation.Error	en-US	**
+WC_Validation.Error	de-DE	***
 WC_Validation.Error.Application	hu-HU	
 WC_Validation.Error.Application	en-US	
 WC_Validation.Error.Application	de-DE	
@@ -3367,27 +3367,27 @@ WC_Validation.Error.Application.ApplicationDoesNotExist	de-DE
 WC_Validation.Error.Application.ApplicationIsNotActive	hu-HU	Az alkalmazás nem aktív!
 WC_Validation.Error.Application.ApplicationIsNotActive	en-US	
 WC_Validation.Error.Application.ApplicationIsNotActive	de-DE	
-WC_Validation.Error.BodyPartProperty	hu-HU	
-WC_Validation.Error.BodyPartProperty	en-US	
-WC_Validation.Error.BodyPartProperty	de-DE	
-WC_Validation.Error.BodyPartProperty.BodyPartPropertyDoesNotExist	hu-HU	BodyPartProperty Does Not Exist
-WC_Validation.Error.BodyPartProperty.BodyPartPropertyDoesNotExist	en-US	
-WC_Validation.Error.BodyPartProperty.BodyPartPropertyDoesNotExist	de-DE	
-WC_Validation.Error.BodyPoint	hu-HU	
-WC_Validation.Error.BodyPoint	en-US	
-WC_Validation.Error.BodyPoint	de-DE	
-WC_Validation.Error.BodyPoint.BodyPointDoesNotExist	hu-HU	BodyPoint Does Not Exist
-WC_Validation.Error.BodyPoint.BodyPointDoesNotExist	en-US	
-WC_Validation.Error.BodyPoint.BodyPointDoesNotExist	de-DE	
-WC_Validation.Error.ClientConfiguration	hu-HU	
-WC_Validation.Error.ClientConfiguration	en-US	
-WC_Validation.Error.ClientConfiguration	de-DE	
+WC_Validation.Error.BodyPartProperty	hu-HU	*
+WC_Validation.Error.BodyPartProperty	en-US	**
+WC_Validation.Error.BodyPartProperty	de-DE	***
+WC_Validation.Error.BodyPartProperty.BodyPartPropertyDoesNotExist	hu-HU	A Testrész tulajdonság nem létezik
+WC_Validation.Error.BodyPartProperty.BodyPartPropertyDoesNotExist	en-US	Bodypart property does not exist
+WC_Validation.Error.BodyPartProperty.BodyPartPropertyDoesNotExist	de-DE	Die Eigenschaft Körperteil ist nicht vorhanden
+WC_Validation.Error.BodyPoint	hu-HU	*
+WC_Validation.Error.BodyPoint	en-US	**
+WC_Validation.Error.BodyPoint	de-DE	***
+WC_Validation.Error.BodyPoint.BodyPointDoesNotExist	hu-HU	A testrész nem létezik
+WC_Validation.Error.BodyPoint.BodyPointDoesNotExist	en-US	Bodypoint does not exist
+WC_Validation.Error.BodyPoint.BodyPointDoesNotExist	de-DE	Das Körperteil existiert nicht
+WC_Validation.Error.ClientConfiguration	hu-HU	*
+WC_Validation.Error.ClientConfiguration	en-US	**
+WC_Validation.Error.ClientConfiguration	de-DE	***
 WC_Validation.Error.ClientConfiguration.ClientConfigurationDoesNotExist	hu-HU	A megadott kliens konfiguráció már létezik!
-WC_Validation.Error.ClientConfiguration.ClientConfigurationDoesNotExist	en-US	
-WC_Validation.Error.ClientConfiguration.ClientConfigurationDoesNotExist	de-DE	
-WC_Validation.Error.Common	hu-HU	
-WC_Validation.Error.Common	en-US	
-WC_Validation.Error.Common	de-DE	
+WC_Validation.Error.ClientConfiguration.ClientConfigurationDoesNotExist	en-US	The specified client configuration already exists!
+WC_Validation.Error.ClientConfiguration.ClientConfigurationDoesNotExist	de-DE	Die angegebene Client-Konfiguration existiert bereits!
+WC_Validation.Error.Common	hu-HU	*
+WC_Validation.Error.Common	en-US	**
+WC_Validation.Error.Common	de-DE	***
 WC_Validation.Error.Common.ArgumentNull	hu-HU	A paraméter null: {0}
 WC_Validation.Error.Common.ArgumentNull	en-US	
 WC_Validation.Error.Common.ArgumentNull	de-DE	
@@ -3406,21 +3406,21 @@ WC_Validation.Error.Common.DecimalIsNotBetweenIntervals	de-DE
 WC_Validation.Error.Common.StringLengthIsMoreThanMaxLength	hu-HU	A karakterlánc ({0}) hosszúsága több, mint a maximum megengedett ({1})!
 WC_Validation.Error.Common.StringLengthIsMoreThanMaxLength	en-US	
 WC_Validation.Error.Common.StringLengthIsMoreThanMaxLength	de-DE	
-WC_Validation.Error.CommonLogLevel	hu-HU	
-WC_Validation.Error.CommonLogLevel	en-US	
-WC_Validation.Error.CommonLogLevel	de-DE	
+WC_Validation.Error.CommonLogLevel	hu-HU	*
+WC_Validation.Error.CommonLogLevel	en-US	**
+WC_Validation.Error.CommonLogLevel	de-DE	***
 WC_Validation.Error.CommonLogLevel.CommonLogLevelDoesNotExist	hu-HU	A napló szint nem létezik!
-WC_Validation.Error.CommonLogLevel.CommonLogLevelDoesNotExist	en-US	
-WC_Validation.Error.CommonLogLevel.CommonLogLevelDoesNotExist	de-DE	
-WC_Validation.Error.CommonLogType	hu-HU	
-WC_Validation.Error.CommonLogType	en-US	
-WC_Validation.Error.CommonLogType	de-DE	
+WC_Validation.Error.CommonLogLevel.CommonLogLevelDoesNotExist	en-US	The log level does not exist!
+WC_Validation.Error.CommonLogLevel.CommonLogLevelDoesNotExist	de-DE	Die Protokollebene existiert nicht!
+WC_Validation.Error.CommonLogType	hu-HU	*
+WC_Validation.Error.CommonLogType	en-US	**
+WC_Validation.Error.CommonLogType	de-DE	***
 WC_Validation.Error.CommonLogType.CommonLogTypeDoesNotExist	hu-HU	A napló típus nem létezik!
-WC_Validation.Error.CommonLogType.CommonLogTypeDoesNotExist	en-US	
-WC_Validation.Error.CommonLogType.CommonLogTypeDoesNotExist	de-DE	
-WC_Validation.Error.Direction	hu-HU	
-WC_Validation.Error.Direction	en-US	
-WC_Validation.Error.Direction	de-DE	
+WC_Validation.Error.CommonLogType.CommonLogTypeDoesNotExist	en-US	The logbook type does not exist!
+WC_Validation.Error.CommonLogType.CommonLogTypeDoesNotExist	de-DE	Der Logbuchtyp existiert nicht!
+WC_Validation.Error.Direction	hu-HU	*
+WC_Validation.Error.Direction	en-US	**
+WC_Validation.Error.Direction	de-DE	***
 WC_Validation.Error.Direction.DirectionDoesNotExist	hu-HU	Direction Does Not Exist
 WC_Validation.Error.Direction.DirectionDoesNotExist	en-US	
 WC_Validation.Error.Direction.DirectionDoesNotExist	de-DE	
@@ -3442,33 +3442,33 @@ WC_Validation.Error.ExaminationResultMedia	de-DE
 WC_Validation.Error.ExaminationResultMedia.ExaminationResultMediaDoesNotExist	hu-HU	Examination Result Media Does Not Exist
 WC_Validation.Error.ExaminationResultMedia.ExaminationResultMediaDoesNotExist	en-US	
 WC_Validation.Error.ExaminationResultMedia.ExaminationResultMediaDoesNotExist	de-DE	
-WC_Validation.Error.ExaminationType	hu-HU	
-WC_Validation.Error.ExaminationType	en-US	
-WC_Validation.Error.ExaminationType	de-DE	
+WC_Validation.Error.ExaminationType	hu-HU	*
+WC_Validation.Error.ExaminationType	en-US	**
+WC_Validation.Error.ExaminationType	de-DE	***
 WC_Validation.Error.ExaminationType.ExaminationTypeDoesNotExist	hu-HU	Examination Type Does Not Exist
 WC_Validation.Error.ExaminationType.ExaminationTypeDoesNotExist	en-US	
 WC_Validation.Error.ExaminationType.ExaminationTypeDoesNotExist	de-DE	
-WC_Validation.Error.Hardware	hu-HU	
-WC_Validation.Error.Hardware	en-US	
-WC_Validation.Error.Hardware	de-DE	
-WC_Validation.Error.Hardware.HardwareDoesNotExist	hu-HU	Hardware Does Not Exist
-WC_Validation.Error.Hardware.HardwareDoesNotExist	en-US	
-WC_Validation.Error.Hardware.HardwareDoesNotExist	de-DE	
-WC_Validation.Error.HardwareType	hu-HU	
-WC_Validation.Error.HardwareType	en-US	
-WC_Validation.Error.HardwareType	de-DE	
+WC_Validation.Error.Hardware	hu-HU	*
+WC_Validation.Error.Hardware	en-US	**
+WC_Validation.Error.Hardware	de-DE	***
+WC_Validation.Error.Hardware.HardwareDoesNotExist	hu-HU	Az eszköz nem létezik
+WC_Validation.Error.Hardware.HardwareDoesNotExist	en-US	Hardware does not exist
+WC_Validation.Error.Hardware.HardwareDoesNotExist	de-DE	Das Werkzeug existiert nicht
+WC_Validation.Error.HardwareType	hu-HU	*
+WC_Validation.Error.HardwareType	en-US	**
+WC_Validation.Error.HardwareType	de-DE	***
 WC_Validation.Error.HardwareType.HardwareTypeDoesNotExist	hu-HU	Hardware Type Does Not Exist
 WC_Validation.Error.HardwareType.HardwareTypeDoesNotExist	en-US	
 WC_Validation.Error.HardwareType.HardwareTypeDoesNotExist	de-DE	
-WC_Validation.Error.HardwareUpdate	hu-HU	
-WC_Validation.Error.HardwareUpdate	en-US	
-WC_Validation.Error.HardwareUpdate	de-DE	
-WC_Validation.Error.HardwareUpdate.HardwareUpdateDoesNotExist	hu-HU	Hardware Update Does Not Exist
-WC_Validation.Error.HardwareUpdate.HardwareUpdateDoesNotExist	en-US	
-WC_Validation.Error.HardwareUpdate.HardwareUpdateDoesNotExist	de-DE	
-WC_Validation.Error.HardwareUpdateType	hu-HU	
-WC_Validation.Error.HardwareUpdateType	en-US	
-WC_Validation.Error.HardwareUpdateType	de-DE	
+WC_Validation.Error.HardwareUpdate	hu-HU	*
+WC_Validation.Error.HardwareUpdate	en-US	**
+WC_Validation.Error.HardwareUpdate	de-DE	***
+WC_Validation.Error.HardwareUpdate.HardwareUpdateDoesNotExist	hu-HU	Eszközfrissítés nem létezik
+WC_Validation.Error.HardwareUpdate.HardwareUpdateDoesNotExist	en-US	Hardware update does not exist
+WC_Validation.Error.HardwareUpdate.HardwareUpdateDoesNotExist	de-DE	Geräteupdate existiert nicht
+WC_Validation.Error.HardwareUpdateType	hu-HU	*
+WC_Validation.Error.HardwareUpdateType	en-US	**
+WC_Validation.Error.HardwareUpdateType	de-DE	***
 WC_Validation.Error.HardwareUpdateType.HardwareUpdateTypeDoesNotExist	hu-HU	Hardware Update Type Does Not Exist
 WC_Validation.Error.HardwareUpdateType.HardwareUpdateTypeDoesNotExist	en-US	
 WC_Validation.Error.HardwareUpdateType.HardwareUpdateTypeDoesNotExist	de-DE	
@@ -3481,15 +3481,15 @@ WC_Validation.Error.Language.LanguageCodeAlreadyExists	de-DE
 WC_Validation.Error.Language.LanguageCodeDoesNotExist	hu-HU	A megadott nyelvi kód nem létezik!
 WC_Validation.Error.Language.LanguageCodeDoesNotExist	en-US	
 WC_Validation.Error.Language.LanguageCodeDoesNotExist	de-DE	
-WC_Validation.Error.License	hu-HU	
-WC_Validation.Error.License	en-US	
-WC_Validation.Error.License	de-DE	
+WC_Validation.Error.License	hu-HU	*
+WC_Validation.Error.License	en-US	**
+WC_Validation.Error.License	de-DE	***
 WC_Validation.Error.License.LicenseDoesNotExist	hu-HU	License Does Not Exist
 WC_Validation.Error.License.LicenseDoesNotExist	en-US	
 WC_Validation.Error.License.LicenseDoesNotExist	de-DE	
-WC_Validation.Error.Organization	hu-HU	
-WC_Validation.Error.Organization	en-US	
-WC_Validation.Error.Organization	de-DE	
+WC_Validation.Error.Organization	hu-HU	*
+WC_Validation.Error.Organization	en-US	**
+WC_Validation.Error.Organization	de-DE	***
 WC_Validation.Error.Organization.CannotBeSetToNewParentOrganizationId	hu-HU	Cannot Be Set To New Parent Organization Id
 WC_Validation.Error.Organization.CannotBeSetToNewParentOrganizationId	en-US	
 WC_Validation.Error.Organization.CannotBeSetToNewParentOrganizationId	de-DE	
@@ -3526,9 +3526,9 @@ WC_Validation.Error.Password.IsNullOrEmpty	de-DE
 WC_Validation.Error.Password.LengthIsLessThanMinimum	hu-HU	A jelszó hossza kisebb, mint a minimum előírt!
 WC_Validation.Error.Password.LengthIsLessThanMinimum	en-US	
 WC_Validation.Error.Password.LengthIsLessThanMinimum	de-DE	
-WC_Validation.Error.Patient	hu-HU	
-WC_Validation.Error.Patient	en-US	
-WC_Validation.Error.Patient	de-DE	
+WC_Validation.Error.Patient	hu-HU	*
+WC_Validation.Error.Patient	en-US	**
+WC_Validation.Error.Patient	de-DE	***
 WC_Validation.Error.Patient.PatientDoesNotExist	hu-HU	A beteg nem létezik!
 WC_Validation.Error.Patient.PatientDoesNotExist	en-US	
 WC_Validation.Error.Patient.PatientDoesNotExist	de-DE	
@@ -3544,9 +3544,9 @@ WC_Validation.Error.PatientIdType.PatientIdTypeDoesNotExist	de-DE
 WC_Validation.Error.PatientIdType.PatientIdTypeNameAlreadyExists	hu-HU	A megadott azonosító típus név már létezik!
 WC_Validation.Error.PatientIdType.PatientIdTypeNameAlreadyExists	en-US	
 WC_Validation.Error.PatientIdType.PatientIdTypeNameAlreadyExists	de-DE	
-WC_Validation.Error.QueryOption	hu-HU	
-WC_Validation.Error.QueryOption	en-US	
-WC_Validation.Error.QueryOption	de-DE	
+WC_Validation.Error.QueryOption	hu-HU	*
+WC_Validation.Error.QueryOption	en-US	**
+WC_Validation.Error.QueryOption	de-DE	***
 WC_Validation.Error.QueryOption.QueryOptionDoesNotExist	hu-HU	A megadott lekérdezés beállítás nem létezik!
 WC_Validation.Error.QueryOption.QueryOptionDoesNotExist	en-US	
 WC_Validation.Error.QueryOption.QueryOptionDoesNotExist	de-DE	
@@ -3559,15 +3559,15 @@ WC_Validation.Error.QueryOptionType	de-DE
 WC_Validation.Error.QueryOptionType.QueryOptionTypeDoesNotExist	hu-HU	A megadott lekérdezés típus nem létezik!
 WC_Validation.Error.QueryOptionType.QueryOptionTypeDoesNotExist	en-US	
 WC_Validation.Error.QueryOptionType.QueryOptionTypeDoesNotExist	de-DE	
-WC_Validation.Error.Right	hu-HU	
-WC_Validation.Error.Right	en-US	
-WC_Validation.Error.Right	de-DE	
+WC_Validation.Error.Right	hu-HU	*
+WC_Validation.Error.Right	en-US	**
+WC_Validation.Error.Right	de-DE	***
 WC_Validation.Error.Right.RightDoesNotExist	hu-HU	A megadott jogosultság nem létezik!
-WC_Validation.Error.Right.RightDoesNotExist	en-US	
-WC_Validation.Error.Right.RightDoesNotExist	de-DE	
-WC_Validation.Error.Role	hu-HU	
-WC_Validation.Error.Role	en-US	
-WC_Validation.Error.Role	de-DE	
+WC_Validation.Error.Right.RightDoesNotExist	en-US	The specified entitlement does not exist!
+WC_Validation.Error.Right.RightDoesNotExist	de-DE	Die angegebene Berechtigung existiert nicht!
+WC_Validation.Error.Role	hu-HU	*
+WC_Validation.Error.Role	en-US	**
+WC_Validation.Error.Role	de-DE	***
 WC_Validation.Error.Role.RoleDoesNotExist	hu-HU	A megadott szerepkör nem létezik!
 WC_Validation.Error.Role.RoleDoesNotExist	en-US	
 WC_Validation.Error.Role.RoleDoesNotExist	de-DE	
@@ -3607,9 +3607,9 @@ WC_Validation.Error.TreadmillTypeCoord	de-DE
 WC_Validation.Error.TreadmillTypeCoord.TreadmillTypeCoordDoesNotExist	hu-HU	Treadmill Type Coord Does Not Exist
 WC_Validation.Error.TreadmillTypeCoord.TreadmillTypeCoordDoesNotExist	en-US	
 WC_Validation.Error.TreadmillTypeCoord.TreadmillTypeCoordDoesNotExist	de-DE	
-WC_Validation.Error.User	hu-HU	
-WC_Validation.Error.User	en-US	
-WC_Validation.Error.User	de-DE	
+WC_Validation.Error.User	hu-HU	*
+WC_Validation.Error.User	en-US	**
+WC_Validation.Error.User	de-DE	***
 WC_Validation.Error.User.PasswordIsEmpty	hu-HU	A jelszó nem lehet üres!
 WC_Validation.Error.User.PasswordIsEmpty	en-US	
 WC_Validation.Error.User.PasswordIsEmpty	de-DE	

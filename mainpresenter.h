@@ -42,6 +42,9 @@ private slots:
     void SearchNextAction(IMainView *sender);
     void SearchPrevAction(IMainView *sender);
 
+    void HuToLowerAction(IMainView *sender);
+    void EnToLowerAction(IMainView *sender);
+
 private:
     DoWork _w;
     bool _isInited = false;

@@ -5,6 +5,7 @@
 
 #include <QTimer>
 #include <QObject>
+#include <QSet>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -42,8 +43,9 @@ void MainWindow::set_DoWorkRModel(const MainViewModel::DoWorkRModel& m)
         auto a = m.wcodes[k];
         if(a.isUsed){
             if(a.isInDb) i->setBackground(Qt::green);
-            else i->setBackground(Qt::yellow);
         }
+        if(a.tr_hu.startsWith("*")&&a.tr_en.startsWith("*")&&a.tr_de.startsWith("*"))
+            i->setBackground(Qt::yellow);
 
         if(a.isWcodeOk()) i->setIcon(icon);
         //i->setIcon()
@@ -110,21 +112,56 @@ void MainWindow::set_MessageEditor(const MainViewModel::ListItemChangedModelR& m
     ui->label_using->setText(msg);
     _clipboard->setText(m.wcode.wcode);
 
-    if(m.similarWcodes.empty()) return;
-//    int wclength = 0;
-//    foreach (auto a,m.similarWcodes){
-//        int alength = a.wcode.length();
-//        if(alength>wclength) wclength = alength;
-//    }
-    foreach (auto a,m.similarWcodes) {
-        QString l1 = a.wcode;//+QString(wclength-a.wcode.length()+1, ' ');
-        QString line1 = "hu_HU "+a.tr_hu;
-        QString line2 = "en_US "+a.tr_en;
-        QString line3 = "de_DE "+a.tr_de;
-        AppendCodeEditor(l1);
-        AppendCodeEditor(line1);
-        AppendCodeEditor(line2);
-        AppendCodeEditor(line3);
+    if(m.similarWcodes.empty()){
+        ui->plainTextEdit_2->clear();
+    } else {
+        ui->plainTextEdit_2->clear();
+        //int wclength = 0;
+//        foreach (auto a,m.similarWcodes){
+//            if(a.tr_hu.startsWith('*')&&a.tr_en.startsWith('*')&&a.tr_de.startsWith('*')) continue;
+//            int alength = a.wcode.length();
+//            if(alength>wclength) wclength = alength;
+//        }
+        QSet<QString> huSet;
+        QSet<QString> enSet;
+        QSet<QString> deSet;
+        foreach (auto a,m.similarWcodes) {
+            if(a.tr_hu.startsWith('*')&&a.tr_en.startsWith('*')&&a.tr_de.startsWith('*')) continue;
+            huSet.insert(a.tr_hu);
+            enSet.insert(a.tr_en);
+            deSet.insert(a.tr_de);
+        }
+        QString b;
+        foreach (auto a, huSet) {
+            if(!b.isEmpty())b+="\n";
+            b+=a;
+        }
+        if(!b.isEmpty()) AppendCodeEditor2("hu:\n"+b);
+
+        b="";
+        foreach (auto a, enSet) {
+            if(!b.isEmpty())b+="\n";
+            b+=a;
+        }
+        if(!b.isEmpty()) AppendCodeEditor2("en\n"+b);
+
+        b="";
+        foreach (auto a, deSet) {
+            if(!b.isEmpty())b+="\n";
+            b+=a;
+        }
+        if(!b.isEmpty()) AppendCodeEditor2("de:\n"+b);
+
+//        foreach (auto a,m.similarWcodes) {
+//            QString l1 = a.wcode;//+QString(wclength-a.wcode.length()+1, ' ');
+//            QString line1 = "hu_HU "+a.tr_hu;
+//            QString line2 = "en_US "+a.tr_en;
+//            QString line3 = "de_DE "+a.tr_de;
+//            AppendCodeEditor2(l1);
+//            AppendCodeEditor2(line1);
+//            AppendCodeEditor2(line2);
+//            AppendCodeEditor2(line3);
+//        }
     }
 }
 
@@ -138,6 +175,8 @@ void MainWindow::set_RogzitStatus(MainViewModel::RogzitStatusR m)
     auto isOk = m.wcode.isWcodeOk();
 
     if(isOk) item->setIcon(QApplication::style()->standardIcon(QStyle::SP_DialogOkButton)); else item->setIcon({});
+    if(m.wcode.tr_hu.startsWith("*")&&m.wcode.tr_en.startsWith("*")&&m.wcode.tr_de.startsWith("*"))
+        item->setBackground(Qt::yellow);
 }
 
 void MainWindow::set_SaveStatus(bool isOk)
@@ -152,7 +191,11 @@ void MainWindow::set_SaveToCodeStatus(bool isOk)
 
 void MainWindow::set_SearchNext(const MainViewModel::SearchR& m)
 {
-    auto items = ui->listWidget->findItems(m.msg, Qt::MatchFlag::MatchExactly);
+    auto items = ui->listWidget->findItems(m.msg, Qt::MatchFlag::MatchExactly);    
+    if(m.count>0){
+        QString stxt = QString::number(m.ix+1)+'/'+QString::number(m.count);
+        ui->label_search->setText(stxt);
+    }
     if(items.length()==0){
         AppendCodeEditor("egysem: "+m.msg);
         return;
@@ -289,6 +332,11 @@ void MainWindow::AppendCodeEditor(QString msg)
     ui->plainTextEdit->appendPlainText(msg);
 }
 
+void MainWindow::AppendCodeEditor2(QString msg)
+{
+    ui->plainTextEdit_2->appendPlainText(msg);
+}
+
 void MainWindow::on_pushButton_copytoclipboard_clicked()
 {
     auto txt = ui->plainTextEdit->toPlainText();
@@ -331,7 +379,6 @@ void MainWindow::on_pushButton_hu_to_de_clicked()
     emit HuToDeTriggered(this);
 }
 
-
 void MainWindow::on_pushButton_translate_clicked()
 {
     qDebug() << "TranslateClicked";
@@ -366,5 +413,27 @@ void MainWindow::on_pushButton_searchPrev_clicked()
 {
     qDebug() << "searchPrevClicked";
     emit SearchPrevTriggered(this);
+}
+
+
+void MainWindow::on_pushButton_cleartr_clicked()
+{
+    ui->lineEdit_hu->setText("*");
+    ui->lineEdit_en->setText("**");
+    ui->lineEdit_de->setText("***");
+}
+
+
+void MainWindow::on_pushButton_huToLower_clicked()
+{
+    qDebug() << "huToLowerClicked";
+    emit HuToLowerTriggered(this);
+}
+
+
+void MainWindow::on_pushButton_enToLower_clicked()
+{
+    qDebug() << "enToLowerClicked";
+    emit EnToLowerTriggered(this);
 }
 

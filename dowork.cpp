@@ -181,7 +181,7 @@ auto DoWork::GetSimilar(const QString& m) -> QList<Wcode>
     return wl;
 }
 
-auto DoWork::Search(const MainViewModel::Search& m) -> QString
+auto DoWork::Search(const MainViewModel::Search& m) -> SearchM
 {
     static QString lastM;
     static int lastIx = 0;
@@ -226,7 +226,8 @@ auto DoWork::Search(const MainViewModel::Search& m) -> QString
 
     if(hits.empty()) return {};
     if(lastIx==-1) return {};
-    return hits[lastIx];
+    int size = hits.count();
+    return {hits[lastIx], lastIx, size};
 }
 
 bool DoWork::SetSelected(const MainViewModel::ListItemChangedModelR &m)
@@ -350,4 +351,13 @@ QString DoWork::ReplaceTr(const QString& msg){
     }while(ok);
 
     return r;
+}
+
+QString DoWork::ToLower(const QString &msg)
+{
+    if(msg.isEmpty()) return msg;
+    QChar c0 = msg[0];
+    QString a = msg.toLower();
+    a[0]=c0;
+    return a;
 }

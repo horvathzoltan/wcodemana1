@@ -5,6 +5,7 @@
 #include "mainviewmodel.h"
 
 #include <QCoreApplication>
+#include <QString>
 
 class DoWork: public QObject
 {
@@ -14,7 +15,7 @@ public:
     explicit DoWork(QObject *parent = nullptr);
 
     static const QString COMORSTR;
-    static const QString COMORSTR2;
+    static const QString COMORSTR2; 
 
     struct Params{
     public:
@@ -44,7 +45,14 @@ public:
 
     MainViewModel::ListItemChangedModelR GetSelected(MainViewModel::ListItemChangedModel m);
     QList<Wcode> GetSimilar(const QString& m);
-    QString Search(const MainViewModel::Search&);
+
+    struct SearchM{
+        QString wcode;
+        int ix;
+        int count;
+    };
+
+    SearchM Search(const MainViewModel::Search&);
     QString GetTail(const QString& m);
 
     bool SetSelected(const MainViewModel::ListItemChangedModelR& m);
@@ -54,6 +62,8 @@ public:
     QString DeepLTranslate(const QString& source_lang, const QString& dest_lang, const QString& msg);
 
     QString ReplaceTr(const QString &msg);
+    QString ToLower(const QString &msg);
+
 private:
     bool _isInited = false;
     bool _isEventLoopNeeded = false;

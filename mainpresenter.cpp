@@ -64,6 +64,16 @@ void MainPresenter::appendView(IMainView *w)
 
     QObject::connect(view_obj, SIGNAL(SearchPrevTriggered(IMainView *)),
                      this, SLOT(SearchPrevAction(IMainView *)));
+
+    QObject::connect(view_obj, SIGNAL(HuToLowerTriggered(IMainView *)),
+                     this, SLOT(HuToLowerAction(IMainView *)));
+
+    QObject::connect(view_obj, SIGNAL(EnToLowerTriggered(IMainView *)),
+                     this, SLOT(EnToLowerAction(IMainView *)));
+
+
+
+
     //refreshView(w);
 }
 
@@ -105,7 +115,7 @@ void MainPresenter::processListItemChangedAction(IMainView *sender)
     qDebug() << "processListItemChangedAction";
     auto m = sender->get_SelectedWcode();
     auto rm = _w.GetSelected(m);
-    rm.similarWcodes = QList<Wcode>();// _w.GetSimilar(rm.wcode.wcode);
+    rm.similarWcodes = _w.GetSimilar(rm.wcode.wcode);
     sender->set_MessageEditor(rm);
 }
 
@@ -200,9 +210,7 @@ void MainPresenter::GenerateTrAction(IMainView *sender)
 {
     qDebug() << "HuToEnAction";
     auto m = sender->get_GenerateTr();
-
     QString a = _w.ReplaceTr(m.text);
-
     sender->set_GenerateTr({a});
 }
 
@@ -210,8 +218,6 @@ void MainPresenter::HuToDeAction(IMainView *sender)
 {
     qDebug() << "HuToDeAction";
     auto m = sender->get_HuText();
-    //auto m2 = _w.GetSelected(m);
-    //if(!m2.wcode.isValid()) return;
     _enToDeActionSender = sender;
     _dest_lang = "de";
     QString msg_de = _w.DeepLTranslate("hu", "de", m.text);
@@ -234,9 +240,9 @@ void MainPresenter::SearchNextAction(IMainView *sender)
     qDebug() << "SearchNextAction";
     auto textModel = sender->get_SearchText();
     MainViewModel::Search m { textModel.text, true };
-    QString wcode = _w.Search(m);
-    if(wcode.isEmpty()) return;
-    MainViewModel::SearchR r {wcode};
+    DoWork::SearchM s = _w.Search(m);
+    if(s.wcode.isEmpty()) return;
+    MainViewModel::SearchR r {s.wcode, s.ix, s.count};
     sender->set_SearchNext(r);
 }
 
@@ -245,8 +251,27 @@ void MainPresenter::SearchPrevAction(IMainView *sender)
     qDebug() << "SearchPrevAction";
     auto textModel = sender->get_SearchText();
     MainViewModel::Search m { textModel.text, false };
-    QString wcode = _w.Search(m);
-    if(wcode.isEmpty()) return;
-    MainViewModel::SearchR r {wcode};
+    DoWork::SearchM s = _w.Search(m);
+    if(s.wcode.isEmpty()) return;
+    MainViewModel::SearchR r {s.wcode, s.ix, s.count};
     sender->set_SearchNext(r);
+}
+
+
+void MainPresenter::HuToLowerAction(IMainView *sender)
+{
+    qDebug() << "HuToLowerAction";
+    auto m = sender->get_HuText();
+    QString m1 = _w.ToLower(m.text);
+    MainViewModel::GenerateR r = {m1};
+    sender->set_EnToHuResult(r);
+}
+
+void MainPresenter::EnToLowerAction(IMainView *sender)
+{
+    qDebug() << "EnToLowerAction";
+    auto m = sender->get_EnText();
+    QString m1 = _w.ToLower(m.text);
+    MainViewModel::GenerateR r = {m1};
+    sender->set_HuToEnResult(r);
 }

@@ -24,6 +24,7 @@ private:
     void ShowStatusMsg(QString msg);
     void ClearStatusMsg();
     void AppendCodeEditor(QString msg);
+    void AppendCodeEditor2(QString msg);
     QClipboard *_clipboard;
 
 public:
@@ -66,6 +67,9 @@ signals:
     void SearchPrevTriggered(IMainView *sender);
     void GenerateTrTriggered(IMainView *sender);
 
+    void HuToLowerTriggered(IMainView *sender);
+    void EnToLowerTriggered(IMainView *sender);
+
 private slots:    
     void on_pushButton_clicked();
     void on_listWidget_itemClicked(QListWidgetItem *item);
@@ -85,5 +89,8 @@ private slots:
     void on_pushButton_en_to_hu_clicked();
     void on_pushButton_searchNext_clicked();
     void on_pushButton_searchPrev_clicked();
+    void on_pushButton_cleartr_clicked();
+    void on_pushButton_huToLower_clicked();
+    void on_pushButton_enToLower_clicked();
 };
 #endif // MAINWINDOW_H

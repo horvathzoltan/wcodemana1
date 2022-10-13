@@ -53,6 +53,8 @@ public:
 
     struct SearchR{
         QString msg;
+        int ix;
+        int count;
     };
 };
 
