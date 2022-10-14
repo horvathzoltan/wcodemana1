@@ -265,7 +265,7 @@ WC_ExaminationType.WalkingExam	de-DE	Komplexe Ganganalyse
 WC_Group	hu-HU	Csoport
 WC_Group	en-US	Group
 WC_Group	de-DE	Gruppe
-WC_Group.BodyPartProperty	hu-HU	Testrész tulajdonsága
+WC_Group.BodyPartProperty	hu-HU	Testrész tulajdonság
 WC_Group.BodyPartProperty	en-US	Body part property
 WC_Group.BodyPartProperty	de-DE	Körperteil-Eigenschaft
 WC_Group.Common	hu-HU	Közös
@@ -285,7 +285,7 @@ WC_Group.Hardware	en-US	Hardware
 WC_Group.Hardware	de-DE	Werkzeug
 WC_Group.HardwareUpdate	hu-HU	Eszközfrissítés
 WC_Group.HardwareUpdate	en-US	Hardware update
-WC_Group.HardwareUpdate	de-DE	Gerät aktualisieren
+WC_Group.HardwareUpdate	de-DE	Geräteaktualisierung
 WC_Group.Home	hu-HU	Kezdőlap
 WC_Group.Home	en-US	Home page
 WC_Group.Home	de-DE	Startseite
@@ -318,7 +318,7 @@ WC_HardwareType	en-US	Hardware type
 WC_HardwareType	de-DE	Gerätetyp
 WC_HardwareType.CPU	hu-HU	Eszközkezelő
 WC_HardwareType.CPU	en-US	Hardware manager
-WC_HardwareType.CPU	de-DE	Hardware-Manager
+WC_HardwareType.CPU	de-DE	Gerätemanager
 WC_HardwareType.Camera	hu-HU	Kamera
 WC_HardwareType.Camera	en-US	Camera
 WC_HardwareType.Camera	de-DE	Kamera*
@@ -333,7 +333,7 @@ WC_HardwareUpdateType	en-US	Hardware update type
 WC_HardwareUpdateType	de-DE	Art der Geräteaktualisierung
 WC_HardwareUpdateType.CPU	hu-HU	Eszközkezelő
 WC_HardwareUpdateType.CPU	en-US	Hardware manager
-WC_HardwareUpdateType.CPU	de-DE	Hardware-Manager
+WC_HardwareUpdateType.CPU	de-DE	Gerätemanager
 WC_HardwareUpdateType.Camera	hu-HU	Kamera
 WC_HardwareUpdateType.Camera	en-US	Camera
 WC_HardwareUpdateType.Camera	de-DE	Kamera*
@@ -345,7 +345,7 @@ WC_HardwareUpdateType.Treadmill	en-US	Treadmill
 WC_HardwareUpdateType.Treadmill	de-DE	Laufband
 WC_Hardware_Activity	hu-HU	Eszköztevékenység
 WC_Hardware_Activity	en-US	Hardware activity
-WC_Hardware_Activity	de-DE	Hardware-Aktivität
+WC_Hardware_Activity	de-DE	Gerät-Aktivität
 WC_Hardware_Activity.InsoleInitErr	hu-HU	Az eszköz nem ismeri fel a csatolt talpbetétet!
 WC_Hardware_Activity.InsoleInitErr	en-US	The device does not recognise the attachhed insole!
 WC_Hardware_Activity.InsoleInitErr	de-DE	Das Gerät erkennt die angebrachte Einlegesohle nicht!
@@ -424,9 +424,9 @@ WC_MediaType.Video	de-DE	Video*
 WC_MenuContent	hu-HU	Menü tartalma
 WC_MenuContent	en-US	Menucontent
 WC_MenuContent	de-DE	Menue-Inhalt
-WC_MenuContent.AccountManagement	hu-HU	Felhasználó Kezelés
-WC_MenuContent.AccountManagement	en-US	Account Management
-WC_MenuContent.AccountManagement	de-DE	Kontoführung
+WC_MenuContent.AccountManagement	hu-HU	Felhasználói fiók kezelése
+WC_MenuContent.AccountManagement	en-US	User account management
+WC_MenuContent.AccountManagement	de-DE	Verwaltung von Benutzerkonten
 WC_MenuContent.AccountManagement.Roles	hu-HU	Szerepkörök
 WC_MenuContent.AccountManagement.Roles	en-US	Roles
 WC_MenuContent.AccountManagement.Roles	de-DE	Rollen
@@ -436,12 +436,12 @@ WC_MenuContent.AccountManagement.Users	de-DE	Benutzer
 WC_MenuContent.Examination	hu-HU	Vizsgálat
 WC_MenuContent.Examination	en-US	Examination
 WC_MenuContent.Examination	de-DE	Prüfung
-WC_MenuContent.Examination.BodyPartProperty	hu-HU	Testrész tulajdonsága
+WC_MenuContent.Examination.BodyPartProperty	hu-HU	Testrész tulajdonság
 WC_MenuContent.Examination.BodyPartProperty	en-US	Body part property
 WC_MenuContent.Examination.BodyPartProperty	de-DE	Körperteil-Eigenschaft
 WC_MenuContent.HardwareUpdates	hu-HU	Eszközfrissítések
-WC_MenuContent.HardwareUpdates	en-US	Hardware Updates
-WC_MenuContent.HardwareUpdates	de-DE	Hardware-Aktualisierungen
+WC_MenuContent.HardwareUpdates	en-US	Hardware updates
+WC_MenuContent.HardwareUpdates	de-DE	Geräte-Updates
 WC_MenuContent.Hardwares	hu-HU	Eszközök
 WC_MenuContent.Hardwares	en-US	Hardwares
 WC_MenuContent.Hardwares	de-DE	Werkzeuge
@@ -458,10 +458,10 @@ WC_MenuContent.Organizations	hu-HU	Szervezetek
 WC_MenuContent.Organizations	en-US	Organizations
 WC_MenuContent.Organizations	de-DE	Organisationen
 WC_MenuContent.Organizations.ListOfOrganizations	hu-HU	Szervezetek listája
-WC_MenuContent.Organizations.ListOfOrganizations	en-US	List Of Organizations
+WC_MenuContent.Organizations.ListOfOrganizations	en-US	List of organizations
 WC_MenuContent.Organizations.ListOfOrganizations	de-DE	Liste der Organisationen
 WC_MenuContent.Organizations.RegisterOrganizations	hu-HU	Szervezetek nyilvántartása
-WC_MenuContent.Organizations.RegisterOrganizations	en-US	Register Organizations
+WC_MenuContent.Organizations.RegisterOrganizations	en-US	Register organizations
 WC_MenuContent.Organizations.RegisterOrganizations	de-DE	Organisationen registrieren
 WC_MenuContent.Patients	hu-HU	Betegek
 WC_MenuContent.Patients	en-US	Patients
@@ -481,12 +481,12 @@ WC_MenuContentHandler.Error.GetMenuContents	de-DE	Bei der Abfrage von Menüpunkt
 WC_PDF	hu-HU	PDF
 WC_PDF	en-US	PDF*
 WC_PDF	de-DE	PDF**
-WC_PDF.Description	hu-HU	HUWC_PDF.Description
-WC_PDF.Description	en-US	ENWC_PDF.Description
-WC_PDF.Description	de-DE	DEWC_PDF.Description
-WC_PDF.Examination	hu-HU	Vizsgálattípus
-WC_PDF.Examination	en-US	Examination type
-WC_PDF.Examination	de-DE	Art der Prüfung
+WC_PDF.Description	hu-HU	Leírás
+WC_PDF.Description	en-US	Description
+WC_PDF.Description	de-DE	Beschreibung
+WC_PDF.Examination	hu-HU	Vizsgálat
+WC_PDF.Examination	en-US	Examination
+WC_PDF.Examination	de-DE	Prüfung
 WC_PDF.ExaminationData	hu-HU	Vizsgálat adatai
 WC_PDF.ExaminationData	en-US	Examination data
 WC_PDF.ExaminationData	de-DE	Daten zur Prüfung
@@ -497,31 +497,31 @@ WC_PDF.OrganizationLocationName	hu-HU	Rendelő
 WC_PDF.OrganizationLocationName	en-US	Medical station
 WC_PDF.OrganizationLocationName	de-DE	Medizinische Station
 WC_PDF.OrganizationName	hu-HU	Szervezet neve
-WC_PDF.OrganizationName	en-US	Health center
-WC_PDF.OrganizationName	de-DE	Gesundheitszentrum
-WC_PDF.OrganizationUser	hu-HU	Rendel
-WC_PDF.OrganizationUser	en-US	Doctor
-WC_PDF.OrganizationUser	de-DE	Doktor
-WC_PDF.PatientAge	hu-HU	Páciens kora
+WC_PDF.OrganizationName	en-US	Organization name
+WC_PDF.OrganizationName	de-DE	Name der Organisation
+WC_PDF.OrganizationUser	hu-HU	Felhasználó
+WC_PDF.OrganizationUser	en-US	User
+WC_PDF.OrganizationUser	de-DE	Benutzer
+WC_PDF.PatientAge	hu-HU	A beteg életkora
 WC_PDF.PatientAge	en-US	Patient age
 WC_PDF.PatientAge	de-DE	Alter des Patienten
-WC_PDF.PatientData	hu-HU	Páciens adatai
+WC_PDF.PatientData	hu-HU	Betegadatok
 WC_PDF.PatientData	en-US	Patient data
 WC_PDF.PatientData	de-DE	Patientendaten
-WC_PDF.PatientEmail	hu-HU	Páciens e-mail címe
-WC_PDF.PatientEmail	en-US	Patient e-mail
-WC_PDF.PatientEmail	de-DE	E-mail des Patienten
-WC_PDF.PatientHeight	hu-HU	Páciens magassága
+WC_PDF.PatientEmail	hu-HU	Beteg e-mail címe
+WC_PDF.PatientEmail	en-US	Patient e-mail address
+WC_PDF.PatientEmail	de-DE	E-Mail Adresse des Patienten
+WC_PDF.PatientHeight	hu-HU	Beteg magassága
 WC_PDF.PatientHeight	en-US	Patient height
 WC_PDF.PatientHeight	de-DE	Höhe des Patienten
-WC_PDF.PatientInsoleSize	hu-HU	Páciens lábmérete (bel/jobb)
+WC_PDF.PatientInsoleSize	hu-HU	Beteg lábmérete (bel/jobb)
 WC_PDF.PatientInsoleSize	en-US	Patient insole size (left/right)
 WC_PDF.PatientInsoleSize	de-DE	Größe der Patienteneinlage (links/rechts)
-WC_PDF.PatientName	hu-HU	Páciens neve
+WC_PDF.PatientName	hu-HU	Beteg neve
 WC_PDF.PatientName	en-US	Patient name
-WC_PDF.PatientName	de-DE	Patientenname
+WC_PDF.PatientName	de-DE	Name des Patienten
 WC_PasswordValidator	hu-HU	Jelszó-érvényesítő
-WC_PasswordValidator	en-US	Password Validator
+WC_PasswordValidator	en-US	Password validator
 WC_PasswordValidator	de-DE	Passwort-Prüfer
 WC_PasswordValidator.Error	hu-HU	*
 WC_PasswordValidator.Error	en-US	**
@@ -529,9 +529,9 @@ WC_PasswordValidator.Error	de-DE	***
 WC_PasswordValidator.Error.ValidatePassword	hu-HU	Hiba történt a jelszó validálása közben.
 WC_PasswordValidator.Error.ValidatePassword	en-US	An error occurred during password validation.
 WC_PasswordValidator.Error.ValidatePassword	de-DE	Bei der Passwortüberprüfung ist ein Fehler aufgetreten.
-WC_PatientIdType	hu-HU	Betegtípus
-WC_PatientIdType	en-US	Patient type
-WC_PatientIdType	de-DE	Typ des Patienten
+WC_PatientIdType	hu-HU	Betegazonosító típusa
+WC_PatientIdType	en-US	Patient Id type
+WC_PatientIdType	de-DE	Art der Patientenidentifikation
 WC_PatientIdType.HealthInsuranceCard	hu-HU	TAJ kártyaszám
 WC_PatientIdType.HealthInsuranceCard	en-US	Insurance identifier
 WC_PatientIdType.HealthInsuranceCard	de-DE	Kennung der Versicherung
@@ -562,8 +562,8 @@ WC_QueryOptionHandler.Error	de-DE	***
 WC_QueryOptionHandler.Error.CreateOrUpdateQueryOption	hu-HU	Hiba történt a lekérdezés mentések lekérdezése közben!
 WC_QueryOptionHandler.Error.CreateOrUpdateQueryOption	en-US	There was an error while retrieving the query backups!
 WC_QueryOptionHandler.Error.CreateOrUpdateQueryOption	de-DE	Beim Abrufen der Abfrage-Backups ist ein Fehler aufgetreten!
-WC_QueryOptionHandler.Error.DeleteQueryOption	hu-HU	Probléma a lekérdezési opció eltávolításával!
-WC_QueryOptionHandler.Error.DeleteQueryOption	en-US	Problem Removing Query Option!
+WC_QueryOptionHandler.Error.DeleteQueryOption	hu-HU	Probléma a lekérdezési opció eltávolítása közben!
+WC_QueryOptionHandler.Error.DeleteQueryOption	en-US	Problem removing query option!
 WC_QueryOptionHandler.Error.DeleteQueryOption	de-DE	Problem beim Entfernen der Abfrageoption!
 WC_QueryOptionHandler.Error.GetQueryOptions	hu-HU	Hiba történt a lekérdezés mentések lekérdezése közben!
 WC_QueryOptionHandler.Error.GetQueryOptions	en-US	An error occurred while retrieving a query backup!
@@ -580,30 +580,30 @@ WC_QueryOptionHandler.LogMessage.QueryOptionSaved	de-DE	Abfrage gespeichert! ({0
 WC_Right	hu-HU	Jog
 WC_Right	en-US	Right
 WC_Right	de-DE	Rechte
-WC_Right.BodyPartProperty	hu-HU	Testrész tulajdonsága
+WC_Right.BodyPartProperty	hu-HU	Testrész tulajdonság
 WC_Right.BodyPartProperty	en-US	Body part property
 WC_Right.BodyPartProperty	de-DE	Körperteil-Eigenschaft
 WC_Right.BodyPartProperty.CreateBodyPartProperty	hu-HU	Testrész tulajdonság létrehozása
 WC_Right.BodyPartProperty.CreateBodyPartProperty	en-US	Create a body part property
 WC_Right.BodyPartProperty.CreateBodyPartProperty	de-DE	Erstellen einer Körperteileigenschaft
-WC_Right.BodyPartProperty.DeleteBodyPartProperty	hu-HU	Testrész tulajdonság törlése
+WC_Right.BodyPartProperty.DeleteBodyPartProperty	hu-HU	Testrész-tulajdonság törlése
 WC_Right.BodyPartProperty.DeleteBodyPartProperty	en-US	Delete body part property
 WC_Right.BodyPartProperty.DeleteBodyPartProperty	de-DE	Körperteileigenschaft löschen
 WC_Right.BodyPartProperty.ListBodyPartProperties	hu-HU	Testrész tulajdonságok listázása
 WC_Right.BodyPartProperty.ListBodyPartProperties	en-US	Listing body part properties
 WC_Right.BodyPartProperty.ListBodyPartProperties	de-DE	Auflistung von Körperteileigenschaften
-WC_Right.BodyPartProperty.UpdateBodyPartProperty	hu-HU	Testrész tulajdonság módosítása
-WC_Right.BodyPartProperty.UpdateBodyPartProperty	en-US	Change body part property
+WC_Right.BodyPartProperty.UpdateBodyPartProperty	hu-HU	Testrész-tulajdonság módosítása
+WC_Right.BodyPartProperty.UpdateBodyPartProperty	en-US	Modify body part property
 WC_Right.BodyPartProperty.UpdateBodyPartProperty	de-DE	Körperteileigenschaft ändern
 WC_Right.Examination	hu-HU	Vizsgálat
 WC_Right.Examination	en-US	Examination
 WC_Right.Examination	de-DE	Prüfung
 WC_Right.Examination.CreateExamination	hu-HU	Vizsgálat létrehozása
-WC_Right.Examination.CreateExamination	en-US	Create an investigation
-WC_Right.Examination.CreateExamination	de-DE	Erstellen Sie eine Untersuchung
+WC_Right.Examination.CreateExamination	en-US	Create examination
+WC_Right.Examination.CreateExamination	de-DE	Untersuchung erstellen
 WC_Right.Examination.DeleteExamination	hu-HU	Vizsgálat törlése
-WC_Right.Examination.DeleteExamination	en-US	Delete an Examination
-WC_Right.Examination.DeleteExamination	de-DE	Eine Untersuchung löschen
+WC_Right.Examination.DeleteExamination	en-US	Delete examination
+WC_Right.Examination.DeleteExamination	de-DE	Prüfung löschen
 WC_Right.Examination.ListExaminations	hu-HU	Vizsgálatok listázása
 WC_Right.Examination.ListExaminations	en-US	List examinations
 WC_Right.Examination.ListExaminations	de-DE	Prüfungen auflisten
@@ -617,34 +617,34 @@ WC_Right.Hardware.CreateHardware	hu-HU	Eszköz létrehozása
 WC_Right.Hardware.CreateHardware	en-US	Create hardware
 WC_Right.Hardware.CreateHardware	de-DE	Ein Gerät erstellen
 WC_Right.Hardware.DeleteHardware	hu-HU	Eszköz törlése
-WC_Right.Hardware.DeleteHardware	en-US	Delete a hardware
+WC_Right.Hardware.DeleteHardware	en-US	Delete hardware
 WC_Right.Hardware.DeleteHardware	de-DE	Ein Gerät löschen
 WC_Right.Hardware.ListHardwares	hu-HU	Eszközök listázása
 WC_Right.Hardware.ListHardwares	en-US	List hardwares
 WC_Right.Hardware.ListHardwares	de-DE	Listing-Tools
 WC_Right.Hardware.ListOfHardwares	hu-HU	Eszközök listája
-WC_Right.Hardware.ListOfHardwares	en-US	List Of Hardwares
+WC_Right.Hardware.ListOfHardwares	en-US	List of hardwares
 WC_Right.Hardware.ListOfHardwares	de-DE	Liste der Werkzeuge
-WC_Right.Hardware.UpdateHardware	hu-HU	Eszköz módosítása
-WC_Right.Hardware.UpdateHardware	en-US	Modify hardware
-WC_Right.Hardware.UpdateHardware	de-DE	Ändern Sie ein Gerät
+WC_Right.Hardware.UpdateHardware	hu-HU	Az eszköz frissítése
+WC_Right.Hardware.UpdateHardware	en-US	Update hardware
+WC_Right.Hardware.UpdateHardware	de-DE	Aktualisieren Sie Ihr Gerät
 WC_Right.Hardware.UpdateHardwareLocation	hu-HU	Eszköz helyének módosítása
-WC_Right.Hardware.UpdateHardwareLocation	en-US	Update Hardware Location
+WC_Right.Hardware.UpdateHardwareLocation	en-US	Update hardware location
 WC_Right.Hardware.UpdateHardwareLocation	de-DE	Gerätestandort ändern
 WC_Right.HardwareUpdate	hu-HU	Eszközfrissítés
 WC_Right.HardwareUpdate	en-US	Hardware update
-WC_Right.HardwareUpdate	de-DE	Aktualisieren Sie Ihr Gerät
+WC_Right.HardwareUpdate	de-DE	Geräteaktualisierung
 WC_Right.HardwareUpdate.CreateHardwareUpdate	hu-HU	Eszközfrissítés létrehozása
-WC_Right.HardwareUpdate.CreateHardwareUpdate	en-US	Create Hardware Update
+WC_Right.HardwareUpdate.CreateHardwareUpdate	en-US	Create hardware update
 WC_Right.HardwareUpdate.CreateHardwareUpdate	de-DE	Ein Geräte-Update erstellen
 WC_Right.HardwareUpdate.DeleteHardwareUpdate	hu-HU	Eszközfrissítés törlése
-WC_Right.HardwareUpdate.DeleteHardwareUpdate	en-US	Delete Hardware Update
+WC_Right.HardwareUpdate.DeleteHardwareUpdate	en-US	Delete hardware update
 WC_Right.HardwareUpdate.DeleteHardwareUpdate	de-DE	Löschen eines Geräteupdates
 WC_Right.HardwareUpdate.ListHardwareUpdates	hu-HU	Eszközfrissítések listázása
-WC_Right.HardwareUpdate.ListHardwareUpdates	en-US	List Hardware Update
+WC_Right.HardwareUpdate.ListHardwareUpdates	en-US	List hardware update
 WC_Right.HardwareUpdate.ListHardwareUpdates	de-DE	Auflistung von Geräteaktualisierungen
 WC_Right.HardwareUpdate.UpdateHardwareUpdate	hu-HU	Eszközfrissítés módosítása
-WC_Right.HardwareUpdate.UpdateHardwareUpdate	en-US	Modify Hardware Update
+WC_Right.HardwareUpdate.UpdateHardwareUpdate	en-US	Modify hardware update
 WC_Right.HardwareUpdate.UpdateHardwareUpdate	de-DE	Ändern eines Geräteupdates
 WC_Right.License	hu-HU	Licenc
 WC_Right.License	en-US	License
@@ -653,14 +653,14 @@ WC_Right.License.CreateLicense	hu-HU	Licenc létrehozása
 WC_Right.License.CreateLicense	en-US	Create License
 WC_Right.License.CreateLicense	de-DE	Eine Lizenz erstellen
 WC_Right.License.DeleteLicense	hu-HU	Licenc törlése
-WC_Right.License.DeleteLicense	en-US	Delete a licence
-WC_Right.License.DeleteLicense	de-DE	Eine Lizenz löschen
+WC_Right.License.DeleteLicense	en-US	Delete licence
+WC_Right.License.DeleteLicense	de-DE	Lizenz löschen
 WC_Right.License.ListLicenses	hu-HU	Licencek listázása
 WC_Right.License.ListLicenses	en-US	Listing of licences
 WC_Right.License.ListLicenses	de-DE	Auflistung der Lizenzen
 WC_Right.License.UpdateLicense	hu-HU	Licenc módosítása
-WC_Right.License.UpdateLicense	en-US	Modify License
-WC_Right.License.UpdateLicense	de-DE	Ändern Sie Ihren Führerschein
+WC_Right.License.UpdateLicense	en-US	Modify license
+WC_Right.License.UpdateLicense	de-DE	Lizenz ändern
 WC_Right.Organization	hu-HU	Szervezet
 WC_Right.Organization	en-US	Organisation
 WC_Right.Organization	de-DE	Organization
@@ -668,17 +668,17 @@ WC_Right.Organization.CreateOrganization	hu-HU	Szervezet létrehozása
 WC_Right.Organization.CreateOrganization	en-US	Create Organization
 WC_Right.Organization.CreateOrganization	de-DE	Schaffung einer Organisation
 WC_Right.Organization.DeleteOrganization	hu-HU	Szervezet törlése
-WC_Right.Organization.DeleteOrganization	en-US	Delete Organization
-WC_Right.Organization.DeleteOrganization	de-DE	Eine Organisation löschen
+WC_Right.Organization.DeleteOrganization	en-US	Delete organization
+WC_Right.Organization.DeleteOrganization	de-DE	Organisation löschen
 WC_Right.Organization.ListOrganizations	hu-HU	Szervezetek listázása
-WC_Right.Organization.ListOrganizations	en-US	List Organizations
+WC_Right.Organization.ListOrganizations	en-US	List organizations
 WC_Right.Organization.ListOrganizations	de-DE	Auflistung der Organisationen
 WC_Right.Organization.RegisterOrganization	hu-HU	Szervezet regisztrálása
-WC_Right.Organization.RegisterOrganization	en-US	Register Organization
-WC_Right.Organization.RegisterOrganization	de-DE	Eine Organisation registrieren
+WC_Right.Organization.RegisterOrganization	en-US	Register organization
+WC_Right.Organization.RegisterOrganization	de-DE	Organisation registrieren
 WC_Right.Organization.UpdateOrganization	hu-HU	Szervezet módosítása
-WC_Right.Organization.UpdateOrganization	en-US	Modify Organization
-WC_Right.Organization.UpdateOrganization	de-DE	Änderung der Organisation
+WC_Right.Organization.UpdateOrganization	en-US	Modify organization
+WC_Right.Organization.UpdateOrganization	de-DE	Organisation modifizieren
 WC_Right.Organization.UpdateOrganizationRightList	hu-HU	Szervezethez tartozó jogosultságok módosítása
 WC_Right.Organization.UpdateOrganizationRightList	en-US	Modify the privileges of an organisation
 WC_Right.Organization.UpdateOrganizationRightList	de-DE	Ändern von Ansprüchen für eine Organisation
@@ -719,7 +719,7 @@ WC_Right.Role.CreateRole	hu-HU	Szerepkör létrehozása
 WC_Right.Role.CreateRole	en-US	Create a role
 WC_Right.Role.CreateRole	de-DE	Eine Rolle erstellen
 WC_Right.Role.DeleteRole	hu-HU	Szerepkör törlése
-WC_Right.Role.DeleteRole	en-US	Delete a role
+WC_Right.Role.DeleteRole	en-US	Delete role
 WC_Right.Role.DeleteRole	de-DE	Eine Rolle löschen
 WC_Right.Role.ListRoles	hu-HU	Szerepkörök listázása
 WC_Right.Role.ListRoles	en-US	Listing roles
@@ -728,7 +728,7 @@ WC_Right.Role.UpdateRole	hu-HU	Szerepkör módosítása
 WC_Right.Role.UpdateRole	en-US	Modify role
 WC_Right.Role.UpdateRole	de-DE	Rolle ändern
 WC_Right.Role.UpdateRoleRightList	hu-HU	Szerepkörhöz tartozó jogosultságok módosítása
-WC_Right.Role.UpdateRoleRightList	en-US	Modify the rights associated with a role
+WC_Right.Role.UpdateRoleRightList	en-US	Modify the rights for a role
 WC_Right.Role.UpdateRoleRightList	de-DE	Ändern der mit einer Rolle verbundenen Rechte
 WC_Right.SystemConfiguration	hu-HU	Rendszerkonfiguráció
 WC_Right.SystemConfiguration	en-US	System configuration
@@ -767,7 +767,7 @@ WC_Right.User.ChangeUserPassword	hu-HU	Felhasználó jelszavának módosítása
 WC_Right.User.ChangeUserPassword	en-US	Change user password
 WC_Right.User.ChangeUserPassword	de-DE	Benutzerpasswort ändern
 WC_Right.User.CreateUser	hu-HU	Felhasználó létrehozása
-WC_Right.User.CreateUser	en-US	Create User
+WC_Right.User.CreateUser	en-US	Create user
 WC_Right.User.CreateUser	de-DE	Einen Benutzer erstellen
 WC_Right.User.ListUsers	hu-HU	Felhasználók listázása
 WC_Right.User.ListUsers	en-US	List Users
@@ -776,28 +776,28 @@ WC_Right.User.RemoveLockedoutFromUser	hu-HU	Felhasználó kizárásának felold�
 WC_Right.User.RemoveLockedoutFromUser	en-US	Unblocking a user
 WC_Right.User.RemoveLockedoutFromUser	de-DE	Aufhebung der Sperrung eines Benutzers
 WC_Right.User.UpdateUser	hu-HU	Felhasználó módosítása
-WC_Right.User.UpdateUser	en-US	Modify User
+WC_Right.User.UpdateUser	en-US	Modify user
 WC_Right.User.UpdateUser	de-DE	Benutzer ändern
 WC_Right.User.UpdateUserRoleList	hu-HU	Felhasználóhoz tartozó szerepkörök módosítása
-WC_Right.User.UpdateUserRoleList	en-US	Change roles for a user
+WC_Right.User.UpdateUserRoleList	en-US	Modify roles for a user
 WC_Right.User.UpdateUserRoleList	de-DE	Rollen für einen Benutzer ändern
 WC_RightType	hu-HU	Jogtípus
 WC_RightType	en-US	Type of right
 WC_RightType	de-DE	Art des Rechts
 WC_RightType.Create	hu-HU	Jogtípus létrehozása
-WC_RightType.Create	en-US	Create Type of right
+WC_RightType.Create	en-US	Create type of right
 WC_RightType.Create	de-DE	Anlegen eines Rechtstyps
 WC_RightType.Delete	hu-HU	Jogtípus törlése
-WC_RightType.Delete	en-US	Delete Type of right
+WC_RightType.Delete	en-US	Delete type of right
 WC_RightType.Delete	de-DE	Eine Art von Recht löschen
 WC_RightType.Function	hu-HU	Funkció
 WC_RightType.Function	en-US	Function
 WC_RightType.Function	de-DE	Funktion
 WC_RightType.List	hu-HU	Jogtípusok listázása
-WC_RightType.List	en-US	Listing Types of right
+WC_RightType.List	en-US	Listing types of right
 WC_RightType.List	de-DE	Auflistung der Arten von Rechten
 WC_RightType.Update	hu-HU	Jogtípus módosítása
-WC_RightType.Update	en-US	Modify Type of right
+WC_RightType.Update	en-US	Modify type of right
 WC_RightType.Update	de-DE	Ändern Sie die Art des Rechts
 WC_RoleManager	hu-HU	Szerepkör-kezelő
 WC_RoleManager	en-US	Role Manager
@@ -806,17 +806,17 @@ WC_RoleManager.CommonLogType	hu-HU	*
 WC_RoleManager.CommonLogType	en-US	**
 WC_RoleManager.CommonLogType	de-DE	***
 WC_RoleManager.CommonLogType.CreateRole	hu-HU	Szerepkör létrehozása
-WC_RoleManager.CommonLogType.CreateRole	en-US	Create a role
+WC_RoleManager.CommonLogType.CreateRole	en-US	Create role
 WC_RoleManager.CommonLogType.CreateRole	de-DE	Eine Rolle erstellen
 WC_RoleManager.CommonLogType.DeleteRole	hu-HU	Szerepkör törlése
-WC_RoleManager.CommonLogType.DeleteRole	en-US	Delete a role
+WC_RoleManager.CommonLogType.DeleteRole	en-US	Delete role
 WC_RoleManager.CommonLogType.DeleteRole	de-DE	Eine Rolle löschen
 WC_RoleManager.CommonLogType.UpdateRole	hu-HU	Szerepkör módosítása
-WC_RoleManager.CommonLogType.UpdateRole	en-US	Modify a role
-WC_RoleManager.CommonLogType.UpdateRole	de-DE	Ändern einer Rolle
-WC_RoleManager.CommonLogType.UpdateRoleRightList	hu-HU	Szerepkörhöz tartozó jogok módosítása
+WC_RoleManager.CommonLogType.UpdateRole	en-US	Modify role
+WC_RoleManager.CommonLogType.UpdateRole	de-DE	Rolle ändern
+WC_RoleManager.CommonLogType.UpdateRoleRightList	hu-HU	Szerepkörhöz tartozó jogosultságok módosítása
 WC_RoleManager.CommonLogType.UpdateRoleRightList	en-US	Modify the rights for a role
-WC_RoleManager.CommonLogType.UpdateRoleRightList	de-DE	Änderung des Umfangs der Rechte
+WC_RoleManager.CommonLogType.UpdateRoleRightList	de-DE	Ändern der mit einer Rolle verbundenen Rechte
 WC_RoleManager.Error	hu-HU	*
 WC_RoleManager.Error	en-US	**
 WC_RoleManager.Error	de-DE	***
@@ -856,17 +856,17 @@ WC_SessionService	de-DE	Sitzungsdienst
 WC_SessionService.Error	hu-HU	*
 WC_SessionService.Error	en-US	**
 WC_SessionService.Error	de-DE	***
-WC_SessionService.Error.CreateSession	hu-HU	Hiba történt a session létrehozása közben!
+WC_SessionService.Error.CreateSession	hu-HU	Hiba történt a munkamenet létrehozása közben!
 WC_SessionService.Error.CreateSession	en-US	An error occurred while creating a session!
 WC_SessionService.Error.CreateSession	de-DE	Beim Erstellen einer Sitzung ist ein Fehler aufgetreten!
-WC_SessionService.Error.EndSession	hu-HU	Hiba történt a session lezárása közben!
+WC_SessionService.Error.EndSession	hu-HU	Hiba történt a munkamenet lezárása közben!
 WC_SessionService.Error.EndSession	en-US	An error occurred while closing the session!
 WC_SessionService.Error.EndSession	de-DE	Beim Schließen der Sitzung ist ein Fehler aufgetreten!
-WC_SessionService.Error.SessionCalled	hu-HU	Hiba történt a session megújítása közben!
+WC_SessionService.Error.SessionCalled	hu-HU	Hiba történt a munkamenet megújítása közben!
 WC_SessionService.Error.SessionCalled	en-US	An error occurred while renewing the session!
 WC_SessionService.Error.SessionCalled	de-DE	Bei der Erneuerung der Sitzung ist ein Fehler aufgetreten!
 WC_SystemConfigurationHandler	hu-HU	Rendszerkonfigurációs kezelő
-WC_SystemConfigurationHandler	en-US	System Configuration Handler
+WC_SystemConfigurationHandler	en-US	System configuration handler
 WC_SystemConfigurationHandler	de-DE	Systemkonfigurations-Manager
 WC_SystemConfigurationHandler.CommonLogType	hu-HU	*
 WC_SystemConfigurationHandler.CommonLogType	en-US	**
@@ -919,7 +919,7 @@ WC_UI_UWP_Common.Label.CancelText	de-DE	Abbrechen
 WC_UI_UWP_Common.Label.CloseText	hu-HU	Bezár
 WC_UI_UWP_Common.Label.CloseText	en-US	Close
 WC_UI_UWP_Common.Label.CloseText	de-DE	Schließen
-WC_UI_UWP_Common.Label.Delete	hu-HU	Töröl
+WC_UI_UWP_Common.Label.Delete	hu-HU	Törlés
 WC_UI_UWP_Common.Label.Delete	en-US	Delete
 WC_UI_UWP_Common.Label.Delete	de-DE	Löschen
 WC_UI_UWP_Common.Label.DeleteAll	hu-HU	Mindent töröl
@@ -931,9 +931,9 @@ WC_UI_UWP_Common.Label.Edit	de-DE	Bearbeiten
 WC_UI_UWP_Common.Label.Error	hu-HU	*
 WC_UI_UWP_Common.Label.Error	en-US	**
 WC_UI_UWP_Common.Label.Error	de-DE	***
-WC_UI_UWP_Common.Label.Insert	hu-HU	Beilleszt
+WC_UI_UWP_Common.Label.Insert	hu-HU	Beillesztés
 WC_UI_UWP_Common.Label.Insert	en-US	Insert
-WC_UI_UWP_Common.Label.Insert	de-DE	Einfügen
+WC_UI_UWP_Common.Label.Insert	de-DE	Einsatz
 WC_UI_UWP_Common.Label.InvalidCpu	hu-HU	Ez az eszköz nincs regisztrálva.
 WC_UI_UWP_Common.Label.InvalidCpu	en-US	This device is not registered!
 WC_UI_UWP_Common.Label.InvalidCpu	de-DE	Dieses Gerät ist nicht registriert!
@@ -973,9 +973,9 @@ WC_UI_UWP_Common.Label.Sum	de-DE	Summe
 WC_UI_UWP_Common.Label.Today	hu-HU	Ma
 WC_UI_UWP_Common.Label.Today	en-US	Today
 WC_UI_UWP_Common.Label.Today	de-DE	Heute
-WC_UI_UWP_Common.Label.Update	hu-HU	Aktualizál
+WC_UI_UWP_Common.Label.Update	hu-HU	Módosítás
 WC_UI_UWP_Common.Label.Update	en-US	Update
-WC_UI_UWP_Common.Label.Update	de-DE	Update*
+WC_UI_UWP_Common.Label.Update	de-DE	Abänderung
 WC_UI_UWP_Common.Label.Warning	hu-HU	Figyelmeztetés
 WC_UI_UWP_Common.Label.Warning	en-US	Warning
 WC_UI_UWP_Common.Label.Warning	de-DE	Warnung
@@ -1038,15 +1038,15 @@ WC_UI_UWP_Login.Label.LoginButton	en-US	Login
 WC_UI_UWP_Login.Label.LoginButton	de-DE	Anmelden
 WC_UI_UWP_Login.Label.LoginText	hu-HU	Belépés
 WC_UI_UWP_Login.Label.LoginText	en-US	Login
-WC_UI_UWP_Login.Label.LoginText	de-DE	Anmelden
+WC_UI_UWP_Login.Label.LoginText	de-DE	Anmeldung
 WC_UI_UWP_Login.Label.Password	hu-HU	Jelszó
 WC_UI_UWP_Login.Label.Password	en-US	Password
 WC_UI_UWP_Login.Label.Password	de-DE	Passwort
 WC_UI_UWP_Login.Label.Synchronization	hu-HU	Szinkronizálás
 WC_UI_UWP_Login.Label.Synchronization	en-US	Syncronization
 WC_UI_UWP_Login.Label.Synchronization	de-DE	Syncronisierung
-WC_UI_UWP_Login.Label.UserName	hu-HU	Felhasználó név
-WC_UI_UWP_Login.Label.UserName	en-US	User name
+WC_UI_UWP_Login.Label.UserName	hu-HU	Felhasználónév
+WC_UI_UWP_Login.Label.UserName	en-US	Username
 WC_UI_UWP_Login.Label.UserName	de-DE	Benutzername
 WC_UI_UWP_Menu	hu-HU	Menü
 WC_UI_UWP_Menu	en-US	Menu
@@ -1069,9 +1069,9 @@ WC_UI_UWP_Menu.Examination	de-DE	Prüfung
 WC_UI_UWP_Menu.ExaminationTooltip	hu-HU	Itt indíthatja el a vizsgálatot és várhat a feldolgozásra
 WC_UI_UWP_Menu.ExaminationTooltip	en-US	You can start here the analysis and wait while processing
 WC_UI_UWP_Menu.ExaminationTooltip	de-DE	Sie können hier die Analyse starten und mit der Verarbeitung warten
-WC_UI_UWP_Menu.Hardware	hu-HU	Eszközök
-WC_UI_UWP_Menu.Hardware	en-US	Hardwares
-WC_UI_UWP_Menu.Hardware	de-DE	Werkzeuge
+WC_UI_UWP_Menu.Hardware	hu-HU	Eszköz
+WC_UI_UWP_Menu.Hardware	en-US	Hardware
+WC_UI_UWP_Menu.Hardware	de-DE	Werkzeug
 WC_UI_UWP_Menu.HardwareTooltip	hu-HU	Itt nézheti meg a csatlakoztatott eszközök információit
 WC_UI_UWP_Menu.HardwareTooltip	en-US	Displays the information about connected devices
 WC_UI_UWP_Menu.HardwareTooltip	de-DE	Zeigt die Informationen über angeschlossene Geräte an
@@ -1104,7 +1104,7 @@ WC_UI_UWP_Menu.LogoutDialog.NoSave	en-US	No save
 WC_UI_UWP_Menu.LogoutDialog.NoSave	de-DE	Nicht speichern
 WC_UI_UWP_Menu.LogoutDialog.Save	hu-HU	Mentés
 WC_UI_UWP_Menu.LogoutDialog.Save	en-US	Save
-WC_UI_UWP_Menu.LogoutDialog.Save	de-DE	Speichern Sie
+WC_UI_UWP_Menu.LogoutDialog.Save	de-DE	Speichern bei
 WC_UI_UWP_Menu.LogoutDialog.Title	hu-HU	Kijelentkezés
 WC_UI_UWP_Menu.LogoutDialog.Title	en-US	Logout
 WC_UI_UWP_Menu.LogoutDialog.Title	de-DE	Abmeldung
@@ -1129,7 +1129,7 @@ WC_UI_UWP_Menu.Preparation	de-DE	Vorbereitung
 WC_UI_UWP_Menu.PreparationTooltip	hu-HU	Itt választhatja ki a vizsgálat típusát és tekintheti meg az öltöztető mintát
 WC_UI_UWP_Menu.PreparationTooltip	en-US	You can select here the analysis type and see the clothing template
 WC_UI_UWP_Menu.PreparationTooltip	de-DE	Sie können hier den Analysetyp auswählen und die Bekleidungsvorlage sehen
-WC_UI_UWP_Menu.Results	hu-HU	Eredmény
+WC_UI_UWP_Menu.Results	hu-HU	Eredmények
 WC_UI_UWP_Menu.Results	en-US	Results
 WC_UI_UWP_Menu.Results	de-DE	Ergebnisse
 WC_UI_UWP_Menu.ResultsTooltip	hu-HU	Itt nézheti meg a felvett videót és visszajátszhatja a vizsgálatot
@@ -1432,7 +1432,7 @@ WC_UI_UWP_Pages.Examination.Label.Error	de-DE	***
 WC_UI_UWP_Pages.Examination.Label.ExaminationType	hu-HU	Kiválasztott vizsgálat típus: 
 WC_UI_UWP_Pages.Examination.Label.ExaminationType	en-US	Selected examination type: 
 WC_UI_UWP_Pages.Examination.Label.ExaminationType	de-DE	Ausgewählter Untersuchungstyp:
-WC_UI_UWP_Pages.Examination.Label.Patient	hu-HU	Kiválasztott páciens: 
+WC_UI_UWP_Pages.Examination.Label.Patient	hu-HU	Kiválasztott beteg: 
 WC_UI_UWP_Pages.Examination.Label.Patient	en-US	Selected patient: 
 WC_UI_UWP_Pages.Examination.Label.Patient	de-DE	Ausgewählter Patient:
 WC_UI_UWP_Pages.Examination.Label.Threadmill	hu-HU	Futógép
@@ -1680,10 +1680,10 @@ WC_UI_UWP_Pages.Patient.Address	en-US	Address
 WC_UI_UWP_Pages.Patient.Address	de-DE	Adresse
 WC_UI_UWP_Pages.Patient.Born	hu-HU	Született: 
 WC_UI_UWP_Pages.Patient.Born	en-US	Born: 
-WC_UI_UWP_Pages.Patient.Born	de-DE	Born:
+WC_UI_UWP_Pages.Patient.Born	de-DE	Geboren:
 WC_UI_UWP_Pages.Patient.BornCity	hu-HU	Születési hely
 WC_UI_UWP_Pages.Patient.BornCity	en-US	Place of birth
-WC_UI_UWP_Pages.Patient.BornCity	de-DE	Geburtsort
+WC_UI_UWP_Pages.Patient.BornCity	de-DE	Ort der Geburt
 WC_UI_UWP_Pages.Patient.BornDate	hu-HU	Születési dátum
 WC_UI_UWP_Pages.Patient.BornDate	en-US	Date of birth
 WC_UI_UWP_Pages.Patient.BornDate	de-DE	Geburtsdatum
@@ -1732,9 +1732,9 @@ WC_UI_UWP_Pages.Patient.Name	de-DE	Name*
 WC_UI_UWP_Pages.Patient.PatientAddTooltip	hu-HU	Felvesz egy új pácienst a adatbázisba
 WC_UI_UWP_Pages.Patient.PatientAddTooltip	en-US	Inserts a new patient into the database
 WC_UI_UWP_Pages.Patient.PatientAddTooltip	de-DE	Fügt einen neuen Patienten in die Datenbank ein
-WC_UI_UWP_Pages.Patient.PatientData	hu-HU	Adatok
-WC_UI_UWP_Pages.Patient.PatientData	en-US	Data
-WC_UI_UWP_Pages.Patient.PatientData	de-DE	Daten
+WC_UI_UWP_Pages.Patient.PatientData	hu-HU	Betegadatok
+WC_UI_UWP_Pages.Patient.PatientData	en-US	Patient data
+WC_UI_UWP_Pages.Patient.PatientData	de-DE	Patientendaten
 WC_UI_UWP_Pages.Patient.PatientEditTooltip	hu-HU	A kiválasztott páciens adatait módosítja
 WC_UI_UWP_Pages.Patient.PatientEditTooltip	en-US	Edits the personal data of the selected patient
 WC_UI_UWP_Pages.Patient.PatientEditTooltip	de-DE	Bearbeitet die persönlichen Daten des ausgewählten Patienten
@@ -1744,9 +1744,9 @@ WC_UI_UWP_Pages.Patient.PatientExaminations	de-DE	Prüfungen
 WC_UI_UWP_Pages.Patient.PatientId	hu-HU	Személyi azonosító
 WC_UI_UWP_Pages.Patient.PatientId	en-US	Personal identifier
 WC_UI_UWP_Pages.Patient.PatientId	de-DE	Kennzeichnung
-WC_UI_UWP_Pages.Patient.PatientIdType	hu-HU	Azonosító típusa
-WC_UI_UWP_Pages.Patient.PatientIdType	en-US	Identifier type
-WC_UI_UWP_Pages.Patient.PatientIdType	de-DE	Kennungstyp
+WC_UI_UWP_Pages.Patient.PatientIdType	hu-HU	Betegazonosító típusa
+WC_UI_UWP_Pages.Patient.PatientIdType	en-US	Patient Id type
+WC_UI_UWP_Pages.Patient.PatientIdType	de-DE	Art der Patientenidentifikation
 WC_UI_UWP_Pages.Patient.PatientIdTypeId	hu-HU	Azonosító típusa (id)
 WC_UI_UWP_Pages.Patient.PatientIdTypeId	en-US	Identifier type id
 WC_UI_UWP_Pages.Patient.PatientIdTypeId	de-DE	Kennungstyp (id)
@@ -2014,7 +2014,7 @@ WC_UI_UWP_Pages.Welcome.Title	de-DE	Willkommen
 WC_UI_UWP_Pages.Welcome.ToolTip	hu-HU	A bal oldali menü használatával előkészítheti és végrehajthatja a kívánt mozgásanalízist.
 WC_UI_UWP_Pages.Welcome.ToolTip	en-US	Please select the desired function for prepare and run the analysis
 WC_UI_UWP_Pages.Welcome.ToolTip	de-DE	Bitte wählen Sie die gewünschte Funktion zur Vorbereitung und Durchführung der Analyse
-WC_UI_Web_BodyPartProperty	hu-HU	Testrész tulajdonsága
+WC_UI_Web_BodyPartProperty	hu-HU	Testrész tulajdonság
 WC_UI_Web_BodyPartProperty	en-US	Body part property
 WC_UI_Web_BodyPartProperty	de-DE	Körperteil-Eigenschaft
 WC_UI_Web_BodyPartProperty.Button	hu-HU	*
@@ -2050,15 +2050,15 @@ WC_UI_Web_BodyPartProperty.PageHeader.AddNewBodyPartProperty	de-DE	Hinzufügen e
 WC_UI_Web_BodyPartProperty.PageHeader.BodyPartPropertyDetails	hu-HU	Testrész tulajdonságának részletei
 WC_UI_Web_BodyPartProperty.PageHeader.BodyPartPropertyDetails	en-US	Body Part Property Details
 WC_UI_Web_BodyPartProperty.PageHeader.BodyPartPropertyDetails	de-DE	Details der Körperteileigenschaften
-WC_UI_Web_BodyPartProperty.PageHeader.DeleteBodyPartProperty	hu-HU	A testrész tulajdonság törlése
-WC_UI_Web_BodyPartProperty.PageHeader.DeleteBodyPartProperty	en-US	Delete The Body Part Property
-WC_UI_Web_BodyPartProperty.PageHeader.DeleteBodyPartProperty	de-DE	Löschen Sie die Körperteileigenschaft
+WC_UI_Web_BodyPartProperty.PageHeader.DeleteBodyPartProperty	hu-HU	Testrész-tulajdonság törlése
+WC_UI_Web_BodyPartProperty.PageHeader.DeleteBodyPartProperty	en-US	Delete body part property
+WC_UI_Web_BodyPartProperty.PageHeader.DeleteBodyPartProperty	de-DE	Körperteileigenschaft löschen
 WC_UI_Web_BodyPartProperty.PageHeader.ListOfBodyPartProperties	hu-HU	A testrész tulajdonságainak listája
 WC_UI_Web_BodyPartProperty.PageHeader.ListOfBodyPartProperties	en-US	List Of Body Part Properties
 WC_UI_Web_BodyPartProperty.PageHeader.ListOfBodyPartProperties	de-DE	Liste der Eigenschaften von Körperteilen
-WC_UI_Web_BodyPartProperty.PageHeader.UpdateBodyPartProperty	hu-HU	A testrész tulajdonság módosítása
-WC_UI_Web_BodyPartProperty.PageHeader.UpdateBodyPartProperty	en-US	Modify The Body Part Property
-WC_UI_Web_BodyPartProperty.PageHeader.UpdateBodyPartProperty	de-DE	Ändern Sie die Körperteileigenschaft
+WC_UI_Web_BodyPartProperty.PageHeader.UpdateBodyPartProperty	hu-HU	Testrész-tulajdonság módosítása
+WC_UI_Web_BodyPartProperty.PageHeader.UpdateBodyPartProperty	en-US	Modify body part property
+WC_UI_Web_BodyPartProperty.PageHeader.UpdateBodyPartProperty	de-DE	Körperteileigenschaft ändern
 WC_UI_Web_Common	hu-HU	Közös
 WC_UI_Web_Common	en-US	Common
 WC_UI_Web_Common	de-DE	Gemeinsame
@@ -2107,9 +2107,9 @@ WC_UI_Web_Common.Button.Finish	de-DE	Oberfläche
 WC_UI_Web_Common.Button.Go	hu-HU	Indítás
 WC_UI_Web_Common.Button.Go	en-US	Start
 WC_UI_Web_Common.Button.Go	de-DE	Start*
-WC_UI_Web_Common.Button.Insert	hu-HU	Beszúrás
+WC_UI_Web_Common.Button.Insert	hu-HU	Beillesztés
 WC_UI_Web_Common.Button.Insert	en-US	Insert
-WC_UI_Web_Common.Button.Insert	de-DE	einfügen.
+WC_UI_Web_Common.Button.Insert	de-DE	Einsatz
 WC_UI_Web_Common.Button.InsertAndFinish	hu-HU	Beillesztés és befejezés
 WC_UI_Web_Common.Button.InsertAndFinish	en-US	Insert And Finish
 WC_UI_Web_Common.Button.InsertAndFinish	de-DE	Einfügung und Abschluss
@@ -2485,10 +2485,10 @@ WC_UI_Web_Examination.Label.PatientAgeFrom	de-DE	Alter des Patienten Startdatum
 WC_UI_Web_Examination.Label.PatientAgeTo	hu-HU	Páciens kora végdátum
 WC_UI_Web_Examination.Label.PatientAgeTo	en-US	Patient age to
 WC_UI_Web_Examination.Label.PatientAgeTo	de-DE	Enddatum des Alters des Patienten
-WC_UI_Web_Examination.Label.PatientEmail	hu-HU	Páciens e-mail címe
-WC_UI_Web_Examination.Label.PatientEmail	en-US	Patient Email
+WC_UI_Web_Examination.Label.PatientEmail	hu-HU	Beteg e-mail címe
+WC_UI_Web_Examination.Label.PatientEmail	en-US	Patient e-mail address
 WC_UI_Web_Examination.Label.PatientEmail	de-DE	E-Mail Adresse des Patienten
-WC_UI_Web_Examination.Label.PatientHeight	hu-HU	Páciens magassága
+WC_UI_Web_Examination.Label.PatientHeight	hu-HU	Beteg magassága
 WC_UI_Web_Examination.Label.PatientHeight	en-US	Patient height
 WC_UI_Web_Examination.Label.PatientHeight	de-DE	Höhe des Patienten
 WC_UI_Web_Examination.Label.PatientHeightFrom	hu-HU	Páciens magassága kezdete
@@ -2515,7 +2515,7 @@ WC_UI_Web_Examination.Label.PatientLeftFootSizeFrom	de-DE	Beginn der Größe des
 WC_UI_Web_Examination.Label.PatientLeftFootSizeTo	hu-HU	Páciens bal lábmérete vége
 WC_UI_Web_Examination.Label.PatientLeftFootSizeTo	en-US	Patient left foot size to
 WC_UI_Web_Examination.Label.PatientLeftFootSizeTo	de-DE	Patient linkes Bein Größe Ende
-WC_UI_Web_Examination.Label.PatientName	hu-HU	Páciens neve
+WC_UI_Web_Examination.Label.PatientName	hu-HU	Beteg neve
 WC_UI_Web_Examination.Label.PatientName	en-US	Patient name
 WC_UI_Web_Examination.Label.PatientName	de-DE	Name des Patienten
 WC_UI_Web_Examination.Label.PatientRightFootSize	hu-HU	Páciens jobb lábmérete
@@ -2542,9 +2542,9 @@ WC_UI_Web_Examination.PageHeader	de-DE	Kopfzeile der Seite
 WC_UI_Web_Examination.PageHeader.AddNewExamination	hu-HU	Új vizsgálat hozzáadása
 WC_UI_Web_Examination.PageHeader.AddNewExamination	en-US	Add new examination
 WC_UI_Web_Examination.PageHeader.AddNewExamination	de-DE	Einen neuen Test hinzufügen
-WC_UI_Web_Examination.PageHeader.DeleteExamination	hu-HU	A vizsgálat törlése
-WC_UI_Web_Examination.PageHeader.DeleteExamination	en-US	Delete the examination
-WC_UI_Web_Examination.PageHeader.DeleteExamination	de-DE	Annullierung der Prüfung
+WC_UI_Web_Examination.PageHeader.DeleteExamination	hu-HU	Vizsgálat törlése
+WC_UI_Web_Examination.PageHeader.DeleteExamination	en-US	Delete examination
+WC_UI_Web_Examination.PageHeader.DeleteExamination	de-DE	Prüfung löschen
 WC_UI_Web_Examination.PageHeader.ExaminationDetails	hu-HU	Vizsgálat részletei
 WC_UI_Web_Examination.PageHeader.ExaminationDetails	en-US	Examination details
 WC_UI_Web_Examination.PageHeader.ExaminationDetails	de-DE	Details zum Test
@@ -2554,9 +2554,9 @@ WC_UI_Web_Examination.PageHeader.ListOfExaminations	de-DE	Liste der Prüfungen
 WC_UI_Web_Examination.PageHeader.RightAssignment	hu-HU	Jogosultság hozzárendelés
 WC_UI_Web_Examination.PageHeader.RightAssignment	en-US	Right assignment
 WC_UI_Web_Examination.PageHeader.RightAssignment	de-DE	Förderfähigkeit Zuweisung
-WC_UI_Web_Examination.PageHeader.UpdateExamination	hu-HU	A vizsgálat módosítása
-WC_UI_Web_Examination.PageHeader.UpdateExamination	en-US	Update the examination
-WC_UI_Web_Examination.PageHeader.UpdateExamination	de-DE	Modifizierung der Studie
+WC_UI_Web_Examination.PageHeader.UpdateExamination	hu-HU	Vizsgálat módosítása
+WC_UI_Web_Examination.PageHeader.UpdateExamination	en-US	Modify an examination
+WC_UI_Web_Examination.PageHeader.UpdateExamination	de-DE	Ändern einer Untersuchung
 WC_UI_Web_Exception	hu-HU	Kivétel
 WC_UI_Web_Exception	en-US	Exception
 WC_UI_Web_Exception	de-DE	Ausnahme
@@ -2698,20 +2698,20 @@ WC_UI_Web_Hardware.PageHeader	de-DE	Kopfzeile der Seite
 WC_UI_Web_Hardware.PageHeader.AddNewHardware	hu-HU	Új eszköz hozzáadása
 WC_UI_Web_Hardware.PageHeader.AddNewHardware	en-US	Add new hardware
 WC_UI_Web_Hardware.PageHeader.AddNewHardware	de-DE	Ein neues Gerät hinzufügen
-WC_UI_Web_Hardware.PageHeader.DeleteHardware	hu-HU	Az eszköz törlése
-WC_UI_Web_Hardware.PageHeader.DeleteHardware	en-US	Delete the hardware
-WC_UI_Web_Hardware.PageHeader.DeleteHardware	de-DE	So löschen Sie das Gerät
+WC_UI_Web_Hardware.PageHeader.DeleteHardware	hu-HU	Eszköz törlése
+WC_UI_Web_Hardware.PageHeader.DeleteHardware	en-US	Delete hardware
+WC_UI_Web_Hardware.PageHeader.DeleteHardware	de-DE	Ein Gerät löschen
 WC_UI_Web_Hardware.PageHeader.HardwareDetails	hu-HU	Eszköz részletek
 WC_UI_Web_Hardware.PageHeader.HardwareDetails	en-US	Hardware details
 WC_UI_Web_Hardware.PageHeader.HardwareDetails	de-DE	Details zum Gerät
 WC_UI_Web_Hardware.PageHeader.Iso	hu-HU	ISO
 WC_UI_Web_Hardware.PageHeader.Iso	en-US	ISO*
 WC_UI_Web_Hardware.PageHeader.Iso	de-DE	ISO**
-WC_UI_Web_Hardware.PageHeader.ListOfHardwares	hu-HU	Az eszközök listája
+WC_UI_Web_Hardware.PageHeader.ListOfHardwares	hu-HU	Eszközök listája
 WC_UI_Web_Hardware.PageHeader.ListOfHardwares	en-US	List of hardwares
 WC_UI_Web_Hardware.PageHeader.ListOfHardwares	de-DE	Liste der Werkzeuge
 WC_UI_Web_Hardware.PageHeader.UpdateHardware	hu-HU	Az eszköz frissítése
-WC_UI_Web_Hardware.PageHeader.UpdateHardware	en-US	Update the hardware
+WC_UI_Web_Hardware.PageHeader.UpdateHardware	en-US	Update hardware
 WC_UI_Web_Hardware.PageHeader.UpdateHardware	de-DE	Aktualisieren Sie Ihr Gerät
 WC_UI_Web_HardwareUpdate	hu-HU	*
 WC_UI_Web_HardwareUpdate	en-US	**
@@ -2746,18 +2746,18 @@ WC_UI_Web_HardwareUpdate.PageHeader	de-DE	***
 WC_UI_Web_HardwareUpdate.PageHeader.AddNewHardwareUpdate	hu-HU	Add New Hardware Update
 WC_UI_Web_HardwareUpdate.PageHeader.AddNewHardwareUpdate	en-US	Add New Hardware Update
 WC_UI_Web_HardwareUpdate.PageHeader.AddNewHardwareUpdate	de-DE	Add New Hardware Update
-WC_UI_Web_HardwareUpdate.PageHeader.DeleteHardwareUpdate	hu-HU	Delete The Hardware Update
-WC_UI_Web_HardwareUpdate.PageHeader.DeleteHardwareUpdate	en-US	Delete The Hardware Update
-WC_UI_Web_HardwareUpdate.PageHeader.DeleteHardwareUpdate	de-DE	Delete The Hardware Update
+WC_UI_Web_HardwareUpdate.PageHeader.DeleteHardwareUpdate	hu-HU	Eszközfrissítés törlése
+WC_UI_Web_HardwareUpdate.PageHeader.DeleteHardwareUpdate	en-US	Delete hardware update
+WC_UI_Web_HardwareUpdate.PageHeader.DeleteHardwareUpdate	de-DE	Löschen eines Geräteupdates
 WC_UI_Web_HardwareUpdate.PageHeader.HardwareUpdateDetails	hu-HU	Hardware Update Details
 WC_UI_Web_HardwareUpdate.PageHeader.HardwareUpdateDetails	en-US	Hardware Update Details
 WC_UI_Web_HardwareUpdate.PageHeader.HardwareUpdateDetails	de-DE	Hardware Update Details
 WC_UI_Web_HardwareUpdate.PageHeader.ListOfHardwareUpdates	hu-HU	List Of Hardware Updates
 WC_UI_Web_HardwareUpdate.PageHeader.ListOfHardwareUpdates	en-US	List Of Hardware Updates
 WC_UI_Web_HardwareUpdate.PageHeader.ListOfHardwareUpdates	de-DE	List Of Hardware Updates
-WC_UI_Web_HardwareUpdate.PageHeader.UpdateHardwareUpdate	hu-HU	Update The Hardware Update
-WC_UI_Web_HardwareUpdate.PageHeader.UpdateHardwareUpdate	en-US	Update The Hardware Update
-WC_UI_Web_HardwareUpdate.PageHeader.UpdateHardwareUpdate	de-DE	Update The Hardware Update
+WC_UI_Web_HardwareUpdate.PageHeader.UpdateHardwareUpdate	hu-HU	Eszközfrissítés módosítása
+WC_UI_Web_HardwareUpdate.PageHeader.UpdateHardwareUpdate	en-US	Modify hardware update
+WC_UI_Web_HardwareUpdate.PageHeader.UpdateHardwareUpdate	de-DE	Ändern eines Geräteupdates
 WC_UI_Web_Header	hu-HU	
 WC_UI_Web_Header	en-US	
 WC_UI_Web_Header	de-DE	
@@ -2779,9 +2779,9 @@ WC_UI_Web_Header.Label.LockAccount	de-DE	Lock Account
 WC_UI_Web_Header.Label.Logout	hu-HU	Kijelentkezés
 WC_UI_Web_Header.Label.Logout	en-US	Logout
 WC_UI_Web_Header.Label.Logout	de-DE	Abmeldung
-WC_UI_Web_Header.Label.Organizations	hu-HU	Organizations
+WC_UI_Web_Header.Label.Organizations	hu-HU	Szervezetek
 WC_UI_Web_Header.Label.Organizations	en-US	Organizations
-WC_UI_Web_Header.Label.Organizations	de-DE	Organizations
+WC_UI_Web_Header.Label.Organizations	de-DE	Organisationen
 WC_UI_Web_Header.Label.Paitients	hu-HU	Paitients
 WC_UI_Web_Header.Label.Paitients	en-US	Paitients
 WC_UI_Web_Header.Label.Paitients	de-DE	Paitients
@@ -2791,12 +2791,12 @@ WC_UI_Web_Header.Label.Profile	de-DE	Profile
 WC_UI_Web_Header.Label.SelectLanguage	hu-HU	Select Language
 WC_UI_Web_Header.Label.SelectLanguage	en-US	Select Language
 WC_UI_Web_Header.Label.SelectLanguage	de-DE	Select Language
-WC_UI_Web_Header.Label.Settings	hu-HU	Settings
+WC_UI_Web_Header.Label.Settings	hu-HU	Beállítások
 WC_UI_Web_Header.Label.Settings	en-US	Settings
-WC_UI_Web_Header.Label.Settings	de-DE	Settings
-WC_UI_Web_Header.Label.Users	hu-HU	Users
+WC_UI_Web_Header.Label.Settings	de-DE	Einstellungen
+WC_UI_Web_Header.Label.Users	hu-HU	Felhasználók
 WC_UI_Web_Header.Label.Users	en-US	Users
-WC_UI_Web_Header.Label.Users	de-DE	Users
+WC_UI_Web_Header.Label.Users	de-DE	Benutzer
 WC_UI_Web_Home	hu-HU	*
 WC_UI_Web_Home	en-US	**
 WC_UI_Web_Home	de-DE	***
@@ -2806,9 +2806,9 @@ WC_UI_Web_Home.Button	de-DE	***
 WC_UI_Web_Home.Button.CreateRow	hu-HU	Create Row
 WC_UI_Web_Home.Button.CreateRow	en-US	Create Row
 WC_UI_Web_Home.Button.CreateRow	de-DE	Create Row
-WC_UI_Web_Home.Button.Save	hu-HU	Save
+WC_UI_Web_Home.Button.Save	hu-HU	Mentés
 WC_UI_Web_Home.Button.Save	en-US	Save
-WC_UI_Web_Home.Button.Save	de-DE	Save
+WC_UI_Web_Home.Button.Save	de-DE	Speichern bei
 WC_UI_Web_Home.Label	hu-HU	*
 WC_UI_Web_Home.Label	en-US	**
 WC_UI_Web_Home.Label	de-DE	***
@@ -2848,9 +2848,9 @@ WC_UI_Web_Home.Label.Hardwares	de-DE	Werkzeuge
 WC_UI_Web_Home.Label.LastAnalysis	hu-HU	Last Analysis
 WC_UI_Web_Home.Label.LastAnalysis	en-US	Last Analysis
 WC_UI_Web_Home.Label.LastAnalysis	de-DE	Last Analysis
-WC_UI_Web_Home.Label.Name	hu-HU	Name
+WC_UI_Web_Home.Label.Name	hu-HU	Név
 WC_UI_Web_Home.Label.Name	en-US	Name
-WC_UI_Web_Home.Label.Name	de-DE	Name
+WC_UI_Web_Home.Label.Name	de-DE	Name*
 WC_UI_Web_Home.Label.Nodes	hu-HU	Nodes
 WC_UI_Web_Home.Label.Nodes	en-US	Nodes
 WC_UI_Web_Home.Label.Nodes	de-DE	Nodes
@@ -2860,15 +2860,15 @@ WC_UI_Web_Home.Label.NumberOfColumns	de-DE	Number Of Columns
 WC_UI_Web_Home.Label.OrganizationInformation	hu-HU	Organization Information
 WC_UI_Web_Home.Label.OrganizationInformation	en-US	Organization Information
 WC_UI_Web_Home.Label.OrganizationInformation	de-DE	Organization Information
-WC_UI_Web_Home.Label.PatientName	hu-HU	Patient Name
-WC_UI_Web_Home.Label.PatientName	en-US	Patient Name
-WC_UI_Web_Home.Label.PatientName	de-DE	Patient Name
-WC_UI_Web_Home.Label.Patients	hu-HU	Patients
+WC_UI_Web_Home.Label.PatientName	hu-HU	Beteg neve
+WC_UI_Web_Home.Label.PatientName	en-US	Patient name
+WC_UI_Web_Home.Label.PatientName	de-DE	Name des Patienten
+WC_UI_Web_Home.Label.Patients	hu-HU	Betegek
 WC_UI_Web_Home.Label.Patients	en-US	Patients
-WC_UI_Web_Home.Label.Patients	de-DE	Patients
-WC_UI_Web_Home.Label.Users	hu-HU	Users
+WC_UI_Web_Home.Label.Patients	de-DE	Patienten
+WC_UI_Web_Home.Label.Users	hu-HU	Felhasználók
 WC_UI_Web_Home.Label.Users	en-US	Users
-WC_UI_Web_Home.Label.Users	de-DE	Users
+WC_UI_Web_Home.Label.Users	de-DE	Benutzer
 WC_UI_Web_Home.Label.WalkingExam	hu-HU	Komplex járáselemzés
 WC_UI_Web_Home.Label.WalkingExam	en-US	Complex gait analysis
 WC_UI_Web_Home.Label.WalkingExam	de-DE	Komplexe Ganganalyse
@@ -2902,18 +2902,18 @@ WC_UI_Web_License.PageHeader	de-DE
 WC_UI_Web_License.PageHeader.AddNewLicense	hu-HU	Add New License
 WC_UI_Web_License.PageHeader.AddNewLicense	en-US	Add New License
 WC_UI_Web_License.PageHeader.AddNewLicense	de-DE	Add New License
-WC_UI_Web_License.PageHeader.DeleteLicense	hu-HU	Delete The License
-WC_UI_Web_License.PageHeader.DeleteLicense	en-US	Delete The License
-WC_UI_Web_License.PageHeader.DeleteLicense	de-DE	Delete The License
+WC_UI_Web_License.PageHeader.DeleteLicense	hu-HU	Licenc törlése
+WC_UI_Web_License.PageHeader.DeleteLicense	en-US	Delete licence
+WC_UI_Web_License.PageHeader.DeleteLicense	de-DE	Lizenz löschen
 WC_UI_Web_License.PageHeader.LicenseDetails	hu-HU	License Details
 WC_UI_Web_License.PageHeader.LicenseDetails	en-US	License Details
 WC_UI_Web_License.PageHeader.LicenseDetails	de-DE	License Details
 WC_UI_Web_License.PageHeader.ListOfLicenses	hu-HU	List Of Licenses
 WC_UI_Web_License.PageHeader.ListOfLicenses	en-US	List Of Licenses
 WC_UI_Web_License.PageHeader.ListOfLicenses	de-DE	List Of Licenses
-WC_UI_Web_License.PageHeader.UpdateLicense	hu-HU	Update The License
-WC_UI_Web_License.PageHeader.UpdateLicense	en-US	Update The License
-WC_UI_Web_License.PageHeader.UpdateLicense	de-DE	Update The License
+WC_UI_Web_License.PageHeader.UpdateLicense	hu-HU	Licenc módosítása
+WC_UI_Web_License.PageHeader.UpdateLicense	en-US	Modify license
+WC_UI_Web_License.PageHeader.UpdateLicense	de-DE	Lizenz ändern
 WC_UI_Web_Login	hu-HU	Bejelentkezés
 WC_UI_Web_Login	en-US	Login
 WC_UI_Web_Login	de-DE	Anmeldung
@@ -2922,10 +2922,10 @@ WC_UI_Web_Login.Labels	en-US
 WC_UI_Web_Login.Labels	de-DE	
 WC_UI_Web_Login.Labels.Password	hu-HU	Jelszó
 WC_UI_Web_Login.Labels.Password	en-US	Password
-WC_UI_Web_Login.Labels.Password	de-DE	Password
+WC_UI_Web_Login.Labels.Password	de-DE	Passwort
 WC_UI_Web_Login.Labels.Username	hu-HU	Felhasználónév
 WC_UI_Web_Login.Labels.Username	en-US	Username
-WC_UI_Web_Login.Labels.Username	de-DE	Username
+WC_UI_Web_Login.Labels.Username	de-DE	Benutzername
 WC_UI_Web_Login.Message	hu-HU	*
 WC_UI_Web_Login.Message	en-US	**
 WC_UI_Web_Login.Message	de-DE	***
@@ -2971,45 +2971,45 @@ WC_UI_Web_Organization.Label.Email	de-DE	Email
 WC_UI_Web_Organization.Label.MaxNumberOfUsers	hu-HU	Max Number Of Users
 WC_UI_Web_Organization.Label.MaxNumberOfUsers	en-US	Max Number Of Users
 WC_UI_Web_Organization.Label.MaxNumberOfUsers	de-DE	Max Number Of Users
-WC_UI_Web_Organization.Label.OrganizationName	hu-HU	Szerep Neve
-WC_UI_Web_Organization.Label.OrganizationName	en-US	Organization Name
-WC_UI_Web_Organization.Label.OrganizationName	de-DE	Organization Name
-WC_UI_Web_Organization.Label.Password	hu-HU	Password
+WC_UI_Web_Organization.Label.OrganizationName	hu-HU	Szervezet neve
+WC_UI_Web_Organization.Label.OrganizationName	en-US	Organization name
+WC_UI_Web_Organization.Label.OrganizationName	de-DE	Name der Organisation
+WC_UI_Web_Organization.Label.Password	hu-HU	Jelszó
 WC_UI_Web_Organization.Label.Password	en-US	Password
-WC_UI_Web_Organization.Label.Password	de-DE	Password
+WC_UI_Web_Organization.Label.Password	de-DE	Passwort
 WC_UI_Web_Organization.Label.UserFullName	hu-HU	User Full Name
 WC_UI_Web_Organization.Label.UserFullName	en-US	User Full Name
 WC_UI_Web_Organization.Label.UserFullName	de-DE	User Full Name
-WC_UI_Web_Organization.Label.Username	hu-HU	Username
+WC_UI_Web_Organization.Label.Username	hu-HU	Felhasználónév
 WC_UI_Web_Organization.Label.Username	en-US	Username
-WC_UI_Web_Organization.Label.Username	de-DE	Username
-WC_UI_Web_Organization.Label.Users	hu-HU	Users
+WC_UI_Web_Organization.Label.Username	de-DE	Benutzername
+WC_UI_Web_Organization.Label.Users	hu-HU	Felhasználók
 WC_UI_Web_Organization.Label.Users	en-US	Users
-WC_UI_Web_Organization.Label.Users	de-DE	Users
+WC_UI_Web_Organization.Label.Users	de-DE	Benutzer
 WC_UI_Web_Organization.PageHeader	hu-HU	
 WC_UI_Web_Organization.PageHeader	en-US	
 WC_UI_Web_Organization.PageHeader	de-DE	
 WC_UI_Web_Organization.PageHeader.AddNewOrganization	hu-HU	Új Szerep
 WC_UI_Web_Organization.PageHeader.AddNewOrganization	en-US	Add New Organization
 WC_UI_Web_Organization.PageHeader.AddNewOrganization	de-DE	Add New Organization
-WC_UI_Web_Organization.PageHeader.DeleteOrganization	hu-HU	Szerep Törlése
-WC_UI_Web_Organization.PageHeader.DeleteOrganization	en-US	Delete The Organization
-WC_UI_Web_Organization.PageHeader.DeleteOrganization	de-DE	Delete The Organization
-WC_UI_Web_Organization.PageHeader.ListOfOrganizations	hu-HU	Szerepek
-WC_UI_Web_Organization.PageHeader.ListOfOrganizations	en-US	List Of Organizations
-WC_UI_Web_Organization.PageHeader.ListOfOrganizations	de-DE	List Of Organizations
+WC_UI_Web_Organization.PageHeader.DeleteOrganization	hu-HU	Szervezet törlése
+WC_UI_Web_Organization.PageHeader.DeleteOrganization	en-US	Delete organization
+WC_UI_Web_Organization.PageHeader.DeleteOrganization	de-DE	Organisation löschen
+WC_UI_Web_Organization.PageHeader.ListOfOrganizations	hu-HU	Szervezetek listája
+WC_UI_Web_Organization.PageHeader.ListOfOrganizations	en-US	List of organizations
+WC_UI_Web_Organization.PageHeader.ListOfOrganizations	de-DE	Liste der Organisationen
 WC_UI_Web_Organization.PageHeader.OrganizationDetails	hu-HU	Szerep Részletei
 WC_UI_Web_Organization.PageHeader.OrganizationDetails	en-US	Organization Details
 WC_UI_Web_Organization.PageHeader.OrganizationDetails	de-DE	Organization Details
 WC_UI_Web_Organization.PageHeader.RegisterNewOrganization	hu-HU	Register New Organization
 WC_UI_Web_Organization.PageHeader.RegisterNewOrganization	en-US	Register New Organization
 WC_UI_Web_Organization.PageHeader.RegisterNewOrganization	de-DE	Register New Organization
-WC_UI_Web_Organization.PageHeader.UpdateOrganization	hu-HU	Szerep Frissítése
-WC_UI_Web_Organization.PageHeader.UpdateOrganization	en-US	Update The Organization
-WC_UI_Web_Organization.PageHeader.UpdateOrganization	de-DE	Update The Organization
-WC_UI_Web_Organization.PageHeader.UpdateUser	hu-HU	Update User
-WC_UI_Web_Organization.PageHeader.UpdateUser	en-US	Update User
-WC_UI_Web_Organization.PageHeader.UpdateUser	de-DE	Update User
+WC_UI_Web_Organization.PageHeader.UpdateOrganization	hu-HU	Szervezet módosítása
+WC_UI_Web_Organization.PageHeader.UpdateOrganization	en-US	Modify organization
+WC_UI_Web_Organization.PageHeader.UpdateOrganization	de-DE	Organisation modifizieren
+WC_UI_Web_Organization.PageHeader.UpdateUser	hu-HU	Felhasználó módosítása
+WC_UI_Web_Organization.PageHeader.UpdateUser	en-US	Modify user
+WC_UI_Web_Organization.PageHeader.UpdateUser	de-DE	Benutzer ändern
 WC_UI_Web_Patient	hu-HU	Beteg
 WC_UI_Web_Patient	en-US	Patient
 WC_UI_Web_Patient	de-DE	Patient*
@@ -3022,12 +3022,12 @@ WC_UI_Web_Patient.Button.AddNewPatient	de-DE	Add New Patient
 WC_UI_Web_Patient.Label	hu-HU	*
 WC_UI_Web_Patient.Label	en-US	**
 WC_UI_Web_Patient.Label	de-DE	***
-WC_UI_Web_Patient.Label.Address	hu-HU	Address
+WC_UI_Web_Patient.Label.Address	hu-HU	Cím
 WC_UI_Web_Patient.Label.Address	en-US	Address
-WC_UI_Web_Patient.Label.Address	de-DE	Address
-WC_UI_Web_Patient.Label.BornCity	hu-HU	Born City
-WC_UI_Web_Patient.Label.BornCity	en-US	Born City
-WC_UI_Web_Patient.Label.BornCity	de-DE	Born City
+WC_UI_Web_Patient.Label.Address	de-DE	Adresse
+WC_UI_Web_Patient.Label.BornCity	hu-HU	Születési hely
+WC_UI_Web_Patient.Label.BornCity	en-US	Place of birth
+WC_UI_Web_Patient.Label.BornCity	de-DE	Ort der Geburt
 WC_UI_Web_Patient.Label.BornDate	hu-HU	Born Date
 WC_UI_Web_Patient.Label.BornDate	en-US	Born Date
 WC_UI_Web_Patient.Label.BornDate	de-DE	Born Date
@@ -3052,12 +3052,12 @@ WC_UI_Web_Patient.Label.LeftFootSize	de-DE	Left Foot Size
 WC_UI_Web_Patient.Label.PatientId	hu-HU	Patient Id
 WC_UI_Web_Patient.Label.PatientId	en-US	Patient Id
 WC_UI_Web_Patient.Label.PatientId	de-DE	Patient Id
-WC_UI_Web_Patient.Label.PatientIdType	hu-HU	Patient Id Type
-WC_UI_Web_Patient.Label.PatientIdType	en-US	Patient Id Type
-WC_UI_Web_Patient.Label.PatientIdType	de-DE	Patient Id Type
-WC_UI_Web_Patient.Label.PatientName	hu-HU	Patient Name
-WC_UI_Web_Patient.Label.PatientName	en-US	Patient Name
-WC_UI_Web_Patient.Label.PatientName	de-DE	Patient Name
+WC_UI_Web_Patient.Label.PatientIdType	hu-HU	Betegazonosító típusa
+WC_UI_Web_Patient.Label.PatientIdType	en-US	Patient Id type
+WC_UI_Web_Patient.Label.PatientIdType	de-DE	Art der Patientenidentifikation
+WC_UI_Web_Patient.Label.PatientName	hu-HU	Beteg neve
+WC_UI_Web_Patient.Label.PatientName	en-US	Patient name
+WC_UI_Web_Patient.Label.PatientName	de-DE	Name des Patienten
 WC_UI_Web_Patient.Label.Phone	hu-HU	Phone
 WC_UI_Web_Patient.Label.Phone	en-US	Phone
 WC_UI_Web_Patient.Label.Phone	de-DE	Phone
@@ -3073,18 +3073,18 @@ WC_UI_Web_Patient.PageHeader	de-DE
 WC_UI_Web_Patient.PageHeader.AddNewPatient	hu-HU	Add New Patient
 WC_UI_Web_Patient.PageHeader.AddNewPatient	en-US	Add New Patient
 WC_UI_Web_Patient.PageHeader.AddNewPatient	de-DE	Add New Patient
-WC_UI_Web_Patient.PageHeader.DeletePatient	hu-HU	Delete The Patient
-WC_UI_Web_Patient.PageHeader.DeletePatient	en-US	Delete The Patient
-WC_UI_Web_Patient.PageHeader.DeletePatient	de-DE	Delete The Patient
+WC_UI_Web_Patient.PageHeader.DeletePatient	hu-HU	Beteg törlése
+WC_UI_Web_Patient.PageHeader.DeletePatient	en-US	Delete patient
+WC_UI_Web_Patient.PageHeader.DeletePatient	de-DE	Einen Patienten löschen
 WC_UI_Web_Patient.PageHeader.ListOfPatients	hu-HU	List Of Patients
 WC_UI_Web_Patient.PageHeader.ListOfPatients	en-US	List Of Patients
 WC_UI_Web_Patient.PageHeader.ListOfPatients	de-DE	List Of Patients
 WC_UI_Web_Patient.PageHeader.PatientDetails	hu-HU	Patient Details
 WC_UI_Web_Patient.PageHeader.PatientDetails	en-US	Patient Details
 WC_UI_Web_Patient.PageHeader.PatientDetails	de-DE	Patient Details
-WC_UI_Web_Patient.PageHeader.UpdatePatient	hu-HU	Update The Patient
-WC_UI_Web_Patient.PageHeader.UpdatePatient	en-US	Update The Patient
-WC_UI_Web_Patient.PageHeader.UpdatePatient	de-DE	Update The Patient
+WC_UI_Web_Patient.PageHeader.UpdatePatient	hu-HU	Beteg módosítása
+WC_UI_Web_Patient.PageHeader.UpdatePatient	en-US	Modify patient
+WC_UI_Web_Patient.PageHeader.UpdatePatient	de-DE	Patient ändern
 WC_UI_Web_QueryOption	hu-HU	Lekérdezési lehetőség
 WC_UI_Web_QueryOption	en-US	Query option
 WC_UI_Web_QueryOption	de-DE	Auskunftsmöglichkeit
@@ -3130,9 +3130,9 @@ WC_UI_Web_QueryOption.PageHeader	de-DE
 WC_UI_Web_QueryOption.PageHeader.AddNewQueryOption	hu-HU	Add New Query Option
 WC_UI_Web_QueryOption.PageHeader.AddNewQueryOption	en-US	Add New Query Option
 WC_UI_Web_QueryOption.PageHeader.AddNewQueryOption	de-DE	Add New Query Option
-WC_UI_Web_QueryOption.PageHeader.DeleteQueryOption	hu-HU	Delete The Query Option
-WC_UI_Web_QueryOption.PageHeader.DeleteQueryOption	en-US	Delete The Query Option
-WC_UI_Web_QueryOption.PageHeader.DeleteQueryOption	de-DE	Delete The Query Option
+WC_UI_Web_QueryOption.PageHeader.DeleteQueryOption	hu-HU	Lekérdezési lehetőség törlése
+WC_UI_Web_QueryOption.PageHeader.DeleteQueryOption	en-US	Delete query option
+WC_UI_Web_QueryOption.PageHeader.DeleteQueryOption	de-DE	Option Abfrage löschen
 WC_UI_Web_QueryOption.PageHeader.ListOfQueries	hu-HU	List Of Queries
 WC_UI_Web_QueryOption.PageHeader.ListOfQueries	en-US	List Of Queries
 WC_UI_Web_QueryOption.PageHeader.ListOfQueries	de-DE	List Of Queries
@@ -3145,9 +3145,9 @@ WC_UI_Web_QueryOption.PageHeader.QueryOptionDetails	de-DE	Query Option Details
 WC_UI_Web_QueryOption.PageHeader.SaveANewState	hu-HU	Save a new state
 WC_UI_Web_QueryOption.PageHeader.SaveANewState	en-US	Save a new state
 WC_UI_Web_QueryOption.PageHeader.SaveANewState	de-DE	Save a new state
-WC_UI_Web_QueryOption.PageHeader.UpdateQueryOption	hu-HU	Update The Query Option
-WC_UI_Web_QueryOption.PageHeader.UpdateQueryOption	en-US	Update The Query Option
-WC_UI_Web_QueryOption.PageHeader.UpdateQueryOption	de-DE	Update The Query Option
+WC_UI_Web_QueryOption.PageHeader.UpdateQueryOption	hu-HU	Lekérdezési lehetőség módosítása
+WC_UI_Web_QueryOption.PageHeader.UpdateQueryOption	en-US	Modify query option
+WC_UI_Web_QueryOption.PageHeader.UpdateQueryOption	de-DE	Abfrageoption ändern
 WC_UI_Web_QueryOption.PageHeader.UpdateTheCurrentState	hu-HU	Update the current state
 WC_UI_Web_QueryOption.PageHeader.UpdateTheCurrentState	en-US	Update the current state
 WC_UI_Web_QueryOption.PageHeader.UpdateTheCurrentState	de-DE	Update the current state
@@ -3165,7 +3165,7 @@ WC_UI_Web_Role.Label	en-US	**
 WC_UI_Web_Role.Label	de-DE	***
 WC_UI_Web_Role.Label.Description	hu-HU	Leírás
 WC_UI_Web_Role.Label.Description	en-US	Description
-WC_UI_Web_Role.Label.Description	de-DE	Description
+WC_UI_Web_Role.Label.Description	de-DE	Beschreibung
 WC_UI_Web_Role.Label.NotAssignedRights	hu-HU	Hozzá Nem Rendelt Jogok
 WC_UI_Web_Role.Label.NotAssignedRights	en-US	Not Assigned Rights
 WC_UI_Web_Role.Label.NotAssignedRights	de-DE	Not Assigned Rights
@@ -3181,9 +3181,9 @@ WC_UI_Web_Role.PageHeader	de-DE
 WC_UI_Web_Role.PageHeader.AddNewRole	hu-HU	Új Szerep
 WC_UI_Web_Role.PageHeader.AddNewRole	en-US	Add New Role
 WC_UI_Web_Role.PageHeader.AddNewRole	de-DE	Add New Role
-WC_UI_Web_Role.PageHeader.DeleteRole	hu-HU	Szerep Törlése
-WC_UI_Web_Role.PageHeader.DeleteRole	en-US	Delete The Role
-WC_UI_Web_Role.PageHeader.DeleteRole	de-DE	Delete The Role
+WC_UI_Web_Role.PageHeader.DeleteRole	hu-HU	Szerepkör törlése
+WC_UI_Web_Role.PageHeader.DeleteRole	en-US	Delete role
+WC_UI_Web_Role.PageHeader.DeleteRole	de-DE	Eine Rolle löschen
 WC_UI_Web_Role.PageHeader.ListOfRoles	hu-HU	Szerepek
 WC_UI_Web_Role.PageHeader.ListOfRoles	en-US	List Of Roles
 WC_UI_Web_Role.PageHeader.ListOfRoles	de-DE	List Of Roles
@@ -3193,9 +3193,9 @@ WC_UI_Web_Role.PageHeader.RightAssignment	de-DE	Right Assignment
 WC_UI_Web_Role.PageHeader.RoleDetails	hu-HU	Szerep Részletei
 WC_UI_Web_Role.PageHeader.RoleDetails	en-US	Role Details
 WC_UI_Web_Role.PageHeader.RoleDetails	de-DE	Role Details
-WC_UI_Web_Role.PageHeader.UpdateRole	hu-HU	Szerep Frissítése
-WC_UI_Web_Role.PageHeader.UpdateRole	en-US	Update The Role
-WC_UI_Web_Role.PageHeader.UpdateRole	de-DE	Update The Role
+WC_UI_Web_Role.PageHeader.UpdateRole	hu-HU	Szerepkör módosítása
+WC_UI_Web_Role.PageHeader.UpdateRole	en-US	Modify role
+WC_UI_Web_Role.PageHeader.UpdateRole	de-DE	Rolle ändern
 WC_UI_Web_User	hu-HU	Felhasználó
 WC_UI_Web_User	en-US	User
 WC_UI_Web_User	de-DE	Benutzer
@@ -3249,7 +3249,7 @@ WC_UI_Web_User.Label.LastLoginDate	en-US	Last Login Date
 WC_UI_Web_User.Label.LastLoginDate	de-DE	Last Login Date
 WC_UI_Web_User.Label.Name	hu-HU	Név
 WC_UI_Web_User.Label.Name	en-US	Name
-WC_UI_Web_User.Label.Name	de-DE	Name
+WC_UI_Web_User.Label.Name	de-DE	Name*
 WC_UI_Web_User.Label.NewPassword	hu-HU	Új Jelszó
 WC_UI_Web_User.Label.NewPassword	en-US	New Password
 WC_UI_Web_User.Label.NewPassword	de-DE	New Password
@@ -3258,13 +3258,13 @@ WC_UI_Web_User.Label.OldPassword	en-US	Old Password
 WC_UI_Web_User.Label.OldPassword	de-DE	Old Password
 WC_UI_Web_User.Label.Password	hu-HU	Jelszó
 WC_UI_Web_User.Label.Password	en-US	Password
-WC_UI_Web_User.Label.Password	de-DE	Password
+WC_UI_Web_User.Label.Password	de-DE	Passwort
 WC_UI_Web_User.Label.Phone	hu-HU	Telefonszám
 WC_UI_Web_User.Label.Phone	en-US	Phone
 WC_UI_Web_User.Label.Phone	de-DE	Phone
 WC_UI_Web_User.Label.UserName	hu-HU	Felhasználónév
-WC_UI_Web_User.Label.UserName	en-US	UserName
-WC_UI_Web_User.Label.UserName	de-DE	UserName
+WC_UI_Web_User.Label.UserName	en-US	Username
+WC_UI_Web_User.Label.UserName	de-DE	Benutzername
 WC_UI_Web_User.Label.UserType	hu-HU	Felhasználó Típusa
 WC_UI_Web_User.Label.UserType	en-US	User Type
 WC_UI_Web_User.Label.UserType	de-DE	User Type
@@ -3274,15 +3274,15 @@ WC_UI_Web_User.PageHeader	de-DE
 WC_UI_Web_User.PageHeader.AddNewUser	hu-HU	Új Felhasználó
 WC_UI_Web_User.PageHeader.AddNewUser	en-US	Add New User
 WC_UI_Web_User.PageHeader.AddNewUser	de-DE	Add New User DE
-WC_UI_Web_User.PageHeader.ChangeUserPassword	hu-HU	Jelszó Megváltoztatása
-WC_UI_Web_User.PageHeader.ChangeUserPassword	en-US	Change User Password
-WC_UI_Web_User.PageHeader.ChangeUserPassword	de-DE	Change User Password
+WC_UI_Web_User.PageHeader.ChangeUserPassword	hu-HU	Felhasználó jelszavának módosítása
+WC_UI_Web_User.PageHeader.ChangeUserPassword	en-US	Change user password
+WC_UI_Web_User.PageHeader.ChangeUserPassword	de-DE	Benutzerpasswort ändern
 WC_UI_Web_User.PageHeader.ListOfUsers	hu-HU	Felhasználók
 WC_UI_Web_User.PageHeader.ListOfUsers	en-US	List Of Users
 WC_UI_Web_User.PageHeader.ListOfUsers	de-DE	List Of Users
-WC_UI_Web_User.PageHeader.UpdateUser	hu-HU	Felhasználó Frissítése
-WC_UI_Web_User.PageHeader.UpdateUser	en-US	Update The User
-WC_UI_Web_User.PageHeader.UpdateUser	de-DE	Update The User
+WC_UI_Web_User.PageHeader.UpdateUser	hu-HU	Felhasználó módosítása
+WC_UI_Web_User.PageHeader.UpdateUser	en-US	Modify user
+WC_UI_Web_User.PageHeader.UpdateUser	de-DE	Benutzer ändern
 WC_UI_Web_User.PageHeader.UserDetails	hu-HU	Felhasználó Részletei
 WC_UI_Web_User.PageHeader.UserDetails	en-US	User Details
 WC_UI_Web_User.PageHeader.UserDetails	de-DE	User Details
@@ -3302,38 +3302,38 @@ WC_UserManager.CommonLogType	hu-HU	*
 WC_UserManager.CommonLogType	en-US	**
 WC_UserManager.CommonLogType	de-DE	***
 WC_UserManager.CommonLogType.ChangeUserPassword	hu-HU	Felhasználó jelszavának módosítása
-WC_UserManager.CommonLogType.ChangeUserPassword	en-US	
-WC_UserManager.CommonLogType.ChangeUserPassword	de-DE	
+WC_UserManager.CommonLogType.ChangeUserPassword	en-US	Change user password
+WC_UserManager.CommonLogType.ChangeUserPassword	de-DE	Benutzerpasswort ändern
 WC_UserManager.CommonLogType.CreateUser	hu-HU	Felhasználó létrehozása
-WC_UserManager.CommonLogType.CreateUser	en-US	
-WC_UserManager.CommonLogType.CreateUser	de-DE	
+WC_UserManager.CommonLogType.CreateUser	en-US	Create user
+WC_UserManager.CommonLogType.CreateUser	de-DE	Einen Benutzer erstellen
 WC_UserManager.CommonLogType.RemoveLockedout	hu-HU	Felhasználó kizárásának feloldása
 WC_UserManager.CommonLogType.RemoveLockedout	en-US	
 WC_UserManager.CommonLogType.RemoveLockedout	de-DE	
 WC_UserManager.CommonLogType.UpdateUser	hu-HU	Felhasználó módosítása
-WC_UserManager.CommonLogType.UpdateUser	en-US	
-WC_UserManager.CommonLogType.UpdateUser	de-DE	
+WC_UserManager.CommonLogType.UpdateUser	en-US	Modify user
+WC_UserManager.CommonLogType.UpdateUser	de-DE	Benutzer ändern
 WC_UserManager.CommonLogType.UpdateUserRoleList	hu-HU	Felhasználóhoz tartozó szerepkörök módosítása
-WC_UserManager.CommonLogType.UpdateUserRoleList	en-US	
-WC_UserManager.CommonLogType.UpdateUserRoleList	de-DE	
+WC_UserManager.CommonLogType.UpdateUserRoleList	en-US	Modify roles for a user
+WC_UserManager.CommonLogType.UpdateUserRoleList	de-DE	Rollen für einen Benutzer ändern
 WC_UserManager.Error	hu-HU	*
 WC_UserManager.Error	en-US	**
 WC_UserManager.Error	de-DE	***
 WC_UserManager.Error.ChangeUserPassword	hu-HU	Hiba történt a felhasználó jelszavának módosítása közben.
-WC_UserManager.Error.ChangeUserPassword	en-US	
-WC_UserManager.Error.ChangeUserPassword	de-DE	
+WC_UserManager.Error.ChangeUserPassword	en-US	An error occurred while changing the user's password.
+WC_UserManager.Error.ChangeUserPassword	de-DE	Beim Ändern des Benutzerkennworts ist ein Fehler aufgetreten.
 WC_UserManager.Error.CreateUser	hu-HU	Hiba történt a felhasználó létrehozása közben.
-WC_UserManager.Error.CreateUser	en-US	
-WC_UserManager.Error.CreateUser	de-DE	
+WC_UserManager.Error.CreateUser	en-US	An error occurred while creating a user.
+WC_UserManager.Error.CreateUser	de-DE	Beim Anlegen eines Benutzers ist ein Fehler aufgetreten.
 WC_UserManager.Error.GetUsers	hu-HU	Hiba történt a felhasználók lekérdezése közben.
 WC_UserManager.Error.GetUsers	en-US	
 WC_UserManager.Error.GetUsers	de-DE	
 WC_UserManager.Error.UpdateUser	hu-HU	Hiba történt a felhasználó módosítása közben.
-WC_UserManager.Error.UpdateUser	en-US	
-WC_UserManager.Error.UpdateUser	de-DE	
+WC_UserManager.Error.UpdateUser	en-US	An error occurred while modifying the user.
+WC_UserManager.Error.UpdateUser	de-DE	Beim Ändern des Benutzers ist ein Fehler aufgetreten.
 WC_UserManager.Error.UpdateUserRoleList	hu-HU	Hiba történt a felhasználóhoz tartozó szerepkörök módosítása közben.
-WC_UserManager.Error.UpdateUserRoleList	en-US	
-WC_UserManager.Error.UpdateUserRoleList	de-DE	
+WC_UserManager.Error.UpdateUserRoleList	en-US	An error occurred while editing the roles for a user.
+WC_UserManager.Error.UpdateUserRoleList	de-DE	Beim Ändern der Rollen für einen Benutzer ist ein Fehler aufgetreten.
 WC_UserManager.LogMessage	hu-HU	*
 WC_UserManager.LogMessage	en-US	**
 WC_UserManager.LogMessage	de-DE	***
@@ -3502,9 +3502,9 @@ WC_Validation.Error.Organization.OrganizationDoesNotExist	de-DE
 WC_Validation.Error.Organization.OrganizationNameAlreadyExists	hu-HU	Organization Name Already Exists
 WC_Validation.Error.Organization.OrganizationNameAlreadyExists	en-US	
 WC_Validation.Error.Organization.OrganizationNameAlreadyExists	de-DE	
-WC_Validation.Error.Password	hu-HU	
-WC_Validation.Error.Password	en-US	
-WC_Validation.Error.Password	de-DE	
+WC_Validation.Error.Password	hu-HU	*
+WC_Validation.Error.Password	en-US	**
+WC_Validation.Error.Password	de-DE	***
 WC_Validation.Error.Password.Blacklist	hu-HU	A jelszó feketelistán van!
 WC_Validation.Error.Password.Blacklist	en-US	
 WC_Validation.Error.Password.Blacklist	de-DE	
@@ -3535,9 +3535,9 @@ WC_Validation.Error.Patient.PatientDoesNotExist	de-DE
 WC_Validation.Error.Patient.PatientIdAlreadyExists	hu-HU	A megadott beteg azonosító már létezik!
 WC_Validation.Error.Patient.PatientIdAlreadyExists	en-US	
 WC_Validation.Error.Patient.PatientIdAlreadyExists	de-DE	
-WC_Validation.Error.PatientIdType	hu-HU	
-WC_Validation.Error.PatientIdType	en-US	
-WC_Validation.Error.PatientIdType	de-DE	
+WC_Validation.Error.PatientIdType	hu-HU	*
+WC_Validation.Error.PatientIdType	en-US	**
+WC_Validation.Error.PatientIdType	de-DE	***
 WC_Validation.Error.PatientIdType.PatientIdTypeDoesNotExist	hu-HU	A megadott azonosító típus nem létezik!
 WC_Validation.Error.PatientIdType.PatientIdTypeDoesNotExist	en-US	
 WC_Validation.Error.PatientIdType.PatientIdTypeDoesNotExist	de-DE	
@@ -3583,27 +3583,27 @@ WC_Validation.Error.Session.SessionDoesNotExist	de-DE
 WC_Validation.Error.Session.SessionIsNotActive	hu-HU	A megadott session nem aktív!
 WC_Validation.Error.Session.SessionIsNotActive	en-US	
 WC_Validation.Error.Session.SessionIsNotActive	de-DE	
-WC_Validation.Error.SystemConfiguration	hu-HU	
-WC_Validation.Error.SystemConfiguration	en-US	
-WC_Validation.Error.SystemConfiguration	de-DE	
+WC_Validation.Error.SystemConfiguration	hu-HU	*
+WC_Validation.Error.SystemConfiguration	en-US	**
+WC_Validation.Error.SystemConfiguration	de-DE	***
 WC_Validation.Error.SystemConfiguration.NoConfigFound	hu-HU	Nem található a megadott rendszer konfiguráció: {0}
 WC_Validation.Error.SystemConfiguration.NoConfigFound	en-US	
 WC_Validation.Error.SystemConfiguration.NoConfigFound	de-DE	
 WC_Validation.Error.SystemConfiguration.SystemConfigIsNotUpdateable	hu-HU	A megadott rendszer konfiguráció nem módosítható: {0}
 WC_Validation.Error.SystemConfiguration.SystemConfigIsNotUpdateable	en-US	
 WC_Validation.Error.SystemConfiguration.SystemConfigIsNotUpdateable	de-DE	
-WC_Validation.Error.Translation	hu-HU	
-WC_Validation.Error.Translation	en-US	
-WC_Validation.Error.Translation	de-DE	
+WC_Validation.Error.Translation	hu-HU	*
+WC_Validation.Error.Translation	en-US	**
+WC_Validation.Error.Translation	de-DE	***
 WC_Validation.Error.Translation.TranslationAlreadyExists	hu-HU	A megadott szókód már létezik!
 WC_Validation.Error.Translation.TranslationAlreadyExists	en-US	
 WC_Validation.Error.Translation.TranslationAlreadyExists	de-DE	
 WC_Validation.Error.Translation.TranslationDoesNotExist	hu-HU	A megadott szókód nem létezik!
 WC_Validation.Error.Translation.TranslationDoesNotExist	en-US	
 WC_Validation.Error.Translation.TranslationDoesNotExist	de-DE	
-WC_Validation.Error.TreadmillTypeCoord	hu-HU	
-WC_Validation.Error.TreadmillTypeCoord	en-US	
-WC_Validation.Error.TreadmillTypeCoord	de-DE	
+WC_Validation.Error.TreadmillTypeCoord	hu-HU	*
+WC_Validation.Error.TreadmillTypeCoord	en-US	**
+WC_Validation.Error.TreadmillTypeCoord	de-DE	***
 WC_Validation.Error.TreadmillTypeCoord.TreadmillTypeCoordDoesNotExist	hu-HU	Treadmill Type Coord Does Not Exist
 WC_Validation.Error.TreadmillTypeCoord.TreadmillTypeCoordDoesNotExist	en-US	
 WC_Validation.Error.TreadmillTypeCoord.TreadmillTypeCoordDoesNotExist	de-DE	

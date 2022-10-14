@@ -110,7 +110,7 @@ void MainWindow::set_MessageEditor(const MainViewModel::ListItemChangedModelR& m
     ui->lineEdit_hu->setText(m.wcode.tr_hu);
     QString msg = m.wcode.isUsed?(m.wcode.fileName+" ("+QString::number(m.wcode.lineNumber)+")"):"not used";
     ui->label_using->setText(msg);
-    _clipboard->setText(m.wcode.wcode);
+    //_clipboard->setText(m.wcode.wcode);
 
     if(m.similarWcodes.empty()){
         ui->plainTextEdit_2->clear();
