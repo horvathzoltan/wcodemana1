@@ -281,6 +281,7 @@ void MainPresenter::SearchNextAction(IMainView *sender)
     MainViewModel::Search m { textModel.text, true };
     DoWork::SearchM s = _w.Search(m);
     if(s.wcode.isEmpty()) return;
+    // ha megváltozik a wcode, akkor set_Search, ezt a _w.Search detektálja
     MainViewModel::SearchR r {s.wcode, s.ix, s.count};
     sender->set_SearchCounter(r);
     sender->set_SearchNext(r);
