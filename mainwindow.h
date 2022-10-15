@@ -18,6 +18,8 @@ class MainWindow : public QMainWindow, public IMainView
 private:
     Ui::MainWindow *ui;
     QTimer _statusLabelTimer;
+    bool _listItemChanged_Disabled;
+    QClipboard *_clipboard;
 
     void set_DoWorkRModel(const MainViewModel::DoWorkRModel& m);
     MainViewModel::DoWorkModel get_DoWorkModel();
@@ -25,7 +27,6 @@ private:
     void ClearStatusMsg();
     void AppendCodeEditor(QString msg);
     void AppendCodeEditor2(QString msg);
-    QClipboard *_clipboard;
 
 public:
     explicit MainWindow(QWidget *parent = nullptr);
@@ -50,7 +51,10 @@ public:
 
     MainViewModel::TextModel get_GenerateTr();
     void set_GenerateTr(const MainViewModel::GenerateTrR &m);
-    void set_SearchNext(const MainViewModel::SearchR &m);
+    void set_Search(const MainViewModel::SearchR2 &m);
+    void set_SearchCounter(const MainViewModel::SearchR &m);
+    void set_SearchToken(const MainViewModel::SearchTokenR& m);
+    void set_SearchNext(const MainViewModel::SearchR& m);
 signals:
     void PushButtonActionTriggered(IMainView *sender);
     void ListItemChangedTriggered(IMainView *sender);

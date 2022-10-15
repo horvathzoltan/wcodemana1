@@ -64,6 +64,7 @@ public:
     QString ReplaceTr(const QString &msg);
     QString ToLower(const QString &msg);
 
+    Wcode Get(const QString &w);
 private:
     bool _isInited = false;
     bool _isEventLoopNeeded = false;

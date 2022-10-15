@@ -18,6 +18,7 @@ MainWindow::MainWindow(QWidget *parent)
     QObject::connect(&_statusLabelTimer, &QTimer::timeout, this, &MainWindow::ClearStatusMsg);
 
     _clipboard = QGuiApplication::clipboard();
+    _listItemChanged_Disabled=false;
 }
 
 MainWindow::~MainWindow()
@@ -109,9 +110,61 @@ void MainWindow::set_MessageEditor(const MainViewModel::ListItemChangedModelR& m
     ui->lineEdit_en->setText(m.wcode.tr_en);
     ui->lineEdit_hu->setText(m.wcode.tr_hu);
     QString msg = m.wcode.isUsed?(m.wcode.fileName+" ("+QString::number(m.wcode.lineNumber)+")"):"not used";
-    ui->label_using->setText(msg);
-    //_clipboard->setText(m.wcode.wcode);
+    ui->label_using->setText(msg);    
+}
 
+void MainWindow::set_RogzitStatus(MainViewModel::RogzitStatusR m)
+{
+    ShowStatusMsg(QStringLiteral("Rögzítés ")+(m.isOk?"ok":"error"));
+    auto items = ui->listWidget->findItems(m.wcode.wcode, Qt::MatchFlag::MatchExactly);
+    if(items.isEmpty()) return;
+    auto item = items.first();
+
+    auto isOk = m.wcode.isWcodeOk();
+
+    if(isOk) item->setIcon(QApplication::style()->standardIcon(QStyle::SP_DialogOkButton)); else item->setIcon({});
+    if(m.wcode.tr_hu.startsWith("*")&&m.wcode.tr_en.startsWith("*")&&m.wcode.tr_de.startsWith("*"))
+        item->setBackground(Qt::yellow);
+}
+
+void MainWindow::set_SaveStatus(bool isOk)
+{
+    ShowStatusMsg(QStringLiteral("Mentés ")+(isOk?"ok":"error"));
+}
+
+void MainWindow::set_SaveToCodeStatus(bool isOk)
+{
+    ShowStatusMsg(QStringLiteral("Kódgenerálás ")+(isOk?"ok":"error"));
+}
+
+void MainWindow::set_SearchNext(const MainViewModel::SearchR& m)
+{    
+    auto items = ui->listWidget->findItems(m.msg, Qt::MatchFlag::MatchExactly);
+    if(items.empty()){
+        AppendCodeEditor("egysem: "+m.msg);
+        return;
+    }
+    if(items.length()>1){
+        AppendCodeEditor("több mint egy: "+m.msg);
+        return;
+    }
+    _listItemChanged_Disabled=true;
+    ui->listWidget->setCurrentItem(items[0]);
+    _listItemChanged_Disabled=false;
+}
+
+void MainWindow::set_SearchCounter(const MainViewModel::SearchR& m)
+{
+    if(m.count>0){
+        QString stxt = QString::number(m.ix+1)+'/'+QString::number(m.count);
+        ui->label_search->setText(stxt);
+    }
+}
+void MainWindow::set_SearchToken(const MainViewModel::SearchTokenR& m){
+    ui->lineEdit_search->setText(m.searchToken);
+}
+
+void MainWindow::set_Search(const MainViewModel::SearchR2& m){
     if(m.similarWcodes.empty()){
         ui->plainTextEdit_2->clear();
     } else {
@@ -151,61 +204,7 @@ void MainWindow::set_MessageEditor(const MainViewModel::ListItemChangedModelR& m
             b+=a;
         }
         if(!b.isEmpty()) AppendCodeEditor2("de:\n"+b);
-
-//        foreach (auto a,m.similarWcodes) {
-//            QString l1 = a.wcode;//+QString(wclength-a.wcode.length()+1, ' ');
-//            QString line1 = "hu_HU "+a.tr_hu;
-//            QString line2 = "en_US "+a.tr_en;
-//            QString line3 = "de_DE "+a.tr_de;
-//            AppendCodeEditor2(l1);
-//            AppendCodeEditor2(line1);
-//            AppendCodeEditor2(line2);
-//            AppendCodeEditor2(line3);
-//        }
     }
-}
-
-void MainWindow::set_RogzitStatus(MainViewModel::RogzitStatusR m)
-{
-    ShowStatusMsg(QStringLiteral("Rögzítés ")+(m.isOk?"ok":"error"));
-    auto items = ui->listWidget->findItems(m.wcode.wcode, Qt::MatchFlag::MatchExactly);
-    if(items.isEmpty()) return;
-    auto item = items.first();
-
-    auto isOk = m.wcode.isWcodeOk();
-
-    if(isOk) item->setIcon(QApplication::style()->standardIcon(QStyle::SP_DialogOkButton)); else item->setIcon({});
-    if(m.wcode.tr_hu.startsWith("*")&&m.wcode.tr_en.startsWith("*")&&m.wcode.tr_de.startsWith("*"))
-        item->setBackground(Qt::yellow);
-}
-
-void MainWindow::set_SaveStatus(bool isOk)
-{
-    ShowStatusMsg(QStringLiteral("Mentés ")+(isOk?"ok":"error"));
-}
-
-void MainWindow::set_SaveToCodeStatus(bool isOk)
-{
-    ShowStatusMsg(QStringLiteral("Kódgenerálás ")+(isOk?"ok":"error"));
-}
-
-void MainWindow::set_SearchNext(const MainViewModel::SearchR& m)
-{
-    auto items = ui->listWidget->findItems(m.msg, Qt::MatchFlag::MatchExactly);    
-    if(m.count>0){
-        QString stxt = QString::number(m.ix+1)+'/'+QString::number(m.count);
-        ui->label_search->setText(stxt);
-    }
-    if(items.length()==0){
-        AppendCodeEditor("egysem: "+m.msg);
-        return;
-    }
-    if(items.length()>1){
-        AppendCodeEditor("több mint egy: "+m.msg);
-        return;
-    }
-    //ui->listWidget->clearSelection();
-    ui->listWidget->setCurrentItem(items[0]);
 }
 
 MainViewModel::ListItemChangedModelR MainWindow::get_MessageEditor()
@@ -360,8 +359,9 @@ void MainWindow::on_pushButton_hu_to_en_clicked()
 
 
 void MainWindow::on_listWidget_currentItemChanged(QListWidgetItem *current, QListWidgetItem *previous)
-{
+{    
     qDebug() << "ListItemCurrentItemChanged";
+    if(_listItemChanged_Disabled) return;
     //emit RogzitTriggered(this);
     emit ListItemChangedTriggered(this);
 }

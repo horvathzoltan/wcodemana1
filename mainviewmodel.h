@@ -26,7 +26,6 @@ public:
 
     struct ListItemChangedModelR{
         Wcode wcode;
-        QList<Wcode> similarWcodes;
     };
 
     struct GenerateR{
@@ -51,10 +50,18 @@ public:
         bool isNext;
     };
 
-    struct SearchR{
+    struct SearchR{        
         QString msg;
         int ix;
-        int count;
+        int count;        
+    };
+
+    struct SearchR2{
+        QList<Wcode> similarWcodes;
+    };
+
+    struct SearchTokenR{
+        QString searchToken;
     };
 };
 

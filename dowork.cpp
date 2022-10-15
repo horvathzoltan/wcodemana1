@@ -361,3 +361,7 @@ QString DoWork::ToLower(const QString &msg)
     a[0]=c0;
     return a;
 }
+
+Wcode DoWork::Get(const QString& w){
+    return _wcodes[w];
+}

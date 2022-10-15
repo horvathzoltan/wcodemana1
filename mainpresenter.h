@@ -21,9 +21,12 @@ public:
     void initView(IMainView *w) const;
     bool init(DoWork::Params params);
     void AutoStartAction(IMainView *sender);
+
 private:
     QList<IMainView*> _views;
     void refreshView(IMainView *w) const;
+    QString GetSearchToken(QString wcode);
+    void Search(IMainView *sender, const QString &txt);
 
 private slots:
     void processPushButtonAction(IMainView *sender);
@@ -39,6 +42,7 @@ private slots:
     void onResponseOkAction2(QString);
     void HuToEnAction(IMainView *sender);
     void GenerateTrAction(IMainView *sender);
+    void SearchAction(IMainView *sender);
     void SearchNextAction(IMainView *sender);
     void SearchPrevAction(IMainView *sender);
 

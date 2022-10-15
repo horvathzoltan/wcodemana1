@@ -29,7 +29,12 @@ public:
     virtual void set_EnToDeResult(const MainViewModel::GenerateR &m) = 0;
     virtual void set_HuToEnResult(const MainViewModel::GenerateR &m) = 0;
     virtual void set_EnToHuResult(const MainViewModel::GenerateR &m) = 0;
-    virtual void set_SearchNext(const MainViewModel::SearchR &m) = 0;
+/*search*/
+    virtual void set_Search(const MainViewModel::SearchR2 &m) = 0;
+    virtual void set_SearchCounter(const MainViewModel::SearchR &m) = 0;
+    virtual void set_SearchToken(const MainViewModel::SearchTokenR& m) = 0;
+    virtual void set_SearchNext(const MainViewModel::SearchR& m) = 0;
+
     virtual void GenerateTriggered(IMainView *sender) = 0;
     virtual void TranslateTriggered(IMainView *sender) = 0;
     virtual void EnToDeTriggered(IMainView *sender) = 0;

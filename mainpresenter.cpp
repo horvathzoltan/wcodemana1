@@ -115,8 +115,18 @@ void MainPresenter::processListItemChangedAction(IMainView *sender)
     qDebug() << "processListItemChangedAction";
     auto m = sender->get_SelectedWcode();
     auto rm = _w.GetSelected(m);
-    rm.similarWcodes = _w.GetSimilar(rm.wcode.wcode);
     sender->set_MessageEditor(rm);
+
+    //auto tokens = rm.wcode.wcode.toLower().replace('_','.').split('.');
+    //QString searchToken = tokens.isEmpty()?"":tokens.last();
+    QString searchToken = GetSearchToken(rm.wcode.wcode);
+    if(!searchToken.isEmpty()) Search(sender, searchToken);
+}
+
+QString MainPresenter::GetSearchToken(QString txt){
+    auto tokens = txt.toLower().replace('_','.').split('.');
+    QString searchToken = tokens.isEmpty()?"":tokens.last();
+    return searchToken;
 }
 
 void MainPresenter::RogzitAction(IMainView *sender)
@@ -235,6 +245,35 @@ void MainPresenter::EnToHuAction(IMainView *sender)
     QString msg_hu = _w.DeepLTranslate("en", "hu", m.text);
 }
 
+void MainPresenter::SearchAction(IMainView *sender){
+    qDebug() << "SearchAction";
+    auto textModel = sender->get_SearchText();
+    Search(sender, textModel.text);
+//    MainViewModel::Search m { textModel.text, true };
+//    DoWork::SearchM s = _w.Search(m);
+//    if(s.wcode.isEmpty()) return;
+//    MainViewModel::SearchR r {s.wcode, s.ix, s.count};
+//    r.similarWcodes = _w.GetSimilar(s.wcode);
+//    sender->set_SearchCounter(r);
+}
+
+void MainPresenter::Search(IMainView *sender, const QString& txt)
+{
+    qDebug() << "SearchAction";
+
+    MainViewModel::Search m { txt, true };
+    DoWork::SearchM s = _w.Search(m);
+    if(s.wcode.isEmpty()) return;
+    auto similarWcodes = _w.GetSimilar(s.wcode);
+
+    MainViewModel::SearchTokenR rt {txt};
+    sender->set_SearchToken(rt);
+    MainViewModel::SearchR r {s.wcode, s.ix, s.count};
+    sender->set_SearchCounter(r);
+    MainViewModel::SearchR2 r2 { similarWcodes};
+    sender->set_Search(r2);
+}
+
 void MainPresenter::SearchNextAction(IMainView *sender)
 {
     qDebug() << "SearchNextAction";
@@ -243,7 +282,11 @@ void MainPresenter::SearchNextAction(IMainView *sender)
     DoWork::SearchM s = _w.Search(m);
     if(s.wcode.isEmpty()) return;
     MainViewModel::SearchR r {s.wcode, s.ix, s.count};
+    sender->set_SearchCounter(r);
     sender->set_SearchNext(r);
+    auto wcode = _w.Get(s.wcode);
+    MainViewModel::ListItemChangedModelR rm {wcode};
+    sender->set_MessageEditor(rm);
 }
 
 void MainPresenter::SearchPrevAction(IMainView *sender)
@@ -254,7 +297,11 @@ void MainPresenter::SearchPrevAction(IMainView *sender)
     DoWork::SearchM s = _w.Search(m);
     if(s.wcode.isEmpty()) return;
     MainViewModel::SearchR r {s.wcode, s.ix, s.count};
+    sender->set_SearchCounter(r);
     sender->set_SearchNext(r);
+    auto wcode = _w.Get(s.wcode);
+    MainViewModel::ListItemChangedModelR rm {wcode};
+    sender->set_MessageEditor(rm);
 }
 
 
