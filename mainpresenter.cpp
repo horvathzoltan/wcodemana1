@@ -270,7 +270,7 @@ auto MainPresenter::Search(const QString& txt) -> SearchR
     MainViewModel::Text rt {txt};
     MainViewModel::SearchCounterR r {s.wcode, s.ix, s.count};
     MainViewModel::SearchR2 r2 { similarWcodes};
-    SearchR sr{rt, r, r2, true};
+    SearchR sr{rt, r, r2, s.isChanged, true};
     return sr;
 }
 
@@ -281,7 +281,11 @@ void MainPresenter::SearchNextAction(IMainView *sender)
     MainViewModel::Search m { textModel.txt, true };
     DoWork::SearchM s = _w.Search(m);
     if(s.wcode.isEmpty()) return;
-    // ha megváltozik a wcode, akkor set_Search, ezt a _w.Search detektálja
+    if(s.isChanged){
+        auto similarWcodes = _w.GetSimilar(s.wcode);
+        MainViewModel::SearchR2 r2 { similarWcodes};
+        sender->set_Search(r2);
+    }
     MainViewModel::SearchCounterR r {s.wcode, s.ix, s.count};
     sender->set_SearchCounter(r);
     sender->set_SearchNext(r);
@@ -297,6 +301,11 @@ void MainPresenter::SearchPrevAction(IMainView *sender)
     MainViewModel::Search m { textModel.txt, false };
     DoWork::SearchM s = _w.Search(m);
     if(s.wcode.isEmpty()) return;
+    if(s.isChanged){
+        auto similarWcodes = _w.GetSimilar(s.wcode);
+        MainViewModel::SearchR2 r2 { similarWcodes};
+        sender->set_Search(r2);
+    }
     MainViewModel::SearchCounterR r {s.wcode, s.ix, s.count};
     sender->set_SearchCounter(r);
     sender->set_SearchNext(r);

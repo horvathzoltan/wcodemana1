@@ -186,14 +186,15 @@ auto DoWork::Search(const MainViewModel::Search& m) -> SearchM
     static QString lastM;
     static int lastIx = 0;
     static QList<QString> hits;
+    bool isChanged = lastM != m.txt;
     if(m.txt.isEmpty()){
         hits.clear();
         lastM="";
         lastIx = 0;
-        return {};
+        return {"", -1, 0, isChanged};
     }
 
-    if(lastM != m.txt){
+    if(isChanged){
         auto mLower = m.txt.toLower();
         hits.clear();
         lastM=m.txt;
@@ -224,10 +225,10 @@ auto DoWork::Search(const MainViewModel::Search& m) -> SearchM
         }
     }
 
-    if(hits.empty()) return {};
-    if(lastIx==-1) return {};
+    if(hits.empty()) return {"", -1, 0, isChanged};
+    if(lastIx==-1) return {"", -1, 0, isChanged};
     int size = hits.count();
-    return {hits[lastIx], lastIx, size};
+    return {hits[lastIx], lastIx, size, isChanged};
 }
 
 bool DoWork::SetSelected(const MainViewModel::WCode &m)

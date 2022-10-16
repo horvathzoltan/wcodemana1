@@ -32,6 +32,7 @@ private:
         MainViewModel::Text rt;
         MainViewModel::SearchCounterR r;
         MainViewModel::SearchR2 r2;
+        bool isChanged;
         bool isValid;
     };
 

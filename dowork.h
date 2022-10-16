@@ -51,6 +51,7 @@ public:
         QString wcode;
         int ix;
         int count;
+        bool isChanged;
     };
 
     SearchM Search(const MainViewModel::Search&);
