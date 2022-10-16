@@ -79,8 +79,8 @@ auto DoWork::init(DoWork::Params p) -> bool
     params = p;    
 
     //_result = { Result::State::NotCalculated, -1};
-    QObject::connect(&_h, SIGNAL(ResponseOk(QByteArray)),
-                     this, SLOT(ResponseOkAction(QByteArray)));
+    QObject::connect(&_h, SIGNAL(ResponseOk(QByteArray, QUuid)),
+                     this, SLOT(ResponseOkAction(QByteArray, QUuid)));
 
     _isInited = true;
     return true;
@@ -153,7 +153,7 @@ select WordCode, LanguageCode, "Text" from lang.Translations t1 where exists
     };
 }
 
-auto DoWork::GetSelected(MainViewModel::ListItemChangedModel m) -> MainViewModel::ListItemChangedModelR
+auto DoWork::GetSelected(MainViewModel::ListItemChangedModel m) -> MainViewModel::WCode
 {
     if(!_wcodes.contains(m.selectedItemKey)) return {};
     auto a = _wcodes[m.selectedItemKey];
@@ -186,17 +186,17 @@ auto DoWork::Search(const MainViewModel::Search& m) -> SearchM
     static QString lastM;
     static int lastIx = 0;
     static QList<QString> hits;
-    if(m.text.isEmpty()){
+    if(m.txt.isEmpty()){
         hits.clear();
         lastM="";
         lastIx = 0;
         return {};
     }
 
-    if(lastM != m.text){
-        auto mLower = m.text.toLower();
+    if(lastM != m.txt){
+        auto mLower = m.txt.toLower();
         hits.clear();
-        lastM=m.text;
+        lastM=m.txt;
         foreach(auto wcode, _wcodes){
             auto tokens = wcode.wcode.toLower().replace('_','.').split('.');
             //if(!tokens.contains(m.text.toLower())) continue;
@@ -230,7 +230,7 @@ auto DoWork::Search(const MainViewModel::Search& m) -> SearchM
     return {hits[lastIx], lastIx, size};
 }
 
-bool DoWork::SetSelected(const MainViewModel::ListItemChangedModelR &m)
+bool DoWork::SetSelected(const MainViewModel::WCode &m)
 {
     if(!_wcodes.contains(m.wcode.wcode)) return false;
     _wcodes[m.wcode.wcode]=m.wcode;
@@ -282,14 +282,15 @@ bool DoWork::SaveToCode(){
 
 QString DoWork::DeepLTranslate(const QString &source_lang,
                                const QString &dest_lang,
-                               const QString &msg)
+                               const QString &msg,
+                               QUuid id)
 {
-    _h.SendPost(source_lang, dest_lang,msg);
+    _h.SendPost(id, source_lang, dest_lang, msg);
     zInfo("request sent");
     return QString("request sent");
 }
 
-void DoWork::ResponseOkAction(QByteArray s){
+void DoWork::ResponseOkAction(QByteArray s, QUuid id){
     QJsonParseError errorPtr;
     QJsonDocument doc = QJsonDocument::fromJson(s, &errorPtr);
     QJsonObject rootobj = doc.object();
@@ -301,7 +302,7 @@ void DoWork::ResponseOkAction(QByteArray s){
 
     zInfo("ResponseOkAction:" + translation);
 
-    emit ResponseOkAction2(translation);
+    emit ResponseOkAction2(translation, id);
 }
 
 

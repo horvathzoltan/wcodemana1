@@ -81,14 +81,14 @@ auto MainWindow::get_SelectedWcode() -> MainViewModel::ListItemChangedModel
 };
 
 
-auto MainWindow::get_EnText() -> MainViewModel::TextModel
+auto MainWindow::get_EnText() -> MainViewModel::Text
 {
     auto t = ui->lineEdit_en->text();
     if(t.isEmpty()) return{};
     return {t};
 };
 
-auto MainWindow::get_SearchText() -> MainViewModel::TextModel
+auto MainWindow::get_SearchText() -> MainViewModel::Text
 {
     auto t = ui->lineEdit_search->text();
     if(t.isEmpty()) return{};
@@ -96,14 +96,14 @@ auto MainWindow::get_SearchText() -> MainViewModel::TextModel
 };
 
 
-auto MainWindow::get_HuText() -> MainViewModel::TextModel
+auto MainWindow::get_HuText() -> MainViewModel::Text
 {
     auto t = ui->lineEdit_hu->text();
     if(t.isEmpty()) return{};
     return {t};
 };
 
-void MainWindow::set_MessageEditor(const MainViewModel::ListItemChangedModelR& m)
+void MainWindow::set_MessageEditor(const MainViewModel::WCode& m)
 {
     ui->label_wcode->setText(m.wcode.wcode);
     ui->lineEdit_de->setText(m.wcode.tr_de);
@@ -137,15 +137,15 @@ void MainWindow::set_SaveToCodeStatus(bool isOk)
     ShowStatusMsg(QStringLiteral("Kódgenerálás ")+(isOk?"ok":"error"));
 }
 
-void MainWindow::set_SearchNext(const MainViewModel::SearchR& m)
+void MainWindow::set_SearchNext(const MainViewModel::SearchCounterR& m)
 {    
-    auto items = ui->listWidget->findItems(m.msg, Qt::MatchFlag::MatchExactly);
+    auto items = ui->listWidget->findItems(m.txt, Qt::MatchFlag::MatchExactly);
     if(items.empty()){
-        AppendCodeEditor("egysem: "+m.msg);
+        AppendCodeEditor("egysem: "+m.txt);
         return;
     }
     if(items.length()>1){
-        AppendCodeEditor("több mint egy: "+m.msg);
+        AppendCodeEditor("több mint egy: "+m.txt);
         return;
     }
     _listItemChanged_Disabled=true;
@@ -153,15 +153,15 @@ void MainWindow::set_SearchNext(const MainViewModel::SearchR& m)
     _listItemChanged_Disabled=false;
 }
 
-void MainWindow::set_SearchCounter(const MainViewModel::SearchR& m)
+void MainWindow::set_SearchCounter(const MainViewModel::SearchCounterR& m)
 {
     if(m.count>0){
         QString stxt = QString::number(m.ix+1)+'/'+QString::number(m.count);
         ui->label_search->setText(stxt);
     }
 }
-void MainWindow::set_SearchToken(const MainViewModel::SearchTokenR& m){
-    ui->lineEdit_search->setText(m.searchToken);
+void MainWindow::set_SearchToken(const MainViewModel::Text& m){
+    ui->lineEdit_search->setText(m.txt);
 }
 
 void MainWindow::set_Search(const MainViewModel::SearchR2& m){
@@ -169,12 +169,7 @@ void MainWindow::set_Search(const MainViewModel::SearchR2& m){
         ui->plainTextEdit_2->clear();
     } else {
         ui->plainTextEdit_2->clear();
-        //int wclength = 0;
-//        foreach (auto a,m.similarWcodes){
-//            if(a.tr_hu.startsWith('*')&&a.tr_en.startsWith('*')&&a.tr_de.startsWith('*')) continue;
-//            int alength = a.wcode.length();
-//            if(alength>wclength) wclength = alength;
-//        }
+
         QSet<QString> huSet;
         QSet<QString> enSet;
         QSet<QString> deSet;
@@ -207,9 +202,9 @@ void MainWindow::set_Search(const MainViewModel::SearchR2& m){
     }
 }
 
-MainViewModel::ListItemChangedModelR MainWindow::get_MessageEditor()
+MainViewModel::WCode MainWindow::get_WCodeEditor()
 {
-    MainViewModel::ListItemChangedModelR m;
+    MainViewModel::WCode m;
 
     m.wcode.wcode = ui->label_wcode->text();
     m.wcode.tr_de = ui->lineEdit_de->text();
@@ -287,42 +282,42 @@ void MainWindow::on_pushButton_generate_clicked()
     emit GenerateTriggered(this);
 }
 
-void MainWindow::set_GenerateResult(const MainViewModel::GenerateR& m)
+void MainWindow::set_GenerateResult(const MainViewModel::Text& m)
 {
-    if(!m.code.isEmpty())
+    if(!m.txt.isEmpty())
     {
         AppendCodeEditor("");
-        AppendCodeEditor(m.code);
-        _clipboard->setText(m.code);
+        AppendCodeEditor(m.txt);
+        _clipboard->setText(m.txt);
     }
 }
 
-void MainWindow::set_EnToDeResult(const MainViewModel::GenerateR& m)
+void MainWindow::set_EnToDeResult(const MainViewModel::Text& m)
 {
-    if(!m.code.isEmpty()) ui->lineEdit_de->setText(m.code);
+    if(!m.txt.isEmpty()) ui->lineEdit_de->setText(m.txt);
 }
 
-void MainWindow::set_HuToEnResult(const MainViewModel::GenerateR& m)
+void MainWindow::set_HuToEnResult(const MainViewModel::Text& m)
 {
-    if(!m.code.isEmpty()) ui->lineEdit_en->setText(m.code);
+    if(!m.txt.isEmpty()) ui->lineEdit_en->setText(m.txt);
 }
 
-void MainWindow::set_EnToHuResult(const MainViewModel::GenerateR& m)
+void MainWindow::set_EnToHuResult(const MainViewModel::Text& m)
 {
-    if(!m.code.isEmpty()) ui->lineEdit_hu->setText(m.code);
+    if(!m.txt.isEmpty()) ui->lineEdit_hu->setText(m.txt);
 }
 
-MainViewModel::TextModel MainWindow::get_GenerateTr()
+MainViewModel::Text MainWindow::get_GenerateTr()
 {
     return {ui->lineEdit_generateTr->text()};
 
 }
 
-void MainWindow::set_GenerateTr(const MainViewModel::GenerateTrR &m)
+void MainWindow::set_GenerateTr(const MainViewModel::Text &m)
 {
     AppendCodeEditor("");
-    AppendCodeEditor(m.msg);
-    _clipboard->setText(m.msg);
+    AppendCodeEditor(m.txt);
+    _clipboard->setText(m.txt);
 }
 
 
@@ -385,13 +380,13 @@ void MainWindow::on_pushButton_translate_clicked()
     emit TranslateTriggered(this);
 }
 
-void MainWindow::set_TranslateResult(const MainViewModel::GenerateR& m)
+void MainWindow::set_TranslateResult(const MainViewModel::Text& m)
 {
-    if(!m.code.isEmpty())
+    if(!m.txt.isEmpty())
     {
         AppendCodeEditor("");
-        AppendCodeEditor(m.code);
-        _clipboard->setText(m.code);
+        AppendCodeEditor(m.txt);
+        _clipboard->setText(m.txt);
     }
 }
 

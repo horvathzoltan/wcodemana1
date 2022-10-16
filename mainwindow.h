@@ -32,29 +32,29 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     MainViewModel::ListItemChangedModel get_SelectedWcode();
-    MainViewModel::TextModel get_EnText();
-    MainViewModel::TextModel get_HuText();
-    MainViewModel::TextModel get_SearchText();
+    MainViewModel::Text get_EnText();
+    MainViewModel::Text get_HuText();
+    MainViewModel::Text get_SearchText();
 
-    void set_MessageEditor(const MainViewModel::ListItemChangedModelR &m);
-    MainViewModel::ListItemChangedModelR get_MessageEditor();
+    void set_MessageEditor(const MainViewModel::WCode &m);
+    MainViewModel::WCode get_WCodeEditor();
     void set_RogzitStatus(MainViewModel::RogzitStatusR m);
     void set_SaveStatus(bool isOk);
     void set_SaveToCodeStatus(bool isOk);
     void closeEvent(QCloseEvent *event);
-    void set_GenerateResult(const MainViewModel::GenerateR& m);
-    void set_TranslateResult(const MainViewModel::GenerateR& m);
-    void set_EnToDeResult(const MainViewModel::GenerateR &m);
-    void set_HuToEnResult(const MainViewModel::GenerateR &m);
-    void set_EnToHuResult(const MainViewModel::GenerateR &m);
+    void set_GenerateResult(const MainViewModel::Text& m);
+    void set_TranslateResult(const MainViewModel::Text& m);
+    void set_EnToDeResult(const MainViewModel::Text &m);
+    void set_HuToEnResult(const MainViewModel::Text &m);
+    void set_EnToHuResult(const MainViewModel::Text &m);
     static bool isWcodeOk(Wcode *m);
 
-    MainViewModel::TextModel get_GenerateTr();
-    void set_GenerateTr(const MainViewModel::GenerateTrR &m);
+    MainViewModel::Text get_GenerateTr();
+    void set_GenerateTr(const MainViewModel::Text &m);
     void set_Search(const MainViewModel::SearchR2 &m);
-    void set_SearchCounter(const MainViewModel::SearchR &m);
-    void set_SearchToken(const MainViewModel::SearchTokenR& m);
-    void set_SearchNext(const MainViewModel::SearchR& m);
+    void set_SearchCounter(const MainViewModel::SearchCounterR &m);
+    void set_SearchToken(const MainViewModel::Text& m);
+    void set_SearchNext(const MainViewModel::SearchCounterR& m);
 signals:
     void PushButtonActionTriggered(IMainView *sender);
     void ListItemChangedTriggered(IMainView *sender);

@@ -8,6 +8,7 @@
 #include <QObject>
 #include "imainview.h"
 #include "dowork.h"
+#include <QUuid>
 
 class IMainView;
 
@@ -26,7 +27,29 @@ private:
     QList<IMainView*> _views;
     void refreshView(IMainView *w) const;
     QString GetSearchToken(QString wcode);
-    void Search(IMainView *sender, const QString &txt);
+
+    struct SearchR{
+        MainViewModel::Text rt;
+        MainViewModel::SearchCounterR r;
+        MainViewModel::SearchR2 r2;
+        bool isValid;
+    };
+
+    SearchR Search(const QString &txt);
+
+    enum ActionType{
+        Hu,  En, De
+    };
+
+    struct ApiActionParms{
+        ActionType actionType;
+        IMainView *sender;
+        };
+
+    QUuid AddNewApiParams(ActionType t, IMainView *sender);
+    //void RemoveApiActionParms(ApiActionParms p);
+
+    QMap<QUuid, ApiActionParms> _apiActionParams;
 
 private slots:
     void processPushButtonAction(IMainView *sender);
@@ -39,7 +62,7 @@ private slots:
     void EnToDeAction(IMainView *sender);
     void HuToDeAction(IMainView *sender);
     void EnToHuAction(IMainView *sender);
-    void onResponseOkAction2(QString);
+    void onResponseOkAction2(const QString&, QUuid id);
     void HuToEnAction(IMainView *sender);
     void GenerateTrAction(IMainView *sender);
     void SearchAction(IMainView *sender);
@@ -52,8 +75,11 @@ private slots:
 private:
     DoWork _w;
     bool _isInited = false;
-    IMainView *_enToDeActionSender = nullptr;
-    QString _dest_lang;
-};
+    //IMainView *_enToDeActionSender = nullptr;
+    //QString _dest_lang;
 
+
+
+
+};
 #endif // MAINPRESENTER_H

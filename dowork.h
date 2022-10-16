@@ -6,6 +6,7 @@
 
 #include <QCoreApplication>
 #include <QString>
+#include <QUuid>
 
 class DoWork: public QObject
 {
@@ -43,7 +44,7 @@ public:
     MainViewModel::DoWorkRModel Work1(MainViewModel::DoWorkModel m);
     QString GetWorkingFolder();
 
-    MainViewModel::ListItemChangedModelR GetSelected(MainViewModel::ListItemChangedModel m);
+    MainViewModel::WCode GetSelected(MainViewModel::ListItemChangedModel m);
     QList<Wcode> GetSimilar(const QString& m);
 
     struct SearchM{
@@ -55,11 +56,14 @@ public:
     SearchM Search(const MainViewModel::Search&);
     QString GetTail(const QString& m);
 
-    bool SetSelected(const MainViewModel::ListItemChangedModelR& m);
+    bool SetSelected(const MainViewModel::WCode& m);
     bool SaveCSV();
     bool SaveToCode();
 
-    QString DeepLTranslate(const QString& source_lang, const QString& dest_lang, const QString& msg);
+    QString DeepLTranslate(const QString& source_lang,
+                           const QString& dest_lang,
+                           const QString& msg,
+                           QUuid id);
 
     QString ReplaceTr(const QString &msg);
     QString ToLower(const QString &msg);
@@ -74,10 +78,10 @@ private:
     //Result doWork2();
 
 signals:
-    void ResponseOkAction2(QString);
+    void ResponseOkAction2(QString, QUuid);
 
 private slots:
-    void ResponseOkAction(QByteArray s);
+    void ResponseOkAction(QByteArray s, QUuid);
 
 };
 

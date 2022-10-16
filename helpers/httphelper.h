@@ -5,6 +5,7 @@
 #include <QHttpMultiPart>
 #include <QNetworkAccessManager>
 #include <QUrl>
+#include <QUuid>
 
 namespace helper
 {
@@ -14,12 +15,12 @@ class HttpHelper : public QObject
 public:
     explicit HttpHelper(QObject *parent = nullptr);
 
-    void SendPost(const QString& source_lang, const QString& dest_lang, const QString& msg);//, QUuid guid);
+    void SendPost(QUuid id, const QString& source_lang, const QString& dest_lang, const QString& msg);//, QUuid guid);
 
 public slots:
     void onFinish(QNetworkReply *rep);
 signals:
-    void ResponseOk(QByteArray s);
+    void ResponseOk(QByteArray s, QUuid id);
 };
 }
 #endif // HTTPHELPER_H

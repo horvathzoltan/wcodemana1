@@ -3232,9 +3232,9 @@ WC_UI_Web_User.Label.CreateDate	de-DE	Create Date
 WC_UI_Web_User.Label.Email	hu-HU	Email
 WC_UI_Web_User.Label.Email	en-US	Email
 WC_UI_Web_User.Label.Email	de-DE	Email
-WC_UI_Web_User.Label.FailedPasswordAttemptCount	hu-HU	Helytelen Jelszó
-WC_UI_Web_User.Label.FailedPasswordAttemptCount	en-US	Failed Password Attempt
-WC_UI_Web_User.Label.FailedPasswordAttemptCount	de-DE	Failed Password Attempt
+WC_UI_Web_User.Label.FailedPasswordAttemptCount	hu-HU	Rossz jelszó
+WC_UI_Web_User.Label.FailedPasswordAttemptCount	en-US	Wrong password
+WC_UI_Web_User.Label.FailedPasswordAttemptCount	de-DE	Falsches Passwort
 WC_UI_Web_User.Label.IsFix	hu-HU	Fix
 WC_UI_Web_User.Label.IsFix	en-US	Is Fix
 WC_UI_Web_User.Label.IsFix	de-DE	Is Fix

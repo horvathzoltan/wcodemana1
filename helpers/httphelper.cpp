@@ -4,6 +4,8 @@
 #include <QNetworkReply>
 #include <QUrlQuery>
 #include <QUuid>
+#include <QVariant>
+
 namespace helper
 {
 HttpHelper::HttpHelper(QObject *parent)
@@ -12,7 +14,7 @@ HttpHelper::HttpHelper(QObject *parent)
 
 }
 
-void HttpHelper::SendPost(const QString& source_lang, const QString& dest_lang, const QString& msg)//, QUuid guid )
+void HttpHelper::SendPost(QUuid id, const QString& source_lang, const QString& dest_lang, const QString& msg)//, QUuid guid )
 {
     QString urltxt = R"(https://api-free.deepl.com/v2/translate?auth_key=1bfdbee3-6605-3752-dd94-3b5ae775f090:fx&text={TEXT}&target_lang={LANG})";
     auto urltxt2 = urltxt.replace("{TEXT}", msg).replace("{LANG}",dest_lang);
@@ -24,8 +26,9 @@ void HttpHelper::SendPost(const QString& source_lang, const QString& dest_lang, 
 
     QNetworkRequest request(url);
 
-
-    //request.setOriginatingObject(guid);
+    QObject* o = new QObject();
+    o->setProperty("_id", id);
+    request.setOriginatingObject(o);
 
     QUrlQuery params;
     params.addQueryItem("POST", R"(/v2/translate?auth_key=1bfdbee3-6605-3752-dd94-3b5ae775f090:fx> HTTP/1.0)");
@@ -59,6 +62,15 @@ void HttpHelper::onFinish(QNetworkReply *rep)
     QString err = rep->errorString();
     QString str(b);
     zInfo("reply: "+str);
-    emit ResponseOk(b);
+    QUuid id;
+    QObject *o = rep->request().originatingObject();
+    if(o!=nullptr){
+        QVariant v = o->property("_id");
+        if(v.isValid()){
+            id = v.toUuid();
+        }
+        delete o;
+    }
+    emit ResponseOk(b, id);
 }
 }

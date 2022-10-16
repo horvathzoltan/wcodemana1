@@ -24,16 +24,16 @@ public:
         QString selectedItemKey;
     };
 
-    struct ListItemChangedModelR{
+    struct WCode{
         Wcode wcode;
     };
 
-    struct GenerateR{
-        QString code;
-    };
+//    struct GenerateR{
+//        QString code;
+//    };
 
-    struct TextModel{
-        QString text;
+    struct Text{
+        QString txt;
     };
 
     struct RogzitStatusR{
@@ -41,17 +41,21 @@ public:
         bool isOk;
     };
 
-    struct GenerateTrR{
-        QString msg;
+//    struct GenerateTrR{
+//        QString msg;
+//    };
+
+    enum SearchDirection {
+      Prev, Next
     };
 
     struct Search{
-        QString text;
+        QString txt;
         bool isNext;
     };
 
-    struct SearchR{        
-        QString msg;
+    struct SearchCounterR{
+        QString txt;
         int ix;
         int count;        
     };
@@ -60,9 +64,9 @@ public:
         QList<Wcode> similarWcodes;
     };
 
-    struct SearchTokenR{
-        QString searchToken;
-    };
+//    struct SearchTokenR{
+//        QString searchToken;
+//    };
 };
 
 
