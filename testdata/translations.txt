@@ -1027,9 +1027,9 @@ WC_UI_UWP_Login.Error.InvalidPassword	de-DE	Ungültiges Passwort!
 WC_UI_UWP_Login.Error.InvalidUserName	hu-HU	A megadott felhasználó nem létezik!
 WC_UI_UWP_Login.Error.InvalidUserName	en-US	Invalid user name!
 WC_UI_UWP_Login.Error.InvalidUserName	de-DE	Ungültiger Benutzername!
-WC_UI_UWP_Login.Label	hu-HU	Belépés
-WC_UI_UWP_Login.Label	en-US	Login
-WC_UI_UWP_Login.Label	de-DE	Anmelden
+WC_UI_UWP_Login.Label	hu-HU	*
+WC_UI_UWP_Login.Label	en-US	**
+WC_UI_UWP_Login.Label	de-DE	***
 WC_UI_UWP_Login.Label.LoggedInUser	hu-HU	A bejelentkezett felhasználó: 
 WC_UI_UWP_Login.Label.LoggedInUser	en-US	The logged in user: 
 WC_UI_UWP_Login.Label.LoggedInUser	de-DE	Der eingeloggte Benutzer: 
@@ -1053,7 +1053,7 @@ WC_UI_UWP_Menu	en-US	Menu
 WC_UI_UWP_Menu	de-DE	Menü*
 WC_UI_UWP_Menu.Calibration	hu-HU	Kalibráció
 WC_UI_UWP_Menu.Calibration	en-US	Calibration
-WC_UI_UWP_Menu.Calibration	de-DE	Kalibration
+WC_UI_UWP_Menu.Calibration	de-DE	Kalibrierung
 WC_UI_UWP_Menu.CalibrationTooltip	hu-HU	Itt végezheti el a kamera kalibrációs beállításait
 WC_UI_UWP_Menu.CalibrationTooltip	en-US	You can do the camera calibration and settings here
 WC_UI_UWP_Menu.CalibrationTooltip	de-DE	Sie können die Kamerakalibrierung und -einstellungen hier vornehmen
@@ -1657,9 +1657,9 @@ WC_UI_UWP_Pages.OnlineExamination.HelpTitle	de-DE	Hilfe zur Online-Ganganalyse
 WC_UI_UWP_Pages.OnlineExamination.Lead	hu-HU	A páciens járását tudja vizsgálni ezen a lapon. Az egyes beállítások módosításával tudja sszabályozni a megjelenő eredményeket és értékeket.
 WC_UI_UWP_Pages.OnlineExamination.Lead	en-US	This page supports real time gati analysis. By the settings you can configure the display and result values.
 WC_UI_UWP_Pages.OnlineExamination.Lead	de-DE	Diese Seite unterstützt die Echtzeit-Gati-Analyse. In den Einstellungen können Sie die Anzeige und die Ergebniswerte konfigurieren.
-WC_UI_UWP_Pages.OnlineExamination.PlayButtonTooltip	hu-HU	Leállítja vagy elindítja a talpnyomás értékeinek megjelenítését
-WC_UI_UWP_Pages.OnlineExamination.PlayButtonTooltip	en-US	Starts or stops displaying the insole pressure changes
-WC_UI_UWP_Pages.OnlineExamination.PlayButtonTooltip	de-DE	Startet oder stoppt die Anzeige der Druckänderungen der Einlegesohle
+WC_UI_UWP_Pages.OnlineExamination.PlayButtonTooltip	hu-HU	Elindítja a felvétel visszajátszását
+WC_UI_UWP_Pages.OnlineExamination.PlayButtonTooltip	en-US	Plays the recording
+WC_UI_UWP_Pages.OnlineExamination.PlayButtonTooltip	de-DE	Spielt die Aufnahme ab
 WC_UI_UWP_Pages.OnlineExamination.ResetMaximumTooltip	hu-HU	Törli az eddig számított maximum értékekeket és újból elkezdi gyűjteni azok értékét
 WC_UI_UWP_Pages.OnlineExamination.ResetMaximumTooltip	en-US	Deletes the current maximum values and restarts collecting
 WC_UI_UWP_Pages.OnlineExamination.ResetMaximumTooltip	de-DE	Löscht die aktuellen Maximalwerte und startet die Erfassung neu
@@ -1692,7 +1692,7 @@ WC_UI_UWP_Pages.Patient.BornName	en-US	Name of birth
 WC_UI_UWP_Pages.Patient.BornName	de-DE	Geburtsname
 WC_UI_UWP_Pages.Patient.Comments	hu-HU	Megjegyzések
 WC_UI_UWP_Pages.Patient.Comments	en-US	Comments
-WC_UI_UWP_Pages.Patient.Comments	de-DE	Bemerkungen
+WC_UI_UWP_Pages.Patient.Comments	de-DE	Kommentare
 WC_UI_UWP_Pages.Patient.Data	hu-HU	Személyi adatok
 WC_UI_UWP_Pages.Patient.Data	en-US	Personal data
 WC_UI_UWP_Pages.Patient.Data	de-DE	Personendaten
@@ -1741,21 +1741,21 @@ WC_UI_UWP_Pages.Patient.PatientEditTooltip	de-DE	Bearbeitet die persönlichen Da
 WC_UI_UWP_Pages.Patient.PatientExaminations	hu-HU	Vizsgálatok
 WC_UI_UWP_Pages.Patient.PatientExaminations	en-US	Examinations
 WC_UI_UWP_Pages.Patient.PatientExaminations	de-DE	Prüfungen
-WC_UI_UWP_Pages.Patient.PatientId	hu-HU	Személyi azonosító
-WC_UI_UWP_Pages.Patient.PatientId	en-US	Personal identifier
-WC_UI_UWP_Pages.Patient.PatientId	de-DE	Kennzeichnung
+WC_UI_UWP_Pages.Patient.PatientId	hu-HU	Betegazonosító
+WC_UI_UWP_Pages.Patient.PatientId	en-US	Patient Id
+WC_UI_UWP_Pages.Patient.PatientId	de-DE	Patienten-ID
 WC_UI_UWP_Pages.Patient.PatientIdType	hu-HU	Betegazonosító típusa
 WC_UI_UWP_Pages.Patient.PatientIdType	en-US	Patient Id type
 WC_UI_UWP_Pages.Patient.PatientIdType	de-DE	Art der Patientenidentifikation
-WC_UI_UWP_Pages.Patient.PatientIdTypeId	hu-HU	Azonosító típusa (id)
-WC_UI_UWP_Pages.Patient.PatientIdTypeId	en-US	Identifier type id
-WC_UI_UWP_Pages.Patient.PatientIdTypeId	de-DE	Kennungstyp (id)
+WC_UI_UWP_Pages.Patient.PatientIdTypeId	hu-HU	Betegazonosító típusa
+WC_UI_UWP_Pages.Patient.PatientIdTypeId	en-US	Patient Id type
+WC_UI_UWP_Pages.Patient.PatientIdTypeId	de-DE	Art der Patientenidentifikation
 WC_UI_UWP_Pages.Patient.PatientSyncTooltip	hu-HU	Elindítja a páciensek adatainak szinkronizációját a szerverrel
 WC_UI_UWP_Pages.Patient.PatientSyncTooltip	en-US	Starts manually the synchronisation of the patients
 WC_UI_UWP_Pages.Patient.PatientSyncTooltip	de-DE	Startet manuell die Synchronisation der Patienten
-WC_UI_UWP_Pages.Patient.Phone	hu-HU	Telefon
-WC_UI_UWP_Pages.Patient.Phone	en-US	Phone
-WC_UI_UWP_Pages.Patient.Phone	de-DE	Telefon*
+WC_UI_UWP_Pages.Patient.Phone	hu-HU	Telefonszám
+WC_UI_UWP_Pages.Patient.Phone	en-US	Phone number
+WC_UI_UWP_Pages.Patient.Phone	de-DE	Rufnummer
 WC_UI_UWP_Pages.Patient.RightFootSize	hu-HU	Jobb láb mérete
 WC_UI_UWP_Pages.Patient.RightFootSize	en-US	Right foot size
 WC_UI_UWP_Pages.Patient.RightFootSize	de-DE	Rechte Fußgröße
@@ -1922,8 +1922,8 @@ WC_UI_UWP_Pages.Results.SlowButtonTooltip	hu-HU	Lassítja a felvétel visszaját
 WC_UI_UWP_Pages.Results.SlowButtonTooltip	en-US	Slow down the recording
 WC_UI_UWP_Pages.Results.SlowButtonTooltip	de-DE	Verlangsamen Sie die Aufnahme
 WC_UI_UWP_Pages.Results.TimelineTitle	hu-HU	Idővonal
-WC_UI_UWP_Pages.Results.TimelineTitle	en-US	Analysis timeline
-WC_UI_UWP_Pages.Results.TimelineTitle	de-DE	Zeitleiste der Analyse
+WC_UI_UWP_Pages.Results.TimelineTitle	en-US	Timeline
+WC_UI_UWP_Pages.Results.TimelineTitle	de-DE	Zeitleiste
 WC_UI_UWP_Pages.Results.Title	hu-HU	Eredmények
 WC_UI_UWP_Pages.Results.Title	en-US	Results
 WC_UI_UWP_Pages.Results.Title	de-DE	Ergebnisse
@@ -2020,8 +2020,8 @@ WC_UI_Web_BodyPartProperty	de-DE	Körperteil-Eigenschaft
 WC_UI_Web_BodyPartProperty.Button	hu-HU	*
 WC_UI_Web_BodyPartProperty.Button	en-US	**
 WC_UI_Web_BodyPartProperty.Button	de-DE	***
-WC_UI_Web_BodyPartProperty.Button.AddNewBodyPartProperty	hu-HU	Új testrész tulajdonság hozzáadása
-WC_UI_Web_BodyPartProperty.Button.AddNewBodyPartProperty	en-US	Add New Body Part Property
+WC_UI_Web_BodyPartProperty.Button.AddNewBodyPartProperty	hu-HU	Új testrész-tulajdonság hozzáadása
+WC_UI_Web_BodyPartProperty.Button.AddNewBodyPartProperty	en-US	Add new body part property
 WC_UI_Web_BodyPartProperty.Button.AddNewBodyPartProperty	de-DE	Neue Körperteileigenschaft hinzufügen
 WC_UI_Web_BodyPartProperty.Label	hu-HU	*
 WC_UI_Web_BodyPartProperty.Label	en-US	**
@@ -2041,20 +2041,20 @@ WC_UI_Web_BodyPartProperty.Label.Lead	de-DE	Bitte beschreiben Sie die Diagnose f
 WC_UI_Web_BodyPartProperty.Label.Pictures	hu-HU	Diagnózis grafikonok
 WC_UI_Web_BodyPartProperty.Label.Pictures	en-US	Diagnosis images
 WC_UI_Web_BodyPartProperty.Label.Pictures	de-DE	Bilder zur Diagnose
-WC_UI_Web_BodyPartProperty.PageHeader	hu-HU	Oldalfejléc
-WC_UI_Web_BodyPartProperty.PageHeader	en-US	Page Header
-WC_UI_Web_BodyPartProperty.PageHeader	de-DE	Kopfzeile der Seite
-WC_UI_Web_BodyPartProperty.PageHeader.AddNewBodyPartProperty	hu-HU	Új testrész tulajdonság hozzáadása
-WC_UI_Web_BodyPartProperty.PageHeader.AddNewBodyPartProperty	en-US	Add New Body Part Property
-WC_UI_Web_BodyPartProperty.PageHeader.AddNewBodyPartProperty	de-DE	Hinzufügen einer neuen Körperteileigenschaft
+WC_UI_Web_BodyPartProperty.PageHeader	hu-HU	*
+WC_UI_Web_BodyPartProperty.PageHeader	en-US	**
+WC_UI_Web_BodyPartProperty.PageHeader	de-DE	***
+WC_UI_Web_BodyPartProperty.PageHeader.AddNewBodyPartProperty	hu-HU	Új testrész-tulajdonság hozzáadása
+WC_UI_Web_BodyPartProperty.PageHeader.AddNewBodyPartProperty	en-US	Add new body part property
+WC_UI_Web_BodyPartProperty.PageHeader.AddNewBodyPartProperty	de-DE	Neue Körperteileigenschaft hinzufügen
 WC_UI_Web_BodyPartProperty.PageHeader.BodyPartPropertyDetails	hu-HU	Testrész tulajdonságának részletei
-WC_UI_Web_BodyPartProperty.PageHeader.BodyPartPropertyDetails	en-US	Body Part Property Details
+WC_UI_Web_BodyPartProperty.PageHeader.BodyPartPropertyDetails	en-US	Body part property details
 WC_UI_Web_BodyPartProperty.PageHeader.BodyPartPropertyDetails	de-DE	Details der Körperteileigenschaften
 WC_UI_Web_BodyPartProperty.PageHeader.DeleteBodyPartProperty	hu-HU	Testrész-tulajdonság törlése
 WC_UI_Web_BodyPartProperty.PageHeader.DeleteBodyPartProperty	en-US	Delete body part property
 WC_UI_Web_BodyPartProperty.PageHeader.DeleteBodyPartProperty	de-DE	Körperteileigenschaft löschen
 WC_UI_Web_BodyPartProperty.PageHeader.ListOfBodyPartProperties	hu-HU	A testrész tulajdonságainak listája
-WC_UI_Web_BodyPartProperty.PageHeader.ListOfBodyPartProperties	en-US	List Of Body Part Properties
+WC_UI_Web_BodyPartProperty.PageHeader.ListOfBodyPartProperties	en-US	List of body part properties
 WC_UI_Web_BodyPartProperty.PageHeader.ListOfBodyPartProperties	de-DE	Liste der Eigenschaften von Körperteilen
 WC_UI_Web_BodyPartProperty.PageHeader.UpdateBodyPartProperty	hu-HU	Testrész-tulajdonság módosítása
 WC_UI_Web_BodyPartProperty.PageHeader.UpdateBodyPartProperty	en-US	Modify body part property
@@ -2065,35 +2065,35 @@ WC_UI_Web_Common	de-DE	Gemeinsame
 WC_UI_Web_Common.Alert	hu-HU	Riasztás
 WC_UI_Web_Common.Alert	en-US	Alert
 WC_UI_Web_Common.Alert	de-DE	Alarmierung
-WC_UI_Web_Common.Alert.AreYouSureToDeleteTheRecord	hu-HU	Biztosan Törölni Akarja A Bejegyzést?
-WC_UI_Web_Common.Alert.AreYouSureToDeleteTheRecord	en-US	Are You Sure To Delete The Record?
+WC_UI_Web_Common.Alert.AreYouSureToDeleteTheRecord	hu-HU	Biztosan törölni akarja a bejegyzést?
+WC_UI_Web_Common.Alert.AreYouSureToDeleteTheRecord	en-US	Are you sure to delete the record?
 WC_UI_Web_Common.Alert.AreYouSureToDeleteTheRecord	de-DE	Sind Sie sicher, dass Sie den Beitrag löschen wollen?
-WC_UI_Web_Common.Alert.GridSuccessfulReload	hu-HU	Szűrők Betöltve
+WC_UI_Web_Common.Alert.GridSuccessfulReload	hu-HU	Szűrők betöltve
 WC_UI_Web_Common.Alert.GridSuccessfulReload	en-US	Filters applied successfully
 WC_UI_Web_Common.Alert.GridSuccessfulReload	de-DE	Grid loaded to the selected state successfully
-WC_UI_Web_Common.Alert.SuccessfulChooseOperation	hu-HU	Sikeres Kiválasztás
-WC_UI_Web_Common.Alert.SuccessfulChooseOperation	en-US	Successful Choose Operation
+WC_UI_Web_Common.Alert.SuccessfulChooseOperation	hu-HU	Sikeres kiválasztás
+WC_UI_Web_Common.Alert.SuccessfulChooseOperation	en-US	Successful choose operation
 WC_UI_Web_Common.Alert.SuccessfulChooseOperation	de-DE	Erfolgreiche Auswahl
-WC_UI_Web_Common.Alert.SuccessfulCopyOperation	hu-HU	Sikeres Másolás
-WC_UI_Web_Common.Alert.SuccessfulCopyOperation	en-US	Successful Copy Operation
+WC_UI_Web_Common.Alert.SuccessfulCopyOperation	hu-HU	Sikeres másolás
+WC_UI_Web_Common.Alert.SuccessfulCopyOperation	en-US	Successful copy operation
 WC_UI_Web_Common.Alert.SuccessfulCopyOperation	de-DE	Erfolgreiche Kopie
-WC_UI_Web_Common.Alert.SuccessfulCreateOperation	hu-HU	Sikeres Létrehozás
-WC_UI_Web_Common.Alert.SuccessfulCreateOperation	en-US	Successful Create Operation
+WC_UI_Web_Common.Alert.SuccessfulCreateOperation	hu-HU	Sikeres létrehozás
+WC_UI_Web_Common.Alert.SuccessfulCreateOperation	en-US	Successful create operation
 WC_UI_Web_Common.Alert.SuccessfulCreateOperation	de-DE	Erfolgreiche Erstellung
-WC_UI_Web_Common.Alert.SuccessfulDeleteOperation	hu-HU	Sikeres Törlés
-WC_UI_Web_Common.Alert.SuccessfulDeleteOperation	en-US	Successful Delete Operation
+WC_UI_Web_Common.Alert.SuccessfulDeleteOperation	hu-HU	Sikeres törlés
+WC_UI_Web_Common.Alert.SuccessfulDeleteOperation	en-US	Successful delete operation
 WC_UI_Web_Common.Alert.SuccessfulDeleteOperation	de-DE	Erfolgreiche Löschung
 WC_UI_Web_Common.Alert.SuccessfulReloadOperation	hu-HU	Sikeres újratöltés
-WC_UI_Web_Common.Alert.SuccessfulReloadOperation	en-US	Successful Reload Operation
+WC_UI_Web_Common.Alert.SuccessfulReloadOperation	en-US	Successful reload operation
 WC_UI_Web_Common.Alert.SuccessfulReloadOperation	de-DE	Erfolgreiche Auffüllung
-WC_UI_Web_Common.Alert.SuccessfulUpdateOperation	hu-HU	Sikeres Frissítés
-WC_UI_Web_Common.Alert.SuccessfulUpdateOperation	en-US	Successful Update Operation
+WC_UI_Web_Common.Alert.SuccessfulUpdateOperation	hu-HU	Sikeres frissítés
+WC_UI_Web_Common.Alert.SuccessfulUpdateOperation	en-US	Successful update operation
 WC_UI_Web_Common.Alert.SuccessfulUpdateOperation	de-DE	Erfolgreiches Upgrade
 WC_UI_Web_Common.Button	hu-HU	*
 WC_UI_Web_Common.Button	en-US	**
 WC_UI_Web_Common.Button	de-DE	***
-WC_UI_Web_Common.Button.ChangePassword	hu-HU	Jelszó Megváltoztatása
-WC_UI_Web_Common.Button.ChangePassword	en-US	Change Password
+WC_UI_Web_Common.Button.ChangePassword	hu-HU	Jelszó megváltoztatása
+WC_UI_Web_Common.Button.ChangePassword	en-US	Change password
 WC_UI_Web_Common.Button.ChangePassword	de-DE	Passwort ändern
 WC_UI_Web_Common.Button.Choose	hu-HU	Kiválaszt
 WC_UI_Web_Common.Button.Choose	en-US	Select from
@@ -2111,10 +2111,10 @@ WC_UI_Web_Common.Button.Insert	hu-HU	Beillesztés
 WC_UI_Web_Common.Button.Insert	en-US	Insert
 WC_UI_Web_Common.Button.Insert	de-DE	Einsatz
 WC_UI_Web_Common.Button.InsertAndFinish	hu-HU	Beillesztés és befejezés
-WC_UI_Web_Common.Button.InsertAndFinish	en-US	Insert And Finish
+WC_UI_Web_Common.Button.InsertAndFinish	en-US	Insert and finish
 WC_UI_Web_Common.Button.InsertAndFinish	de-DE	Einfügung und Abschluss
-WC_UI_Web_Common.Button.LoadState	hu-HU	Állapot Betöltése
-WC_UI_Web_Common.Button.LoadState	en-US	Load State
+WC_UI_Web_Common.Button.LoadState	hu-HU	Állapot betöltése
+WC_UI_Web_Common.Button.LoadState	en-US	Load state
 WC_UI_Web_Common.Button.LoadState	de-DE	Status Laden
 WC_UI_Web_Common.Button.Login	hu-HU	Bejelentkezés
 WC_UI_Web_Common.Button.Login	en-US	Login
@@ -2123,8 +2123,8 @@ WC_UI_Web_Common.Button.No	hu-HU	Nem
 WC_UI_Web_Common.Button.No	en-US	No
 WC_UI_Web_Common.Button.No	de-DE	Nein
 WC_UI_Web_Common.Button.OpenChartDialog	hu-HU	Diagram párbeszédpanel megnyitása
-WC_UI_Web_Common.Button.OpenChartDialog	en-US	Open Chart Dialog
-WC_UI_Web_Common.Button.OpenChartDialog	de-DE	Öffnen Sie das Dialogfeld "Diagramm
+WC_UI_Web_Common.Button.OpenChartDialog	en-US	Open chart dialog
+WC_UI_Web_Common.Button.OpenChartDialog	de-DE	Öffnen Sie das Dialogfeld Diagramm
 WC_UI_Web_Common.Button.ReloadChart	hu-HU	Diagram újratöltése
 WC_UI_Web_Common.Button.ReloadChart	en-US	Reload Chart
 WC_UI_Web_Common.Button.ReloadChart	de-DE	Diagramm neu laden
@@ -2210,40 +2210,40 @@ WC_UI_Web_Common.Label.Days	hu-HU	Napok
 WC_UI_Web_Common.Label.Days	en-US	Days
 WC_UI_Web_Common.Label.Days	de-DE	Tage
 WC_UI_Web_Common.Label.EndOfTheDay	hu-HU	A nap vége
-WC_UI_Web_Common.Label.EndOfTheDay	en-US	End Of The Day
+WC_UI_Web_Common.Label.EndOfTheDay	en-US	End of the day
 WC_UI_Web_Common.Label.EndOfTheDay	de-DE	Ende des Tages
 WC_UI_Web_Common.Label.EndOfTheIsoWeek	hu-HU	Az Iso-hét vége
-WC_UI_Web_Common.Label.EndOfTheIsoWeek	en-US	End Of The Iso Week
+WC_UI_Web_Common.Label.EndOfTheIsoWeek	en-US	End of the Iso week
 WC_UI_Web_Common.Label.EndOfTheIsoWeek	de-DE	Ende der Iso-Woche
 WC_UI_Web_Common.Label.EndOfTheMonth	hu-HU	A hónap vége
-WC_UI_Web_Common.Label.EndOfTheMonth	en-US	End Of The Month
+WC_UI_Web_Common.Label.EndOfTheMonth	en-US	End of the month
 WC_UI_Web_Common.Label.EndOfTheMonth	de-DE	Ende des Monats
 WC_UI_Web_Common.Label.EndOfThePreviousDay	hu-HU	Az előző nap vége
-WC_UI_Web_Common.Label.EndOfThePreviousDay	en-US	End Of The Previous Day
+WC_UI_Web_Common.Label.EndOfThePreviousDay	en-US	End of the previous day
 WC_UI_Web_Common.Label.EndOfThePreviousDay	de-DE	Ende des Vortages
 WC_UI_Web_Common.Label.EndOfThePreviousIsoWeek	hu-HU	Az előző Iso-hét vége
-WC_UI_Web_Common.Label.EndOfThePreviousIsoWeek	en-US	End Of The Previous Iso Week
+WC_UI_Web_Common.Label.EndOfThePreviousIsoWeek	en-US	End of the previous iso week
 WC_UI_Web_Common.Label.EndOfThePreviousIsoWeek	de-DE	Ende der letzten Iso-Woche
 WC_UI_Web_Common.Label.EndOfThePreviousMonth	hu-HU	Az előző hónap vége
-WC_UI_Web_Common.Label.EndOfThePreviousMonth	en-US	End Of The Previous Month
+WC_UI_Web_Common.Label.EndOfThePreviousMonth	en-US	End of the previous month
 WC_UI_Web_Common.Label.EndOfThePreviousMonth	de-DE	Ende des Vormonats
 WC_UI_Web_Common.Label.EndOfThePreviousQuarter	hu-HU	Az előző negyedév vége
-WC_UI_Web_Common.Label.EndOfThePreviousQuarter	en-US	End Of The Previous Quarter
+WC_UI_Web_Common.Label.EndOfThePreviousQuarter	en-US	End of the previous quarter
 WC_UI_Web_Common.Label.EndOfThePreviousQuarter	de-DE	Ende des vorherigen Quartals
 WC_UI_Web_Common.Label.EndOfThePreviousWeek	hu-HU	Az előző hét vége
-WC_UI_Web_Common.Label.EndOfThePreviousWeek	en-US	End Of The Previous Week
+WC_UI_Web_Common.Label.EndOfThePreviousWeek	en-US	End of the previous week
 WC_UI_Web_Common.Label.EndOfThePreviousWeek	de-DE	Ende der Vorwoche
 WC_UI_Web_Common.Label.EndOfThePreviousYear	hu-HU	Az előző év vége
-WC_UI_Web_Common.Label.EndOfThePreviousYear	en-US	End Of The Previous Year
+WC_UI_Web_Common.Label.EndOfThePreviousYear	en-US	End of the previous year
 WC_UI_Web_Common.Label.EndOfThePreviousYear	de-DE	Ende des vorangegangenen Jahres
 WC_UI_Web_Common.Label.EndOfTheQuarter	hu-HU	A negyedév vége
-WC_UI_Web_Common.Label.EndOfTheQuarter	en-US	End Of The Quarter
+WC_UI_Web_Common.Label.EndOfTheQuarter	en-US	End of the quarter
 WC_UI_Web_Common.Label.EndOfTheQuarter	de-DE	Ende des Quartals
 WC_UI_Web_Common.Label.EndOfTheWeek	hu-HU	A hét vége
-WC_UI_Web_Common.Label.EndOfTheWeek	en-US	End Of The Week
+WC_UI_Web_Common.Label.EndOfTheWeek	en-US	End of the week
 WC_UI_Web_Common.Label.EndOfTheWeek	de-DE	Ende der Woche
 WC_UI_Web_Common.Label.EndOfTheYear	hu-HU	Az év vége
-WC_UI_Web_Common.Label.EndOfTheYear	en-US	End Of The Year
+WC_UI_Web_Common.Label.EndOfTheYear	en-US	End of the year
 WC_UI_Web_Common.Label.EndOfTheYear	de-DE	Das Ende des Jahres
 WC_UI_Web_Common.Label.FilterBy	hu-HU	Szűrés
 WC_UI_Web_Common.Label.FilterBy	en-US	Filter By
@@ -2252,7 +2252,7 @@ WC_UI_Web_Common.Label.FilterGrid	hu-HU	Szűrési feltételek
 WC_UI_Web_Common.Label.FilterGrid	en-US	Filtering conditions
 WC_UI_Web_Common.Label.FilterGrid	de-DE	Bedingungen für die Filterung
 WC_UI_Web_Common.Label.FilterType	hu-HU	Szűrőtípus
-WC_UI_Web_Common.Label.FilterType	en-US	Filter Type
+WC_UI_Web_Common.Label.FilterType	en-US	Filter type
 WC_UI_Web_Common.Label.FilterType	de-DE	Filter-Typ
 WC_UI_Web_Common.Label.Hours	hu-HU	Órák
 WC_UI_Web_Common.Label.Hours	en-US	Hours
@@ -2267,28 +2267,28 @@ WC_UI_Web_Common.Label.Period	hu-HU	Időszak
 WC_UI_Web_Common.Label.Period	en-US	Period
 WC_UI_Web_Common.Label.Period	de-DE	Zeitraum
 WC_UI_Web_Common.Label.StartOfTheDay	hu-HU	A nap kezdete
-WC_UI_Web_Common.Label.StartOfTheDay	en-US	Start Of The Day
+WC_UI_Web_Common.Label.StartOfTheDay	en-US	Start of the day
 WC_UI_Web_Common.Label.StartOfTheDay	de-DE	Beginn des Tages
 WC_UI_Web_Common.Label.StartOfTheIsoWeek	hu-HU	Az Iso hét kezdete
-WC_UI_Web_Common.Label.StartOfTheIsoWeek	en-US	Start Of The Iso Week
+WC_UI_Web_Common.Label.StartOfTheIsoWeek	en-US	Start of the Iso week
 WC_UI_Web_Common.Label.StartOfTheIsoWeek	de-DE	Beginn der Iso-Woche
 WC_UI_Web_Common.Label.StartOfTheMonth	hu-HU	A hónap kezdete
-WC_UI_Web_Common.Label.StartOfTheMonth	en-US	Start Of The Month
+WC_UI_Web_Common.Label.StartOfTheMonth	en-US	Start of the month
 WC_UI_Web_Common.Label.StartOfTheMonth	de-DE	Anfang des Monats
 WC_UI_Web_Common.Label.StartOfThePreviousDay	hu-HU	Az előző nap kezdete
-WC_UI_Web_Common.Label.StartOfThePreviousDay	en-US	Start Of The Previous Day
+WC_UI_Web_Common.Label.StartOfThePreviousDay	en-US	Start of the previous day
 WC_UI_Web_Common.Label.StartOfThePreviousDay	de-DE	Beginn des Vortages
 WC_UI_Web_Common.Label.StartOfThePreviousIsoWeek	hu-HU	Az előző Iso-hét kezdete
-WC_UI_Web_Common.Label.StartOfThePreviousIsoWeek	en-US	Start Of The Previous Iso Week
+WC_UI_Web_Common.Label.StartOfThePreviousIsoWeek	en-US	Start of the previous iso week
 WC_UI_Web_Common.Label.StartOfThePreviousIsoWeek	de-DE	Beginn der letzten Iso-Woche
 WC_UI_Web_Common.Label.StartOfThePreviousMonth	hu-HU	Az előző hónap kezdete
-WC_UI_Web_Common.Label.StartOfThePreviousMonth	en-US	Start Of The Previous Month
+WC_UI_Web_Common.Label.StartOfThePreviousMonth	en-US	Start of the previous month
 WC_UI_Web_Common.Label.StartOfThePreviousMonth	de-DE	Beginn des Vormonats
 WC_UI_Web_Common.Label.StartOfThePreviousQuarter	hu-HU	Az előző negyedév kezdete
-WC_UI_Web_Common.Label.StartOfThePreviousQuarter	en-US	Start Of The Previous Quarter
+WC_UI_Web_Common.Label.StartOfThePreviousQuarter	en-US	Start of the previous quarter
 WC_UI_Web_Common.Label.StartOfThePreviousQuarter	de-DE	Beginn des vorherigen Quartals
 WC_UI_Web_Common.Label.StartOfThePreviousWeek	hu-HU	Az előző hét kezdete
-WC_UI_Web_Common.Label.StartOfThePreviousWeek	en-US	Start Of The Previous Week
+WC_UI_Web_Common.Label.StartOfThePreviousWeek	en-US	Start of the previous week
 WC_UI_Web_Common.Label.StartOfThePreviousWeek	de-DE	Beginn der Vorwoche
 WC_UI_Web_Common.Label.StartOfThePreviousYear	hu-HU	Az előző év kezdete
 WC_UI_Web_Common.Label.StartOfThePreviousYear	en-US	Start Of The Previous Year
@@ -2297,51 +2297,51 @@ WC_UI_Web_Common.Label.StartOfTheQuarter	hu-HU	A negyedév kezdete
 WC_UI_Web_Common.Label.StartOfTheQuarter	en-US	Start Of The Quarter
 WC_UI_Web_Common.Label.StartOfTheQuarter	de-DE	Beginn des Quartals
 WC_UI_Web_Common.Label.StartOfTheWeek	hu-HU	A hét kezdete
-WC_UI_Web_Common.Label.StartOfTheWeek	en-US	Start Of The Week
+WC_UI_Web_Common.Label.StartOfTheWeek	en-US	Start of the week
 WC_UI_Web_Common.Label.StartOfTheWeek	de-DE	Anfang der Woche
 WC_UI_Web_Common.Label.StartOfTheYear	hu-HU	Az év kezdete
-WC_UI_Web_Common.Label.StartOfTheYear	en-US	Start Of The Year
+WC_UI_Web_Common.Label.StartOfTheYear	en-US	Start of the year
 WC_UI_Web_Common.Label.StartOfTheYear	de-DE	Der Beginn des Jahres
 WC_UI_Web_Common.Label.StartWith	hu-HU	Kezdődik
-WC_UI_Web_Common.Label.StartWith	en-US	Starts With
+WC_UI_Web_Common.Label.StartWith	en-US	Starts with
 WC_UI_Web_Common.Label.StartWith	de-DE	Startet
-WC_UI_Web_Common.Label.TimeType	hu-HU	Idő típus
-WC_UI_Web_Common.Label.TimeType	en-US	Time Type
+WC_UI_Web_Common.Label.TimeType	hu-HU	Időtípus
+WC_UI_Web_Common.Label.TimeType	en-US	Time type
 WC_UI_Web_Common.Label.TimeType	de-DE	Zeittyp
 WC_UI_Web_Common.Label.Years	hu-HU	Évek
 WC_UI_Web_Common.Label.Years	en-US	Years
 WC_UI_Web_Common.Label.Years	de-DE	Jahre
 WC_UI_Web_Common.SelectChooseCaption	hu-HU	Felirat kiválasztása
-WC_UI_Web_Common.SelectChooseCaption	en-US	Choose Caption
+WC_UI_Web_Common.SelectChooseCaption	en-US	Choose caption
 WC_UI_Web_Common.SelectChooseCaption	de-DE	Untertitel auswählen
-WC_UI_Web_Common.SelectChooseCaption.SelectAll	hu-HU	Összes Kiválasztása
-WC_UI_Web_Common.SelectChooseCaption.SelectAll	en-US	Select All
+WC_UI_Web_Common.SelectChooseCaption.SelectAll	hu-HU	Összes kiválasztása
+WC_UI_Web_Common.SelectChooseCaption.SelectAll	en-US	Select all
 WC_UI_Web_Common.SelectChooseCaption.SelectAll	de-DE	Alle auswählen
 WC_UI_Web_Common.SelectChooseCaption.SelectCalibration	hu-HU	Kalibráció kiválasztása
-WC_UI_Web_Common.SelectChooseCaption.SelectCalibration	en-US	Select Calibration
+WC_UI_Web_Common.SelectChooseCaption.SelectCalibration	en-US	Select calibration
 WC_UI_Web_Common.SelectChooseCaption.SelectCalibration	de-DE	Kalibrierung auswählen
 WC_UI_Web_Common.SelectChooseCaption.SelectExaminationType	hu-HU	Vizsgálattípus kiválasztása
-WC_UI_Web_Common.SelectChooseCaption.SelectExaminationType	en-US	Select Examination Type
+WC_UI_Web_Common.SelectChooseCaption.SelectExaminationType	en-US	Select examination type
 WC_UI_Web_Common.SelectChooseCaption.SelectExaminationType	de-DE	Auswahl des Testtyps
 WC_UI_Web_Common.SelectChooseCaption.SelectHardware	hu-HU	Eszköz kiválasztása
 WC_UI_Web_Common.SelectChooseCaption.SelectHardware	en-US	Select Hardware
 WC_UI_Web_Common.SelectChooseCaption.SelectHardware	de-DE	Auswahl des Geräts
 WC_UI_Web_Common.SelectChooseCaption.SelectHardwareType	hu-HU	Eszköz típus kiválasztása
-WC_UI_Web_Common.SelectChooseCaption.SelectHardwareType	en-US	Select Hardware Type
+WC_UI_Web_Common.SelectChooseCaption.SelectHardwareType	en-US	Select hardware type
 WC_UI_Web_Common.SelectChooseCaption.SelectHardwareType	de-DE	Gerätetyp auswählen
 WC_UI_Web_Common.SelectChooseCaption.SelectOrganization	hu-HU	Szervezet kiválasztása
-WC_UI_Web_Common.SelectChooseCaption.SelectOrganization	en-US	Select Organization
+WC_UI_Web_Common.SelectChooseCaption.SelectOrganization	en-US	Select organization
 WC_UI_Web_Common.SelectChooseCaption.SelectOrganization	de-DE	Auswahl einer Organisation
 WC_UI_Web_Common.SelectChooseCaption.SelectOrganizationLocation	hu-HU	Szervezet helyének kiválasztása
-WC_UI_Web_Common.SelectChooseCaption.SelectOrganizationLocation	en-US	Select Organization Location
+WC_UI_Web_Common.SelectChooseCaption.SelectOrganizationLocation	en-US	Select organization location
 WC_UI_Web_Common.SelectChooseCaption.SelectOrganizationLocation	de-DE	Wahl des Standorts der Organisation
 WC_UI_Web_Common.SelectChooseCaption.SelectPatientIdType	hu-HU	Válassza ki a betegazonosító típusát
-WC_UI_Web_Common.SelectChooseCaption.SelectPatientIdType	en-US	Select Patient Id Type
+WC_UI_Web_Common.SelectChooseCaption.SelectPatientIdType	en-US	Select patient id type
 WC_UI_Web_Common.SelectChooseCaption.SelectPatientIdType	de-DE	Wählen Sie den Typ der Patienten-ID
 WC_UI_Web_Common.SelectChooseCaption.SelectPatientType	hu-HU	Betegtípus kiválasztása
-WC_UI_Web_Common.SelectChooseCaption.SelectPatientType	en-US	Select Patient Type
+WC_UI_Web_Common.SelectChooseCaption.SelectPatientType	en-US	Select patient type
 WC_UI_Web_Common.SelectChooseCaption.SelectPatientType	de-DE	Patiententyp auswählen
-WC_UI_Web_Common.SelectChooseCaption.SelectRole	hu-HU	Szerep kiválasztása
+WC_UI_Web_Common.SelectChooseCaption.SelectRole	hu-HU	Szerepkör kiválasztása
 WC_UI_Web_Common.SelectChooseCaption.SelectRole	en-US	Select a role
 WC_UI_Web_Common.SelectChooseCaption.SelectRole	de-DE	Auswahl einer Rolle
 WC_UI_Web_Common.SelectChooseCaption.SelectSavedStates	hu-HU	Mentett állapot kiválasztása
@@ -2372,7 +2372,7 @@ WC_UI_Web_Examination.Label	hu-HU	*
 WC_UI_Web_Examination.Label	en-US	**
 WC_UI_Web_Examination.Label	de-DE	***
 WC_UI_Web_Examination.Label.CalibrationDataArray	hu-HU	Kalibrációs adatok
-WC_UI_Web_Examination.Label.CalibrationDataArray	en-US	Calibration Data
+WC_UI_Web_Examination.Label.CalibrationDataArray	en-US	Calibration data
 WC_UI_Web_Examination.Label.CalibrationDataArray	de-DE	Kalibrierungsdaten
 WC_UI_Web_Examination.Label.CalibrationId	hu-HU	Kalibráció
 WC_UI_Web_Examination.Label.CalibrationId	en-US	Calibration
@@ -2396,7 +2396,7 @@ WC_UI_Web_Examination.Label.ExaminationBodyPartResultGeneral	hu-HU	Testrész viz
 WC_UI_Web_Examination.Label.ExaminationBodyPartResultGeneral	en-US	Body part examination result
 WC_UI_Web_Examination.Label.ExaminationBodyPartResultGeneral	de-DE	Ergebnisse des Körperteil-Tests
 WC_UI_Web_Examination.Label.ExaminationBodyPartResultHip	hu-HU	Testrész vizsgálatának eredménye: csípő
-WC_UI_Web_Examination.Label.ExaminationBodyPartResultHip	en-US	Body part examination result: Hip
+WC_UI_Web_Examination.Label.ExaminationBodyPartResultHip	en-US	Body part examination result: hip
 WC_UI_Web_Examination.Label.ExaminationBodyPartResultHip	de-DE	Körperteil Testergebnis: Hüfte
 WC_UI_Web_Examination.Label.ExaminationBodyPartResultKnee	hu-HU	Testrész vizsgálatának eredménye: térd
 WC_UI_Web_Examination.Label.ExaminationBodyPartResultKnee	en-US	Body part examination result: knee
@@ -2500,7 +2500,7 @@ WC_UI_Web_Examination.Label.PatientHeightTo	de-DE	Patientenhöhe Ende
 WC_UI_Web_Examination.Label.PatientId	hu-HU	Betegazonosító
 WC_UI_Web_Examination.Label.PatientId	en-US	Patient Id
 WC_UI_Web_Examination.Label.PatientId	de-DE	Patienten-ID
-WC_UI_Web_Examination.Label.PatientIdTypeId	hu-HU	Betegazonosító típus
+WC_UI_Web_Examination.Label.PatientIdTypeId	hu-HU	Betegazonosító típusa
 WC_UI_Web_Examination.Label.PatientIdTypeId	en-US	Patient Id type
 WC_UI_Web_Examination.Label.PatientIdTypeId	de-DE	Art der Patientenidentifikation
 WC_UI_Web_Examination.Label.PatientIdentifier	hu-HU	Betegazonosító
@@ -2536,9 +2536,9 @@ WC_UI_Web_Examination.Label.PatientWeightFrom	de-DE	Beginn des Gewichts des Pati
 WC_UI_Web_Examination.Label.PatientWeightTo	hu-HU	A beteg súlyának vége
 WC_UI_Web_Examination.Label.PatientWeightTo	en-US	Patient weight to
 WC_UI_Web_Examination.Label.PatientWeightTo	de-DE	Ende des Patientengewichts
-WC_UI_Web_Examination.PageHeader	hu-HU	Lap fejléc
-WC_UI_Web_Examination.PageHeader	en-US	Page header
-WC_UI_Web_Examination.PageHeader	de-DE	Kopfzeile der Seite
+WC_UI_Web_Examination.PageHeader	hu-HU	*
+WC_UI_Web_Examination.PageHeader	en-US	**
+WC_UI_Web_Examination.PageHeader	de-DE	***
 WC_UI_Web_Examination.PageHeader.AddNewExamination	hu-HU	Új vizsgálat hozzáadása
 WC_UI_Web_Examination.PageHeader.AddNewExamination	en-US	Add new examination
 WC_UI_Web_Examination.PageHeader.AddNewExamination	de-DE	Einen neuen Test hinzufügen
@@ -2547,7 +2547,7 @@ WC_UI_Web_Examination.PageHeader.DeleteExamination	en-US	Delete examination
 WC_UI_Web_Examination.PageHeader.DeleteExamination	de-DE	Prüfung löschen
 WC_UI_Web_Examination.PageHeader.ExaminationDetails	hu-HU	Vizsgálat részletei
 WC_UI_Web_Examination.PageHeader.ExaminationDetails	en-US	Examination details
-WC_UI_Web_Examination.PageHeader.ExaminationDetails	de-DE	Details zum Test
+WC_UI_Web_Examination.PageHeader.ExaminationDetails	de-DE	Details zur Prüfung
 WC_UI_Web_Examination.PageHeader.ListOfExaminations	hu-HU	A vizsgálatok listája
 WC_UI_Web_Examination.PageHeader.ListOfExaminations	en-US	List of examinationsts
 WC_UI_Web_Examination.PageHeader.ListOfExaminations	de-DE	Liste der Prüfungen
@@ -2566,9 +2566,9 @@ WC_UI_Web_Exception.Button	de-DE	***
 WC_UI_Web_Exception.Button.GoToLoginPage	hu-HU	Lejárt a munkamenet, kattintson ide a bejelentkezéshez!
 WC_UI_Web_Exception.Button.GoToLoginPage	en-US	Your session is expired, click here to login again!
 WC_UI_Web_Exception.Button.GoToLoginPage	de-DE	Sitzung geschlossen, klicken Sie hier, um sich einzuloggen!
-WC_UI_Web_Exception.PageHeader	hu-HU	Lap fejléce
-WC_UI_Web_Exception.PageHeader	en-US	Page header
-WC_UI_Web_Exception.PageHeader	de-DE	Kopfzeile der Seite
+WC_UI_Web_Exception.PageHeader	hu-HU	*
+WC_UI_Web_Exception.PageHeader	en-US	**
+WC_UI_Web_Exception.PageHeader	de-DE	***
 WC_UI_Web_Exception.PageHeader.SessionException	hu-HU	Lejárt a munkamenet!
 WC_UI_Web_Exception.PageHeader.SessionException	en-US	Your session has expired!
 WC_UI_Web_Exception.PageHeader.SessionException	de-DE	Die Sitzung ist beendet!
@@ -2587,9 +2587,9 @@ WC_UI_Web_Globalization.Button	de-DE	***
 WC_UI_Web_Globalization.Button.UpdateDatabase	hu-HU	Adatbázis frissítése
 WC_UI_Web_Globalization.Button.UpdateDatabase	en-US	Update database
 WC_UI_Web_Globalization.Button.UpdateDatabase	de-DE	Aktualisierung der Datenbank
-WC_UI_Web_Globalization.PageHeader	hu-HU	Lap fejléce
-WC_UI_Web_Globalization.PageHeader	en-US	Page header
-WC_UI_Web_Globalization.PageHeader	de-DE	Kopfzeile der Seite
+WC_UI_Web_Globalization.PageHeader	hu-HU	*
+WC_UI_Web_Globalization.PageHeader	en-US	**
+WC_UI_Web_Globalization.PageHeader	de-DE	***
 WC_UI_Web_Globalization.PageHeader.GlobalizationList	hu-HU	Globalizációk
 WC_UI_Web_Globalization.PageHeader.GlobalizationList	en-US	Globalization list
 WC_UI_Web_Globalization.PageHeader.GlobalizationList	de-DE	Globalisierung
@@ -2621,7 +2621,7 @@ WC_UI_Web_Hardware.AWB.OFF	hu-HU	Nincs
 WC_UI_Web_Hardware.AWB.OFF	en-US	Off
 WC_UI_Web_Hardware.AWB.OFF	de-DE	Aus
 WC_UI_Web_Hardware.AWB.SHADE	hu-HU	Árnyékos
-WC_UI_Web_Hardware.AWB.SHADE	en-US	Shadowy
+WC_UI_Web_Hardware.AWB.SHADE	en-US	Shade
 WC_UI_Web_Hardware.AWB.SHADE	de-DE	Schattenhaft
 WC_UI_Web_Hardware.AWB.SUNLIGHT	hu-HU	Napos
 WC_UI_Web_Hardware.AWB.SUNLIGHT	en-US	Sunny
@@ -2633,14 +2633,14 @@ WC_UI_Web_Hardware.Button	hu-HU	*
 WC_UI_Web_Hardware.Button	en-US	**
 WC_UI_Web_Hardware.Button	de-DE	***
 WC_UI_Web_Hardware.Button.AddNewHardware	hu-HU	Új eszköz hozzáadása
-WC_UI_Web_Hardware.Button.AddNewHardware	en-US	Add New Hardware
-WC_UI_Web_Hardware.Button.AddNewHardware	de-DE	Neue Hardware hinzufügen
+WC_UI_Web_Hardware.Button.AddNewHardware	en-US	Add new hardware
+WC_UI_Web_Hardware.Button.AddNewHardware	de-DE	Ein neues Gerät hinzufügen
 WC_UI_Web_Hardware.CameraParameters	hu-HU	Kamera paraméterei
 WC_UI_Web_Hardware.CameraParameters	en-US	Camera parameters
-WC_UI_Web_Hardware.CameraParameters	de-DE	Raum-Parameter
-WC_UI_Web_Hardware.CameraParameters.Awb	hu-HU	Awb
-WC_UI_Web_Hardware.CameraParameters.Awb	en-US	Awb*
-WC_UI_Web_Hardware.CameraParameters.Awb	de-DE	Awb**
+WC_UI_Web_Hardware.CameraParameters	de-DE	Kamera paraméterei
+WC_UI_Web_Hardware.CameraParameters.Awb	hu-HU	Automatikus fehéregyensúly
+WC_UI_Web_Hardware.CameraParameters.Awb	en-US	Automatic white balance
+WC_UI_Web_Hardware.CameraParameters.Awb	de-DE	Automatischer Weißabgleich
 WC_UI_Web_Hardware.CameraParameters.Brightness	hu-HU	Fényesség
 WC_UI_Web_Hardware.CameraParameters.Brightness	en-US	Brightness
 WC_UI_Web_Hardware.CameraParameters.Brightness	de-DE	Helligkeit
@@ -2667,7 +2667,7 @@ WC_UI_Web_Hardware.Label	en-US	**
 WC_UI_Web_Hardware.Label	de-DE	***
 WC_UI_Web_Hardware.Label.Active	hu-HU	Aktív
 WC_UI_Web_Hardware.Label.Active	en-US	Active
-WC_UI_Web_Hardware.Label.Active	de-DE	Vermögen
+WC_UI_Web_Hardware.Label.Active	de-DE	Aktiv
 WC_UI_Web_Hardware.Label.Descriptor	hu-HU	Leíró
 WC_UI_Web_Hardware.Label.Descriptor	en-US	Descriptor
 WC_UI_Web_Hardware.Label.Descriptor	de-DE	Deskriptor
@@ -2692,9 +2692,9 @@ WC_UI_Web_Hardware.Label.OrganizationLocation	de-DE	Standort der Organisation
 WC_UI_Web_Hardware.Label.SerialNumber	hu-HU	Sorozatszám
 WC_UI_Web_Hardware.Label.SerialNumber	en-US	Serial number
 WC_UI_Web_Hardware.Label.SerialNumber	de-DE	Seriennummer
-WC_UI_Web_Hardware.PageHeader	hu-HU	Lap fejléce
-WC_UI_Web_Hardware.PageHeader	en-US	Page header
-WC_UI_Web_Hardware.PageHeader	de-DE	Kopfzeile der Seite
+WC_UI_Web_Hardware.PageHeader	hu-HU	*
+WC_UI_Web_Hardware.PageHeader	en-US	**
+WC_UI_Web_Hardware.PageHeader	de-DE	***
 WC_UI_Web_Hardware.PageHeader.AddNewHardware	hu-HU	Új eszköz hozzáadása
 WC_UI_Web_Hardware.PageHeader.AddNewHardware	en-US	Add new hardware
 WC_UI_Web_Hardware.PageHeader.AddNewHardware	de-DE	Ein neues Gerät hinzufügen
@@ -2743,54 +2743,54 @@ WC_UI_Web_HardwareUpdate.Label.Version	de-DE	Version*
 WC_UI_Web_HardwareUpdate.PageHeader	hu-HU	*
 WC_UI_Web_HardwareUpdate.PageHeader	en-US	**
 WC_UI_Web_HardwareUpdate.PageHeader	de-DE	***
-WC_UI_Web_HardwareUpdate.PageHeader.AddNewHardwareUpdate	hu-HU	Add New Hardware Update
-WC_UI_Web_HardwareUpdate.PageHeader.AddNewHardwareUpdate	en-US	Add New Hardware Update
-WC_UI_Web_HardwareUpdate.PageHeader.AddNewHardwareUpdate	de-DE	Add New Hardware Update
+WC_UI_Web_HardwareUpdate.PageHeader.AddNewHardwareUpdate	hu-HU	Új eszközfrissítés hozzáadása
+WC_UI_Web_HardwareUpdate.PageHeader.AddNewHardwareUpdate	en-US	Add new hardware update
+WC_UI_Web_HardwareUpdate.PageHeader.AddNewHardwareUpdate	de-DE	Ein neues Geräte-Update hinzufügen
 WC_UI_Web_HardwareUpdate.PageHeader.DeleteHardwareUpdate	hu-HU	Eszközfrissítés törlése
 WC_UI_Web_HardwareUpdate.PageHeader.DeleteHardwareUpdate	en-US	Delete hardware update
 WC_UI_Web_HardwareUpdate.PageHeader.DeleteHardwareUpdate	de-DE	Löschen eines Geräteupdates
-WC_UI_Web_HardwareUpdate.PageHeader.HardwareUpdateDetails	hu-HU	Hardware Update Details
-WC_UI_Web_HardwareUpdate.PageHeader.HardwareUpdateDetails	en-US	Hardware Update Details
-WC_UI_Web_HardwareUpdate.PageHeader.HardwareUpdateDetails	de-DE	Hardware Update Details
-WC_UI_Web_HardwareUpdate.PageHeader.ListOfHardwareUpdates	hu-HU	List Of Hardware Updates
-WC_UI_Web_HardwareUpdate.PageHeader.ListOfHardwareUpdates	en-US	List Of Hardware Updates
-WC_UI_Web_HardwareUpdate.PageHeader.ListOfHardwareUpdates	de-DE	List Of Hardware Updates
+WC_UI_Web_HardwareUpdate.PageHeader.HardwareUpdateDetails	hu-HU	Eszközfrissítés részletei
+WC_UI_Web_HardwareUpdate.PageHeader.HardwareUpdateDetails	en-US	Hardware update details
+WC_UI_Web_HardwareUpdate.PageHeader.HardwareUpdateDetails	de-DE	Details zur Geräteaktualisierung
+WC_UI_Web_HardwareUpdate.PageHeader.ListOfHardwareUpdates	hu-HU	Az eszközfrissítések listája
+WC_UI_Web_HardwareUpdate.PageHeader.ListOfHardwareUpdates	en-US	List of hardware updates
+WC_UI_Web_HardwareUpdate.PageHeader.ListOfHardwareUpdates	de-DE	Liste der Tool-Updates
 WC_UI_Web_HardwareUpdate.PageHeader.UpdateHardwareUpdate	hu-HU	Eszközfrissítés módosítása
 WC_UI_Web_HardwareUpdate.PageHeader.UpdateHardwareUpdate	en-US	Modify hardware update
 WC_UI_Web_HardwareUpdate.PageHeader.UpdateHardwareUpdate	de-DE	Ändern eines Geräteupdates
-WC_UI_Web_Header	hu-HU	
-WC_UI_Web_Header	en-US	
-WC_UI_Web_Header	de-DE	
+WC_UI_Web_Header	hu-HU	*
+WC_UI_Web_Header	en-US	**
+WC_UI_Web_Header	de-DE	***
 WC_UI_Web_Header.Label	hu-HU	*
 WC_UI_Web_Header.Label	en-US	**
 WC_UI_Web_Header.Label	de-DE	***
-WC_UI_Web_Header.Label.Dashboard	hu-HU	Dashboard
-WC_UI_Web_Header.Label.Dashboard	en-US	Dashboard
-WC_UI_Web_Header.Label.Dashboard	de-DE	Dashboard
+WC_UI_Web_Header.Label.Dashboard	hu-HU	Kezelőfelület
+WC_UI_Web_Header.Label.Dashboard	en-US	Dashboard*
+WC_UI_Web_Header.Label.Dashboard	de-DE	Schnittstelle
 WC_UI_Web_Header.Label.Hardwares	hu-HU	Eszközök
 WC_UI_Web_Header.Label.Hardwares	en-US	Hardwares
 WC_UI_Web_Header.Label.Hardwares	de-DE	Werkzeuge
-WC_UI_Web_Header.Label.Hello	hu-HU	Hello
-WC_UI_Web_Header.Label.Hello	en-US	Hello
-WC_UI_Web_Header.Label.Hello	de-DE	Hello
-WC_UI_Web_Header.Label.LockAccount	hu-HU	Lock Account
-WC_UI_Web_Header.Label.LockAccount	en-US	Lock Account
-WC_UI_Web_Header.Label.LockAccount	de-DE	Lock Account
+WC_UI_Web_Header.Label.Hello	hu-HU	Hello!
+WC_UI_Web_Header.Label.Hello	en-US	Hello!*
+WC_UI_Web_Header.Label.Hello	de-DE	Hello!**
+WC_UI_Web_Header.Label.LockAccount	hu-HU	Felhasználói fiók zárolása
+WC_UI_Web_Header.Label.LockAccount	en-US	Lock account
+WC_UI_Web_Header.Label.LockAccount	de-DE	Sperren Sie Ihr Benutzerkonto
 WC_UI_Web_Header.Label.Logout	hu-HU	Kijelentkezés
 WC_UI_Web_Header.Label.Logout	en-US	Logout
 WC_UI_Web_Header.Label.Logout	de-DE	Abmeldung
 WC_UI_Web_Header.Label.Organizations	hu-HU	Szervezetek
 WC_UI_Web_Header.Label.Organizations	en-US	Organizations
 WC_UI_Web_Header.Label.Organizations	de-DE	Organisationen
-WC_UI_Web_Header.Label.Paitients	hu-HU	Paitients
+WC_UI_Web_Header.Label.Paitients	hu-HU	Betegek
 WC_UI_Web_Header.Label.Paitients	en-US	Paitients
-WC_UI_Web_Header.Label.Paitients	de-DE	Paitients
-WC_UI_Web_Header.Label.Profile	hu-HU	Profile
+WC_UI_Web_Header.Label.Paitients	de-DE	Patienten
+WC_UI_Web_Header.Label.Profile	hu-HU	Profil
 WC_UI_Web_Header.Label.Profile	en-US	Profile
-WC_UI_Web_Header.Label.Profile	de-DE	Profile
-WC_UI_Web_Header.Label.SelectLanguage	hu-HU	Select Language
-WC_UI_Web_Header.Label.SelectLanguage	en-US	Select Language
-WC_UI_Web_Header.Label.SelectLanguage	de-DE	Select Language
+WC_UI_Web_Header.Label.Profile	de-DE	Profil*
+WC_UI_Web_Header.Label.SelectLanguage	hu-HU	Nyelv kiválasztása
+WC_UI_Web_Header.Label.SelectLanguage	en-US	Select language
+WC_UI_Web_Header.Label.SelectLanguage	de-DE	Auswahl der Sprache
 WC_UI_Web_Header.Label.Settings	hu-HU	Beállítások
 WC_UI_Web_Header.Label.Settings	en-US	Settings
 WC_UI_Web_Header.Label.Settings	de-DE	Einstellungen
@@ -2803,39 +2803,39 @@ WC_UI_Web_Home	de-DE	***
 WC_UI_Web_Home.Button	hu-HU	*
 WC_UI_Web_Home.Button	en-US	**
 WC_UI_Web_Home.Button	de-DE	***
-WC_UI_Web_Home.Button.CreateRow	hu-HU	Create Row
-WC_UI_Web_Home.Button.CreateRow	en-US	Create Row
-WC_UI_Web_Home.Button.CreateRow	de-DE	Create Row
+WC_UI_Web_Home.Button.CreateRow	hu-HU	Sor létrehozása
+WC_UI_Web_Home.Button.CreateRow	en-US	Create row
+WC_UI_Web_Home.Button.CreateRow	de-DE	Eine Warteschlange erstellen
 WC_UI_Web_Home.Button.Save	hu-HU	Mentés
 WC_UI_Web_Home.Button.Save	en-US	Save
 WC_UI_Web_Home.Button.Save	de-DE	Speichern bei
 WC_UI_Web_Home.Label	hu-HU	*
 WC_UI_Web_Home.Label	en-US	**
 WC_UI_Web_Home.Label	de-DE	***
-WC_UI_Web_Home.Label.AnalysisInThisMonth	hu-HU	Analysis In This Month
-WC_UI_Web_Home.Label.AnalysisInThisMonth	en-US	Analysis In This Month
-WC_UI_Web_Home.Label.AnalysisInThisMonth	de-DE	Analysis In This Month
-WC_UI_Web_Home.Label.AnalysisInThisWeek	hu-HU	Analysis In This Week
-WC_UI_Web_Home.Label.AnalysisInThisWeek	en-US	Analysis In This Week
-WC_UI_Web_Home.Label.AnalysisInThisWeek	de-DE	Analysis In This Week
-WC_UI_Web_Home.Label.AnalysisInfo	hu-HU	Analysis Info
-WC_UI_Web_Home.Label.AnalysisInfo	en-US	Analysis Info
-WC_UI_Web_Home.Label.AnalysisInfo	de-DE	Analysis Info
-WC_UI_Web_Home.Label.AnalysisOverall	hu-HU	Analysis Overall
-WC_UI_Web_Home.Label.AnalysisOverall	en-US	Analysis Overall
-WC_UI_Web_Home.Label.AnalysisOverall	de-DE	Analysis Overall
-WC_UI_Web_Home.Label.AnalysisToday	hu-HU	Analysis Today
-WC_UI_Web_Home.Label.AnalysisToday	en-US	Analysis Today
-WC_UI_Web_Home.Label.AnalysisToday	de-DE	Analysis Today
-WC_UI_Web_Home.Label.DashboardName	hu-HU	Dashboard Name
-WC_UI_Web_Home.Label.DashboardName	en-US	Dashboard Name
-WC_UI_Web_Home.Label.DashboardName	de-DE	Dashboard Name
-WC_UI_Web_Home.Label.ExaminationDate	hu-HU	Examination Date
-WC_UI_Web_Home.Label.ExaminationDate	en-US	Examination Date
-WC_UI_Web_Home.Label.ExaminationDate	de-DE	Examination Date
-WC_UI_Web_Home.Label.ExaminationDetails	hu-HU	Examination Details
-WC_UI_Web_Home.Label.ExaminationDetails	en-US	Examination Details
-WC_UI_Web_Home.Label.ExaminationDetails	de-DE	Examination Details
+WC_UI_Web_Home.Label.AnalysisInThisMonth	hu-HU	Elemzések ebben a hónapban
+WC_UI_Web_Home.Label.AnalysisInThisMonth	en-US	Analyzes in this month
+WC_UI_Web_Home.Label.AnalysisInThisMonth	de-DE	Analysen in diesem Monat
+WC_UI_Web_Home.Label.AnalysisInThisWeek	hu-HU	Elemzések ezen a héten
+WC_UI_Web_Home.Label.AnalysisInThisWeek	en-US	Analyzes in this week
+WC_UI_Web_Home.Label.AnalysisInThisWeek	de-DE	Analysen dieser Woche
+WC_UI_Web_Home.Label.AnalysisInfo	hu-HU	Elemzési információ
+WC_UI_Web_Home.Label.AnalysisInfo	en-US	Analysis info
+WC_UI_Web_Home.Label.AnalysisInfo	de-DE	Informationen zur Analyse
+WC_UI_Web_Home.Label.AnalysisOverall	hu-HU	Elemzéek áttekintése
+WC_UI_Web_Home.Label.AnalysisOverall	en-US	Analysis overall
+WC_UI_Web_Home.Label.AnalysisOverall	de-DE	Übersicht der Elemente
+WC_UI_Web_Home.Label.AnalysisToday	hu-HU	Mai elemzések
+WC_UI_Web_Home.Label.AnalysisToday	en-US	Analyzes today
+WC_UI_Web_Home.Label.AnalysisToday	de-DE	Die heutigen Analysen
+WC_UI_Web_Home.Label.DashboardName	hu-HU	Kezelőfelület neve
+WC_UI_Web_Home.Label.DashboardName	en-US	Dashboard name
+WC_UI_Web_Home.Label.DashboardName	de-DE	Name der Verwaltungsschnittstelle
+WC_UI_Web_Home.Label.ExaminationDate	hu-HU	Vizsgálat időpontja
+WC_UI_Web_Home.Label.ExaminationDate	en-US	Examination date
+WC_UI_Web_Home.Label.ExaminationDate	de-DE	Datum der Prüfung
+WC_UI_Web_Home.Label.ExaminationDetails	hu-HU	Vizsgálat részletei
+WC_UI_Web_Home.Label.ExaminationDetails	en-US	Examination details
+WC_UI_Web_Home.Label.ExaminationDetails	de-DE	Details zur Prüfung
 WC_UI_Web_Home.Label.ExaminationType	hu-HU	Vizsgálattípus
 WC_UI_Web_Home.Label.ExaminationType	en-US	Examination type
 WC_UI_Web_Home.Label.ExaminationType	de-DE	Prüfungstyp
@@ -2845,21 +2845,21 @@ WC_UI_Web_Home.Label.FootPressureExam	de-DE	Fußdrucktest
 WC_UI_Web_Home.Label.Hardwares	hu-HU	Eszközök
 WC_UI_Web_Home.Label.Hardwares	en-US	Hardwares
 WC_UI_Web_Home.Label.Hardwares	de-DE	Werkzeuge
-WC_UI_Web_Home.Label.LastAnalysis	hu-HU	Last Analysis
-WC_UI_Web_Home.Label.LastAnalysis	en-US	Last Analysis
-WC_UI_Web_Home.Label.LastAnalysis	de-DE	Last Analysis
+WC_UI_Web_Home.Label.LastAnalysis	hu-HU	Utolsó vizsgálat
+WC_UI_Web_Home.Label.LastAnalysis	en-US	Last analysis
+WC_UI_Web_Home.Label.LastAnalysis	de-DE	Letzte Analyse
 WC_UI_Web_Home.Label.Name	hu-HU	Név
 WC_UI_Web_Home.Label.Name	en-US	Name
 WC_UI_Web_Home.Label.Name	de-DE	Name*
-WC_UI_Web_Home.Label.Nodes	hu-HU	Nodes
+WC_UI_Web_Home.Label.Nodes	hu-HU	Csomópontok
 WC_UI_Web_Home.Label.Nodes	en-US	Nodes
-WC_UI_Web_Home.Label.Nodes	de-DE	Nodes
-WC_UI_Web_Home.Label.NumberOfColumns	hu-HU	Number Of Columns
-WC_UI_Web_Home.Label.NumberOfColumns	en-US	Number Of Columns
-WC_UI_Web_Home.Label.NumberOfColumns	de-DE	Number Of Columns
-WC_UI_Web_Home.Label.OrganizationInformation	hu-HU	Organization Information
-WC_UI_Web_Home.Label.OrganizationInformation	en-US	Organization Information
-WC_UI_Web_Home.Label.OrganizationInformation	de-DE	Organization Information
+WC_UI_Web_Home.Label.Nodes	de-DE	Knotenpunkte
+WC_UI_Web_Home.Label.NumberOfColumns	hu-HU	Az oszlopok száma
+WC_UI_Web_Home.Label.NumberOfColumns	en-US	Number of columns
+WC_UI_Web_Home.Label.NumberOfColumns	de-DE	Anzahl der Spalten
+WC_UI_Web_Home.Label.OrganizationInformation	hu-HU	Szervezeti információk
+WC_UI_Web_Home.Label.OrganizationInformation	en-US	Organization information
+WC_UI_Web_Home.Label.OrganizationInformation	de-DE	Organisatorische Informationen
 WC_UI_Web_Home.Label.PatientName	hu-HU	Beteg neve
 WC_UI_Web_Home.Label.PatientName	en-US	Patient name
 WC_UI_Web_Home.Label.PatientName	de-DE	Name des Patienten
@@ -2872,54 +2872,54 @@ WC_UI_Web_Home.Label.Users	de-DE	Benutzer
 WC_UI_Web_Home.Label.WalkingExam	hu-HU	Komplex járáselemzés
 WC_UI_Web_Home.Label.WalkingExam	en-US	Complex gait analysis
 WC_UI_Web_Home.Label.WalkingExam	de-DE	Komplexe Ganganalyse
-WC_UI_Web_Home.PageHeader	hu-HU	
-WC_UI_Web_Home.PageHeader	en-US	
-WC_UI_Web_Home.PageHeader	de-DE	
-WC_UI_Web_Home.PageHeader.HomePage	hu-HU	Home Page
-WC_UI_Web_Home.PageHeader.HomePage	en-US	Home Page
-WC_UI_Web_Home.PageHeader.HomePage	de-DE	Home Page
+WC_UI_Web_Home.PageHeader	hu-HU	*
+WC_UI_Web_Home.PageHeader	en-US	**
+WC_UI_Web_Home.PageHeader	de-DE	***
+WC_UI_Web_Home.PageHeader.HomePage	hu-HU	Kezdőlap
+WC_UI_Web_Home.PageHeader.HomePage	en-US	Home page
+WC_UI_Web_Home.PageHeader.HomePage	de-DE	Hauptseite
 WC_UI_Web_License	hu-HU	*
 WC_UI_Web_License	en-US	**
 WC_UI_Web_License	de-DE	***
 WC_UI_Web_License.Button	hu-HU	*
 WC_UI_Web_License.Button	en-US	**
 WC_UI_Web_License.Button	de-DE	***
-WC_UI_Web_License.Button.AddNewLicense	hu-HU	Add New License
-WC_UI_Web_License.Button.AddNewLicense	en-US	Add New License
-WC_UI_Web_License.Button.AddNewLicense	de-DE	Add New License
+WC_UI_Web_License.Button.AddNewLicense	hu-HU	Új licenc hozzáadása
+WC_UI_Web_License.Button.AddNewLicense	en-US	Add new license
+WC_UI_Web_License.Button.AddNewLicense	de-DE	Eine neue Lizenz hinzufügen
 WC_UI_Web_License.Label	hu-HU	*
 WC_UI_Web_License.Label	en-US	**
 WC_UI_Web_License.Label	de-DE	***
-WC_UI_Web_License.Label.MaxNumberOfUsers	hu-HU	Max Number Of Users
-WC_UI_Web_License.Label.MaxNumberOfUsers	en-US	Max Number Of Users
-WC_UI_Web_License.Label.MaxNumberOfUsers	de-DE	Max Number Of Users
+WC_UI_Web_License.Label.MaxNumberOfUsers	hu-HU	A felhasználók maximális száma
+WC_UI_Web_License.Label.MaxNumberOfUsers	en-US	Max number of users
+WC_UI_Web_License.Label.MaxNumberOfUsers	de-DE	Maximale Anzahl von Benutzern
 WC_UI_Web_License.Label.Organization	hu-HU	Szervezet
 WC_UI_Web_License.Label.Organization	en-US	Organisation
 WC_UI_Web_License.Label.Organization	de-DE	Organization
-WC_UI_Web_License.PageHeader	hu-HU	
-WC_UI_Web_License.PageHeader	en-US	
-WC_UI_Web_License.PageHeader	de-DE	
-WC_UI_Web_License.PageHeader.AddNewLicense	hu-HU	Add New License
-WC_UI_Web_License.PageHeader.AddNewLicense	en-US	Add New License
-WC_UI_Web_License.PageHeader.AddNewLicense	de-DE	Add New License
+WC_UI_Web_License.PageHeader	hu-HU	*
+WC_UI_Web_License.PageHeader	en-US	**
+WC_UI_Web_License.PageHeader	de-DE	***
+WC_UI_Web_License.PageHeader.AddNewLicense	hu-HU	Új licenc hozzáadása
+WC_UI_Web_License.PageHeader.AddNewLicense	en-US	Add new license
+WC_UI_Web_License.PageHeader.AddNewLicense	de-DE	Eine neue Lizenz hinzufügen
 WC_UI_Web_License.PageHeader.DeleteLicense	hu-HU	Licenc törlése
 WC_UI_Web_License.PageHeader.DeleteLicense	en-US	Delete licence
 WC_UI_Web_License.PageHeader.DeleteLicense	de-DE	Lizenz löschen
-WC_UI_Web_License.PageHeader.LicenseDetails	hu-HU	License Details
-WC_UI_Web_License.PageHeader.LicenseDetails	en-US	License Details
-WC_UI_Web_License.PageHeader.LicenseDetails	de-DE	License Details
-WC_UI_Web_License.PageHeader.ListOfLicenses	hu-HU	List Of Licenses
-WC_UI_Web_License.PageHeader.ListOfLicenses	en-US	List Of Licenses
-WC_UI_Web_License.PageHeader.ListOfLicenses	de-DE	List Of Licenses
+WC_UI_Web_License.PageHeader.LicenseDetails	hu-HU	Licenc adatai
+WC_UI_Web_License.PageHeader.LicenseDetails	en-US	License details
+WC_UI_Web_License.PageHeader.LicenseDetails	de-DE	Details zur Lizenz
+WC_UI_Web_License.PageHeader.ListOfLicenses	hu-HU	Az licencek listája
+WC_UI_Web_License.PageHeader.ListOfLicenses	en-US	List of licenses
+WC_UI_Web_License.PageHeader.ListOfLicenses	de-DE	Liste der Lizenzen
 WC_UI_Web_License.PageHeader.UpdateLicense	hu-HU	Licenc módosítása
 WC_UI_Web_License.PageHeader.UpdateLicense	en-US	Modify license
 WC_UI_Web_License.PageHeader.UpdateLicense	de-DE	Lizenz ändern
 WC_UI_Web_Login	hu-HU	Bejelentkezés
 WC_UI_Web_Login	en-US	Login
 WC_UI_Web_Login	de-DE	Anmeldung
-WC_UI_Web_Login.Labels	hu-HU	
-WC_UI_Web_Login.Labels	en-US	
-WC_UI_Web_Login.Labels	de-DE	
+WC_UI_Web_Login.Labels	hu-HU	*
+WC_UI_Web_Login.Labels	en-US	**
+WC_UI_Web_Login.Labels	de-DE	***
 WC_UI_Web_Login.Labels.Password	hu-HU	Jelszó
 WC_UI_Web_Login.Labels.Password	en-US	Password
 WC_UI_Web_Login.Labels.Password	de-DE	Passwort
@@ -2931,28 +2931,28 @@ WC_UI_Web_Login.Message	en-US	**
 WC_UI_Web_Login.Message	de-DE	***
 WC_UI_Web_Login.Message.Redirecting	hu-HU	Átiránytás, Kérem Várjon ...
 WC_UI_Web_Login.Message.Redirecting	en-US	Redirecting, Please wait ...
-WC_UI_Web_Login.Message.Redirecting	de-DE	Redirecting, Please wait ...
-WC_UI_Web_Login.PageHeader	hu-HU	
-WC_UI_Web_Login.PageHeader	en-US	
-WC_UI_Web_Login.PageHeader	de-DE	
+WC_UI_Web_Login.Message.Redirecting	de-DE	Umleitung, bitte warten ...
+WC_UI_Web_Login.PageHeader	hu-HU	*
+WC_UI_Web_Login.PageHeader	en-US	**
+WC_UI_Web_Login.PageHeader	de-DE	***
 WC_UI_Web_Login.PageHeader.Hello	hu-HU	Hello!
-WC_UI_Web_Login.PageHeader.Hello	en-US	Hello!
-WC_UI_Web_Login.PageHeader.Hello	de-DE	Hello!
+WC_UI_Web_Login.PageHeader.Hello	en-US	Hello!*
+WC_UI_Web_Login.PageHeader.Hello	de-DE	Hello!**
 WC_UI_Web_Organization	hu-HU	Szervezet
 WC_UI_Web_Organization	en-US	Organisation
 WC_UI_Web_Organization	de-DE	Organization
 WC_UI_Web_Organization.Button	hu-HU	*
 WC_UI_Web_Organization.Button	en-US	**
 WC_UI_Web_Organization.Button	de-DE	***
-WC_UI_Web_Organization.Button.AddNewOrganization	hu-HU	Új Szerep
-WC_UI_Web_Organization.Button.AddNewOrganization	en-US	Add New Organization
-WC_UI_Web_Organization.Button.AddNewOrganization	de-DE	Add New Organization
-WC_UI_Web_Organization.FieldSet	hu-HU	
-WC_UI_Web_Organization.FieldSet	en-US	
-WC_UI_Web_Organization.FieldSet	de-DE	
-WC_UI_Web_Organization.FieldSet.AdminUser	hu-HU	Admin User
-WC_UI_Web_Organization.FieldSet.AdminUser	en-US	Admin User
-WC_UI_Web_Organization.FieldSet.AdminUser	de-DE	Admin User
+WC_UI_Web_Organization.Button.AddNewOrganization	hu-HU	Új szervezet hozzáadása
+WC_UI_Web_Organization.Button.AddNewOrganization	en-US	Add new organization
+WC_UI_Web_Organization.Button.AddNewOrganization	de-DE	Eine neue Organisation hinzufügen
+WC_UI_Web_Organization.FieldSet	hu-HU	*
+WC_UI_Web_Organization.FieldSet	en-US	**
+WC_UI_Web_Organization.FieldSet	de-DE	***
+WC_UI_Web_Organization.FieldSet.AdminUser	hu-HU	Adminisztrátor
+WC_UI_Web_Organization.FieldSet.AdminUser	en-US	Administrator
+WC_UI_Web_Organization.FieldSet.AdminUser	de-DE	Verwalter
 WC_UI_Web_Organization.FieldSet.License	hu-HU	Licenc
 WC_UI_Web_Organization.FieldSet.License	en-US	License
 WC_UI_Web_Organization.FieldSet.License	de-DE	Lizenz
@@ -2962,48 +2962,48 @@ WC_UI_Web_Organization.FieldSet.Organization	de-DE	Organization
 WC_UI_Web_Organization.Label	hu-HU	*
 WC_UI_Web_Organization.Label	en-US	**
 WC_UI_Web_Organization.Label	de-DE	***
-WC_UI_Web_Organization.Label.Comments	hu-HU	Leírás
+WC_UI_Web_Organization.Label.Comments	hu-HU	Megjegyzések
 WC_UI_Web_Organization.Label.Comments	en-US	Comments
-WC_UI_Web_Organization.Label.Comments	de-DE	Comments
-WC_UI_Web_Organization.Label.Email	hu-HU	Email
-WC_UI_Web_Organization.Label.Email	en-US	Email
-WC_UI_Web_Organization.Label.Email	de-DE	Email
-WC_UI_Web_Organization.Label.MaxNumberOfUsers	hu-HU	Max Number Of Users
-WC_UI_Web_Organization.Label.MaxNumberOfUsers	en-US	Max Number Of Users
-WC_UI_Web_Organization.Label.MaxNumberOfUsers	de-DE	Max Number Of Users
+WC_UI_Web_Organization.Label.Comments	de-DE	Kommentare
+WC_UI_Web_Organization.Label.Email	hu-HU	E-mail
+WC_UI_Web_Organization.Label.Email	en-US	E-mail*
+WC_UI_Web_Organization.Label.Email	de-DE	E-mail**
+WC_UI_Web_Organization.Label.MaxNumberOfUsers	hu-HU	A felhasználók maximális száma
+WC_UI_Web_Organization.Label.MaxNumberOfUsers	en-US	Max number of users
+WC_UI_Web_Organization.Label.MaxNumberOfUsers	de-DE	Maximale Anzahl von Benutzern
 WC_UI_Web_Organization.Label.OrganizationName	hu-HU	Szervezet neve
 WC_UI_Web_Organization.Label.OrganizationName	en-US	Organization name
 WC_UI_Web_Organization.Label.OrganizationName	de-DE	Name der Organisation
 WC_UI_Web_Organization.Label.Password	hu-HU	Jelszó
 WC_UI_Web_Organization.Label.Password	en-US	Password
 WC_UI_Web_Organization.Label.Password	de-DE	Passwort
-WC_UI_Web_Organization.Label.UserFullName	hu-HU	User Full Name
-WC_UI_Web_Organization.Label.UserFullName	en-US	User Full Name
-WC_UI_Web_Organization.Label.UserFullName	de-DE	User Full Name
+WC_UI_Web_Organization.Label.UserFullName	hu-HU	Felhasználó teljes neve
+WC_UI_Web_Organization.Label.UserFullName	en-US	User full name
+WC_UI_Web_Organization.Label.UserFullName	de-DE	Vollständiger Name des Benutzers
 WC_UI_Web_Organization.Label.Username	hu-HU	Felhasználónév
 WC_UI_Web_Organization.Label.Username	en-US	Username
 WC_UI_Web_Organization.Label.Username	de-DE	Benutzername
 WC_UI_Web_Organization.Label.Users	hu-HU	Felhasználók
 WC_UI_Web_Organization.Label.Users	en-US	Users
 WC_UI_Web_Organization.Label.Users	de-DE	Benutzer
-WC_UI_Web_Organization.PageHeader	hu-HU	
-WC_UI_Web_Organization.PageHeader	en-US	
-WC_UI_Web_Organization.PageHeader	de-DE	
-WC_UI_Web_Organization.PageHeader.AddNewOrganization	hu-HU	Új Szerep
-WC_UI_Web_Organization.PageHeader.AddNewOrganization	en-US	Add New Organization
-WC_UI_Web_Organization.PageHeader.AddNewOrganization	de-DE	Add New Organization
+WC_UI_Web_Organization.PageHeader	hu-HU	*
+WC_UI_Web_Organization.PageHeader	en-US	**
+WC_UI_Web_Organization.PageHeader	de-DE	***
+WC_UI_Web_Organization.PageHeader.AddNewOrganization	hu-HU	Új szervezet hozzáadása
+WC_UI_Web_Organization.PageHeader.AddNewOrganization	en-US	Add new organization
+WC_UI_Web_Organization.PageHeader.AddNewOrganization	de-DE	Eine neue Organisation hinzufügen
 WC_UI_Web_Organization.PageHeader.DeleteOrganization	hu-HU	Szervezet törlése
 WC_UI_Web_Organization.PageHeader.DeleteOrganization	en-US	Delete organization
 WC_UI_Web_Organization.PageHeader.DeleteOrganization	de-DE	Organisation löschen
 WC_UI_Web_Organization.PageHeader.ListOfOrganizations	hu-HU	Szervezetek listája
 WC_UI_Web_Organization.PageHeader.ListOfOrganizations	en-US	List of organizations
 WC_UI_Web_Organization.PageHeader.ListOfOrganizations	de-DE	Liste der Organisationen
-WC_UI_Web_Organization.PageHeader.OrganizationDetails	hu-HU	Szerep Részletei
-WC_UI_Web_Organization.PageHeader.OrganizationDetails	en-US	Organization Details
-WC_UI_Web_Organization.PageHeader.OrganizationDetails	de-DE	Organization Details
-WC_UI_Web_Organization.PageHeader.RegisterNewOrganization	hu-HU	Register New Organization
-WC_UI_Web_Organization.PageHeader.RegisterNewOrganization	en-US	Register New Organization
-WC_UI_Web_Organization.PageHeader.RegisterNewOrganization	de-DE	Register New Organization
+WC_UI_Web_Organization.PageHeader.OrganizationDetails	hu-HU	A szervezet részletei
+WC_UI_Web_Organization.PageHeader.OrganizationDetails	en-US	Organization details
+WC_UI_Web_Organization.PageHeader.OrganizationDetails	de-DE	Angaben zur Organisation
+WC_UI_Web_Organization.PageHeader.RegisterNewOrganization	hu-HU	Új szervezet regisztrálása
+WC_UI_Web_Organization.PageHeader.RegisterNewOrganization	en-US	Register new organization
+WC_UI_Web_Organization.PageHeader.RegisterNewOrganization	de-DE	Eine neue Organisation registrieren
 WC_UI_Web_Organization.PageHeader.UpdateOrganization	hu-HU	Szervezet módosítása
 WC_UI_Web_Organization.PageHeader.UpdateOrganization	en-US	Modify organization
 WC_UI_Web_Organization.PageHeader.UpdateOrganization	de-DE	Organisation modifizieren
@@ -3016,9 +3016,9 @@ WC_UI_Web_Patient	de-DE	Patient*
 WC_UI_Web_Patient.Button	hu-HU	*
 WC_UI_Web_Patient.Button	en-US	**
 WC_UI_Web_Patient.Button	de-DE	***
-WC_UI_Web_Patient.Button.AddNewPatient	hu-HU	Add New Patient
-WC_UI_Web_Patient.Button.AddNewPatient	en-US	Add New Patient
-WC_UI_Web_Patient.Button.AddNewPatient	de-DE	Add New Patient
+WC_UI_Web_Patient.Button.AddNewPatient	hu-HU	Új beteg hozzáadása
+WC_UI_Web_Patient.Button.AddNewPatient	en-US	Add new patient
+WC_UI_Web_Patient.Button.AddNewPatient	de-DE	Einen neuen Patienten hinzufügen
 WC_UI_Web_Patient.Label	hu-HU	*
 WC_UI_Web_Patient.Label	en-US	**
 WC_UI_Web_Patient.Label	de-DE	***
@@ -3028,60 +3028,60 @@ WC_UI_Web_Patient.Label.Address	de-DE	Adresse
 WC_UI_Web_Patient.Label.BornCity	hu-HU	Születési hely
 WC_UI_Web_Patient.Label.BornCity	en-US	Place of birth
 WC_UI_Web_Patient.Label.BornCity	de-DE	Ort der Geburt
-WC_UI_Web_Patient.Label.BornDate	hu-HU	Born Date
-WC_UI_Web_Patient.Label.BornDate	en-US	Born Date
-WC_UI_Web_Patient.Label.BornDate	de-DE	Born Date
-WC_UI_Web_Patient.Label.BornName	hu-HU	Born Name
-WC_UI_Web_Patient.Label.BornName	en-US	Born Name
-WC_UI_Web_Patient.Label.BornName	de-DE	Born Name
-WC_UI_Web_Patient.Label.Comments	hu-HU	Comments
+WC_UI_Web_Patient.Label.BornDate	hu-HU	Születési dátum
+WC_UI_Web_Patient.Label.BornDate	en-US	Date of birth
+WC_UI_Web_Patient.Label.BornDate	de-DE	Geburtsdatum
+WC_UI_Web_Patient.Label.BornName	hu-HU	Születési név
+WC_UI_Web_Patient.Label.BornName	en-US	Name of birth
+WC_UI_Web_Patient.Label.BornName	de-DE	Geburtsname
+WC_UI_Web_Patient.Label.Comments	hu-HU	Megjegyzések
 WC_UI_Web_Patient.Label.Comments	en-US	Comments
-WC_UI_Web_Patient.Label.Comments	de-DE	Comments
-WC_UI_Web_Patient.Label.Email	hu-HU	Email
-WC_UI_Web_Patient.Label.Email	en-US	Email
-WC_UI_Web_Patient.Label.Email	de-DE	Email
-WC_UI_Web_Patient.Label.Height	hu-HU	Height
+WC_UI_Web_Patient.Label.Comments	de-DE	Kommentare
+WC_UI_Web_Patient.Label.Email	hu-HU	E-mail
+WC_UI_Web_Patient.Label.Email	en-US	E-mail*
+WC_UI_Web_Patient.Label.Email	de-DE	E-mail**
+WC_UI_Web_Patient.Label.Height	hu-HU	Magasság
 WC_UI_Web_Patient.Label.Height	en-US	Height
-WC_UI_Web_Patient.Label.Height	de-DE	Height
-WC_UI_Web_Patient.Label.IllnessInfo	hu-HU	Illness Info
-WC_UI_Web_Patient.Label.IllnessInfo	en-US	Illness Info
-WC_UI_Web_Patient.Label.IllnessInfo	de-DE	Illness Info
-WC_UI_Web_Patient.Label.LeftFootSize	hu-HU	Left Foot Size
-WC_UI_Web_Patient.Label.LeftFootSize	en-US	Left Foot Size
-WC_UI_Web_Patient.Label.LeftFootSize	de-DE	Left Foot Size
-WC_UI_Web_Patient.Label.PatientId	hu-HU	Patient Id
+WC_UI_Web_Patient.Label.Height	de-DE	Heisse
+WC_UI_Web_Patient.Label.IllnessInfo	hu-HU	Korábbi betegségek
+WC_UI_Web_Patient.Label.IllnessInfo	en-US	Known diseases
+WC_UI_Web_Patient.Label.IllnessInfo	de-DE	Bekannte Krankheiten
+WC_UI_Web_Patient.Label.LeftFootSize	hu-HU	Bal láb mérete
+WC_UI_Web_Patient.Label.LeftFootSize	en-US	Left foot size
+WC_UI_Web_Patient.Label.LeftFootSize	de-DE	Größe des linken Fußes
+WC_UI_Web_Patient.Label.PatientId	hu-HU	Betegazonosító
 WC_UI_Web_Patient.Label.PatientId	en-US	Patient Id
-WC_UI_Web_Patient.Label.PatientId	de-DE	Patient Id
+WC_UI_Web_Patient.Label.PatientId	de-DE	Patienten-ID
 WC_UI_Web_Patient.Label.PatientIdType	hu-HU	Betegazonosító típusa
 WC_UI_Web_Patient.Label.PatientIdType	en-US	Patient Id type
 WC_UI_Web_Patient.Label.PatientIdType	de-DE	Art der Patientenidentifikation
 WC_UI_Web_Patient.Label.PatientName	hu-HU	Beteg neve
 WC_UI_Web_Patient.Label.PatientName	en-US	Patient name
 WC_UI_Web_Patient.Label.PatientName	de-DE	Name des Patienten
-WC_UI_Web_Patient.Label.Phone	hu-HU	Phone
-WC_UI_Web_Patient.Label.Phone	en-US	Phone
-WC_UI_Web_Patient.Label.Phone	de-DE	Phone
-WC_UI_Web_Patient.Label.RightFootSize	hu-HU	Right Foot Size
-WC_UI_Web_Patient.Label.RightFootSize	en-US	Right Foot Size
-WC_UI_Web_Patient.Label.RightFootSize	de-DE	Right Foot Size
-WC_UI_Web_Patient.Label.Weight	hu-HU	Weight
+WC_UI_Web_Patient.Label.Phone	hu-HU	Telefonszám
+WC_UI_Web_Patient.Label.Phone	en-US	Phone number
+WC_UI_Web_Patient.Label.Phone	de-DE	Rufnummer
+WC_UI_Web_Patient.Label.RightFootSize	hu-HU	Jobb láb mérete
+WC_UI_Web_Patient.Label.RightFootSize	en-US	Right foot size
+WC_UI_Web_Patient.Label.RightFootSize	de-DE	Rechte Fußgröße
+WC_UI_Web_Patient.Label.Weight	hu-HU	Tömeg
 WC_UI_Web_Patient.Label.Weight	en-US	Weight
-WC_UI_Web_Patient.Label.Weight	de-DE	Weight
-WC_UI_Web_Patient.PageHeader	hu-HU	
-WC_UI_Web_Patient.PageHeader	en-US	
-WC_UI_Web_Patient.PageHeader	de-DE	
-WC_UI_Web_Patient.PageHeader.AddNewPatient	hu-HU	Add New Patient
-WC_UI_Web_Patient.PageHeader.AddNewPatient	en-US	Add New Patient
-WC_UI_Web_Patient.PageHeader.AddNewPatient	de-DE	Add New Patient
+WC_UI_Web_Patient.Label.Weight	de-DE	Gewicht
+WC_UI_Web_Patient.PageHeader	hu-HU	*
+WC_UI_Web_Patient.PageHeader	en-US	**
+WC_UI_Web_Patient.PageHeader	de-DE	***
+WC_UI_Web_Patient.PageHeader.AddNewPatient	hu-HU	Új beteg hozzáadása
+WC_UI_Web_Patient.PageHeader.AddNewPatient	en-US	Add new patient
+WC_UI_Web_Patient.PageHeader.AddNewPatient	de-DE	Einen neuen Patienten hinzufügen
 WC_UI_Web_Patient.PageHeader.DeletePatient	hu-HU	Beteg törlése
 WC_UI_Web_Patient.PageHeader.DeletePatient	en-US	Delete patient
 WC_UI_Web_Patient.PageHeader.DeletePatient	de-DE	Einen Patienten löschen
-WC_UI_Web_Patient.PageHeader.ListOfPatients	hu-HU	List Of Patients
-WC_UI_Web_Patient.PageHeader.ListOfPatients	en-US	List Of Patients
-WC_UI_Web_Patient.PageHeader.ListOfPatients	de-DE	List Of Patients
-WC_UI_Web_Patient.PageHeader.PatientDetails	hu-HU	Patient Details
-WC_UI_Web_Patient.PageHeader.PatientDetails	en-US	Patient Details
-WC_UI_Web_Patient.PageHeader.PatientDetails	de-DE	Patient Details
+WC_UI_Web_Patient.PageHeader.ListOfPatients	hu-HU	A betegek listája
+WC_UI_Web_Patient.PageHeader.ListOfPatients	en-US	List of patients
+WC_UI_Web_Patient.PageHeader.ListOfPatients	de-DE	Liste der Patienten
+WC_UI_Web_Patient.PageHeader.PatientDetails	hu-HU	A beteg részletes adatai
+WC_UI_Web_Patient.PageHeader.PatientDetails	en-US	Patient details
+WC_UI_Web_Patient.PageHeader.PatientDetails	de-DE	Angaben zum Patienten
 WC_UI_Web_Patient.PageHeader.UpdatePatient	hu-HU	Beteg módosítása
 WC_UI_Web_Patient.PageHeader.UpdatePatient	en-US	Modify patient
 WC_UI_Web_Patient.PageHeader.UpdatePatient	de-DE	Patient ändern
@@ -3091,21 +3091,21 @@ WC_UI_Web_QueryOption	de-DE	Auskunftsmöglichkeit
 WC_UI_Web_QueryOption.Button	hu-HU	*
 WC_UI_Web_QueryOption.Button	en-US	**
 WC_UI_Web_QueryOption.Button	de-DE	***
-WC_UI_Web_QueryOption.Button.AddNewQueryOption	hu-HU	Add New Query Option
-WC_UI_Web_QueryOption.Button.AddNewQueryOption	en-US	Add New Query Option
-WC_UI_Web_QueryOption.Button.AddNewQueryOption	de-DE	Add New Query Option
-WC_UI_Web_QueryOption.Button.LoadState	hu-HU	Load State
-WC_UI_Web_QueryOption.Button.LoadState	en-US	Load State
-WC_UI_Web_QueryOption.Button.LoadState	de-DE	Load State
+WC_UI_Web_QueryOption.Button.AddNewQueryOption	hu-HU	Új lekérdezési opció hozzáadása
+WC_UI_Web_QueryOption.Button.AddNewQueryOption	en-US	Add new query option
+WC_UI_Web_QueryOption.Button.AddNewQueryOption	de-DE	Eine neue Abfrageoption hinzufügen
+WC_UI_Web_QueryOption.Button.LoadState	hu-HU	Állapot betöltése
+WC_UI_Web_QueryOption.Button.LoadState	en-US	Load state
+WC_UI_Web_QueryOption.Button.LoadState	de-DE	Status Laden
 WC_UI_Web_QueryOption.Label	hu-HU	*
 WC_UI_Web_QueryOption.Label	en-US	**
 WC_UI_Web_QueryOption.Label	de-DE	***
-WC_UI_Web_QueryOption.Label.Calendar	hu-HU	Calendar
+WC_UI_Web_QueryOption.Label.Calendar	hu-HU	Naptár
 WC_UI_Web_QueryOption.Label.Calendar	en-US	Calendar
-WC_UI_Web_QueryOption.Label.Calendar	de-DE	Calendar
-WC_UI_Web_QueryOption.Label.Comments	hu-HU	Comments
+WC_UI_Web_QueryOption.Label.Calendar	de-DE	Kalender
+WC_UI_Web_QueryOption.Label.Comments	hu-HU	Megjegyzések
 WC_UI_Web_QueryOption.Label.Comments	en-US	Comments
-WC_UI_Web_QueryOption.Label.Comments	de-DE	Comments
+WC_UI_Web_QueryOption.Label.Comments	de-DE	Kommentare
 WC_UI_Web_QueryOption.Label.Examination	hu-HU	Vizsgálat
 WC_UI_Web_QueryOption.Label.Examination	en-US	Examination
 WC_UI_Web_QueryOption.Label.Examination	de-DE	Prüfung
@@ -3118,81 +3118,81 @@ WC_UI_Web_QueryOption.Label.Organization	de-DE	Organization
 WC_UI_Web_QueryOption.Label.Patient	hu-HU	Beteg
 WC_UI_Web_QueryOption.Label.Patient	en-US	Patient
 WC_UI_Web_QueryOption.Label.Patient	de-DE	Patient*
-WC_UI_Web_QueryOption.Label.QueryOptionName	hu-HU	Query Option Name
-WC_UI_Web_QueryOption.Label.QueryOptionName	en-US	Query Option Name
-WC_UI_Web_QueryOption.Label.QueryOptionName	de-DE	Query Option Name
-WC_UI_Web_QueryOption.Label.StateName	hu-HU	State Name
-WC_UI_Web_QueryOption.Label.StateName	en-US	State Name
-WC_UI_Web_QueryOption.Label.StateName	de-DE	State Name
-WC_UI_Web_QueryOption.PageHeader	hu-HU	
-WC_UI_Web_QueryOption.PageHeader	en-US	
-WC_UI_Web_QueryOption.PageHeader	de-DE	
-WC_UI_Web_QueryOption.PageHeader.AddNewQueryOption	hu-HU	Add New Query Option
-WC_UI_Web_QueryOption.PageHeader.AddNewQueryOption	en-US	Add New Query Option
-WC_UI_Web_QueryOption.PageHeader.AddNewQueryOption	de-DE	Add New Query Option
+WC_UI_Web_QueryOption.Label.QueryOptionName	hu-HU	A lekérdezési opció neve
+WC_UI_Web_QueryOption.Label.QueryOptionName	en-US	Query option name
+WC_UI_Web_QueryOption.Label.QueryOptionName	de-DE	Name der Abfrageoption
+WC_UI_Web_QueryOption.Label.StateName	hu-HU	Állapot neve
+WC_UI_Web_QueryOption.Label.StateName	en-US	State name
+WC_UI_Web_QueryOption.Label.StateName	de-DE	Name des Staates
+WC_UI_Web_QueryOption.PageHeader	hu-HU	*
+WC_UI_Web_QueryOption.PageHeader	en-US	**
+WC_UI_Web_QueryOption.PageHeader	de-DE	***
+WC_UI_Web_QueryOption.PageHeader.AddNewQueryOption	hu-HU	Új lekérdezési opció hozzáadása
+WC_UI_Web_QueryOption.PageHeader.AddNewQueryOption	en-US	Add new query option
+WC_UI_Web_QueryOption.PageHeader.AddNewQueryOption	de-DE	Eine neue Abfrageoption hinzufügen
 WC_UI_Web_QueryOption.PageHeader.DeleteQueryOption	hu-HU	Lekérdezési lehetőség törlése
 WC_UI_Web_QueryOption.PageHeader.DeleteQueryOption	en-US	Delete query option
 WC_UI_Web_QueryOption.PageHeader.DeleteQueryOption	de-DE	Option Abfrage löschen
-WC_UI_Web_QueryOption.PageHeader.ListOfQueries	hu-HU	List Of Queries
-WC_UI_Web_QueryOption.PageHeader.ListOfQueries	en-US	List Of Queries
-WC_UI_Web_QueryOption.PageHeader.ListOfQueries	de-DE	List Of Queries
-WC_UI_Web_QueryOption.PageHeader.LoadState	hu-HU	Load state
+WC_UI_Web_QueryOption.PageHeader.ListOfQueries	hu-HU	A lekérdezések listája
+WC_UI_Web_QueryOption.PageHeader.ListOfQueries	en-US	List of queries
+WC_UI_Web_QueryOption.PageHeader.ListOfQueries	de-DE	Liste der Abfragen
+WC_UI_Web_QueryOption.PageHeader.LoadState	hu-HU	Állapot betöltése
 WC_UI_Web_QueryOption.PageHeader.LoadState	en-US	Load state
-WC_UI_Web_QueryOption.PageHeader.LoadState	de-DE	Load state
-WC_UI_Web_QueryOption.PageHeader.QueryOptionDetails	hu-HU	Query Option Details
-WC_UI_Web_QueryOption.PageHeader.QueryOptionDetails	en-US	Query Option Details
-WC_UI_Web_QueryOption.PageHeader.QueryOptionDetails	de-DE	Query Option Details
-WC_UI_Web_QueryOption.PageHeader.SaveANewState	hu-HU	Save a new state
+WC_UI_Web_QueryOption.PageHeader.LoadState	de-DE	Status Laden
+WC_UI_Web_QueryOption.PageHeader.QueryOptionDetails	hu-HU	A lekérdezési opció részletei
+WC_UI_Web_QueryOption.PageHeader.QueryOptionDetails	en-US	Query option details
+WC_UI_Web_QueryOption.PageHeader.QueryOptionDetails	de-DE	Details der Abfrageoption
+WC_UI_Web_QueryOption.PageHeader.SaveANewState	hu-HU	Új állapot mentése
 WC_UI_Web_QueryOption.PageHeader.SaveANewState	en-US	Save a new state
-WC_UI_Web_QueryOption.PageHeader.SaveANewState	de-DE	Save a new state
+WC_UI_Web_QueryOption.PageHeader.SaveANewState	de-DE	Neuen Zustand speichern
 WC_UI_Web_QueryOption.PageHeader.UpdateQueryOption	hu-HU	Lekérdezési lehetőség módosítása
 WC_UI_Web_QueryOption.PageHeader.UpdateQueryOption	en-US	Modify query option
 WC_UI_Web_QueryOption.PageHeader.UpdateQueryOption	de-DE	Abfrageoption ändern
-WC_UI_Web_QueryOption.PageHeader.UpdateTheCurrentState	hu-HU	Update the current state
+WC_UI_Web_QueryOption.PageHeader.UpdateTheCurrentState	hu-HU	Az aktuális állapot frissítése
 WC_UI_Web_QueryOption.PageHeader.UpdateTheCurrentState	en-US	Update the current state
-WC_UI_Web_QueryOption.PageHeader.UpdateTheCurrentState	de-DE	Update the current state
+WC_UI_Web_QueryOption.PageHeader.UpdateTheCurrentState	de-DE	Aktualisieren Sie den aktuellen Status
 WC_UI_Web_Role	hu-HU	Szerepkör
 WC_UI_Web_Role	en-US	Role
 WC_UI_Web_Role	de-DE	Rolle
 WC_UI_Web_Role.Button	hu-HU	*
 WC_UI_Web_Role.Button	en-US	**
 WC_UI_Web_Role.Button	de-DE	***
-WC_UI_Web_Role.Button.AddNewRole	hu-HU	Új Szerep
-WC_UI_Web_Role.Button.AddNewRole	en-US	Add New Role
-WC_UI_Web_Role.Button.AddNewRole	de-DE	Add New Role
+WC_UI_Web_Role.Button.AddNewRole	hu-HU	Új Szerepkör hozzáadása
+WC_UI_Web_Role.Button.AddNewRole	en-US	Add new role
+WC_UI_Web_Role.Button.AddNewRole	de-DE	Eine neue Rolle hinzufügen
 WC_UI_Web_Role.Label	hu-HU	*
 WC_UI_Web_Role.Label	en-US	**
 WC_UI_Web_Role.Label	de-DE	***
 WC_UI_Web_Role.Label.Description	hu-HU	Leírás
 WC_UI_Web_Role.Label.Description	en-US	Description
 WC_UI_Web_Role.Label.Description	de-DE	Beschreibung
-WC_UI_Web_Role.Label.NotAssignedRights	hu-HU	Hozzá Nem Rendelt Jogok
-WC_UI_Web_Role.Label.NotAssignedRights	en-US	Not Assigned Rights
-WC_UI_Web_Role.Label.NotAssignedRights	de-DE	Not Assigned Rights
-WC_UI_Web_Role.Label.RoleName	hu-HU	Szerep Neve
-WC_UI_Web_Role.Label.RoleName	en-US	Role Name
-WC_UI_Web_Role.Label.RoleName	de-DE	Role Name
+WC_UI_Web_Role.Label.NotAssignedRights	hu-HU	Hozzá nem rendelt jogok
+WC_UI_Web_Role.Label.NotAssignedRights	en-US	Not assigned rights
+WC_UI_Web_Role.Label.NotAssignedRights	de-DE	Nicht zugewiesene Rechte
+WC_UI_Web_Role.Label.RoleName	hu-HU	Szerepkör neve
+WC_UI_Web_Role.Label.RoleName	en-US	Role name
+WC_UI_Web_Role.Label.RoleName	de-DE	Name der Rolle
 WC_UI_Web_Role.Label.RoleRights	hu-HU	A jogosultság hozzátartozik a szerephez
 WC_UI_Web_Role.Label.RoleRights	en-US	Right belogns to the role
-WC_UI_Web_Role.Label.RoleRights	de-DE	Right belogns to the role
-WC_UI_Web_Role.PageHeader	hu-HU	
-WC_UI_Web_Role.PageHeader	en-US	
-WC_UI_Web_Role.PageHeader	de-DE	
-WC_UI_Web_Role.PageHeader.AddNewRole	hu-HU	Új Szerep
-WC_UI_Web_Role.PageHeader.AddNewRole	en-US	Add New Role
-WC_UI_Web_Role.PageHeader.AddNewRole	de-DE	Add New Role
+WC_UI_Web_Role.Label.RoleRights	de-DE	Das Recht gehört zu der Rolle
+WC_UI_Web_Role.PageHeader	hu-HU	*
+WC_UI_Web_Role.PageHeader	en-US	**
+WC_UI_Web_Role.PageHeader	de-DE	***
+WC_UI_Web_Role.PageHeader.AddNewRole	hu-HU	Új Szerepkör hozzáadása
+WC_UI_Web_Role.PageHeader.AddNewRole	en-US	Add new role
+WC_UI_Web_Role.PageHeader.AddNewRole	de-DE	Eine neue Rolle hinzufügen
 WC_UI_Web_Role.PageHeader.DeleteRole	hu-HU	Szerepkör törlése
 WC_UI_Web_Role.PageHeader.DeleteRole	en-US	Delete role
 WC_UI_Web_Role.PageHeader.DeleteRole	de-DE	Eine Rolle löschen
-WC_UI_Web_Role.PageHeader.ListOfRoles	hu-HU	Szerepek
-WC_UI_Web_Role.PageHeader.ListOfRoles	en-US	List Of Roles
-WC_UI_Web_Role.PageHeader.ListOfRoles	de-DE	List Of Roles
-WC_UI_Web_Role.PageHeader.RightAssignment	hu-HU	Jogosultságok Kiosztása
-WC_UI_Web_Role.PageHeader.RightAssignment	en-US	Right Assignment
-WC_UI_Web_Role.PageHeader.RightAssignment	de-DE	Right Assignment
-WC_UI_Web_Role.PageHeader.RoleDetails	hu-HU	Szerep Részletei
-WC_UI_Web_Role.PageHeader.RoleDetails	en-US	Role Details
-WC_UI_Web_Role.PageHeader.RoleDetails	de-DE	Role Details
+WC_UI_Web_Role.PageHeader.ListOfRoles	hu-HU	Szerepek listája
+WC_UI_Web_Role.PageHeader.ListOfRoles	en-US	List of roles
+WC_UI_Web_Role.PageHeader.ListOfRoles	de-DE	Liste der Rollen
+WC_UI_Web_Role.PageHeader.RightAssignment	hu-HU	Jogosultság hozzárendelés
+WC_UI_Web_Role.PageHeader.RightAssignment	en-US	Right assignment
+WC_UI_Web_Role.PageHeader.RightAssignment	de-DE	Förderfähigkeit Zuweisung
+WC_UI_Web_Role.PageHeader.RoleDetails	hu-HU	A szerepkör részletei
+WC_UI_Web_Role.PageHeader.RoleDetails	en-US	Role details
+WC_UI_Web_Role.PageHeader.RoleDetails	de-DE	Einzelheiten zur Rolle
 WC_UI_Web_Role.PageHeader.UpdateRole	hu-HU	Szerepkör módosítása
 WC_UI_Web_Role.PageHeader.UpdateRole	en-US	Modify role
 WC_UI_Web_Role.PageHeader.UpdateRole	de-DE	Rolle ändern
@@ -3202,36 +3202,36 @@ WC_UI_Web_User	de-DE	Benutzer
 WC_UI_Web_User.Button	hu-HU	*
 WC_UI_Web_User.Button	en-US	**
 WC_UI_Web_User.Button	de-DE	***
-WC_UI_Web_User.Button.AddNewUser	hu-HU	Új Felhasználó
-WC_UI_Web_User.Button.AddNewUser	en-US	Add New User
-WC_UI_Web_User.Button.AddNewUser	de-DE	Add New User
+WC_UI_Web_User.Button.AddNewUser	hu-HU	Új felhasználó hozzáadása
+WC_UI_Web_User.Button.AddNewUser	en-US	Add new user
+WC_UI_Web_User.Button.AddNewUser	de-DE	Einen neuen Benutzer hinzufügen
 WC_UI_Web_User.Label	hu-HU	*
 WC_UI_Web_User.Label	en-US	**
 WC_UI_Web_User.Label	de-DE	***
 WC_UI_Web_User.Label.Active	hu-HU	Aktív
 WC_UI_Web_User.Label.Active	en-US	Active
-WC_UI_Web_User.Label.Active	de-DE	Active
+WC_UI_Web_User.Label.Active	de-DE	Aktiv
 WC_UI_Web_User.Label.Barcode	hu-HU	Vonalkód
 WC_UI_Web_User.Label.Barcode	en-US	Barcode
-WC_UI_Web_User.Label.Barcode	de-DE	Barcode
+WC_UI_Web_User.Label.Barcode	de-DE	Barcode*
 WC_UI_Web_User.Label.CartNumber	hu-HU	Kártyaszám
 WC_UI_Web_User.Label.CartNumber	en-US	Cart Number
 WC_UI_Web_User.Label.CartNumber	de-DE	Cart Number
 WC_UI_Web_User.Label.Comments	hu-HU	Megjegyzések
 WC_UI_Web_User.Label.Comments	en-US	Comments
-WC_UI_Web_User.Label.Comments	de-DE	Comments
+WC_UI_Web_User.Label.Comments	de-DE	Kommentare
 WC_UI_Web_User.Label.ConfirmNewPassword	hu-HU	Új Jelszó Megerősítése
 WC_UI_Web_User.Label.ConfirmNewPassword	en-US	Confirm New Password
 WC_UI_Web_User.Label.ConfirmNewPassword	de-DE	Confirm New Password
 WC_UI_Web_User.Label.ConfirmPassword	hu-HU	Jelszó Megerősítése
 WC_UI_Web_User.Label.ConfirmPassword	en-US	Confirm Password
 WC_UI_Web_User.Label.ConfirmPassword	de-DE	Confirm Password
-WC_UI_Web_User.Label.CreateDate	hu-HU	Létrehozás Dátuma
-WC_UI_Web_User.Label.CreateDate	en-US	Create Date
-WC_UI_Web_User.Label.CreateDate	de-DE	Create Date
-WC_UI_Web_User.Label.Email	hu-HU	Email
-WC_UI_Web_User.Label.Email	en-US	Email
-WC_UI_Web_User.Label.Email	de-DE	Email
+WC_UI_Web_User.Label.CreateDate	hu-HU	Létrehozás dátuma
+WC_UI_Web_User.Label.CreateDate	en-US	Create date
+WC_UI_Web_User.Label.CreateDate	de-DE	Datum der Erstellung
+WC_UI_Web_User.Label.Email	hu-HU	E-mail
+WC_UI_Web_User.Label.Email	en-US	E-mail*
+WC_UI_Web_User.Label.Email	de-DE	E-mail**
 WC_UI_Web_User.Label.FailedPasswordAttemptCount	hu-HU	Rossz jelszó
 WC_UI_Web_User.Label.FailedPasswordAttemptCount	en-US	Wrong password
 WC_UI_Web_User.Label.FailedPasswordAttemptCount	de-DE	Falsches Passwort
@@ -3260,20 +3260,20 @@ WC_UI_Web_User.Label.Password	hu-HU	Jelszó
 WC_UI_Web_User.Label.Password	en-US	Password
 WC_UI_Web_User.Label.Password	de-DE	Passwort
 WC_UI_Web_User.Label.Phone	hu-HU	Telefonszám
-WC_UI_Web_User.Label.Phone	en-US	Phone
-WC_UI_Web_User.Label.Phone	de-DE	Phone
+WC_UI_Web_User.Label.Phone	en-US	Phone number
+WC_UI_Web_User.Label.Phone	de-DE	Rufnummer
 WC_UI_Web_User.Label.UserName	hu-HU	Felhasználónév
 WC_UI_Web_User.Label.UserName	en-US	Username
 WC_UI_Web_User.Label.UserName	de-DE	Benutzername
 WC_UI_Web_User.Label.UserType	hu-HU	Felhasználó Típusa
 WC_UI_Web_User.Label.UserType	en-US	User Type
 WC_UI_Web_User.Label.UserType	de-DE	User Type
-WC_UI_Web_User.PageHeader	hu-HU	
-WC_UI_Web_User.PageHeader	en-US	
-WC_UI_Web_User.PageHeader	de-DE	
-WC_UI_Web_User.PageHeader.AddNewUser	hu-HU	Új Felhasználó
-WC_UI_Web_User.PageHeader.AddNewUser	en-US	Add New User
-WC_UI_Web_User.PageHeader.AddNewUser	de-DE	Add New User DE
+WC_UI_Web_User.PageHeader	hu-HU	*
+WC_UI_Web_User.PageHeader	en-US	**
+WC_UI_Web_User.PageHeader	de-DE	***
+WC_UI_Web_User.PageHeader.AddNewUser	hu-HU	Új felhasználó hozzáadása
+WC_UI_Web_User.PageHeader.AddNewUser	en-US	Add new user
+WC_UI_Web_User.PageHeader.AddNewUser	de-DE	Einen neuen Benutzer hinzufügen
 WC_UI_Web_User.PageHeader.ChangeUserPassword	hu-HU	Felhasználó jelszavának módosítása
 WC_UI_Web_User.PageHeader.ChangeUserPassword	en-US	Change user password
 WC_UI_Web_User.PageHeader.ChangeUserPassword	de-DE	Benutzerpasswort ändern

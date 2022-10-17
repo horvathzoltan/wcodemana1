@@ -144,6 +144,12 @@ void MainPresenter::RogzitAction(IMainView *sender)
     r.wcode = m.wcode;
 
     sender->set_RogzitStatus(r);
+
+    //if(isChanged){
+        auto similarWcodes = _w.GetSimilar(m.wcode.wcode);
+        MainViewModel::SearchR2 r2 { similarWcodes};
+        sender->set_Search(r2);
+    //}
 }
 
 void MainPresenter::SaveAction(IMainView *sender)
