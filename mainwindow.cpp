@@ -95,6 +95,13 @@ auto MainWindow::get_SearchText() -> MainViewModel::Text
     return {t};
 };
 
+auto MainWindow::get_ContentSearcText() -> MainViewModel::Text
+{
+    auto t = ui->lineEdit_contentSearch->text();
+    if(t.isEmpty()) return{};
+    return {t};
+};
+
 
 auto MainWindow::get_HuText() -> MainViewModel::Text
 {
@@ -137,7 +144,7 @@ void MainWindow::set_SaveToCodeStatus(bool isOk)
     ShowStatusMsg(QStringLiteral("Kódgenerálás ")+(isOk?"ok":"error"));
 }
 
-void MainWindow::set_SearchNext(const MainViewModel::SearchCounterR& m)
+void MainWindow::set_SetListWidget(const MainViewModel::SearchCounterR& m)
 {    
     auto items = ui->listWidget->findItems(m.txt, Qt::MatchFlag::MatchExactly);
     if(items.empty()){
@@ -160,6 +167,15 @@ void MainWindow::set_SearchCounter(const MainViewModel::SearchCounterR& m)
         ui->label_search->setText(stxt);
     }
 }
+
+void MainWindow::set_SearchContentCounter(const MainViewModel::SearchCounterR& m)
+{
+    if(m.count>0){
+        QString stxt = QString::number(m.ix+1)+'/'+QString::number(m.count);
+        ui->label_search2->setText(stxt);
+    }
+}
+
 void MainWindow::set_SearchToken(const MainViewModel::Text& m){
     ui->lineEdit_search->setText(m.txt);
 }
@@ -199,6 +215,44 @@ void MainWindow::set_Search(const MainViewModel::SearchR2& m){
             b+=a;
         }
         if(!b.isEmpty()) AppendCodeEditor2("de:\n"+b);
+    }
+}
+
+void MainWindow::set_SearchContent(const MainViewModel::SearchR2& m){
+    if(m.similarWcodes.empty()){
+        ui->plainTextEdit_3->clear();
+    } else {
+        ui->plainTextEdit_3->clear();
+
+        QSet<QString> huSet;
+        QSet<QString> enSet;
+        QSet<QString> deSet;
+        foreach (auto a,m.similarWcodes) {
+            if(a.tr_hu.startsWith('*')&&a.tr_en.startsWith('*')&&a.tr_de.startsWith('*')) continue;
+            huSet.insert(a.tr_hu);
+            enSet.insert(a.tr_en);
+            deSet.insert(a.tr_de);
+        }
+        QString b;
+        foreach (auto a, huSet) {
+            if(!b.isEmpty())b+="\n";
+            b+=a;
+        }
+        if(!b.isEmpty()) AppendCodeEditor3("hu:\n"+b);
+
+        b="";
+        foreach (auto a, enSet) {
+            if(!b.isEmpty())b+="\n";
+            b+=a;
+        }
+        if(!b.isEmpty()) AppendCodeEditor3("en\n"+b);
+
+        b="";
+        foreach (auto a, deSet) {
+            if(!b.isEmpty())b+="\n";
+            b+=a;
+        }
+        if(!b.isEmpty()) AppendCodeEditor3("de:\n"+b);
     }
 }
 
@@ -331,6 +385,12 @@ void MainWindow::AppendCodeEditor2(QString msg)
     ui->plainTextEdit_2->appendPlainText(msg);
 }
 
+void MainWindow::AppendCodeEditor3(QString msg)
+{
+    ui->plainTextEdit_3->appendPlainText(msg);
+}
+
+
 void MainWindow::on_pushButton_copytoclipboard_clicked()
 {
     auto txt = ui->plainTextEdit->toPlainText();
@@ -430,5 +490,19 @@ void MainWindow::on_pushButton_enToLower_clicked()
 {
     qDebug() << "enToLowerClicked";
     emit EnToLowerTriggered(this);
+}
+
+
+void MainWindow::on_pushButton_contentSearchNext_clicked()
+{
+    qDebug() << "contentSearchNextClicked";
+    emit ContentSearchNextTriggered(this);
+}
+
+
+void MainWindow::on_pushButton_contentSearchPrev_clicked()
+{
+    qDebug() << "contentSearchPrevClicked";
+    emit ContentSearchNextTriggered(this);
 }
 

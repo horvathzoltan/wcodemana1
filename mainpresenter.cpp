@@ -71,8 +71,11 @@ void MainPresenter::appendView(IMainView *w)
     QObject::connect(view_obj, SIGNAL(EnToLowerTriggered(IMainView *)),
                      this, SLOT(EnToLowerAction(IMainView *)));
 
+    QObject::connect(view_obj, SIGNAL(ContentSearchPrevTriggered(IMainView *)),
+                     this, SLOT(ContentSearchPrevAction(IMainView *)));
 
-
+    QObject::connect(view_obj, SIGNAL(ContentSearchNextTriggered(IMainView *)),
+                     this, SLOT(ContentSearchNextAction(IMainView *)));
 
     //refreshView(w);
 }
@@ -150,6 +153,10 @@ void MainPresenter::RogzitAction(IMainView *sender)
         MainViewModel::SearchR2 r2 { similarWcodes};
         sender->set_Search(r2);
     //}
+        auto m2 = sender->get_ContentSearcText();
+        auto similarWcodes2 = _w.GetSimilarContent(m2.txt);
+        MainViewModel::SearchR2 r22 { similarWcodes2};
+        sender->set_SearchContent(r22);
 }
 
 void MainPresenter::SaveAction(IMainView *sender)
@@ -270,7 +277,7 @@ auto MainPresenter::Search(const QString& txt) -> SearchR
 
     MainViewModel::Search m { txt, true };
     DoWork::SearchM s = _w.Search(m);
-    if(s.wcode.isEmpty()) return {{},{},{},false};
+    if(s.wcode.isEmpty()) return {};
     auto similarWcodes = _w.GetSimilar(s.wcode);
 
     MainViewModel::Text rt {txt};
@@ -294,7 +301,7 @@ void MainPresenter::SearchNextAction(IMainView *sender)
     }
     MainViewModel::SearchCounterR r {s.wcode, s.ix, s.count};
     sender->set_SearchCounter(r);
-    sender->set_SearchNext(r);
+    sender->set_SetListWidget(r);
     auto wcode = _w.Get(s.wcode);
     MainViewModel::WCode rm {wcode};
     sender->set_MessageEditor(rm);
@@ -314,7 +321,7 @@ void MainPresenter::SearchPrevAction(IMainView *sender)
     }
     MainViewModel::SearchCounterR r {s.wcode, s.ix, s.count};
     sender->set_SearchCounter(r);
-    sender->set_SearchNext(r);
+    sender->set_SetListWidget(r);
     auto wcode = _w.Get(s.wcode);
     MainViewModel::WCode rm {wcode};
     sender->set_MessageEditor(rm);
@@ -337,4 +344,58 @@ void MainPresenter::EnToLowerAction(IMainView *sender)
     QString m1 = _w.ToLower(m.txt);
     MainViewModel::Text r = {m1};
     sender->set_HuToEnResult(r);
+}
+
+void MainPresenter::ContentSearchPrevAction(IMainView *sender)
+{
+    qDebug() << "ContentSearchPrevAction";
+    MainViewModel::Text m = sender->get_ContentSearcText();
+    if(m.txt.isEmpty()) return;
+
+    MainViewModel::Search sm{m.txt, false};
+    DoWork::SearchM s = _w.SearchContent(sm);
+    if(s.wcode.isEmpty()) {
+        sender->set_SearchContent({});
+        sender->set_SearchContentCounter({});
+        return;
+    }
+    if(s.isChanged){
+        auto similarWcodes = _w.GetSimilarContent(sm.txt);
+        MainViewModel::SearchR2 r2 { similarWcodes};
+        sender->set_SearchContent(r2);
+    }
+    MainViewModel::SearchCounterR r {s.wcode, s.ix, s.count};
+    sender->set_SearchContentCounter(r);
+    sender->set_SetListWidget(r);
+
+    auto wcode = _w.Get(s.wcode);
+    MainViewModel::WCode rm {wcode};
+    sender->set_MessageEditor(rm);
+}
+
+void MainPresenter::ContentSearchNextAction(IMainView *sender)
+{
+    qDebug() << "ContentSearchNextAction";
+    MainViewModel::Text m = sender->get_ContentSearcText();
+    if(m.txt.isEmpty()) return;
+
+    MainViewModel::Search sm{m.txt, true};
+    DoWork::SearchM s = _w.SearchContent(sm);
+    if(s.wcode.isEmpty()) {
+        sender->set_SearchContent({});
+        sender->set_SearchContentCounter({});
+        return;
+    }
+    if(s.isChanged){
+        auto similarWcodes = _w.GetSimilarContent(sm.txt);
+        MainViewModel::SearchR2 r2 { similarWcodes};
+        sender->set_SearchContent(r2);
+    }
+    MainViewModel::SearchCounterR r {s.wcode, s.ix, s.count};
+    sender->set_SearchContentCounter(r);
+    sender->set_SetListWidget(r);
+
+    auto wcode = _w.Get(s.wcode);
+    MainViewModel::WCode rm {wcode};
+    sender->set_MessageEditor(rm);
 }

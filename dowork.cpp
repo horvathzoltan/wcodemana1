@@ -166,21 +166,23 @@ auto DoWork::GetTail(const QString& m) -> QString
     int ix1 = tail.lastIndexOf('_');
     int ix2 = tail.lastIndexOf('.');
     if(ix2>ix1) ix1=ix2;
-    if(ix1!=-1) tail = tail.mid(ix1).replace('_','.');
+    if(ix1!=-1) tail = tail.mid(ix1+1).replace('_','.');
     return tail;
 }
 
+// megkeresi azokjat a wcodeokat, ahol az utolsó tag megegyezik
 auto DoWork::GetSimilar(const QString& m) -> QList<Wcode>
 {
     QList<Wcode> wl;
     QString tail = GetTail(m);
     foreach (auto wcode, _wcodes) {
         QString tail1  = GetTail(wcode.wcode);
-        if(tail == tail1) wl.append(wcode);
+        if(tail.toLower() == tail1.toLower()) wl.append(wcode);
     }
     return wl;
 }
 
+// begyűjti a hitsbe a
 auto DoWork::Search(const MainViewModel::Search& m) -> SearchM
 {
     static QString lastM;
@@ -198,12 +200,71 @@ auto DoWork::Search(const MainViewModel::Search& m) -> SearchM
         auto mLower = m.txt.toLower();
         hits.clear();
         lastM=m.txt;
-        foreach(auto wcode, _wcodes){
-            auto tokens = wcode.wcode.toLower().replace('_','.').split('.');
-            //if(!tokens.contains(m.text.toLower())) continue;
-            if(tokens.last()!=mLower) continue;
-            hits.append(wcode.wcode);
+
+        auto wcodes = GetSimilar(mLower);
+        foreach (auto&wcode, wcodes) hits.append(wcode.wcode);
+
+        if(!hits.empty()){
+            if(m.isNext){
+                lastIx=0;
+            } else {
+                lastIx=hits.count()-1;
+            }
+        } else{
+            lastIx = -1;
         }
+    } else {
+        if(!hits.empty()){
+            if(m.isNext){
+                lastIx++;
+                if(lastIx>=hits.count()) lastIx=0;
+            } else {
+                lastIx--;
+                if(lastIx<0) lastIx=hits.count()-1;
+            }
+        }
+    }
+
+    if(hits.empty()) return {"", -1, 0, isChanged};
+    if(lastIx==-1) return {"", -1, 0, isChanged};
+    int size = hits.count();
+    return {hits[lastIx], lastIx, size, isChanged};
+}
+
+auto DoWork::GetSimilarContent(const QString& m) -> QList<Wcode>
+{
+    QList<Wcode> wl;
+    auto m1 = m.toLower();
+    foreach (auto&wcode, _wcodes) {
+        bool isContains = wcode.tr_hu.toLower().contains(m1)
+                || wcode.tr_en.toLower().contains(m1)
+                || wcode.tr_de.toLower().contains(m1);
+        if(isContains) wl.append(wcode);
+    }
+    return wl;
+}
+
+auto DoWork::SearchContent(const MainViewModel::Search& m) -> SearchM
+{
+    static QString lastM;
+    static int lastIx = 0;
+    static QList<QString> hits;
+    bool isChanged = lastM != m.txt;
+    if(m.txt.isEmpty()){
+        hits.clear();
+        lastM="";
+        lastIx = 0;
+        return {"", -1, 0, isChanged};
+    }
+
+    if(isChanged){
+        auto mLower = m.txt.toLower();
+        hits.clear();
+        lastM=m.txt;
+
+        auto wcodes = GetSimilarContent(mLower);
+        foreach (auto&wcode, wcodes) hits.append(wcode.wcode);
+
         if(!hits.empty()){
             if(m.isNext){
                 lastIx=0;

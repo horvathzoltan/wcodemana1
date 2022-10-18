@@ -138,6 +138,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
+    testdata/old_translation_errors.txt \
+    testdata/old_translations.txt \
     testdata/sql_wcodes.txt \
     testdata/sqlwcodes.txt \
     testdata/todo.txt \

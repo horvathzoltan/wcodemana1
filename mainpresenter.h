@@ -29,6 +29,26 @@ private:
     QString GetSearchToken(QString wcode);
 
     struct SearchR{
+        SearchR(){
+            rt = {};
+            r={};
+            r2={};
+            isChanged=false;
+           isValid = false;
+        }
+
+        SearchR(MainViewModel::Text _rt,
+                MainViewModel::SearchCounterR _r,
+                MainViewModel::SearchR2 _r2,
+                bool _isChanged,
+                bool _isValid
+                ){
+            rt = _rt;
+            r=_r;
+            r2=_r2;
+            isChanged=_isChanged;
+            isValid = _isValid;
+        }
         MainViewModel::Text rt;
         MainViewModel::SearchCounterR r;
         MainViewModel::SearchR2 r2;
@@ -72,6 +92,9 @@ private slots:
 
     void HuToLowerAction(IMainView *sender);
     void EnToLowerAction(IMainView *sender);
+
+    void ContentSearchNextAction(IMainView *sender);
+    void ContentSearchPrevAction(IMainView *sender);
 
 private:
     DoWork _w;

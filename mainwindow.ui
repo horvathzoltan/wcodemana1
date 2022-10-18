@@ -290,6 +290,47 @@
            </layout>
           </item>
           <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QLineEdit" name="lineEdit_contentSearch"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_contentSearchPrev">
+              <property name="text">
+               <string>Prev</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_contentSearchNext">
+              <property name="text">
+               <string>Next</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_search2">
+              <property name="text">
+               <string>-</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
            <widget class="QLabel" name="label_status">
             <property name="text">
              <string>TextLabel</string>
@@ -310,6 +351,9 @@
             </item>
             <item>
              <widget class="QPlainTextEdit" name="plainTextEdit_2"/>
+            </item>
+            <item>
+             <widget class="QPlainTextEdit" name="plainTextEdit_3"/>
             </item>
            </layout>
           </item>

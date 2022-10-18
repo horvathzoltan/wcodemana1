@@ -46,8 +46,9 @@ public:
 
     MainViewModel::WCode GetSelected(MainViewModel::ListItemChangedModel m);
     QList<Wcode> GetSimilar(const QString& m);
+    QList<Wcode> GetSimilarContent(const QString& m);
 
-    struct SearchM{
+    struct SearchM{        
         QString wcode;
         int ix;
         int count;
@@ -55,6 +56,7 @@ public:
     };
 
     SearchM Search(const MainViewModel::Search&);
+    SearchM SearchContent(const MainViewModel::Search&);
     QString GetTail(const QString& m);
 
     bool SetSelected(const MainViewModel::WCode& m);

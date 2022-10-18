@@ -27,6 +27,7 @@ private:
     void ClearStatusMsg();
     void AppendCodeEditor(QString msg);
     void AppendCodeEditor2(QString msg);
+    void AppendCodeEditor3(QString msg);
 
 public:
     explicit MainWindow(QWidget *parent = nullptr);
@@ -35,6 +36,7 @@ public:
     MainViewModel::Text get_EnText();
     MainViewModel::Text get_HuText();
     MainViewModel::Text get_SearchText();
+    MainViewModel::Text get_ContentSearcText();
 
     void set_MessageEditor(const MainViewModel::WCode &m);
     MainViewModel::WCode get_WCodeEditor();
@@ -53,8 +55,11 @@ public:
     void set_GenerateTr(const MainViewModel::Text &m);
     void set_Search(const MainViewModel::SearchR2 &m);
     void set_SearchCounter(const MainViewModel::SearchCounterR &m);
+    void set_SearchContentCounter(const MainViewModel::SearchCounterR &m);
+
     void set_SearchToken(const MainViewModel::Text& m);
-    void set_SearchNext(const MainViewModel::SearchCounterR& m);
+    void set_SetListWidget(const MainViewModel::SearchCounterR& m);
+    void set_SearchContent(const MainViewModel::SearchR2& m);
 signals:
     void PushButtonActionTriggered(IMainView *sender);
     void ListItemChangedTriggered(IMainView *sender);
@@ -67,12 +72,16 @@ signals:
     void HuToEnTriggered(IMainView *sender);
     void HuToDeTriggered(IMainView *sender);
     void EnToHuTriggered(IMainView *sender);
-    void SearchNextTriggered(IMainView *sender);
-    void SearchPrevTriggered(IMainView *sender);
     void GenerateTrTriggered(IMainView *sender);
 
     void HuToLowerTriggered(IMainView *sender);
     void EnToLowerTriggered(IMainView *sender);
+
+    void SearchNextTriggered(IMainView *sender);
+    void SearchPrevTriggered(IMainView *sender);
+
+    void ContentSearchPrevTriggered(IMainView *sender);
+    void ContentSearchNextTriggered(IMainView *sender);
 
 private slots:    
     void on_pushButton_clicked();
@@ -96,5 +105,7 @@ private slots:
     void on_pushButton_cleartr_clicked();
     void on_pushButton_huToLower_clicked();
     void on_pushButton_enToLower_clicked();
+    void on_pushButton_contentSearchNext_clicked();
+    void on_pushButton_contentSearchPrev_clicked();
 };
 #endif // MAINWINDOW_H
